@@ -29,4 +29,4 @@ Development of the Toolkit is led by the researchers at University College Dubli
 
 <img src="UCDLogo.jpg" width="100px">
 
-Development of the SpinWeightedSpheroidalHarmonics packages is supported by the European Space Agency's Summer of Code.
+Development of the SpinWeightedSpheroidalHarmonics packages is supported by the European Space Agency's [Summer of Code](http://www.esa.int/Our_Activities/Space_Engineering_Technology/SOCIS_The_ESA_Summer_of_Code_in_Space).
