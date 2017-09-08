@@ -13,7 +13,7 @@ More tools will be added as the project expands.
 
 ## Citation Guideline
 
-If you make use of any of the Toolkit in your research please acknowledge using something like
+If you make use of any of the Toolkit in your research please acknowledge using:
 
 > This work makes use of the Black Hole Perturbation Toolkit.
 
