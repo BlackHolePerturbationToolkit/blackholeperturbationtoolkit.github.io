@@ -27,6 +27,6 @@ A lot of researcher time and effort goes into developing the Toolkit. Citing thi
 
 Development of the Toolkit is led by the researchers at University College Dublin
 
-<img src="UCDLogo.jpg" width="200px">
+<img src="UCDLogo.jpg" width="150px">
 
 Development of the SpinWeightedSpheroidalHarmonics packages is supported by the European Space Agency's Summer of Code.
