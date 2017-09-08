@@ -21,7 +21,7 @@ Some modules also request additional citations. Please check the documentation f
 
 ### Why Cite?
 
-A lot of researcher time and effort goes into developing the Toolkit. Citing this work demonstrates that it is being used which helps us secure additional funding to support further development. In addition to citations, if you make use of the Toolkit in your work please let us know at niels [dot] warburton [at] ucd [dot] ie so we can add you to our list of known users.
+A lot of researcher time and effort goes into developing the Toolkit. Acknowledging and citing this work demonstrates that it is being used which helps us secure additional funding to support further development. In addition to citations, if you make use of the Toolkit in your work please let us know at niels [dot] warburton [at] ucd [dot] ie so we can add you to our list of known users.
 
 ## Community
 
