@@ -30,3 +30,9 @@ Development of the Toolkit is led by the researchers at University College Dubli
 <img src="UCDLogo.jpg" width="100px">
 
 Development of the SpinWeightedSpheroidalHarmonics packages is supported by the European Space Agency's [Summer of Code](http://www.esa.int/Our_Activities/Space_Engineering_Technology/SOCIS_The_ESA_Summer_of_Code_in_Space).
+
+## Philosophy
+
+We want less researcher time to be spent writing code and more time spent doing physics. Currently there exist multiple scattered black hole perturbation theory codes developed by a wide array of individuals or groups. This project aims to bring together some of the core elements of these codes into a Toolkit that can be used by all.
+
+Toolkit modules will typically be developed and thoroughly tested in Mathematica, before other languages are supported (usually C/C++ and python). We welcome suggestions, bug reports, and code from all members of the community.
