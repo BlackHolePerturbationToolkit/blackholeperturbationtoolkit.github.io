@@ -10,3 +10,23 @@ Current projects in the toolkit include:
 * [KerrGeodesics](https://github.com/BlackHolePerturbationToolkit/KerrGeodesics): Tools for computing bound timelike geodesics about a Kerr black hole
 
 More tools will be added as the project expands.
+
+## Citation Guideline
+
+If you make use of any of the Toolkit in your research please acknowledge using something like
+
+> This work makes use of the Black Hole Perturbation Toolkit.
+
+Some modules also request additional citations. Please check the documentation for individual modules. 
+
+### Why Cite?
+
+A lot of researcher time and effort goes into developing the Toolkit. Citing this work demonstrates that it is being used which helps us secure additional funding to support further development. In addition to citations, if you make use of the Toolkit in your work please let us know at niels [dot] warburton [at] ucd [dot] ie so we can add you to our list of known users.
+
+## Community
+
+Development of the Toolkit is led by the researchers at University College Dublin
+
+![UCD logo](UCDLogo.jpg)
+
+Development of the SpinWeightedSpheroidalHarmonics packages is supported by the European Space Agency's Summer of Code.
