@@ -39,4 +39,4 @@ Toolkit modules will typically be developed and thoroughly tested in Mathematica
 
 ### Contributing code?
 
-Developing code to compute perturbations to black holes takes a lot of time and effort. The goal of the Toolkit is not to have each and every researcher's cutting edge code on public display, rather to build a core of software that is common to many of the codes that currently exist. This will assist the community in studying black hole perturbation theory for gravitational wave science.
+Developing code to compute perturbations to black holes takes a lot of time and effort. The goal of the Toolkit is not to have each and every researcher's cutting edge code on public display, rather to build a core of software that is common to many of the codes that currently exist. This will stop researchers constantly reinventing the wheel which will decrease the development time for new software that, in turn, will assist the study of black hole perturbation theory for gravitational wave science.
