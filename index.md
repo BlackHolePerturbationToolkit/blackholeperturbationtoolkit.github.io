@@ -36,3 +36,7 @@ Development of the SpinWeightedSpheroidalHarmonics packages is supported by the 
 Our goal is for less researcher time to be spent writing code and more time spent doing physics. Currently there exist multiple scattered black hole perturbation theory codes developed by a wide array of individuals or groups over a number of decades. This project aims to bring together some of the core elements of these codes into a Toolkit that can be used by all.
 
 Toolkit modules will typically be developed and thoroughly tested in Mathematica, before other languages are supported (usually C/C++ and python). We welcome suggestions, bug reports, and code from all members of the community.
+
+### Contributing code?
+
+Developing code to compute perturbations to black holes takes a lot of time and effort. The goal of the Toolkit is not to have each and every researcher's cutting edge code on public display, rather to build a core of software that is common to many of the codes that currently exist. This will assist the community in studying black hole perturbation theory for gravitational wave science.
