@@ -25,7 +25,7 @@ A lot of researcher time and effort goes into developing the Toolkit. Acknowledg
 
 ## Community
 
-Development of the Toolkit is led by the researchers at University College Dublin, the University of North Carolina at Chapel Hill and the Kavli Institute for Astrophysics and Space Research at the Massachusetts Institute of Technology
+Development of the Toolkit is led by the researchers at University College Dublin, the University of North Carolina at Chapel Hill and the Kavli Institute for Astrophysics and Space Research at the Massachusetts Institute of Technology.
 
 <img src="UCDLogo.jpg" height="90px"> &nbsp;&nbsp; <img src="UNC_logo.jpg" height="90px"> &nbsp;&nbsp; <img src="logo-mit-kavli.png" height="90px">
 
