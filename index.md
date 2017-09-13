@@ -27,7 +27,7 @@ A lot of researcher time and effort goes into developing the Toolkit. Acknowledg
 
 Development of the Toolkit is led by the researchers at University College Dublin, the University of North Carolina at Chapel Hill and the Kavli Institute for Astrophysics and Space Research at the Massachusetts Institute of Technology
 
-<img src="UCDLogo.jpg" height="100px" style="margin: 0px 10px"> <img src="UNC_logo.jpg" height="100px" style="margin: 0px 10px"> <img src="logo-mit-kavli.png" height="100px" style="margin: 0px 10px">
+<img src="UCDLogo.jpg" height="100px"> &nbsp;&nbsp; <img src="UNC_logo.jpg" height="100px"> &nbsp;&nbsp; <img src="logo-mit-kavli.png" height="100px">
 
 Development of the SpinWeightedSpheroidalHarmonics packages is supported by the European Space Agency's [Summer of Code](http://www.esa.int/Our_Activities/Space_Engineering_Technology/SOCIS_The_ESA_Summer_of_Code_in_Space).
 
