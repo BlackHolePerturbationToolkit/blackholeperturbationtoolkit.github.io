@@ -9,7 +9,7 @@ Current projects in the toolkit include:
 * [SpinWeightedSpheroidalHarmonics](https://blackholeperturbationtoolkit.github.io/SpinWeightedSpheroidalHarmonics): Tools for computing spin-weighted spherical harmonics and their associated eigenvalues.
 * [KerrGeodesics](https://blackholeperturbationtoolkit.github.io/KerrGeodesics): Tools for computing bound timelike geodesics about a Kerr black hole.
 
-More tools will be added as the project expands. There is also a repository of results associated with the Toolkit. Currently publicly available results include:
+More tools will be added as the project expands. There is also a repository of results associated with the Toolkit. Current publicly available results include:
 
 * [PostNewtonian-SelfForce](https://github.com/BlackHolePerturbationToolkit/PostNewtonianSelfForce): Results for various quantities to high post-Newtonian order and linear-order in the mass ratio.
 
