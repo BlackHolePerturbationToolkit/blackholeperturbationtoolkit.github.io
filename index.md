@@ -7,9 +7,11 @@ The Black Hole Perturbation Toolkit provides a set of open tools for black hole 
 Current projects in the toolkit include:
 
 * [SpinWeightedSpheroidalHarmonics](https://blackholeperturbationtoolkit.github.io/SpinWeightedSpheroidalHarmonics): Tools for computing spin-weighted spherical harmonics and their associated eigenvalues.
-* [KerrGeodesics](https://blackholeperturbationtoolkit.github.io/KerrGeodesics): Tools for computing bound timelike geodesics about a Kerr black hole
+* [KerrGeodesics](https://blackholeperturbationtoolkit.github.io/KerrGeodesics): Tools for computing bound timelike geodesics about a Kerr black hole.
 
-More tools will be added as the project expands.
+More tools will be added as the project expands. There is also a repository of results associated with the Toolkit. Currently publicly available results include:
+
+* [PostNewtonian-SelfForce](https://github.com/BlackHolePerturbationToolkit/PostNewtonianSelfForce): Results for various quantities to high post-Newtonian order and linear-order in the mass ratio.
 
 ## Citation Guideline
 
