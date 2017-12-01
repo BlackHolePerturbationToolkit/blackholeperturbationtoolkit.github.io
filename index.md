@@ -1,3 +1,8 @@
+---
+layout: default
+title: Black Hole Perturbation Toolkit
+---
+
 ## Project List
 
 Current projects in the Toolkit include:
