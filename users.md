@@ -13,6 +13,8 @@ The location of the lead institutions are shown in red, contributors are shown i
 
 ## Papers that acknowledge the Toolkit
 
+`Gravitational waves from plunges into Gargantua', Geoffrey Compère, Kwinten Fransen, Thomas Hertog, Jiang Long, [arXiv:1712.07130](https://arxiv.org/abs/1712.07130)
+
 `Quantum correlator outside a Schwarzschild black hole', Cláudia Buss, Marc Casals, [Phys. Lett. B776, p168-173 (2017)](https://doi.org/10.1016/j.physletb.2017.11.048), [arXiv:1709.05990](https://arxiv.org/abs/1709.05990)
 
 If you have a work that makes use of the Toolkit and would like it listed here please let us know.
