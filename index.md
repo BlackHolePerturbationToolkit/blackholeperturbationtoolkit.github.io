@@ -20,7 +20,7 @@ If you make use of any of the Toolkit in your research please acknowledge using:
 
 > This work makes use of the Black Hole Perturbation Toolkit.
 
-Some modules also request additional citations. Please check the documentation for individual modules. 
+To cite the Toolkit please use this [BibTeX entry](BHPToolkit.bib) (or similar). Some modules also request additional citations. Please check the documentation for individual modules. 
 
 ### Why Cite?
 
