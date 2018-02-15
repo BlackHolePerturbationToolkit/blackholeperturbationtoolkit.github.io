@@ -7,12 +7,12 @@ title: Black Hole Perturbation Toolkit
 
 Current Mathematica projects in the Toolkit include:
 
-* [SpinWeightedSpheroidalHarmonics](https://bhptoolkit.org/SpinWeightedSpheroidalHarmonics): Tools for computing spin-weighted spheroidal harmonics and their associated eigenvalues.
-* [KerrGeodesics](https://bhptoolkit.org/KerrGeodesics): Tools for computing bound timelike geodesics about a Kerr black hole.
+* [SpinWeightedSpheroidalHarmonics](https://blackholeperturbationtoolkit.github.io/SpinWeightedSpheroidalHarmonics): Tools for computing spin-weighted spheroidal harmonics and their associated eigenvalues.
+* [KerrGeodesics](https://blackholeperturbationtoolkit.github.io/KerrGeodesics): Tools for computing bound timelike geodesics about a Kerr black hole.
 
 Current C/C++ projects in the Toolkit include:
 
-* [Fast Self-forced Inspirals](http://bhptoolkit.org/Fast_Self-Forced_Inspirals/): Code to compute self-force inspirals rapidly using the near-identity transformed (NIT'd) equations of motion
+* [Fast Self-forced Inspirals](https://blackholeperturbationtoolkit.github.io/Fast_Self-Forced_Inspirals/): Code to compute self-force inspirals rapidly using the near-identity transformed (NIT'd) equations of motion
 
 A range of further tools are being developed and will be added as the project expands. There is also a repository of results associated with the Toolkit. Current publicly available results include:
 
