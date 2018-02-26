@@ -13,7 +13,7 @@ Current Mathematica projects in the Toolkit include:
 Current C/C++ projects in the Toolkit include:
 
 * [Fast Self-forced Inspirals](https://blackholeperturbationtoolkit.github.io/Fast_Self-Forced_Inspirals/): Code to compute self-force inspirals rapidly using the near-identity transformed (NIT'd) equations of motion.
-* [EMRI Kludge Suite](https://github.com/alvincjk/EMRI_Kludge_Suite): A suite of software to compute kludge waveforms for generic extreme mass ratio inspirals in a Kerr black hole.
+* [EMRI Kludge Suite](https://github.com/alvincjk/EMRI_Kludge_Suite): A suite of software for computing kludge waveforms for generic extreme mass-ratio inspirals in a Kerr black hole.
 
 A range of further tools are being developed and will be added as the project expands. There is also a repository of results associated with the Toolkit. Current publicly available results include:
 
