@@ -18,6 +18,7 @@ Current C/C++ projects in the Toolkit include:
 A range of further tools are being developed and will be added as the project expands. There is also a repository of results associated with the Toolkit. Current publicly available results include:
 
 * [PostNewtonian-SelfForce](https://github.com/BlackHolePerturbationToolkit/PostNewtonianSelfForce): Results for various quantities to high post-Newtonian order and linear-order in the mass ratio.
+* [RegularizationParameters](https://github.com/BlackHolePerturbationToolkit/RegularizationParameters): Regularization parameters to compute the regular field at the particle.
 
 ## Citation Guideline
 
