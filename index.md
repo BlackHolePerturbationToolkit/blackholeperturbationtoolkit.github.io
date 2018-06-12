@@ -19,6 +19,7 @@ A range of further tools are being developed and will be added as the project ex
 
 * [PostNewtonian-SelfForce](https://github.com/BlackHolePerturbationToolkit/PostNewtonianSelfForce): Results for various quantities to high post-Newtonian order and linear-order in the mass ratio.
 * [RegularizationParameters](https://github.com/BlackHolePerturbationToolkit/RegularizationParameters): Regularization parameters to compute the regular field at the particle.
+* [Circular Orbit Self-force Data](https://github.com/BlackHolePerturbationToolkit/CircularOrbitSelfForceData): Numerical data for fluxes and self-force quantities for circular orbits
 
 ## Citation Guideline
 
