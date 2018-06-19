@@ -5,21 +5,25 @@ title: Black Hole Perturbation Toolkit
 
 ## Project List
 
-Current Mathematica projects in the Toolkit include:
+Current **Mathematica** projects in the Toolkit include:
 
 * [SpinWeightedSpheroidalHarmonics](https://blackholeperturbationtoolkit.github.io/SpinWeightedSpheroidalHarmonics): Tools for computing spin-weighted spheroidal harmonics and their associated eigenvalues.
 * [KerrGeodesics](https://blackholeperturbationtoolkit.github.io/KerrGeodesics): Tools for computing bound timelike geodesics about a Kerr black hole.
 
-Current C/C++ projects in the Toolkit include:
+Current **C/C++** projects in the Toolkit include:
 
 * [Fast Self-forced Inspirals](https://blackholeperturbationtoolkit.github.io/Fast_Self-Forced_Inspirals/): Code to compute self-force inspirals rapidly using the near-identity transformed (NIT'd) equations of motion.
 * [EMRI Kludge Suite](https://github.com/alvincjk/EMRI_Kludge_Suite): A suite of software for computing kludge waveforms for generic extreme mass-ratio inspirals into a Kerr black hole.
 
-A range of further tools are being developed and will be added as the project expands. There is also a repository of results associated with the Toolkit. Current publicly available results include:
+A range of further tools are being developed and will be added as the project expands. There is also a **repository of results** associated with the Toolkit. Current publicly available results include:
 
 * [PostNewtonian-SelfForce](https://github.com/BlackHolePerturbationToolkit/PostNewtonianSelfForce): Results for various quantities to high post-Newtonian order and linear-order in the mass ratio.
 * [RegularizationParameters](https://github.com/BlackHolePerturbationToolkit/RegularizationParameters): Regularization parameters to compute the regular field at the particle.
 * [Circular Orbit Self-force Data](https://github.com/BlackHolePerturbationToolkit/CircularOrbitSelfForceData): Numerical data for fluxes and self-force quantities for circular orbits
+
+We also have **example code** which demonstrates how to use various pieces of the Toolkit:
+
+ * [Mathematica Toolkit Examples](https://github.com/BlackHolePerturbationToolkit/MathematicaToolkitExamples): Examples using the Mathematica modules of the Toolkit
 
 ## Citation Guideline
 
