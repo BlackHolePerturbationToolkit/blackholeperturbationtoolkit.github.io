@@ -13,6 +13,8 @@ The location of the lead institutions are shown in red, contributors are shown i
 
 ## Papers that acknowledge the Toolkit
 
+`High-order asymptotics for the Spin-Weighted Spheroidal Equation at large real frequency', [arXiv:1810.00432](https://arxiv.org/abs/1810.00432)
+
 `Gravitational waves from plunges into Gargantua', Geoffrey Compère, Kwinten Fransen, Thomas Hertog, Jiang Long, [Class. Quant.Grav. 35 (2018) no.10, 104002](http://iopscience.iop.org/article/10.1088/1361-6382/aab99e/meta), [arXiv:1712.07130](https://arxiv.org/abs/1712.07130)
 
 `Quantum correlator outside a Schwarzschild black hole', Cláudia Buss, Marc Casals, [Phys. Lett. B776, p168-173 (2017)](https://doi.org/10.1016/j.physletb.2017.11.048), [arXiv:1709.05990](https://arxiv.org/abs/1709.05990)
