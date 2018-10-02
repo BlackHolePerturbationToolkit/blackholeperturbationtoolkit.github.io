@@ -15,7 +15,7 @@ The location of the lead institutions are shown in red, contributors are shown i
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code to the Toolkit have a (*) after them.
 
-"High-order asymptotics for the Spin-Weighted Spheroidal Equation at large real frequency", M. Casals, A. C. Ottewill, N. Warburton [arXiv:1810.00432](https://arxiv.org/abs/1810.00432) (*)
+"High-order asymptotics for the Spin-Weighted Spheroidal Equation at large real frequency", M. Casals, A. C. Ottewill, N. Warburton, [arXiv:1810.00432](https://arxiv.org/abs/1810.00432) (*)
 
 "Gravitational waves from plunges into Gargantua", Geoffrey Compère, Kwinten Fransen, Thomas Hertog, Jiang Long, [Class. Quant.Grav. 35 (2018) no.10, 104002](http://iopscience.iop.org/article/10.1088/1361-6382/aab99e/meta), [arXiv:1712.07130](https://arxiv.org/abs/1712.07130)
 
