@@ -13,7 +13,9 @@ The location of the lead institutions are shown in red, contributors are shown i
 
 ## Papers that acknowledge and extend the Toolkit
 
-Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code to the Toolkit have a (*) after them.
+Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
+
+"Gravitational self-force corrections to gyroscope precession along circular orbits in the Kerr spacetime", D. Bini, T. Damour, A. Geralico, C. Kavanagh, M. van de Meent, [arXiv:1809.02516](https://arxiv.org/abs/1809.02516) (*)
 
 "High-order asymptotics for the Spin-Weighted Spheroidal Equation at large real frequency", M. Casals, A. C. Ottewill, N. Warburton, [arXiv:1810.00432](https://arxiv.org/abs/1810.00432) (*)
 
