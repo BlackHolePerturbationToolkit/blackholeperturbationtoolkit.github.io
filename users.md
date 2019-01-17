@@ -21,7 +21,7 @@ Below is a list of research papers that have used or extended the Toolkit. Paper
 
 "High-order asymptotics for the Spin-Weighted Spheroidal Equation at large real frequency", M. Casals, A. C. Ottewill, N. Warburton, [arXiv:1810.00432](https://arxiv.org/abs/1810.00432) (*)
 
-"Gravitational self-force corrections to gyroscope precession along circular orbits in the Kerr spacetime", D. Bini, T. Damour, A. Geralico, C. Kavanagh, M. van de Meent, [https://doi.org/10.1103/PhysRevD.98.104062](Phys. Rev. D 98, 104062 (2018)), [arXiv:1809.02516](https://arxiv.org/abs/1809.02516) (*)
+"Gravitational self-force corrections to gyroscope precession along circular orbits in the Kerr spacetime", D. Bini, T. Damour, A. Geralico, C. Kavanagh, M. van de Meent, [Phys. Rev. D 98, 104062 (2018)](https://doi.org/10.1103/PhysRevD.98.104062), [arXiv:1809.02516](https://arxiv.org/abs/1809.02516) (*)
 
 "Gravitational waves from plunges into Gargantua", Geoffrey Compère, Kwinten Fransen, Thomas Hertog, Jiang Long, [Class. Quant.Grav. 35 (2018) no.10, 104002](http://iopscience.iop.org/article/10.1088/1361-6382/aab99e/meta), [arXiv:1712.07130](https://arxiv.org/abs/1712.07130)
 
