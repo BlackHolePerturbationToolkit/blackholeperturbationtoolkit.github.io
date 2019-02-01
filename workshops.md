@@ -41,4 +41,4 @@ Hotels in the city centre are easily reachable both from the airport and UCD cam
 
 #### Attendees
 
-Leor Barack, Eric Gourgoulhon, Chris Kavanagh, Benjamin Leather, Oliver Long, Philip Lynch, Josh Mathews, Maarten van de Meent, Conor O'Toole, Adrian Ottewill, Niels Warburton, Barry Wardell
+Leor Barack, Eric Gourgoulhon, Chris Kavanagh, Benjamin Leather, Oliver Long, Philip Lynch, Josh Mathews, Maarten van de Meent, Conor O'Toole, Adrian Ottewill, Jonathan Thompson, Niels Warburton, Barry Wardell
