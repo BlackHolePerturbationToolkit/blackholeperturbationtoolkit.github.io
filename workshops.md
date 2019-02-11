@@ -39,7 +39,7 @@ The second Black Hole Perturbation Toolkit workshop will take place at UCD from 
 
 Hotels in the city centre are easily reachable both from the airport and UCD campus via bus. Note the Monday is a holiday in Ireland due to St. Patrick's day (17th March) falling on a Sunday.
 
-A hotels we recommend are:
+A few hotels we recommend are:
 
 - [Hampton Hotel](https://www.hamptonhotel.ie/)
 - [Mespil Hotel](https://www.mespilhotel.com/)
