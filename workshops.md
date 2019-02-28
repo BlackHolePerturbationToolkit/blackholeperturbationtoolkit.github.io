@@ -27,7 +27,11 @@ Anywhere along the Red subway line is ideal as this provides easy access to MIT.
 
 #### Attendees
 
-Alvin Chua, Steve Drasco, Lisa Drummond, Charles Evans, Scott Field, Gaurav Khanna, Halston Lim, Karna Morey, Lionel London, Scott Hughes, Zach Nasipak, Chris Munna, Adrian Ottewill, Thomas Osburn, Niels Warburton, Barry Wardell
+Vishal Baibhav, Alvin Chua, Steve Drasco, Lisa Drummond, Charles Evans, Scott Field, Gaurav Khanna, Halston Lim, Karna Morey, Lionel London, Scott Hughes, Ryan McManus, Zach Nasipak, Chris Munna, Adrian Ottewill, Thomas Osburn, Nur-E-Mohammad Rifat, Feroz Hussain Shaik, Niels Warburton, Barry Wardell
+
+#### Schedule
+
+The schedule can be found on the [MIT workshop page](workshops-mit.html)
 
 ---
 
