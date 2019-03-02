@@ -53,7 +53,7 @@ Do not hesitate to get in touch if you would like advice regarding another hotel
 
 #### Attendees
 
-Leor Barack, Leanne Durkan, Eric Gourgoulhon, Chris Kavanagh, Kwinten Fransen, Benjamin Leather, Oliver Long, Yan Liu, Philip Lynch, Rodrigo Panosso Macedo, Josh Mathews, Maarten van de Meent, Conor O'Toole, Adrian Ottewill, Zeyd Sam, Andrew Spiers, Thomas Stratton, Jonathan Thompson, Niels Warburton, Barry Wardell
+Leanne Durkan, Eric Gourgoulhon, Chris Kavanagh, Kwinten Fransen, Benjamin Leather, Oliver Long, Yan Liu, Philip Lynch, Rodrigo Panosso Macedo, Josh Mathews, Maarten van de Meent, Conor O'Toole, Adrian Ottewill, Zeyd Sam, Andrew Spiers, Thomas Stratton, Jonathan Thompson, Niels Warburton, Barry Wardell
 
 #### Schedule
 
