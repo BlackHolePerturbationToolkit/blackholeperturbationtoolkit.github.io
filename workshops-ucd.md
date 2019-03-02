@@ -7,7 +7,7 @@ title: Black Hole Perturbation Toolkit
 
 The schedule below is purposefully not very rigid to allow it to develop over the course of the workshop. The first day will focus on getting to know the current modules in the Toolkit and planning what to do on the second and third days. The overview talks on the first day will be ~10 minutes long and have time in between for questions and discussion. The second and third days aim to have open discussion and hacking on various aspects of the Toolkit.
 
-### 11th March
+### 19th March
 
 Start at 10am in the the Science Centre (Hub) H2.40
 
@@ -29,14 +29,14 @@ Start at 10am in the the Science Centre (Hub) H2.40
 - Create schedule of work for the next two days (code, documentation, website, etc)
 
 
-### 12th March
+### 20th March
 
 - Discuss: Coding conventions and licences
 - Discuss: Data formats and storage
 - Hacking: on list of software/documentation/data created the day before
 
 
-### 13th March
+### 21th March
 
 
 - Hacking: continue to hack on the Toolkit
