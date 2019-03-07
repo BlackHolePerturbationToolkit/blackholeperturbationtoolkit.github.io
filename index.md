@@ -17,6 +17,10 @@ Current **C/C++** projects in the Toolkit include:
 * [Fast Self-forced Inspirals](https://blackholeperturbationtoolkit.github.io/Fast_Self-Forced_Inspirals/): Code to compute self-force inspirals rapidly using the near-identity transformed (NIT'd) equations of motion.
 * [EMRI Kludge Suite](https://github.com/alvincjk/EMRI_Kludge_Suite): A suite of software for computing kludge waveforms for generic extreme mass-ratio inspirals into a Kerr black hole.
 
+Current **Python** projects in the Toolkit include:
+
+* [kerrgeodesics_gw](https://github.com/BlackHolePerturbationToolkit/kerrgeodesic_gw): Code to compute the gravitational waves from a particle on a circular orbit about a Kerr black hole. Also included is code to compute spin weighted spheroidal harmonics.
+
 A range of further tools are being developed and will be added as the project expands. There is also a **repository of results** associated with the Toolkit. Current publicly available results include:
 
 * [PostNewtonian-SelfForce](http://bhptoolkit.org/PostNewtonianSelfForce/): Results for various quantities to high post-Newtonian order and linear-order in the mass ratio.
