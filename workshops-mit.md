@@ -35,6 +35,8 @@ Start at 10am in the Marlar Lounge on the 2nd floor of the MIT Kavli Institute f
 - Discuss: Data formats and storage
 - Hacking: on list of software/documentation/data created the day before
 
+- Astrophysics Colloquium @ 4pm: [The Astrophysical R-process: What We Are Learning From Gravitational Waves, Dwarf Galaxies, And Stellar Archaeology](https://space.mit.edu/events/the-astrophysical-r-process-what-we-are-learning-from-gravitational-waves-dwarf-galaxies-and-stellar-archaeology/)
+
 
 ### 13th March
 
