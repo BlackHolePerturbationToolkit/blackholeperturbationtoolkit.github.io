@@ -15,6 +15,8 @@ The location of the lead institutions are shown in red, contributors are shown i
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+7\. "Gravitational waves from bodies orbiting the Galactic Center black hole and their detectability by LISA", Eric Gourgoulhon, Alexandre Le Tiec, Frederic H. Vincent, Niels Warburton, [arXiv:1903.02049](https://arxiv.org/abs/1903.02049)
+
 6\. "Spin and Quadrupole Couplings for High Spin Equatorial Intermediate Mass-ratio Coalescences", Bin Chen, Geoffrey Compère, Yan Liu, Jiang Long, Xuao Zhang, [arXiv:1901.05370](https://arxiv.org/abs/1901.05370)
 
 5\. "Spectroscopy of Extremal (and Near-Extremal) Kerr Black Holes", M. Casals, Luís F. Longo Micchi, [arXiv:1901.04586](https://arxiv.org/abs/1901.04586)
