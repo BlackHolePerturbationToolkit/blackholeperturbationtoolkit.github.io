@@ -19,7 +19,7 @@ Current **C/C++** projects in the Toolkit include:
 
 Current **Python** projects in the Toolkit include:
 
-* [kerrgeodesics_gw](https://github.com/BlackHolePerturbationToolkit/kerrgeodesic_gw): Code to compute the gravitational waves from a particle on a circular orbit about a Kerr black hole. Also included is code to compute spin weighted spheroidal harmonics.
+* [kerrgeodesic_gw](https://github.com/BlackHolePerturbationToolkit/kerrgeodesic_gw): Code to compute the gravitational waves from a particle on a circular orbit about a Kerr black hole. Also included is code to compute spin weighted spheroidal harmonics.
 
 A range of further tools are being developed and will be added as the project expands. There is also a **repository of results** associated with the Toolkit. Current publicly available results include:
 
