@@ -45,3 +45,13 @@ Start at 9:30am in room 187.
 
 - Hacking: continue to hack on the Toolkit
 - Discuss: Toolkit paper
+
+
+
+# Links
+
+## QNM packages
+
+[Leo Stein's QNM package](https://github.com/duetosymmetry/qnm)
+
+[Lionel London's QNM package](https://github.com/llondon6/kerr_public)
