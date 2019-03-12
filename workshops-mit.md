@@ -31,6 +31,8 @@ Start at 10am in the Marlar Lounge on the 2nd floor of the MIT Kavli Institute f
 
 ### 12th March
 
+Start at 9:30am in room 187.
+
 - Discuss: Coding conventions and licences
 - Discuss: Data formats and storage
 - Hacking: on list of software/documentation/data created the day before
