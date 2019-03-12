@@ -11,9 +11,11 @@ Building the Toolkit is a global, community effort and the fruits of that work a
 
 The location of the lead institutions are shown in red, contributors are shown in blue and users in yellow. If you fall into any of these categories and are missing from the map us know so we can add you.
 
-## Papers that acknowledge and extend the Toolkit
+## Papers that acknowledge, cite and/or extend the Toolkit
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
+
+8\. "Hamilton-Jacobi equation for spinning particles near black holes", Vojtěch Witzany, [arXiv:1903.03651](https://arxiv.org/abs/1903.03651)
 
 7\. "Gravitational waves from bodies orbiting the Galactic Center black hole and their detectability by LISA", Eric Gourgoulhon, Alexandre Le Tiec, Frederic H. Vincent, Niels Warburton, [arXiv:1903.02049](https://arxiv.org/abs/1903.02049) (*)
 
