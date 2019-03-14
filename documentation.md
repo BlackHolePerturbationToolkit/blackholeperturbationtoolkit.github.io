@@ -6,7 +6,7 @@ title: Black Hole Perturbation Toolkit
 
 ## Status
 
-We are in the process of implementing continuous integration into Toolkit. This means each time the code is changed it is automatically tested to ensure no errors have been introduced. You can find the current build status at [build.bhptoolkit.org](http://build.bhptoolkit.org).
+We are in the process of implementing continuous integration into Toolkit development process. This means each time the code is changed it is automatically tested to ensure no errors have been introduced. You can find the current build status at [build.bhptoolkit.org](http://build.bhptoolkit.org).
 
 Only a few modules have a few tests so far but this will increase as we move forward.
 
