@@ -17,7 +17,7 @@ Development of the Toolkit is led by the researchers at University College Dubli
 
 Development of the SpinWeightedSpheroidalHarmonics packages is supported by the European Space Agency's [Summer of Code](https://socis.esa.int/).
 
-Since its inception many others have contributed and made use of the Toolkit. See the [users and contributors](users.html) page for mode details.
+Since its inception many others have contributed and made use of the Toolkit. See the [users and contributors](users.html) page for more details.
 ## Citation Guideline
 
 If you make use of any of the Toolkit in your research please acknowledge using:
