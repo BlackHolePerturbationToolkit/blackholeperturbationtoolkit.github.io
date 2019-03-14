@@ -10,7 +10,7 @@ The schedule below is purposefully not very rigid to allow it to develop over th
 
 ### 19th March
 
-Start at 10am in the the Science Centre (Hub) H2.40. For directions see the [campus map](https://drive.google.com/file/d/0B16weXEKpfuca1RVc1RNa3hTcnc/view).
+Start at 10am in the the Science Centre (Hub) H2.40. This is in building 64 on the [campus map](https://drive.google.com/file/d/0B16weXEKpfuca1RVc1RNa3hTcnc/view).
 
 - Welcome to UCD by Adrian Ottewill
 - Introduction to the Toolkit by Niels Warburton
