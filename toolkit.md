@@ -17,7 +17,7 @@ Current **C/C++** projects in the Toolkit include:
 
 * [Fast Self-forced Inspirals](https://bhptoolkit.org/Fast_Self-Forced_Inspirals/): Code to compute self-force inspirals rapidly using the near-identity transformed (NIT'd) equations of motion.
 * [EMRI Kludge Suite](https://github.com/alvincjk/EMRI_Kludge_Suite): A suite of software for computing kludge waveforms for generic extreme mass-ratio inspirals into a Kerr black hole.
-* [Gremlin](https://github.com/BlackHolePerturbationToolkit/GremlinEq): Code to solve the Teukolsky equation with a point-particle source
+* [Gremlin](https://bhptoolkit.org/GremlinEq): Code to solve the Teukolsky equation with a point-particle source
 
 Current **Python** projects in the Toolkit include:
 
