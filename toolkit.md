@@ -7,15 +7,15 @@ title: Black Hole Perturbation Toolkit
 
 Current **Mathematica** projects in the Toolkit include:
 
-* [SpinWeightedSpheroidalHarmonics](https://blackholeperturbationtoolkit.github.io/SpinWeightedSpheroidalHarmonics): Tools for computing spin-weighted spheroidal harmonics and their associated eigenvalues.
-* [KerrGeodesics](https://blackholeperturbationtoolkit.github.io/KerrGeodesics): Tools for computing bound timelike geodesics about a Kerr black hole.
+* [SpinWeightedSpheroidalHarmonics](https://bhptoolkit.org/SpinWeightedSpheroidalHarmonics): Tools for computing spin-weighted spheroidal harmonics and their associated eigenvalues.
+* [KerrGeodesics](https://bhptoolkit.org/KerrGeodesics): Tools for computing bound timelike geodesics about a Kerr black hole.
 * [Teukolsky](https://github.com/BlackHolePerturbationToolkit/Teukolsky): A set of functions for computing solutions to the Teukolsky equation for perturbations of the spacetime of a Kerr black hole.
 * [QuasiNormalModes](https://github.com/BlackHolePerturbationToolkit/QuasiNormalModes): Tools for computing quasinormal modes in Schwarzschild and Kerr spacetime
 * [GeneralRelativityTensors](https://github.com/BlackHolePerturbationToolkit/GeneralRelativityTensors): Provides a set of functions for performing coordinate-based tensor calculations with a focus on general relativity and black holes in particular.
 
 Current **C/C++** projects in the Toolkit include:
 
-* [Fast Self-forced Inspirals](https://blackholeperturbationtoolkit.github.io/Fast_Self-Forced_Inspirals/): Code to compute self-force inspirals rapidly using the near-identity transformed (NIT'd) equations of motion.
+* [Fast Self-forced Inspirals](https://bhptoolkit.org/Fast_Self-Forced_Inspirals/): Code to compute self-force inspirals rapidly using the near-identity transformed (NIT'd) equations of motion.
 * [EMRI Kludge Suite](https://github.com/alvincjk/EMRI_Kludge_Suite): A suite of software for computing kludge waveforms for generic extreme mass-ratio inspirals into a Kerr black hole.
 * [Gremlin](https://github.com/BlackHolePerturbationToolkit/GremlinEq): Code to solve the Teukolsky equation with a point-particle source
 
