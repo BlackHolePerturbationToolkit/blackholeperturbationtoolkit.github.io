@@ -3,7 +3,7 @@ layout: default
 title: Black Hole Perturbation Toolkit
 ---
 
-The Black Hole Perturbation Toolkit brings together software and data relating to black hole perturbation theory. These can then be used to model gravitational radiation from small mass-ratio binaries as well as from the ringdown of black holes.
+The Black Hole Perturbation Toolkit brings together software and data relating to black hole perturbation theory. These can then be used to model gravitational radiation from small mass-ratio binaries as well as from the ringdown of black holes. The former are key sources for the future space-based gravitational wave detector, [LISA](https://www.lisamission.org/).
 
 Our overall goal is for less researcher time to be spent writing code and more time spent doing physics. Currently there exist multiple scattered black hole perturbation theory codes developed by a wide array of individuals or groups over a number of decades. This project aims to bring together some of the core elements of these codes into a Toolkit that can be used by all.
 
@@ -15,7 +15,7 @@ Development of the Toolkit is led by the researchers at University College Dubli
 
 <img src="UCDLogo.jpg" height="90px"> &nbsp;&nbsp; <img src="UNC_logo.jpg" height="90px"> &nbsp;&nbsp; <img src="logo-mit-kavli.png" height="90px">
 
-Development of the SpinWeightedSpheroidalHarmonics packages is supported by the European Space Agency's [Summer of Code](https://socis.esa.int/).
+Development of the SpinWeightedSpheroidalHarmonics packages was supported by the European Space Agency's [Summer of Code](https://socis.esa.int/) and we also have open [proposals for the 2019 Summer of Code](socis2019.html).
 
 Since its inception many others have contributed and made use of the Toolkit. See the [users and contributors](users.html) page for more details.
 ## Citation Guideline

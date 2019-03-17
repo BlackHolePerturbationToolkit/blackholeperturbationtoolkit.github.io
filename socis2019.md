@@ -1,3 +1,8 @@
+---
+layout: default
+title: Black Hole Perturbation Toolkit
+---
+
 # Summer of Code in Space 2019
 
 We are proposing a project for the [Summer of Code in Space 2019 programme](https://socis.esa.int/)!
@@ -6,7 +11,7 @@ The Black Hole Perturbation toolkit provides tools used in studying gravitationa
 
 The LIGO discovery was not the only recent breakthrough for gravitational wave detection. In 2016 we also witnessed the launch of the overwhelmingly successful [ESA](http://www.esa.int)-led mission, [LISA Pathfinder](http://sci.esa.int/lisa-pathfinder/); a mission dedicated to demonstrating state of the art technologies required for space-based gravitational wave detectors. These results together have paved the way for [LISA](http://lisamission.org) (Laser Interferometer Space Antenna), the third L-class mission in the ESA's Cosmic Vision programme. The LISA consortium are currently preparing all of the components required for the mission to be a success, so the time is ripe for the development of the tools that we will need to interpret the signals from such a mission.
 
-As was demonstrated by LIGO, a crucial component in the detection and analysis of gravitational wave signals is a detailed model for the expected signal --- or *waveform* --- from the merger of a pair of black holes. In the case of LISA, this translates to developing a bank of waveform templates for a particular class of binary black hole system called an Extreme Mass Ratio Inspiral. Black hole perturbation theory is **the** method of choice for producing these templates and the black hole perturbation is **the** open-source tool of choice for performing simulations based on perturbation theory. As an added bonus, many of the tools provided by the toolkit also have applications in other areas of physics such as electromagnetism and fluid mechanics.
+As was demonstrated by LIGO, a crucial component in the detection and analysis of gravitational wave signals is a detailed model for the expected signal --- or *waveform* --- from the merger of a pair of black holes. In the case of LISA, this translates to developing a bank of waveform templates for a particular class of binary black hole system called an Extreme Mass Ratio Inspiral. Black hole perturbation theory is **the** method of choice for producing these templates and the Black Hole Perturbation Toolkit is **the** open-source tool of choice for performing simulations based on perturbation theory. As an added bonus, many of the tools provided by the toolkit also have applications in other areas of physics such as electromagnetism and fluid mechanics.
 
 Up to now, the Black Hole Perturbation Toolkit has provided a robust set of tools for performing a number of important calculations relevant to the study of black hole binaries with LISA. However, there remain a number of important gaps to be filled. The three SOCIS 2019 projects listed below aim to fill some of the most important of those gaps.
 

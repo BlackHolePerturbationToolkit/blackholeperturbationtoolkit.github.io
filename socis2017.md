@@ -1,8 +1,13 @@
+---
+layout: default
+title: Black Hole Perturbation Toolkit
+---
+
 # Summer of Code in Space 2017
 
 We are proposing a project for the [Summer of Code in Space 2017 programme](https://sophia.estec.esa.int/socis/)!
 
-![S(s=-2, l=2, gamma=1.9)](swsh.png)
+![S(s=-2, l=2, gamma=1.9)](https://bhptoolkit.org/SpinWeightedSpheroidalHarmonics/swsh.png)
 
 **Fig. 1**: Spin-weighted spheroidal harmonics (s=-2, l=2, gamma=1.9) computed with the current Mathematica code.
 
