@@ -45,3 +45,8 @@ Meet at 10am in B154A Science West
 
 - Hacking: continue to hack on the Toolkit
 - Discuss: Toolkit paper
+
+
+### Resources
+
+[Eric Gourgoulhon's talk](https://luth.obspm.fr/~luthier/gourgoulhon/fr/present_rec/sage_intro_dublin19.pdf)
