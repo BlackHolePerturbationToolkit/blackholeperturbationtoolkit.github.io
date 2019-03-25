@@ -19,9 +19,9 @@ Current **C/C++** projects in the Toolkit include:
 * [EMRI Kludge Suite](https://github.com/alvincjk/EMRI_Kludge_Suite): A suite of software for computing kludge waveforms for generic extreme mass-ratio inspirals into a Kerr black hole.
 * [Gremlin](https://bhptoolkit.org/GremlinEq): Code to solve the Teukolsky equation with a point-particle source
 
-Current **Python** projects in the Toolkit include:
+Current **Python** and **SageMath** projects in the Toolkit include:
 
-* [kerrgeodesic_gw](https://github.com/BlackHolePerturbationToolkit/kerrgeodesic_gw): Code to compute the gravitational waves from a particle on a circular orbit about a Kerr black hole. Also included is code to compute spin weighted spheroidal harmonics.
+* [kerrgeodesic_gw](https://github.com/BlackHolePerturbationToolkit/kerrgeodesic_gw): SageMath code to compute the gravitational waves from a particle on a circular orbit about a Kerr black hole. Also included is code to compute spin weighted spheroidal harmonics.
 
 A range of further tools are being developed and will be added as the project expands. There is also a **repository of results** associated with the Toolkit. Current publicly available results include:
 
