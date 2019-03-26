@@ -7,24 +7,26 @@ title: Black Hole Perturbation Toolkit
 
 ## Naming Conventions
 
-We aim to have consistent naming conventions across the Toolkit.
+We aim to have consistent naming conventions across the Toolkit. Where possible the following conventions should be used. In all cases the symbols used below should be understood to be adimensionalized, e.g., for the orbital frequencies $\Omega \equiv M\Omega$.
 
 #### General
 
 We use geometrized units such that $G=c=1$ and metric signature $(-+++)$.
 
-
 #### Binary components
 
 - $M$ - the mass of the primary
-- $a$ - the primary spin
+- $a$ - the magnitude of the spin on the primary
 
 - $\mu$ - the mass of the secondary
-- $\sigma$ - the secondary spin
+- $\sigma$ - the magnitude of the spin on the secondary
+
+- $\eta = \mu/M$ - the mass ratio
 
 #### Spin-weighted spheroidal harmonics
 
-- $\lambda$ - the spin-weighted spheroidal-harmonic eigenvalue. We use the defintion of Teukoksky [citation needed]().
+- $\lambda$ - the spin-weighted spheroidal-harmonic eigenvalue. Our definition for $\lambda$ is consistent with that of [Teukolsky, S. A., Astrophys. J. 185, 635–647 (1973)](http://doi.org/10.1086/152444) and that of [Sasaki, M. & Tagoshi, H. Living Rev. Relativ. (2003) 6: 6](http://doi.org/10.12942/lrr-2003-6).
+- $\gamma$ - the spheroidicity ($=a\omega$ for perturbations of Kerr spacetime)
 
 #### Geodesic motion
 
@@ -50,3 +52,4 @@ We use geometrized units such that $G=c=1$ and metric signature $(-+++)$.
 - $m$ - the azimuthal index
 - $n$ - the radial overtone index OR for quasi-normal modes the overtone index
 - $k$ - the polar overtone index
+- $\omega$ - the mode frequency
