@@ -45,7 +45,7 @@ The follow is new code that is under heavy development so use it at your own ris
 - KerrGeoResonanceLocator: new function for [KerrGeodesics](https://bhptoolkit.org/KerrGeodesics) to locate resonance orbits (thanks **Josh Mathews**)
 - ReggeWheeler: New Mathematica package under heavy development to calculate solutions to the Regge-Wheeler equation. The API of this new package should closely follow the Teukolsky one. (thanks **Jonathan Thompson**)
 - [qnm](https://pypi.org/project/qnm/): a new python package to compute qnm's from **Leo Stein** (not currently integrated into the Toolkit but this is an option)
-
+- [positive](https://github.com/llondon6/positive): python code from **Lionel London** for computing QNMs and related quantities (e.g., spherical-spheroidal mixing coefficients)
 
 ## Documentation
 
