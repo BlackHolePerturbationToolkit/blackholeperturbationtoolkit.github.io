@@ -15,3 +15,7 @@ One of the aims of the toolkit is for all components to be well-tested and relia
 ## Naming conventions
 
 We aim to have consistent naming conventions in use across the Toolkit. The current list can be found on the [name conventions page](conventions.html).
+
+## Other useful information
+
+- [Mathematica and git](cleannb.html)

@@ -7,6 +7,8 @@ title: Black Hole Perturbation Toolkit
 
 First of all, a big thank you to everyone that attended the workshops. Between the MIT and UCD workshops we had over 40 participants. We are extremely grateful to many of you who have contributed code, improved documentation, added unit tests and submitted issues to the issue trackers.
 
+We are also extremely grateful to those that presented at the Workshops Alvin Chua, Leanne Durkan, Eric Gourgoulhon, Scott Hughes, Chris Munna, Zach Nasipak, Niels Warburton, and Barry Wardell
+
 Below is a list of the updates that happened during and since the Toolkit meetings. Please let me know if we have missed anything from the list.
 
 ## Major updates:
