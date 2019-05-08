@@ -6,6 +6,9 @@ title: Black Hole Perturbation Toolkit
 
 # Toolkit Workshops
 
+*** [Workshop roundup](workshops-roundup.html)***
+
+
 In 2019 two toolkit workshops will take place in March, one hosted at MIT and the other at UCD in Dublin. Each workshop will be three days long and will cover:  
 
 - Introduction and overview of the Toolkit
