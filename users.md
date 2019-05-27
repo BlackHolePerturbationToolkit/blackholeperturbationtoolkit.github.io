@@ -21,7 +21,7 @@ Below is a list of research papers that have used or extended the Toolkit. Paper
 
 6\. "Spin and Quadrupole Couplings for High Spin Equatorial Intermediate Mass-ratio Coalescences", Bin Chen, Geoffrey Compère, Yan Liu, Jiang Long, Xuao Zhang, [arXiv:1901.05370](https://arxiv.org/abs/1901.05370)
 
-5\. "Spectroscopy of Extremal (and Near-Extremal) Kerr Black Holes", M. Casals, Luís F. Longo Micchi, [arXiv:1901.04586](https://arxiv.org/abs/1901.04586)
+5\. "Spectroscopy of Extremal (and Near-Extremal) Kerr Black Holes", M. Casals, Luís F. Longo Micchi, [Phys. Rev. D 99, 084047 (2019)](http://doi.org/10.1103/PhysRevD.99.084047),  [arXiv:1901.04586](https://arxiv.org/abs/1901.04586)
 
 4\. "High-order asymptotics for the Spin-Weighted Spheroidal Equation at large real frequency", M. Casals, A. C. Ottewill, N. Warburton, [Proc. R. Soc. A 475:20180701 (2019)](http://doi.org/10.1098/rspa.2018.0701), [arXiv:1810.00432](https://arxiv.org/abs/1810.00432) (*)
 
