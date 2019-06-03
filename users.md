@@ -15,6 +15,8 @@ The location of the lead institutions are shown in red, contributors are shown i
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+9\. "Repeated faint quasinormal bursts in EMRI waveforms: evidence from frequency-domain scalar self-force calculations on generic Kerr orbits", Zach Nasipak, Thomas Osburn, Charles R. Evans [arXiv:1905.13237](https://arxiv.org/abs/1905.13237)
+
 8\. "Hamilton-Jacobi equation for spinning particles near black holes", Vojtěch Witzany, [arXiv:1903.03651](https://arxiv.org/abs/1903.03651)
 
 7\. "Gravitational waves from bodies orbiting the Galactic Center black hole and their detectability by LISA", Eric Gourgoulhon, Alexandre Le Tiec, Frederic H. Vincent, Niels Warburton, [arXiv:1903.02049](https://arxiv.org/abs/1903.02049) (*)
