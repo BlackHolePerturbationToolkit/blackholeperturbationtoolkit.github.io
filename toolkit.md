@@ -22,6 +22,7 @@ Current **C/C++** projects in the Toolkit include:
 Current **Python** and **SageMath** projects in the Toolkit include:
 
 * [kerrgeodesic_gw](https://github.com/BlackHolePerturbationToolkit/kerrgeodesic_gw): SageMath code to compute the gravitational waves from a particle on a circular orbit about a Kerr black hole. Also included is code to compute spin weighted spheroidal harmonics.
+* [qnm](https://github.com/BlackHolePerturbationToolkit/qnm): Python implementation of Cook-Zalutskiy spectral approach to computing Kerr QNM frequencies. Spherical-spheroidal decomposition coefficients are computed for free with frequencies and separation constants. Includes a precomputed cache of low-lying multipoles and overtones.
 
 A range of further tools are being developed and will be added as the project expands. There is also a **repository of results** associated with the Toolkit. Current publicly available results include:
 
