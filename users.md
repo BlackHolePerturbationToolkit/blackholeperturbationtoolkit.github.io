@@ -19,7 +19,7 @@ Below is a list of research papers that have used or extended the Toolkit. Paper
 
 12\. "Quasi-circular inspirals and plunges from non-spinning effective-one-body Hamiltonians with gravitational self-force information", Andrea Antonelli, Maarten van de Meent, Alessandra Buonanno, Jan Steinhoff, Justin Vines, [arXiv:1907.11597](https://arxiv.org/abs/1907.11597)
 
-11\. "Analytic solutions for parallel transport along generic bound geodesics in Kerr spacetime", M. van de Meent, [arXiv:1906.05090](https://arxiv.org/abs/1906.05090)
+11\. "Analytic solutions for parallel transport along generic bound geodesics in Kerr spacetime", M. van de Meent, [arXiv:1906.05090](https://arxiv.org/abs/1906.05090) (*)
 
 10\. "Repeated faint quasinormal bursts in EMRI waveforms: evidence from frequency-domain scalar self-force calculations on generic Kerr orbits", Zach Nasipak, Thomas Osburn, Charles R. Evans, [arXiv:1905.13237](https://arxiv.org/abs/1905.13237) (*)
 
