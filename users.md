@@ -15,6 +15,8 @@ The location of the lead institutions are shown in red, contributors are shown i
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+14\. "qnm: A Python package for calculating Kerr quasinormal modes, separation constants, and spherical-spheroidal mixing coefficients", Leo C. Stein, [arXiv:1908.10377](https://arxiv.org/abs/1908.10377)
+
 13\. "Factorization and resummation: A new paradigm to improve gravitational wave amplitudes. III: the spinning test-body terms", Alessandro Nagar, Francesco Messina, Chris Kavanagh, Georgios Lukes-Gerakopoulos, Niels Warburton, Sebastiano Bernuzzi, Enno Harms, [arXiv:1907.12233](https://arxiv.org/abs/1907.12233) (*)
 
 12\. "Quasi-circular inspirals and plunges from non-spinning effective-one-body Hamiltonians with gravitational self-force information", Andrea Antonelli, Maarten van de Meent, Alessandra Buonanno, Jan Steinhoff, Justin Vines, [arXiv:1907.11597](https://arxiv.org/abs/1907.11597)
