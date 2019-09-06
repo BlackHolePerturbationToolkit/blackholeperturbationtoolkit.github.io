@@ -9,7 +9,7 @@ To install the Mathematica packages, first locate the appropriate directory on y
 ```Mathematica
 FileNameJoin[{$UserBaseDirectory, "Applications"}]
 ```
-No, clone all of the repositories into this directory:
+Now, clone all of the repositories into this directory:
 ```sh
 git clone https://github.com/BlackHolePerturbationToolkit/PostNewtonianSelfForce.git
 git clone https://github.com/BlackHolePerturbationToolkit/KerrGeodesics.git
