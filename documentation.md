@@ -3,7 +3,6 @@ layout: default
 title: Black Hole Perturbation Toolkit
 ---
 
-
 ## Documentation
 
 Each module comes with its own documentation. Currently, in places this can be quite minimal but we are continuously working to improve this. Soon we have have direct links to the Mathematica documentation here, as well as links to the documentation for other key modules.
