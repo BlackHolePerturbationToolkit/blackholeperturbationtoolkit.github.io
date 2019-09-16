@@ -15,6 +15,8 @@ The location of the lead institutions are shown in red, contributors are shown i
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+15\. "Eccentric-orbit EMRI radiation: Analytic forms of leading-logarithm and subleading-logarithm flux terms at high PN orders", Christopher Munna, Charles R. Evans, [arXiv:1909.05877](https://arxiv.org/abs/1909.05877) (*)  
+
 14\. "qnm: A Python package for calculating Kerr quasinormal modes, separation constants, and spherical-spheroidal mixing coefficients", Leo C. Stein, [arXiv:1908.10377](https://arxiv.org/abs/1908.10377) (*)
 
 13\. "Factorization and resummation: A new paradigm to improve gravitational wave amplitudes. III: the spinning test-body terms", Alessandro Nagar, Francesco Messina, Chris Kavanagh, Georgios Lukes-Gerakopoulos, Niels Warburton, Sebastiano Bernuzzi, Enno Harms, [arXiv:1907.12233](https://arxiv.org/abs/1907.12233) (*)
