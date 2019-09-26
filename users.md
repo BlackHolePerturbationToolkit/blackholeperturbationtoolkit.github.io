@@ -27,7 +27,7 @@ Below is a list of research papers that have used or extended the Toolkit. Paper
 
 11\. "Analytic solutions for parallel transport along generic bound geodesics in Kerr spacetime", M. van de Meent, [arXiv:1906.05090](https://arxiv.org/abs/1906.05090) (*)
 
-10\. "Repeated faint quasinormal bursts in EMRI waveforms: evidence from frequency-domain scalar self-force calculations on generic Kerr orbits", Zach Nasipak, Thomas Osburn, Charles R. Evans, [arXiv:1905.13237](https://arxiv.org/abs/1905.13237) (*)
+10\. "Repeated faint quasinormal bursts in EMRI waveforms: evidence from frequency-domain scalar self-force calculations on generic Kerr orbits", Zach Nasipak, Thomas Osburn, Charles R. Evans, [Phys. Rev. D 100, 064008 (2019)](https://doi.org/10.1103/PhysRevD.100.064008), [arXiv:1905.13237](https://arxiv.org/abs/1905.13237) (*)
 
 9\. "Hamilton-Jacobi equation for spinning particles near black holes", Vojtěch Witzany, [arXiv:1903.03651](https://arxiv.org/abs/1903.03651)
 
