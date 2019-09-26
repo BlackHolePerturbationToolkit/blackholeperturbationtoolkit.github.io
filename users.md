@@ -15,7 +15,9 @@ The location of the lead institutions are shown in red, contributors are shown i
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
-15\. "Eccentric-orbit EMRI radiation: Analytic forms of leading-logarithm and subleading-logarithm flux terms at high PN orders", Christopher Munna, Charles R. Evans, [arXiv:1909.05877](https://arxiv.org/abs/1909.05877) (*)  
+16\. "Eccentric-orbit EMRI radiation: Analytic forms of leading-logarithm and subleading-logarithm flux terms at high PN orders", Christopher Munna, Charles R. Evans, [arXiv:1909.05877](https://arxiv.org/abs/1909.05877) (*)  
+
+15\. "Unveiling the Gravitational Universe at μ-Hz Frequencies", Alberto Sesana et al. [arXiv:1908.11391](https://arxiv.org/abs/1908.11391)
 
 14\. "qnm: A Python package for calculating Kerr quasinormal modes, separation constants, and spherical-spheroidal mixing coefficients", Leo C. Stein, [arXiv:1908.10377](https://arxiv.org/abs/1908.10377) (*)
 
