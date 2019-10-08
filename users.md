@@ -23,7 +23,9 @@ Below is a list of research papers that have used or extended the Toolkit. Paper
 
 15\. "Unveiling the Gravitational Universe at μ-Hz Frequencies", Alberto Sesana et al. [arXiv:1908.11391](https://arxiv.org/abs/1908.11391)
 
-14\. "qnm: A Python package for calculating Kerr quasinormal modes, separation constants, and spherical-spheroidal mixing coefficients", Leo C. Stein, [arXiv:1908.10377](https://arxiv.org/abs/1908.10377) (*)
+14\. "qnm: A Python package for calculating Kerr quasinormal modes, separation constants, and spherical-spheroidal mixing coefficients", Leo C. Stein,
+[J. Open Source Softw., 4(42), 1683 (2019)](https://doi.org/10.21105/joss.01683)
+[arXiv:1908.10377](https://arxiv.org/abs/1908.10377) (*)
 
 13\. "Factorization and resummation: A new paradigm to improve gravitational wave amplitudes. III: the spinning test-body terms", Alessandro Nagar, Francesco Messina, Chris Kavanagh, Georgios Lukes-Gerakopoulos, Niels Warburton, Sebastiano Bernuzzi, Enno Harms, [arXiv:1907.12233](https://arxiv.org/abs/1907.12233) (*)
 
