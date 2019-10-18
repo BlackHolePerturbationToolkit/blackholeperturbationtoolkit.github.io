@@ -15,6 +15,8 @@ The location of the lead institutions are shown in red, contributors are shown i
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+19\. "Tidal heating as a discriminator for horizons in extreme mass ratio inspirals", Sayak Datta, Richard Brito, Sukanta Bose, Paolo Pani, Scott A. Hughes, [arXiv:1910.07841](https://arxiv.org/abs/1910.07841)
+
 18\. "Regularized calculation of the retarded Green function in Schwarzschild spacetime", Marc Casals, Brien C. Nolan, Adrian C. Ottewill, Barry Wardell, [arXiv:1910.02567](https://arxiv.org/abs/1910.02567)
 
 17\. "Transition from Inspiral to Plunge: A Complete Near-Extremal Waveform", Ollie Burke, Jonathan R. Gair, Joan Simón, [arXiv:1909.12846](https://arxiv.org/abs/1909.12846)
