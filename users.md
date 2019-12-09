@@ -15,31 +15,33 @@ The location of the lead institutions are shown in red, contributors are shown i
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
-20\. "A Surrogate Model for Gravitational Wave Signals from Comparable- to Large- Mass-Ratio Black Hole Binaries", Nur E. M. Rifat, Scott E. Field, Gaurav Khanna, Vijay Varma, [arXiv:1910.10473](https://arxiv.org/abs/1910.10473)
+21\. "A Surrogate Model for Gravitational Wave Signals from Comparable- to Large- Mass-Ratio Black Hole Binaries", Nur E. M. Rifat, Scott E. Field, Gaurav Khanna, Vijay Varma, [arXiv:1910.10473](https://arxiv.org/abs/1910.10473)
 
-19\. "Tidal heating as a discriminator for horizons in extreme mass ratio inspirals", Sayak Datta, Richard Brito, Sukanta Bose, Paolo Pani, Scott A. Hughes, [arXiv:1910.07841](https://arxiv.org/abs/1910.07841)
+20\. "Tidal heating as a discriminator for horizons in extreme mass ratio inspirals", Sayak Datta, Richard Brito, Sukanta Bose, Paolo Pani, Scott A. Hughes, [arXiv:1910.07841](https://arxiv.org/abs/1910.07841)
 
-18\. "Regularized calculation of the retarded Green function in Schwarzschild spacetime", Marc Casals, Brien C. Nolan, Adrian C. Ottewill, Barry Wardell, [arXiv:1910.02567](https://arxiv.org/abs/1910.02567)
+19\. "Regularized calculation of the retarded Green function in Schwarzschild spacetime", Marc Casals, Brien C. Nolan, Adrian C. Ottewill, Barry Wardell, [arXiv:1910.02567](https://arxiv.org/abs/1910.02567)
 
-17\. "Transition from Inspiral to Plunge: A Complete Near-Extremal Waveform", Ollie Burke, Jonathan R. Gair, Joan Simón, [arXiv:1909.12846](https://arxiv.org/abs/1909.12846)
+18\. "Transition from Inspiral to Plunge: A Complete Near-Extremal Waveform", Ollie Burke, Jonathan R. Gair, Joan Simón, [arXiv:1909.12846](https://arxiv.org/abs/1909.12846)
 
-16\. "Eccentric-orbit EMRI radiation: Analytic forms of leading-logarithm and subleading-logarithm flux terms at high PN orders", Christopher Munna, Charles R. Evans, [arXiv:1909.05877](https://arxiv.org/abs/1909.05877) (*)  
+17\. "Eccentric-orbit EMRI radiation: Analytic forms of leading-logarithm and subleading-logarithm flux terms at high PN orders", Christopher Munna, Charles R. Evans, [arXiv:1909.05877](https://arxiv.org/abs/1909.05877) (*)  
 
-15\. "Unveiling the Gravitational Universe at μ-Hz Frequencies", Alberto Sesana et al. [arXiv:1908.11391](https://arxiv.org/abs/1908.11391)
+16\. "Unveiling the Gravitational Universe at μ-Hz Frequencies", Alberto Sesana et al. [arXiv:1908.11391](https://arxiv.org/abs/1908.11391)
 
-14\. "qnm: A Python package for calculating Kerr quasinormal modes, separation constants, and spherical-spheroidal mixing coefficients", Leo C. Stein, [J. Open Source Softw., 4(42), 1683 (2019)](https://doi.org/10.21105/joss.01683) [arXiv:1908.10377](https://arxiv.org/abs/1908.10377) (*)
+15\. "qnm: A Python package for calculating Kerr quasinormal modes, separation constants, and spherical-spheroidal mixing coefficients", Leo C. Stein, [J. Open Source Softw., 4(42), 1683 (2019)](https://doi.org/10.21105/joss.01683) [arXiv:1908.10377](https://arxiv.org/abs/1908.10377) (*)
 
-13\. "Factorization and resummation: A new paradigm to improve gravitational wave amplitudes. III: the spinning test-body terms", Alessandro Nagar, Francesco Messina, Chris Kavanagh, Georgios Lukes-Gerakopoulos, Niels Warburton, Sebastiano Bernuzzi, Enno Harms, [arXiv:1907.12233](https://arxiv.org/abs/1907.12233) (*)
+14\. "Factorization and resummation: A new paradigm to improve gravitational wave amplitudes. III: the spinning test-body terms", Alessandro Nagar, Francesco Messina, Chris Kavanagh, Georgios Lukes-Gerakopoulos, Niels Warburton, Sebastiano Bernuzzi, Enno Harms, [arXiv:1907.12233](https://arxiv.org/abs/1907.12233) (*)
 
-12\. "Quasi-circular inspirals and plunges from non-spinning effective-one-body Hamiltonians with gravitational self-force information", Andrea Antonelli, Maarten van de Meent, Alessandra Buonanno, Jan Steinhoff, Justin Vines, [arXiv:1907.11597](https://arxiv.org/abs/1907.11597)
+13\. "Quasi-circular inspirals and plunges from non-spinning effective-one-body Hamiltonians with gravitational self-force information", Andrea Antonelli, Maarten van de Meent, Alessandra Buonanno, Jan Steinhoff, Justin Vines, [arXiv:1907.11597](https://arxiv.org/abs/1907.11597)
 
-11\. "Analytic solutions for parallel transport along generic bound geodesics in Kerr spacetime", M. van de Meent, [arXiv:1906.05090](https://arxiv.org/abs/1906.05090) (*)
+12\. "Analytic solutions for parallel transport along generic bound geodesics in Kerr spacetime", M. van de Meent, [arXiv:1906.05090](https://arxiv.org/abs/1906.05090) (*)
 
-10\. "Repeated faint quasinormal bursts in EMRI waveforms: evidence from frequency-domain scalar self-force calculations on generic Kerr orbits", Zach Nasipak, Thomas Osburn, Charles R. Evans, [Phys. Rev. D 100, 064008 (2019)](https://doi.org/10.1103/PhysRevD.100.064008), [arXiv:1905.13237](https://arxiv.org/abs/1905.13237) (*)
+11\. "Repeated faint quasinormal bursts in EMRI waveforms: evidence from frequency-domain scalar self-force calculations on generic Kerr orbits", Zach Nasipak, Thomas Osburn, Charles R. Evans, [Phys. Rev. D 100, 064008 (2019)](https://doi.org/10.1103/PhysRevD.100.064008), [arXiv:1905.13237](https://arxiv.org/abs/1905.13237) (*)
 
-9\. "Hamilton-Jacobi equation for spinning particles near black holes", Vojtěch Witzany, [arXiv:1903.03651](https://arxiv.org/abs/1903.03651)
+10\. "Hamilton-Jacobi equation for spinning particles near black holes", Vojtěch Witzany, [arXiv:1903.03651](https://arxiv.org/abs/1903.03651)
 
-8\. "Gravitational waves from bodies orbiting the Galactic Center black hole and their detectability by LISA", Eric Gourgoulhon, Alexandre Le Tiec, Frederic H. Vincent, Niels Warburton, [A&A, 627 (2019) A92](https://doi.org/10.1051/0004-6361/201935406), [arXiv:1903.02049](https://arxiv.org/abs/1903.02049) (*)
+9\. "Gravitational waves from bodies orbiting the Galactic Center black hole and their detectability by LISA", Eric Gourgoulhon, Alexandre Le Tiec, Frederic H. Vincent, Niels Warburton, [A&A, 627 (2019) A92](https://doi.org/10.1051/0004-6361/201935406), [arXiv:1903.02049](https://arxiv.org/abs/1903.02049) (*)
+
+8\. "Exciting black hole modes via misaligned coalescences: I. Inspiral, transition, and plunge trajectories using a generalized Ori-Thorne procedure", Anuj Apte, Scott A. Hughes, [Phys. Rev. D 100, 084031 (2019)](https://doi.org/10.1103/PhysRevD.100.084031),  [arXiv:1901.05901](https://arxiv.org/abs/1901.05901)
 
 7\. "Spin and Quadrupole Couplings for High Spin Equatorial Intermediate Mass-ratio Coalescences", Bin Chen, Geoffrey Compère, Yan Liu, Jiang Long, Xuao Zhang, [arXiv:1901.05370](https://arxiv.org/abs/1901.05370)
 
