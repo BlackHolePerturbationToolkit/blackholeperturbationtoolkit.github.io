@@ -25,7 +25,7 @@ Below is a list of research papers that have used or extended the Toolkit. Paper
 
 20\. "Gravitational Wave Perturbations on a Kerr Background and Applications for Echoes", Randy S. Conklin, [arXiv:1911.07122](https://arxiv.org/abs/1911.07122)
 
-19\. "Regularized calculation of the retarded Green function in Schwarzschild spacetime", Marc Casals, Brien C. Nolan, Adrian C. Ottewill, Barry Wardell, [arXiv:1910.02567](https://arxiv.org/abs/1910.02567)
+19\. "Regularized calculation of the retarded Green function in Schwarzschild spacetime", Marc Casals, Brien C. Nolan, Adrian C. Ottewill, Barry Wardell, [Phys. Rev. D 100, 104037 (2019)](https://doi.org/10.1103/PhysRevD.100.104037),  [arXiv:1910.02567](https://arxiv.org/abs/1910.02567)
 
 18\. "Transition from Inspiral to Plunge: A Complete Near-Extremal Waveform", Ollie Burke, Jonathan R. Gair, Joan Simón, [arXiv:1909.12846](https://arxiv.org/abs/1909.12846)
 
@@ -35,7 +35,7 @@ Below is a list of research papers that have used or extended the Toolkit. Paper
 
 15\. "qnm: A Python package for calculating Kerr quasinormal modes, separation constants, and spherical-spheroidal mixing coefficients", Leo C. Stein, [J. Open Source Softw., 4(42), 1683 (2019)](https://doi.org/10.21105/joss.01683) [arXiv:1908.10377](https://arxiv.org/abs/1908.10377) (*)
 
-14\. "Factorization and resummation: A new paradigm to improve gravitational wave amplitudes. III: the spinning test-body terms", Alessandro Nagar, Francesco Messina, Chris Kavanagh, Georgios Lukes-Gerakopoulos, Niels Warburton, Sebastiano Bernuzzi, Enno Harms, [arXiv:1907.12233](https://arxiv.org/abs/1907.12233) (*)
+14\. "Factorization and resummation: A new paradigm to improve gravitational wave amplitudes. III: the spinning test-body terms", Alessandro Nagar, Francesco Messina, Chris Kavanagh, Georgios Lukes-Gerakopoulos, Niels Warburton, Sebastiano Bernuzzi, Enno Harms, [Phys. Rev. D 100, 104056 (2019)](https://doi.org/10.1103/PhysRevD.100.104056), [arXiv:1907.12233](https://arxiv.org/abs/1907.12233) (*)
 
 13\. "Quasi-circular inspirals and plunges from non-spinning effective-one-body Hamiltonians with gravitational self-force information", Andrea Antonelli, Maarten van de Meent, Alessandra Buonanno, Jan Steinhoff, Justin Vines, [arXiv:1907.11597](https://arxiv.org/abs/1907.11597)
 
@@ -43,7 +43,7 @@ Below is a list of research papers that have used or extended the Toolkit. Paper
 
 11\. "Repeated faint quasinormal bursts in EMRI waveforms: evidence from frequency-domain scalar self-force calculations on generic Kerr orbits", Zach Nasipak, Thomas Osburn, Charles R. Evans, [Phys. Rev. D 100, 064008 (2019)](https://doi.org/10.1103/PhysRevD.100.064008), [arXiv:1905.13237](https://arxiv.org/abs/1905.13237) (*)
 
-10\. "Hamilton-Jacobi equation for spinning particles near black holes", Vojtěch Witzany, [arXiv:1903.03651](https://arxiv.org/abs/1903.03651)
+10\. "Hamilton-Jacobi equation for spinning particles near black holes", Vojtěch Witzany, [Phys. Rev. D 100, 104030 (2019)](https://doi.org10.1103/PhysRevD.100.104030), [arXiv:1903.03651](https://arxiv.org/abs/1903.03651)
 
 9\. "Gravitational waves from bodies orbiting the Galactic Center black hole and their detectability by LISA", Eric Gourgoulhon, Alexandre Le Tiec, Frederic H. Vincent, Niels Warburton, [A&A, 627 (2019) A92](https://doi.org/10.1051/0004-6361/201935406), [arXiv:1903.02049](https://arxiv.org/abs/1903.02049) (*)
 
@@ -51,9 +51,9 @@ Below is a list of research papers that have used or extended the Toolkit. Paper
 
 7\. "Spin and Quadrupole Couplings for High Spin Equatorial Intermediate Mass-ratio Coalescences", Bin Chen, Geoffrey Compère, Yan Liu, Jiang Long, Xuao Zhang, [arXiv:1901.05370](https://arxiv.org/abs/1901.05370)
 
-6\. "Spectroscopy of Extremal (and Near-Extremal) Kerr Black Holes", M. Casals, Luís F. Longo Micchi, [Phys. Rev. D 99, 084047 (2019)](http://doi.org/10.1103/PhysRevD.99.084047),  [arXiv:1901.04586](https://arxiv.org/abs/1901.04586)
+6\. "Spectroscopy of Extremal (and Near-Extremal) Kerr Black Holes", M. Casals, Luís F. Longo Micchi, [Phys. Rev. D 99, 084047 (2019)](https://doi.org/10.1103/PhysRevD.99.084047),  [arXiv:1901.04586](https://arxiv.org/abs/1901.04586)
 
-5\. "High-order asymptotics for the Spin-Weighted Spheroidal Equation at large real frequency", M. Casals, A. C. Ottewill, N. Warburton, [Proc. R. Soc. A 475:20180701 (2019)](http://doi.org/10.1098/rspa.2018.0701), [arXiv:1810.00432](https://arxiv.org/abs/1810.00432) (*)
+5\. "High-order asymptotics for the Spin-Weighted Spheroidal Equation at large real frequency", M. Casals, A. C. Ottewill, N. Warburton, [Proc. R. Soc. A 475:20180701 (2019)](https://doi.org/10.1098/rspa.2018.0701), [arXiv:1810.00432](https://arxiv.org/abs/1810.00432) (*)
 
 4\. "Gravitational self-force corrections to gyroscope precession along circular orbits in the Kerr spacetime", D. Bini, T. Damour, A. Geralico, C. Kavanagh, M. van de Meent, [Phys. Rev. D 98, 104062 (2018)](https://doi.org/10.1103/PhysRevD.98.104062), [arXiv:1809.02516](https://arxiv.org/abs/1809.02516) (*)
 
