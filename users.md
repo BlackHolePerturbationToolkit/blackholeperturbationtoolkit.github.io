@@ -15,6 +15,8 @@ The location of the lead institutions are shown in red, contributors are shown i
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+22\. "The location of the last stable orbit in Kerr spacetime", Leo C. Stein, Niels Warburton, [arXiv:1912.07609](https://arxiv.org/abs/1912.07609) (*)
+
 21\. "A Surrogate Model for Gravitational Wave Signals from Comparable- to Large- Mass-Ratio Black Hole Binaries", Nur E. M. Rifat, Scott E. Field, Gaurav Khanna, Vijay Varma, [arXiv:1910.10473](https://arxiv.org/abs/1910.10473)
 
 20\. "Tidal heating as a discriminator for horizons in extreme mass ratio inspirals", Sayak Datta, Richard Brito, Sukanta Bose, Paolo Pani, Scott A. Hughes, [arXiv:1910.07841](https://arxiv.org/abs/1910.07841)
