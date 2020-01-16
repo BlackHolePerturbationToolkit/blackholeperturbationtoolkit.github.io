@@ -13,7 +13,7 @@ The location of the lead institutions are shown in red, contributors are shown i
 
 ## Papers that acknowledge, cite and/or extend the Toolkit
 
-The graph below show the citations to the Toolkit over time. The blue curve shows the total citations and acknowledgements, the red curve tracks the total number of papers that have contributed software or data to the Toolkit.
+The graph below show the accumulated citations to the Toolkit over time. The blue curve shows the total citations and acknowledgements, the red curve tracks the total number of papers that have contributed software or data to the Toolkit.
 
 ![Accumulated citations to the Toolkit](CitationAccumulation.png)
 
