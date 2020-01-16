@@ -15,13 +15,15 @@ The location of the lead institutions are shown in red, contributors are shown i
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
-27\. "Dissipation in extreme-mass ratio binaries with a spinning secondary", Sarp Akcay, Sam R. Dolan, Chris Kavanagh, Jordan Moxon, Niels Warburton, Barry Wardell, [arXiv:1912.09461](https://arxiv.org/abs/1912.09461) (*)
+28\. "Dissipation in extreme-mass ratio binaries with a spinning secondary", Sarp Akcay, Sam R. Dolan, Chris Kavanagh, Jordan Moxon, Niels Warburton, Barry Wardell, [arXiv:1912.09461](https://arxiv.org/abs/1912.09461) (*)
 
-26\. "The location of the last stable orbit in Kerr spacetime", Leo C. Stein, Niels Warburton, [arXiv:1912.07609](https://arxiv.org/abs/1912.07609) (*)
+27\. "The location of the last stable orbit in Kerr spacetime", Leo C. Stein, Niels Warburton, [arXiv:1912.07609](https://arxiv.org/abs/1912.07609) (*)
 
-25\. "A Surrogate Model for Gravitational Wave Signals from Comparable- to Large- Mass-Ratio Black Hole Binaries", Nur E. M. Rifat, Scott E. Field, Gaurav Khanna, Vijay Varma, [arXiv:1910.10473](https://arxiv.org/abs/1910.10473) (*)
+26\. "A Surrogate Model for Gravitational Wave Signals from Comparable- to Large- Mass-Ratio Black Hole Binaries", Nur E. M. Rifat, Scott E. Field, Gaurav Khanna, Vijay Varma, [arXiv:1910.10473](https://arxiv.org/abs/1910.10473) (*)
 
-24\. "Spicing up the recipe for echoes from exotic compact objects: orbital differences and corrections in rotating backgrounds", Luís Felipe Longo Micchi, Cecilia Chirenti, [arXiv:1912.05419](https://arxiv.org/abs/1912.05419)
+25\. "Spicing up the recipe for echoes from exotic compact objects: orbital differences and corrections in rotating backgrounds", Luís Felipe Longo Micchi, Cecilia Chirenti, [arXiv:1912.05419](https://arxiv.org/abs/1912.05419)
+
+24\. "Gravitational wave signatures of ultralight vector bosons from black hole superradiance", Nils Siemonsen, William E. East, [Phys. Rev. D 101, 024019 (2020)](https://doi.org/10.1103/PhysRevD.101.024019),  [arXiv:1910.09476](https://arxiv.org/abs/1910.09476v2)
 
 23\. "Tidal heating as a discriminator for horizons in extreme mass ratio inspirals", Sayak Datta, Richard Brito, Sukanta Bose, Paolo Pani, Scott A. Hughes, [arXiv:1910.07841](https://arxiv.org/abs/1910.07841)
 
