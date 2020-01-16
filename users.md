@@ -9,7 +9,7 @@ Building the Toolkit is a global, community effort and the fruits of that work a
 
 <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1PZYkax3dpZ1Hx5b_MZ4qLl42AJIckGVt&z=2" width="840" height="580"></iframe>
 
-The location of the lead institutions are shown in red, contributors are shown in blue and users in yellow. If you fall into any of these categories and are missing from the map us know so we can add you.
+The location of the lead institutions are shown in red, contributors are shown in blue and users in yellow. If you fall into any of these categories and are missing from the map let us know so we can add you.
 
 ## Papers that acknowledge, cite and/or extend the Toolkit
 
