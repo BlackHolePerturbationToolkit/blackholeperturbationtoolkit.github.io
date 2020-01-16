@@ -13,6 +13,10 @@ The location of the lead institutions are shown in red, contributors are shown i
 
 ## Papers that acknowledge, cite and/or extend the Toolkit
 
+The graph below show the citations to the Toolkit over time. The blue curve shows the total citations and acknowledgements, the red curve tracks the total number of papers that have contributed software or data to the Toolkit.
+
+![Accumulated citations to the Toolkit](CitationAccumulation.png)
+
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
 28\. "Dissipation in extreme-mass ratio binaries with a spinning secondary", Sarp Akcay, Sam R. Dolan, Chris Kavanagh, Jordan Moxon, Niels Warburton, Barry Wardell, [arXiv:1912.09461](https://arxiv.org/abs/1912.09461) (*)
