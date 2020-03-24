@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+29\. "Redshift-space streaming velocity effects on the Lyman-α forest baryon acoustic oscillation scale", Jahmour J. Givans, Christopher M. Hirata, [arXiv:2002.12296](https://arxiv.org/abs/2002.12296)  
+
 28\. "Dissipation in extreme-mass ratio binaries with a spinning secondary", Sarp Akcay, Sam R. Dolan, Chris Kavanagh, Jordan Moxon, Niels Warburton, Barry Wardell, [arXiv:1912.09461](https://arxiv.org/abs/1912.09461) (*)
 
 27\. "The location of the last stable orbit in Kerr spacetime", Leo C. Stein, Niels Warburton, [arXiv:1912.07609](https://arxiv.org/abs/1912.07609) (*)
