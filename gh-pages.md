@@ -1,8 +1,8 @@
 {% include head.html %}
 
-# Using gh-pages
+# Creating a website for a repository using gh-pages
 
-Each repository can have a website associated with it using GitHubs gh-pages. This allows for websites to easily be built using Markdown.
+Each repository can have a website associated with it using GitHubs gh-pages. This allows for websites to easily be built using Markdown. The gh-pages website lives in a separate root branch of the repository. This can be setup via:
 
 ```
 $ git checkout --orphan gh-pages
@@ -24,7 +24,9 @@ title: Black Hole Perturbation Toolkit
 The BHPToolkit gh-pages is setup to use [MathJax](https://www.mathjax.org/). To enable this on a particular page put
 
 ```
-{{ "{% include head.html %} " }}%}
+{% raw  %}
+{% include head.html %}
+{% endraw  %}
 ```
 At the top of the page
 
