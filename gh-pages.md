@@ -24,9 +24,7 @@ title: Black Hole Perturbation Toolkit
 The BHPToolkit gh-pages is setup to use [MathJax](https://www.mathjax.org/). To enable this on a particular page put
 
 ```
-{% raw  %}
-{% include head.html %}
-{% endraw  %}
+{% raw  %}{% include head.html %}{% endraw  %}
 ```
 At the top of the page
 
