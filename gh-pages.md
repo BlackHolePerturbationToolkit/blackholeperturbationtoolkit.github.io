@@ -21,7 +21,7 @@ title: Black Hole Perturbation Toolkit
 ---
 ```
 
-# Adding the 'Get the code!' button
+## Adding the 'Get the code!' button
 
 In order to add the get the code button to a repository's webpage add the following at the top of the page:
 
@@ -32,7 +32,7 @@ In order to add the get the code button to a repository's webpage add the follow
 ```
 
 
-# Enabling MathJax
+## Enabling MathJax
 
 The BHPToolkit gh-pages is setup to use [MathJax](https://www.mathjax.org/). To enable this on a particular page put
 
@@ -42,7 +42,7 @@ The BHPToolkit gh-pages is setup to use [MathJax](https://www.mathjax.org/). To 
 at the top of the page. With this you can include equations in the page by placing LaTeX between dollar signs. e.g., $a^2 + b^2 = c^2$.
 
 
-# Previewing gh-pages locally
+## Previewing gh-pages locally
 
 If you want to test changes to the gh-pages website before pushing them install Jekyll, navigate to the directory containing the site and execute `bundle exec jekyll serve`. You can now view the site at [http://localhost:4000](http://localhost:4000).
 
