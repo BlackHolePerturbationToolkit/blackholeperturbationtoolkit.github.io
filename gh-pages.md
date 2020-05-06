@@ -2,7 +2,7 @@
 
 # Creating a website for a repository using gh-pages
 
-Each repository can have a website associated with it using GitHubs gh-pages. This allows for websites to easily be built using Markdown. The gh-pages website lives in a separate root branch of the repository. This can be setup via:
+Each repository can have a website associated with it using GitHub's [gh-pages](https://pages.github.com/). This allows for websites to easily be built using Markdown. The gh-pages website lives in a separate root branch of the repository. This can be setup via:
 
 ```
 $ git checkout --orphan gh-pages
@@ -12,7 +12,7 @@ $ git rm -rf --dry-run .
 $ git rm -rf .
 ```
 
-Then create `index.md`, commit and push. Each `.md` file should contain the following at the start:
+You will then need to copy `_includes/head.html`, `_layouts/default.html` and `assets/css/style.scss` from the main [BHPToolkit website repository](https://github.com/BlackHolePerturbationToolkit/blackholeperturbationtoolkit.github.io). Next create `index.md`, commit and push. Each `.md` file should contain the following at the start:
 
 ```
 ---
