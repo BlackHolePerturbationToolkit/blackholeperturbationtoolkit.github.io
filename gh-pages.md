@@ -33,4 +33,6 @@ This means you can include equations in webpage by placing LaTeX between dollar 
 
 # Previewing gh-pages locally
 
-If you want to preview
+If you want to test changes to the gh-pages website before pushing them install Jekyll, navigate to the directory containing the site and execute `bundle exec jekyll serve`. You can now view the site at [http://localhost:4000](http://localhost:4000).
+
+With Jekyll running locally every time you make a change to the source the site is regenerated. Once you are happy with the changes you can push them to the repository (note, the local Jekyll server will create an _sites directory that should not be added to the repository).
