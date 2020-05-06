@@ -21,6 +21,19 @@ title: Black Hole Perturbation Toolkit
 ---
 ```
 
+# Adding the 'Get the code!' button
+
+In order to add the get the code button to a repository's webpage add the following at the top of the page:
+
+```
+<p>
+ <h1 style="display:inline">Teukolsky</h1> <span style="float:right;"><a href="{{ site.github.repository_url }}" class = "code_btn">Get the code!</a></span>
+</p>
+```
+
+
+# Enabling MathJax
+
 The BHPToolkit gh-pages is setup to use [MathJax](https://www.mathjax.org/). To enable this on a particular page put
 
 ```
