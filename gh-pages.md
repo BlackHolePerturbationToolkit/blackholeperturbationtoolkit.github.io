@@ -26,9 +26,7 @@ The BHPToolkit gh-pages is setup to use [MathJax](https://www.mathjax.org/). To 
 ```
 {% raw  %}{% include head.html %}{% endraw  %}
 ```
-At the top of the page
-
-This means you can include equations in webpage by placing LaTeX between dollar signs. e.g., $a^2 + b^2 = c^2$.
+at the top of the page. With this you can include equations in the page by placing LaTeX between dollar signs. e.g., $a^2 + b^2 = c^2$.
 
 
 # Previewing gh-pages locally
