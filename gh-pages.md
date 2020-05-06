@@ -12,7 +12,7 @@ $ git rm -rf --dry-run .
 $ git rm -rf .
 ```
 
-You will then need to copy `_includes/head.html`, `_layouts/default.html` and `assets/css/style.scss` from the main [BHPToolkit website repository](https://github.com/BlackHolePerturbationToolkit/blackholeperturbationtoolkit.github.io). Next create `index.md`, commit and push. Each `.md` file should contain the following at the start:
+You will then need to copy `_config.yml`, `_includes/head.html`, `_layouts/default.html` and `assets/css/style.scss` from the main [BHPToolkit website repository](https://github.com/BlackHolePerturbationToolkit/blackholeperturbationtoolkit.github.io). Next create `index.md`, commit and push. Each `.md` file should contain the following at the start:
 
 ```
 ---
