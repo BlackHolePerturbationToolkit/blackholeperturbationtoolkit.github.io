@@ -24,8 +24,13 @@ title: Black Hole Perturbation Toolkit
 The BHPToolkit gh-pages is setup to use [MathJax](https://www.mathjax.org/). To enable this on a particular page put
 
 ```
-{% include head.html %}
+{{ "{% include head.html %} " }}%}
 ```
 At the top of the page
 
 This means you can include equations in webpage by placing LaTeX between dollar signs. e.g., $a^2 + b^2 = c^2$.
+
+
+# Previewing gh-pages locally
+
+If you want to preview
