@@ -27,7 +27,7 @@ In order to add the get the code button to a repository's webpage add the follow
 
 ```
 <p>
- <h1 style="display:inline">Teukolsky</h1> <span style="float:right;"><a href="{{ site.github.repository_url }}" class = "code_btn">Get the code!</a></span>
+ <h1 style="display:inline">Package Name</h1> <span style="float:right;"><a href="{{ site.github.repository_url }}" class = "code_btn">Get the code!</a></span>
 </p>
 ```
 
