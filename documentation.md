@@ -22,3 +22,4 @@ We aim to have consistent naming conventions in use across the Toolkit. The curr
 ## Other useful information
 
 - [Mathematica and git](cleannb.html)
+- [Setting up repository webpages with gh-pages](http://bhptoolkit.org/gh-pages)
