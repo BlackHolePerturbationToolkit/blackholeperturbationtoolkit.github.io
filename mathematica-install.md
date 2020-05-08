@@ -5,7 +5,8 @@ title: Black Hole Perturbation Toolkit
 
 # Installing Mathematica Packages
 
-Add the Black Hole Perturbation Toolkit Paclet Server
+Add the Black Hole Perturbation Toolkit Paclet Server (on Mathematica versions prior to 12.1 use
+`PacletSiteAdd` instead of `PacletSiteRegister`)
 ```Mathematica
 PacletSiteRegister["https://pacletserver.bhptoolkit.org", "Black Hole Perturbation Toolkit Paclet Server"]
 ```
