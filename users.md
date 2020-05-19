@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+33\. "Ringing of rotating black holes in higher-derivative gravity", Pablo A. Cano, Kwinten Fransen, Thomas Hertog, [arXiv:2005.03671](https://arxiv.org/abs/2005.03671)
+
 32\. "Determination of new coefficients in the angular momentum and energy fluxes at infinity to 9PN for eccentric Schwarzschild extreme-mass-ratio inspirals using mode-by-mode fitting", Christopher Munna, Charles R. Evans, Seth Hopper, Erik Forseth, [arXiv:2005.03044](https://arxiv.org/abs/2005.03044) (*)  
 
 31\. "Extreme mass ratio inspirals with spinning secondary: a detailed study of equatorial circular motion", Gabriel Andres Piovano, Andrea Maselli, Paolo Pani1, [arXiv:2004.02654](https://arxiv.org/abs/2004.02654) (*)
