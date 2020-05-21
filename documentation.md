@@ -3,6 +3,12 @@ layout: default
 title: Black Hole Perturbation Toolkit
 ---
 
+## Installation
+
+The BHPToolkit is made up of many individual tools that can be installed depending on what the user is interested in. The webpage for each tool gives the instructions for installation. We recommend (where available) using the packaged versions of each tool as the development version can be unstable if changes are being made. For Python code the tool can often be installed via [pip](https://packaging.python.org/tutorials/installing-packages/), C and C++ tools will each describe their dependencies in their README pages, and Mathematica packages can be installed via the Paclet system. Instructions for the latter are given below.
+
+- [Installing BHPToolkit Mathematica packages](mathematica-install.html)
+
 ## Documentation
 
 Each module comes with its own documentation. Currently, in places this can be quite minimal but we are continuously working to improve this. Soon we have have direct links to the Mathematica documentation here, as well as links to the documentation for other key modules.
