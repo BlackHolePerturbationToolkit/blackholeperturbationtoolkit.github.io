@@ -9,7 +9,7 @@ The Black Hole Perturbation Toolkit brings together software and data relating t
 
 Our overall goal is for less researcher time to be spent writing code and more time spent doing physics. Currently there exist multiple scattered black hole perturbation theory codes developed by a wide array of individuals or groups over a number of decades. This project aims to bring together some of the core elements of these codes into a Toolkit that can be used by all.
 
-See the [Toolkit and Data repository page](toolkit.html) for a list of available software and data.
+The BHPToolkit is it made up of many different tools which can be individually installed by users depending on what they are interested in. The [Toolkit and Data repository page](toolkit.html) lists the currently available software and data and on the page for each tool you will find its installation instructions.
 
 ## Community
 
