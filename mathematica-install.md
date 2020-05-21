@@ -5,9 +5,9 @@ title: Black Hole Perturbation Toolkit
 
 # Installing Mathematica Packages
 
-We recommend that you install the Toolkit Mathematica packages via the Paclet server. The instructions for doing this are given below.
+If you are a regular user we recommend that you install the Toolkit Mathematica packages via the Paclet server. The instructions for doing this are given immediately below. If you are a developer see the [Mathematica developer instructions](mathematica-install-dev.html).
 
-Currently the following packages can be installed from the Paclet server and have no dependencies: [SpinWeightedSpheroidalHarmonics](https://bhptoolkit.org/SpinWeightedSpheroidalHarmonics/), [KerrGeodesics](https://bhptoolkit.org/KerrGeodesics/), [PostNewtonianSelfForce](https://bhptoolkit.org/PostNewtonianSelfForce/), [GeneralRelativityTensors](https://github.com/BlackHolePerturbationToolkit/GeneralRelativityTensors). The following packages depend on SpinWeightedSpheroidalHarmonics and KerrGeodesics so you must install these for them to work: [ReggeWheeler](https://bhptoolkit.org/ReggeWheeler/) and [Teukolsky](https://bhptoolkit.org/Teukolsky/)
+Currently the following packages can be installed from the Paclet server and have no dependencies: [SpinWeightedSpheroidalHarmonics](https://bhptoolkit.org/SpinWeightedSpheroidalHarmonics/), [KerrGeodesics](https://bhptoolkit.org/KerrGeodesics/), [PostNewtonianSelfForce](https://bhptoolkit.org/PostNewtonianSelfForce/), [GeneralRelativityTensors](https://github.com/BlackHolePerturbationToolkit/GeneralRelativityTensors). The following packages depend on SpinWeightedSpheroidalHarmonics and KerrGeodesics so you must install these for them to work: [ReggeWheeler](https://bhptoolkit.org/ReggeWheeler/) and [Teukolsky](https://bhptoolkit.org/Teukolsky/).
 
 ## Add the Black Hole Perturbation Toolkit Paclet Server
 
