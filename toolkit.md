@@ -11,7 +11,7 @@ Current **Mathematica** projects in the Toolkit include:
 * [KerrGeodesics](https://bhptoolkit.org/KerrGeodesics): Tools for computing bound timelike geodesics about a Kerr black hole.
 * [Teukolsky](https://bhptoolkit.org/Teukolsky): A set of functions for computing solutions to the Teukolsky equation for perturbations of the spacetime of a Kerr black hole.
 * [QuasiNormalModes](https://bhptoolkit.org/QuasiNormalModes): Tools for computing quasinormal modes in Schwarzschild and Kerr spacetime
-* [GeneralRelativityTensors](https://github.com/BlackHolePerturbationToolkit/GeneralRelativityTensors): Provides a set of functions for performing coordinate-based tensor calculations with a focus on general relativity and black holes in particular.
+* [GeneralRelativityTensors](http://bhptoolkit.org/GeneralRelativityTensors/): Provides a set of functions for performing coordinate-based tensor calculations with a focus on general relativity and black holes in particular.
 * [ReggeWheeler](https://bhptoolkit.org/ReggeWheeler/): A set of functions for computing solutions to the Regge-Wheeler equation for perturbations of the spacetime of a Schwarzschild black hole.
 
 Current **C/C++** projects in the Toolkit include:
