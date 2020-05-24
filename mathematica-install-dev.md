@@ -7,7 +7,7 @@ title: Black Hole Perturbation Toolkit
 
 Most users should install the Mathematica packages via the [Paclet server](mathematica-install.html). However if you are working on developing a new feature or bugfix for a package you may wish to have Mathematica instead load a version directly from a git repository. You will find the link to the GitHub repository at the bottom of each of the individual package webpages.
 
-Once you have a local copy of the repository cloned, you can then direct Mathematica to use that version of the package using the `PacletDirectoryLoad` (`PacletDirectoryAdd` in versions of Mathematica prior to 12.1). For example, if you have the git repository for the Teukolsky package in `~/BHPToolkit/Teukolsky`, then you would use the following commands to load that version of the package:
+Once you have a local copy of the repository cloned, you can then direct Mathematica to use that version of the package using `PacletDirectoryLoad` (`PacletDirectoryAdd` in versions of Mathematica prior to 12.1). For example, if you have the git repository for the Teukolsky package in `~/BHPToolkit/Teukolsky`, then you would use the following commands to load that version of the package:
 ```Mathematica
 PacletDirectoryLoad["~/BHPToolkit/Teukolsky"]
 << Teukolsky`
