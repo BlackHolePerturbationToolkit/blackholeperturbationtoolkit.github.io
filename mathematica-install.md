@@ -11,11 +11,11 @@ Currently the following packages can be installed from the Paclet server and hav
 
 ## Add the Black Hole Perturbation Toolkit Paclet Server
 
-The following instructions either only need to be done once or when upgrading packages.
+This step only needs to be done once and persists even if you quit and restart Mathematica.
 
 ### Mathematica 12.1 or newer
 
-Add the Black Hole Perturbation Toolkit paclet server to Mathematica's list of paclet servers. This command only needs to be run once and persists even if you quit and restart Mathematica.
+Add the Black Hole Perturbation Toolkit paclet server to Mathematica's list of paclet servers.
 ```Mathematica
 PacletSiteRegister["https://pacletserver.bhptoolkit.org", "Black Hole Perturbation Toolkit Paclet Server"]
 ```
@@ -30,7 +30,7 @@ PacletFindRemote["*", <|"Location" -> "https://pacletserver.bhptoolkit.org"|>]
 
 ### Mathematica 12.0 or older
 
-Add the Black Hole Perturbation Toolkit paclet server to Mathematica's list of paclet servers. This command only needs to be run once and persists even if you quit and restart Mathematica.
+Add the Black Hole Perturbation Toolkit paclet server to Mathematica's list of paclet servers.
 ```Mathematica
 PacletSiteAdd["http://pacletserver.bhptoolkit.org", "Black Hole Perturbation Toolkit Paclet Server"]
 ```
