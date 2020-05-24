@@ -5,11 +5,15 @@ title: Black Hole Perturbation Toolkit
 
 # Installing Mathematica Packages for developers
 
-Most users should install Mathematica packages via the [Paclet server](mathematica-install.html). Developers should install the packages directly via git. You will find the link to the GitHub repository at the bottom of each of the packages webpages. You should then clone the repository into the Applications folder inside the UserBaseDirectory. You can find where the UserBaseDirectory is on your system by opening Mathematica and typing
+Most users should install the Mathematica packages via the [Paclet server](mathematica-install.html). However if you are working on developing a new feature or bugfix for a package you may wish to have Mathematica instead load a version directly from a git repository. You will find the link to the GitHub repository at the bottom of each of the individual package webpages.
 
-```
-$UserBaseDirectory
-```
+Once you have a local copy of the repository cloned, you can then direct Mathematica to use that version of the package using the `PacletDirectoryLoad` (`PacletDirectoryAdd` in versions of Mathematica prior to 12.1). For example, if you have the git repository for the Teukolsky package in `~/BHPToolkit/Teukolsky`, then you would use the following commands to load that version of the package:
+```Mathematica
+PacletDirectoryLoad["~/BHPToolkit/Teukolsky"]
+<< Teukolsky`
+````
+
+Note that if you have previously been devleoping the packages, you may already have them installed in the Applications folder inside the UserBaseDirectory. To avoid confusion, it is recommended that you remove these versions or move them elsewhere on your computer.
 
 If you are looking for things to work on in a particular package then a good place to start is by looking at the issue tracker. More information about that can be found on our [issue tracker info page](issue-tracker-info.html).
 
