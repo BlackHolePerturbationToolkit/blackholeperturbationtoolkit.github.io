@@ -11,7 +11,7 @@ Current **Mathematica** projects in the Toolkit include:
 * [KerrGeodesics](https://bhptoolkit.org/KerrGeodesics): Tools for computing bound timelike geodesics about a Kerr black hole.
 * [Teukolsky](https://bhptoolkit.org/Teukolsky): A set of functions for computing solutions to the Teukolsky equation for perturbations of the spacetime of a Kerr black hole.
 * [QuasiNormalModes](https://bhptoolkit.org/QuasiNormalModes): Tools for computing quasinormal modes in Schwarzschild and Kerr spacetime
-* [GeneralRelativityTensors](http://bhptoolkit.org/GeneralRelativityTensors/): Provides a set of functions for performing coordinate-based tensor calculations with a focus on general relativity and black holes in particular.
+* [GeneralRelativityTensors](https://bhptoolkit.org/GeneralRelativityTensors/): Provides a set of functions for performing coordinate-based tensor calculations with a focus on general relativity and black holes in particular.
 * [ReggeWheeler](https://bhptoolkit.org/ReggeWheeler/): A set of functions for computing solutions to the Regge-Wheeler equation for perturbations of the spacetime of a Schwarzschild black hole.
 
 Current **C/C++** projects in the Toolkit include:
@@ -28,11 +28,11 @@ Current **Python** and **SageMath** projects in the Toolkit include:
 
 Current **Fortran** projects in the Toolkit include:
 
-* [Self-Force-1D](http://bhptoolkit.org/Self-Force-1D.html): SelfForce-1D is a code infrastructure for simulating Extreme Mass Ratio Inspirals using the effective source approach to the self-force problem.
+* [Self-Force-1D](https://bhptoolkit.org/Self-Force-1D.html): SelfForce-1D is a code infrastructure for simulating Extreme Mass Ratio Inspirals using the effective source approach to the self-force problem.
 
 A range of further tools are being developed and will be added as the project expands. There is also a **repository of results** associated with the Toolkit. Large datasets can be found in our [BHPToolkit Zenodo community](https://zenodo.org/communities/bhptoolkit/). Smaller datasets and packages for manipulating the data include:
 
-* [PostNewtonian-SelfForce](http://bhptoolkit.org/PostNewtonianSelfForce/): Results for various quantities to high post-Newtonian order and linear-order in the mass ratio. This repository includes a Mathematica package for easy loading and manipulation of the PN series.
+* [PostNewtonian-SelfForce](https://bhptoolkit.org/PostNewtonianSelfForce/): Results for various quantities to high post-Newtonian order and linear-order in the mass ratio. This repository includes a Mathematica package for easy loading and manipulation of the PN series.
 * [RegularizationParameters](https://github.com/BlackHolePerturbationToolkit/RegularizationParameters): Regularization parameters to compute the regular field at the particle.
 * [Circular Orbit Self-force Data](https://github.com/BlackHolePerturbationToolkit/CircularOrbitSelfForceData): Numerical data for fluxes and self-force quantities for circular orbits
 
