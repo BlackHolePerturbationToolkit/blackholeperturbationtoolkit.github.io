@@ -7,19 +7,19 @@ title: Black Hole Perturbation Toolkit
 
 If you are a regular user we recommend that you install the Toolkit Mathematica packages via the Paclet server. The instructions for doing this are given immediately below. If you are a developer see the [Mathematica developer instructions](mathematica-install-dev.html).
 
-Currently the following packages can be installed from the Paclet server and have no dependencies: [SpinWeightedSpheroidalHarmonics](https://bhptoolkit.org/SpinWeightedSpheroidalHarmonics/), [KerrGeodesics](https://bhptoolkit.org/KerrGeodesics/), [PostNewtonianSelfForce](https://bhptoolkit.org/PostNewtonianSelfForce/), [GeneralRelativityTensors](https://github.com/BlackHolePerturbationToolkit/GeneralRelativityTensors). The following packages depend on SpinWeightedSpheroidalHarmonics and KerrGeodesics so you must install these for them to work: [ReggeWheeler](https://bhptoolkit.org/ReggeWheeler/) and [Teukolsky](https://bhptoolkit.org/Teukolsky/).
+Currently the following packages can be installed from the Paclet server and have no dependencies: [SpinWeightedSpheroidalHarmonics](https://bhptoolkit.org/SpinWeightedSpheroidalHarmonics/), [KerrGeodesics](https://bhptoolkit.org/KerrGeodesics/), [PostNewtonianSelfForce](https://bhptoolkit.org/PostNewtonianSelfForce/), [GeneralRelativityTensors](https://bhptoolkit.org/GeneralRelativityTensors). The following packages depend on SpinWeightedSpheroidalHarmonics and KerrGeodesics so you must install these for them to work: [ReggeWheeler](https://bhptoolkit.org/ReggeWheeler/) and [Teukolsky](https://bhptoolkit.org/Teukolsky/).
 
 ## Add the Black Hole Perturbation Toolkit Paclet Server
 
-The following instructions either only need to be done once or when upgrading packages.
+This step only needs to be done once and persists even if you quit and restart Mathematica.
 
 ### Mathematica 12.1 or newer
 
-Add the Black Hole Perturbation Toolkit paclet server to Mathematica's list of paclet servers. This command only needs to be run once.
+Add the Black Hole Perturbation Toolkit paclet server to Mathematica's list of paclet servers.
 ```Mathematica
 PacletSiteRegister["https://pacletserver.bhptoolkit.org", "Black Hole Perturbation Toolkit Paclet Server"]
 ```
-Get an updated list of packages available on the server. You should run this command when you want to upgrade a package.
+Get an updated list of packages available on the server.
 ```Mathematica
 PacletSiteUpdate["https://pacletserver.bhptoolkit.org"]
 ```
@@ -30,11 +30,11 @@ PacletFindRemote["*", <|"Location" -> "https://pacletserver.bhptoolkit.org"|>]
 
 ### Mathematica 12.0 or older
 
-Add the Black Hole Perturbation Toolkit paclet server to Mathematica's list of paclet servers. This command only needs to be run once.
+Add the Black Hole Perturbation Toolkit paclet server to Mathematica's list of paclet servers.
 ```Mathematica
 PacletSiteAdd["http://pacletserver.bhptoolkit.org", "Black Hole Perturbation Toolkit Paclet Server"]
 ```
-Get an updated list of packages available on the server. You should run this command when you want to upgrade a package.
+Get an updated list of packages available on the server.
 ```Mathematica
 PacletSiteUpdate["http://pacletserver.bhptoolkit.org"]
 ```
@@ -45,10 +45,19 @@ PacletFindRemote["*", "Location" -> "http://pacletserver.bhptoolkit.org"]
 
 ## Install packages
 
-To install each package use a command like the following:
+To install all of the packages currently available in the toolkit:
 ```Mathematica
-PacletInstall["ReggeWheeler"]
+PacletInstall["GeneralRelativityTensors"];
+PacletInstall["KerrGeodesics"];
+PacletInstall["PostNewtonianSelfForce"];
+PacletInstall["ReggeWheeler"];
+PacletInstall["SpinWeightedSpheroidalHarmonics"];
+PacletInstall["Teukolsky"];
 ```
+
+## Updating to latest version of a package
+If a new version of a package becomes available, you can easily upgrade to the latest version by first running the `PacletSiteUpdate` command as above, and then running `PacletInstall` for the chosen package.
+
 
 ## Loading a package
 
