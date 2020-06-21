@@ -13,6 +13,8 @@ The BHPToolkit is made up of many individual tools that can be installed dependi
 
 Each module comes with its own documentation. Currently, in places this can be quite minimal but we are continuously working to improve this. Soon we have have direct links to the Mathematica documentation here, as well as links to the documentation for other key modules.
 
+At the 2020 virtual BHPToolkit workshop all the talks where recorded. They are a great introduction for new users. Check them out on the [BHPToolkit YouTube channel](https://www.youtube.com/channel/UCuQQbp9Buq-R3da4zASTFfw).
+
 ## Reporting issues or making suggestions
 
 We do our best to ensure the components of the Toolkit work correctly but inevitably errors will slip through our tests. If you find something you think is in error please do report it via the issue tracker associated with the corresponding repository. Similarly, if you have a suggestion for new features these can also be added to the issue trackers. See our [issue tracker information page](issue-tracker-info.html) for a guide on using the issue trackers.
@@ -24,6 +26,10 @@ One of the aims of the toolkit is for all components to be well-tested and relia
 ## Naming conventions
 
 We aim to have consistent naming conventions in use across the Toolkit. The current list can be found on the [name conventions page](conventions.html).
+
+## BHPToolkit Workshops
+
+Find information on upcoming and previous workshops on the [BHPToolkit workshops page](workshops.html).
 
 ## Other useful information
 

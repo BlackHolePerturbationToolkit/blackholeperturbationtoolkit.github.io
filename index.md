@@ -3,8 +3,6 @@ layout: default
 title: Black Hole Perturbation Toolkit
 ---
 
-|**BHPToolkit workshop:** Due to the COVID-19 outbreak we have decided to postpone the face-to-face meeting in Prague. Instead we will run a virtual meeting. For more information see [the workshop website](http://astro.cas.cz/bhptoolkit2020/). |
-
 The Black Hole Perturbation Toolkit brings together software and data relating to black hole perturbation theory. These can then be used to model gravitational radiation from small mass-ratio binaries as well as from the ringdown of black holes. The former are key sources for the future space-based gravitational wave detector, [LISA](https://www.lisamission.org/).
 
 Our overall goal is for less researcher time to be spent writing code and more time spent doing physics. Currently there exist multiple scattered black hole perturbation theory codes developed by a wide array of individuals or groups over a number of decades. This project aims to bring together some of the core elements of these codes into a Toolkit that can be used by all.
