@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+36\. "An alternative to the Teukolsky equation", Yasuyuki Hatsuda, [arXiv:2007.07906](https://arxiv.org/abs/2007.07906)
+
 35\. "Intermediate mass-ratio black hole binaries: Applicability of small mass-ratio perturbation theory", Maarten van de Meent, Harald P. Pfeiffer, [arXiv:2006.12036](https://arxiv.org/abs/2006.12036)
 
 34\. "Modeling and detecting resonant tides of exotic compact objects", Kwinten Fransen, Gideon Koekoek, Rob Tielemans, Bert Vercnocke, [arXiv:2005.12286](https://arxiv.org/abs/2005.12286), 
