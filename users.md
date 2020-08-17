@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+37\. "Rapid generation of fully relativistic extreme-mass-ratio-inspiral waveform templates for LISA data analysis", Alvin J. K. Chua, Michael L. Katz, Niels Warburton, Scott A. Hughes, [arXiv:2008.06071](https://arxiv.org/abs/2008.06071) (*)
+
 36\. "An alternative to the Teukolsky equation", Yasuyuki Hatsuda, [arXiv:2007.07906](https://arxiv.org/abs/2007.07906)
 
 35\. "Intermediate mass-ratio black hole binaries: Applicability of small mass-ratio perturbation theory", Maarten van de Meent, Harald P. Pfeiffer, [arXiv:2006.12036](https://arxiv.org/abs/2006.12036)
