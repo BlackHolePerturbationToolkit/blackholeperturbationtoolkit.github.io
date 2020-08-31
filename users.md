@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+40\. "Electromagnetic self-force on a charged particle on Kerr spacetime: equatorial circular orbits", T. Torres, S. R. Dolan, [arXiv:2008.12703](https://arxiv.org/abs/2008.12703) (*)
+
 39\. "Augmented analytic kludge waveform with quadrupole moment correction", Miaoxin Liu, Jian-dong Zhang, [arXiv:2008.11396](https://arxiv.org/abs/2008.11396)
 
 38\. "Analytic post-Newtonian expansion of the energy and angular momentum radiated to infinity by eccentric-orbit non-spinning extreme-mass-ratio inspirals to 19PN", Christopher Munna, [arXiv:2008.10622](https://arxiv.org/abs/2008.10622) (*)
