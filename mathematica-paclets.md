@@ -21,5 +21,5 @@ The paclet is built using the `CreatePacletArchive` function in Mathematica. Thi
 The paclet server is a simple web server with a directory containing the paclets along with an index file. The new paclet files should be copied to the server inside a `Paclets` subdirectory.
 
 ## 5. Update the paclet index
-The index file should be updated by running `PacletManager`BuildPacletSiteFiles` with the path where the paclets are stored (the directory inside which the `Paclets` subdirectory exists).
+The index file should be updated by running `PacletManager``BuildPacletSiteFiles` with the path where the paclets are stored (the directory inside which the `Paclets` subdirectory exists).
 
