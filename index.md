@@ -24,7 +24,9 @@ If you make use of any of the Toolkit in your research please acknowledge using:
 
 > This work makes use of the Black Hole Perturbation Toolkit.
 
-To cite the Toolkit please use this [BibTeX entry](BHPToolkit.bib) (or similar). Some modules also request additional citations. Please check the documentation for individual modules. 
+To cite the Toolkit please use this [BibTeX entry](BHPToolkit.bib) (or similar). Some modules also request additional citations. Please check the documentation for individual modules. If you add code or data to the Toolkit we recommend referencing the package directly, including a link to the package, e.g.,
+
+> The full PN series data can be found in the [PostNewtonianSelfForce](https://bhptoolkit.org/PostNewtonianSelfForce/) package of the Black Hole Perturbation Toolkit.
 
 ### Why Cite?
 
