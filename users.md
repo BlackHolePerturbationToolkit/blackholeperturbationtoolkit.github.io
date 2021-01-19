@@ -19,27 +19,33 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
-42\. "Extreme precision for extreme spin: probing near-extremal black holes using LISA", Ollie Burke, Jonathan R. Gair, Joan Simón, Matthew C. Edwards, [arXiv:2010.05932](https://arxiv.org/abs/2010.05932)
+45\. "Gravitational wave templates from Extreme Mass Ratio Inspirals", Viktor Skoupý,  Georgios Lukes-Gerakopoulos, [arXiv:2101.04533](https://arxiv.org/abs/2101.04533)
 
-41\. "Extreme mass ratio inspirals on the equatorial plane in the adiabatic order", Ryuichi Fujita, Masaru Shibata, [arXiv:2008.13554](https://arxiv.org/abs/2008.13554)
+44\. "Post-Newtonian templates for gravitational waves from compact binary inspirals", Soichiro Isoyama, Riccardo Sturani, Hiroyuki Nakano, [arXiv:2012.01350](https://arxiv.org/abs/2012.01350)
 
-40\. "Electromagnetic self-force on a charged particle on Kerr spacetime: equatorial circular orbits", T. Torres, S. R. Dolan, [arXiv:2008.12703](https://arxiv.org/abs/2008.12703) (*)
+43\. "Extreme precision for extreme spin: probing near-extremal black holes using LISA", Ollie Burke, Jonathan R. Gair, Joan Simón, Matthew C. Edwards, [arXiv:2010.05932](https://arxiv.org/abs/2010.05932)
 
-39\. "Augmented analytic kludge waveform with quadrupole moment correction", Miaoxin Liu, Jian-dong Zhang, [arXiv:2008.11396](https://arxiv.org/abs/2008.11396)
+42\. "Extreme mass ratio inspirals on the equatorial plane in the adiabatic order", Ryuichi Fujita, Masaru Shibata, [arXiv:2008.13554](https://arxiv.org/abs/2008.13554)
 
-38\. "Analytic post-Newtonian expansion of the energy and angular momentum radiated to infinity by eccentric-orbit non-spinning extreme-mass-ratio inspirals to 19PN", Christopher Munna, [arXiv:2008.10622](https://arxiv.org/abs/2008.10622) (*)
+41\. "Electromagnetic self-force on a charged particle on Kerr spacetime: equatorial circular orbits", T. Torres, S. R. Dolan, [arXiv:2008.12703](https://arxiv.org/abs/2008.12703) (*)
 
-37\. "Rapid generation of fully relativistic extreme-mass-ratio-inspiral waveform templates for LISA data analysis", Alvin J. K. Chua, Michael L. Katz, Niels Warburton, Scott A. Hughes, [arXiv:2008.06071](https://arxiv.org/abs/2008.06071) (*)
+40\. "Augmented analytic kludge waveform with quadrupole moment correction", Miaoxin Liu, Jian-dong Zhang, [arXiv:2008.11396](https://arxiv.org/abs/2008.11396)
 
-36\. "An alternative to the Teukolsky equation", Yasuyuki Hatsuda, [arXiv:2007.07906](https://arxiv.org/abs/2007.07906)
+39\. "Analytic post-Newtonian expansion of the energy and angular momentum radiated to infinity by eccentric-orbit non-spinning extreme-mass-ratio inspirals to 19PN", Christopher Munna, [arXiv:2008.10622](https://arxiv.org/abs/2008.10622) (*)
 
-35\. "Intermediate mass-ratio black hole binaries: Applicability of small mass-ratio perturbation theory", Maarten van de Meent, Harald P. Pfeiffer, [arXiv:2006.12036](https://arxiv.org/abs/2006.12036)
+38\. "Rapid generation of fully relativistic extreme-mass-ratio-inspiral waveform templates for LISA data analysis", Alvin J. K. Chua, Michael L. Katz, Niels Warburton, Scott A. Hughes, [arXiv:2008.06071](https://arxiv.org/abs/2008.06071) (*)
 
-34\. "Modeling and detecting resonant tides of exotic compact objects", Kwinten Fransen, Gideon Koekoek, Rob Tielemans, Bert Vercnocke, [arXiv:2005.12286](https://arxiv.org/abs/2005.12286), 
+37\. "An alternative to the Teukolsky equation", Yasuyuki Hatsuda, [arXiv:2007.07906](https://arxiv.org/abs/2007.07906)
 
-33\. "Ringing of rotating black holes in higher-derivative gravity", Pablo A. Cano, Kwinten Fransen, Thomas Hertog, [arXiv:2005.03671](https://arxiv.org/abs/2005.03671)
+36\. "Intermediate mass-ratio black hole binaries: Applicability of small mass-ratio perturbation theory", Maarten van de Meent, Harald P. Pfeiffer, [arXiv:2006.12036](https://arxiv.org/abs/2006.12036)
 
-32\. "Determination of new coefficients in the angular momentum and energy fluxes at infinity to 9PN for eccentric Schwarzschild extreme-mass-ratio inspirals using mode-by-mode fitting", Christopher Munna, Charles R. Evans, Seth Hopper, Erik Forseth, [arXiv:2005.03044](https://arxiv.org/abs/2005.03044) (*)  
+35\. "Modeling and detecting resonant tides of exotic compact objects", Kwinten Fransen, Gideon Koekoek, Rob Tielemans, Bert Vercnocke, [arXiv:2005.12286](https://arxiv.org/abs/2005.12286), 
+
+34\. "Ringing of rotating black holes in higher-derivative gravity", Pablo A. Cano, Kwinten Fransen, Thomas Hertog, [arXiv:2005.03671](https://arxiv.org/abs/2005.03671)
+
+33\. "Determination of new coefficients in the angular momentum and energy fluxes at infinity to 9PN for eccentric Schwarzschild extreme-mass-ratio inspirals using mode-by-mode fitting", Christopher Munna, Charles R. Evans, Seth Hopper, Erik Forseth, [arXiv:2005.03044](https://arxiv.org/abs/2005.03044) (*)  
+
+32\. "Pseudospectrum and black hole quasi-normal mode (in)stability", José Luis Jaramillo, Rodrigo Panosso Macedo, Lamis Al Sheikh, [arXiv:2004.06434](https://arxiv.org/abs/2004.06434)
 
 31\. "Extreme mass ratio inspirals with spinning secondary: a detailed study of equatorial circular motion", Gabriel Andres Piovano, Andrea Maselli, Paolo Pani1, [arXiv:2004.02654](https://arxiv.org/abs/2004.02654) (*)
 
