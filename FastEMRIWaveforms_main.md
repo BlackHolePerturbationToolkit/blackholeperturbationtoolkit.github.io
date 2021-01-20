@@ -29,4 +29,4 @@ The original FastEMRIWaveforms paper can be found at [arXiv:2008.06071](https://
 
 ## Authors and contributors
 
-Michael Katz, Alvin J. K. Chua, Niels Warburton
+**Michael Katz**, Alvin J. K. Chua, Niels Warburton
