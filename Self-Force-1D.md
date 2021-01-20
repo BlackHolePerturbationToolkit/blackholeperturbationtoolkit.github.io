@@ -22,3 +22,7 @@ Detailed instructions for installing and running the code can be found in the RE
 ## Publications
 
 A variant of the Self-Force-1D code was used to compute the time-domain results presented in [Class. Quant. Grav. 35:194001](https://doi.org/10.1088%2F1361-6382%2Faad420), [arXiv:1712.01098](https://arxiv.org/abs/1712.01098)
+
+## Authors and contributors
+
+**Peter Diener**, Barry Wardell, Niels Warburton
