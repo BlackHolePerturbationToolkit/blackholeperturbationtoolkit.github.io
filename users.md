@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+46\. "Spinning test body orbiting around a Kerr black hole: eccentric equatorial orbits and their asymptotic gravitational-wave fluxes", Viktor Skoupý, Georgios Lukes-Gerakopoulos, [arXiv:2102.04819](https://arxiv.org/abs/2102.04819)
+
 45\. "Gravitational wave templates from Extreme Mass Ratio Inspirals", Viktor Skoupý,  Georgios Lukes-Gerakopoulos, [arXiv:2101.04533](https://arxiv.org/abs/2101.04533)
 
 44\. "Post-Newtonian templates for gravitational waves from compact binary inspirals", Soichiro Isoyama, Riccardo Sturani, Hiroyuki Nakano, [arXiv:2012.01350](https://arxiv.org/abs/2012.01350)
