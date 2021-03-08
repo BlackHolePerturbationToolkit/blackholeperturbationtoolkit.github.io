@@ -19,15 +19,17 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
-48\. Stellar transits across a magnetized accretion torus as a mechanism for plasmoid ejection, Petra Suková, Michal Zajaček, Vojtěch Witzany, Vladimír Karas, [arXiv:2102.08135](https://arxiv.org/abs/2102.08135)
+49\. Stellar transits across a magnetized accretion torus as a mechanism for plasmoid ejection, Petra Suková, Michal Zajaček, Vojtěch Witzany, Vladimír Karas, [arXiv:2102.08135](https://arxiv.org/abs/2102.08135)
 
-47\. The Teukolsky-Starobinsky constants: facts and fictions, Rita Teixeira da Costa, Marc Casals, [arXiv:2102.06734](https://arxiv.org/abs/2102.06734)
+48\. The Teukolsky-Starobinsky constants: facts and fictions, Rita Teixeira da Costa, Marc Casals, [arXiv:2102.06734](https://arxiv.org/abs/2102.06734)
 
-46\. "Spinning test body orbiting around a Kerr black hole: eccentric equatorial orbits and their asymptotic gravitational-wave fluxes", Viktor Skoupý, Georgios Lukes-Gerakopoulos, [arXiv:2102.04819](https://arxiv.org/abs/2102.04819)
+47\. "Spinning test body orbiting around a Kerr black hole: eccentric equatorial orbits and their asymptotic gravitational-wave fluxes", Viktor Skoupý, Georgios Lukes-Gerakopoulos, [arXiv:2102.04819](https://arxiv.org/abs/2102.04819)
 
-45\. "Gravitational wave templates from Extreme Mass Ratio Inspirals", Viktor Skoupý,  Georgios Lukes-Gerakopoulos, [arXiv:2101.04533](https://arxiv.org/abs/2101.04533)
+46\. "Gravitational wave templates from Extreme Mass Ratio Inspirals", Viktor Skoupý,  Georgios Lukes-Gerakopoulos, [arXiv:2101.04533](https://arxiv.org/abs/2101.04533)
 
-44\. "Post-Newtonian templates for gravitational waves from compact binary inspirals", Soichiro Isoyama, Riccardo Sturani, Hiroyuki Nakano, [arXiv:2012.01350](https://arxiv.org/abs/2012.01350)
+45\. "Post-Newtonian templates for gravitational waves from compact binary inspirals", Soichiro Isoyama, Riccardo Sturani, Hiroyuki Nakano, [arXiv:2012.01350](https://arxiv.org/abs/2012.01350)
+
+44\. "Characteristic formulation of the Regge-Wheeler and Zerilli Green functions", Conor O'Toole, Adrian Ottewill, Barry Wardell, [arXiv:2010.15818](https://arxiv.org/abs/2010.15818)
 
 43\. "Extreme precision for extreme spin: probing near-extremal black holes using LISA", Ollie Burke, Jonathan R. Gair, Joan Simón, Matthew C. Edwards, [arXiv:2010.05932](https://arxiv.org/abs/2010.05932)
 
