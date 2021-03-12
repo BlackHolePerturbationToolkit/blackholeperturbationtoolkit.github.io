@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+50\. Assessing the impact of transient orbital resonances, Lorenzo Speri, Jonathan R. Gair, [arXiv:2103.06306](https://arxiv.org/abs/2103.06306)
+
 49\. Stellar transits across a magnetized accretion torus as a mechanism for plasmoid ejection, Petra Suková, Michal Zajaček, Vojtěch Witzany, Vladimír Karas, [arXiv:2102.08135](https://arxiv.org/abs/2102.08135)
 
 48\. The Teukolsky-Starobinsky constants: facts and fictions, Rita Teixeira da Costa, Marc Casals, [arXiv:2102.06734](https://arxiv.org/abs/2102.06734)
