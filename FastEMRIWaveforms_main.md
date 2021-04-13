@@ -25,7 +25,8 @@ All information and examples on installing and running the code can be found [in
 
 ## Publications
 
-The original FastEMRIWaveforms paper can be found at [arXiv:2008.06071](https://arxiv.org/abs/2008.06071). 
+The original FastEMRIWaveforms paper can be found at [arXiv:2008.06071](https://arxiv.org/abs/2008.06071). </br>
+The first follow up paper can be found at [arXiv:2104.04582](https://arxiv.org/abs/2104.04582)
 
 ## Authors and contributors
 

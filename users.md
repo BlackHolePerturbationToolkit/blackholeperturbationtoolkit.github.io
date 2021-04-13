@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+52\. FastEMRIWaveforms: New tools for millihertz gravitational-wave data analysis, Michael L. Katz, Alvin J.K. Chua, Lorenzo Speri, Niels Warburton, Scott A. Hughes, [arXiv:2104.04582](https://arxiv.org/abs/2104.04582) (*)
+
 51\. Importance of tidal resonances in extreme-mass-ratio inspirals, Priti Gupta, Béatrice Bonga, Alvin J. K. Chua, Takahiro Tanaka, [arXiv:2104.03422](https://arxiv.org/abs/2104.03422)
 
 50\. Assessing the impact of transient orbital resonances, Lorenzo Speri, Jonathan R. Gair, [arXiv:2103.06306](https://arxiv.org/abs/2103.06306)
