@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+57\. Classification of radial Kerr geodesic motion, Geoffrey Compère, Yan Liu, Jiang Long, [arXiv:2106.03141](https://arxiv.org/abs/2106.03141)
+
 56\. Resonant self-force effects in extreme-mass-ratio binaries: A scalar model, Zachary Nasipak, Charles R. Evans, [arXiv:2105.15188](https://arxiv.org/abs/2105.15188)
 
 55\. Assessing the detectability of the secondary spin in extreme mass-ratio inspirals with fully-relativistic numerical waveforms, Gabriel Andres Piovano, Richard Brito, Andrea Maselli, Paolo Pani, [arXiv:2105.07083](https://arxiv.org/abs/2105.07083)
