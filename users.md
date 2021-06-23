@@ -19,7 +19,7 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
-59\. Detecting new fundamental fields with LISA, Andrea Maselli, Nicola Franchini, Leonardo Gualtieri, Thomas P. Sotiriou, Susanna Barsanti, Paolo Pani, [arXiv:2106.11325 d ](https://arxiv.org/abs/2106.11325)
+59\. Detecting new fundamental fields with LISA, Andrea Maselli, Nicola Franchini, Leonardo Gualtieri, Thomas P. Sotiriou, Susanna Barsanti, Paolo Pani, [arXiv:2106.11325](https://arxiv.org/abs/2106.11325)
 
 58\. Divergences in gravitational-wave emission and absorption from extreme mass ratio binaries, Enrico Barausse, Emanuele Berti, Vitor Cardoso, Scott A. Hughes, Gaurav Khanna, [arXiv:2106.09721](https://arxiv.org/abs/2106.09721)
 
