@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+60\. Gravitational-wave energy flux for compact binaries through second order in the mass ratio, Niels Warburton, Adam Pound, Barry Wardell, Jeremy Miller, Leanne Durkan, [arXiv:2107.01298](https://arxiv.org/abs/2107.01298)
+
 59\. Detecting new fundamental fields with LISA, Andrea Maselli, Nicola Franchini, Leonardo Gualtieri, Thomas P. Sotiriou, Susanna Barsanti, Paolo Pani, [arXiv:2106.11325](https://arxiv.org/abs/2106.11325)
 
 58\. Divergences in gravitational-wave emission and absorption from extreme mass ratio binaries, Enrico Barausse, Emanuele Berti, Vitor Cardoso, Scott A. Hughes, Gaurav Khanna, [arXiv:2106.09721](https://arxiv.org/abs/2106.09721)
