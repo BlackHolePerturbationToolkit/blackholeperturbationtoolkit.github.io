@@ -19,35 +19,45 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
-61\. Regularization of a scalar charged particle for generic orbits in Kerr spacetime, Anna Heffernan, [arXiv:2107.14750](https://arxiv.org/abs/2107.14750) (*)
+66\. "Survey of gravitational wave memory in intermediate mass ratio binaries", Tousif Islam, Scott E. Field, Gaurav Khanna, Niels Warburton, [arXiv:2109.00754](https://arxiv.org/abs/2109.00754)
 
-60\. Gravitational-wave energy flux for compact binaries through second order in the mass ratio, Niels Warburton, Adam Pound, Barry Wardell, Jeremy Miller, Leanne Durkan, [arXiv:2107.01298](https://arxiv.org/abs/2107.01298)
+65\. "Highly eccentric EMRI waveforms via fast self-forced inspirals", Jonathan McCart, Thomas Osburn, Justin Y. J. Burton, [arXiv:2109.00056](https://arxiv.org/abs/2109.00056)
 
-59\. Detecting new fundamental fields with LISA, Andrea Maselli, Nicola Franchini, Leonardo Gualtieri, Thomas P. Sotiriou, Susanna Barsanti, Paolo Pani, [arXiv:2106.11325](https://arxiv.org/abs/2106.11325)
+64\. "Tests for the existence of horizon through gravitational waves from a small binary in the vicinity of a massive object", Yun Fang, Rong-Zhen Guo, Qing-Guo Huang, [arXiv:2108.04511](https://arxiv.org/abs/2108.04511)
 
-58\. Divergences in gravitational-wave emission and absorption from extreme mass ratio binaries, Enrico Barausse, Emanuele Berti, Vitor Cardoso, Scott A. Hughes, Gaurav Khanna, [arXiv:2106.09721](https://arxiv.org/abs/2106.09721)
+63\. Regularization of a scalar charged particle for generic orbits in Kerr spacetime, Anna Heffernan, [arXiv:2107.14750](https://arxiv.org/abs/2107.14750) (*)
 
-57\. Classification of radial Kerr geodesic motion, Geoffrey Compère, Yan Liu, Jiang Long, [arXiv:2106.03141](https://arxiv.org/abs/2106.03141)
+62\. Gravitational-wave energy flux for compact binaries through second order in the mass ratio, Niels Warburton, Adam Pound, Barry Wardell, Jeremy Miller, Leanne Durkan, [arXiv:2107.01298](https://arxiv.org/abs/2107.01298)
 
-56\. Resonant self-force effects in extreme-mass-ratio binaries: A scalar model, Zachary Nasipak, Charles R. Evans, [arXiv:2105.15188](https://arxiv.org/abs/2105.15188)
+61\. Detecting new fundamental fields with LISA, Andrea Maselli, Nicola Franchini, Leonardo Gualtieri, Thomas P. Sotiriou, Susanna Barsanti, Paolo Pani, [arXiv:2106.11325](https://arxiv.org/abs/2106.11325)
 
-55\. Assessing the detectability of the secondary spin in extreme mass-ratio inspirals with fully-relativistic numerical waveforms, Gabriel Andres Piovano, Richard Brito, Andrea Maselli, Paolo Pani, [arXiv:2105.07083](https://arxiv.org/abs/2105.07083)
+60\. Divergences in gravitational-wave emission and absorption from extreme mass ratio binaries, Enrico Barausse, Emanuele Berti, Vitor Cardoso, Scott A. Hughes, Gaurav Khanna, [arXiv:2106.09721](https://arxiv.org/abs/2106.09721)
 
-54\. Time-domain metric reconstruction for hyperbolic scattering, Oliver Long, Leor Barack, [arXiv:2105.05630](https://arxiv.org/abs/2105.05630)
+59\. Classification of radial Kerr geodesic motion, Geoffrey Compère, Yan Liu, Jiang Long, [arXiv:2106.03141](https://arxiv.org/abs/2106.03141)
 
-53\. Black-Hole Perturbation Plus Post-Newtonian Theory: Hybrid Waveform for Neutron Star Binaries, Xuefeng Feng, Zhenwei Lyu, Huan Yang, [arXiv:2104.11848](https://arxiv.org/abs/2104.11848)
+58\. Resonant self-force effects in extreme-mass-ratio binaries: A scalar model, Zachary Nasipak, Charles R. Evans, [arXiv:2105.15188](https://arxiv.org/abs/2105.15188)
 
-52\. FastEMRIWaveforms: New tools for millihertz gravitational-wave data analysis, Michael L. Katz, Alvin J.K. Chua, Lorenzo Speri, Niels Warburton, Scott A. Hughes, [arXiv:2104.04582](https://arxiv.org/abs/2104.04582) (*)
+57\. Assessing the detectability of the secondary spin in extreme mass-ratio inspirals with fully-relativistic numerical waveforms, Gabriel Andres Piovano, Richard Brito, Andrea Maselli, Paolo Pani, [arXiv:2105.07083](https://arxiv.org/abs/2105.07083)
 
-51\. Importance of tidal resonances in extreme-mass-ratio inspirals, Priti Gupta, Béatrice Bonga, Alvin J. K. Chua, Takahiro Tanaka, [arXiv:2104.03422](https://arxiv.org/abs/2104.03422)
+56\. Time-domain metric reconstruction for hyperbolic scattering, Oliver Long, Leor Barack, [arXiv:2105.05630](https://arxiv.org/abs/2105.05630)
 
-50\. Assessing the impact of transient orbital resonances, Lorenzo Speri, Jonathan R. Gair, [arXiv:2103.06306](https://arxiv.org/abs/2103.06306)
+55\. Black-Hole Perturbation Plus Post-Newtonian Theory: Hybrid Waveform for Neutron Star Binaries, Xuefeng Feng, Zhenwei Lyu, Huan Yang, [arXiv:2104.11848](https://arxiv.org/abs/2104.11848)
 
-49\. Stellar transits across a magnetized accretion torus as a mechanism for plasmoid ejection, Petra Suková, Michal Zajaček, Vojtěch Witzany, Vladimír Karas, [arXiv:2102.08135](https://arxiv.org/abs/2102.08135)
+54\. FastEMRIWaveforms: New tools for millihertz gravitational-wave data analysis, Michael L. Katz, Alvin J.K. Chua, Lorenzo Speri, Niels Warburton, Scott A. Hughes, [arXiv:2104.04582](https://arxiv.org/abs/2104.04582) (*)
 
-48\. The Teukolsky-Starobinsky constants: facts and fictions, Rita Teixeira da Costa, Marc Casals, [arXiv:2102.06734](https://arxiv.org/abs/2102.06734)
+53\. Importance of tidal resonances in extreme-mass-ratio inspirals, Priti Gupta, Béatrice Bonga, Alvin J. K. Chua, Takahiro Tanaka, [arXiv:2104.03422](https://arxiv.org/abs/2104.03422)
 
-47\. "Spinning test body orbiting around a Kerr black hole: eccentric equatorial orbits and their asymptotic gravitational-wave fluxes", Viktor Skoupý, Georgios Lukes-Gerakopoulos, [arXiv:2102.04819](https://arxiv.org/abs/2102.04819)
+52\. Assessing the impact of transient orbital resonances, Lorenzo Speri, Jonathan R. Gair, [arXiv:2103.06306](https://arxiv.org/abs/2103.06306)
+
+51\. Stellar transits across a magnetized accretion torus as a mechanism for plasmoid ejection, Petra Suková, Michal Zajaček, Vojtěch Witzany, Vladimír Karas, [arXiv:2102.08135](https://arxiv.org/abs/2102.08135)
+
+50\. The Teukolsky-Starobinsky constants: facts and fictions, Rita Teixeira da Costa, Marc Casals, [arXiv:2102.06734](https://arxiv.org/abs/2102.06734)
+
+49\. "Spinning test body orbiting around a Kerr black hole: eccentric equatorial orbits and their asymptotic gravitational-wave fluxes", Viktor Skoupý, Georgios Lukes-Gerakopoulos, [arXiv:2102.04819](https://arxiv.org/abs/2102.04819)
+
+48\. "Scope out multiband gravitational-wave observations of GW190521-like binary black holes with space gravitational wave antenna B-DECIGO", Hiroyuki Nakano, Ryuichi Fujita, Soichiro Isoyama, Norichika Sago, [arXiv:2101.06402](https://arxiv.org/abs/2101.06402)
+
+47\. "Black hole perturbation theory and gravitational self-force", Adam Pound, Barry Wardell, [arXiv:2101.04592](https://arxiv.org/abs/2101.04592)
 
 46\. "Gravitational wave templates from Extreme Mass Ratio Inspirals", Viktor Skoupý,  Georgios Lukes-Gerakopoulos, [arXiv:2101.04533](https://arxiv.org/abs/2101.04533)
 
