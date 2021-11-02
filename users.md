@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+68\. "The Radial Action from Probe Amplitudes to All Orders", Uri Kol, Donal O'connell, Ofri Telem, [arXiv:2109.12092](https://arxiv.org/abs/2109.12092)
+
 67\. "Detecting Subsolar-Mass Primordial Black Holes in Extreme Mass-Ratio Inspirals with LISA and Einstein Telescope", Susanna Barsanti, Valerio De Luca, Andrea Maselli, Paolo Pani, [arXiv:2109.02170](https://arxiv.org/abs/2109.02170)
 
 66\. "Survey of gravitational wave memory in intermediate mass ratio binaries", Tousif Islam, Scott E. Field, Gaurav Khanna, Niels Warburton, [arXiv:2109.00754](https://arxiv.org/abs/2109.00754)
