@@ -19,6 +19,14 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+72\. "The prospect of distinguishing astrophysical objects with LISA", Mostafizur Rahman, Arpan Bhattacharyya, [arXiv:2112.13869](https://arxiv.org/abs/2112.13869)
+
+71\. "Gravitational waveforms for compact binaries from second-order self-force theory", Barry Wardell, Adam Pound, Niels Warburton, Jeremy Miller, Leanne Durkan, Alexandre Le Tiec, [arXiv:2112.12265](https://arxiv.org/abs/2112.12265)
+
+70\. "Adiabatic waveforms from extreme-mass-ratio inspirals: an analytical approach", Soichiro Isoyama, Ryuichi Fujita, Alvin J. K. Chua, Hiroyuki Nakano, Adam Pound, Norichika Sago, [arXiv:2111.05288](https://arxiv.org/abs/2111.05288)
+
+69\. "Deformed Schwarzschild horizons in second-order perturbation theory: mass, geometry, and teleology", Riccardo Bonetto, Adam Pound, Zeyd Sam, [arXiv:2109.09514](https://arxiv.org/abs/2109.09514)
+
 68\. "The Radial Action from Probe Amplitudes to All Orders", Uri Kol, Donal O'connell, Ofri Telem, [arXiv:2109.12092](https://arxiv.org/abs/2109.12092)
 
 67\. "Detecting Subsolar-Mass Primordial Black Holes in Extreme Mass-Ratio Inspirals with LISA and Einstein Telescope", Susanna Barsanti, Valerio De Luca, Andrea Maselli, Paolo Pani, [arXiv:2109.02170](https://arxiv.org/abs/2109.02170)
