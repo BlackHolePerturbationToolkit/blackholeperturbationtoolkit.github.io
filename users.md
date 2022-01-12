@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+73\. "On Detecting Equatorial Symmetry Breaking with LISA", Kwinten Fransen, Daniel R. Mayerson, [arXiv:2201.03569](https://arxiv.org/abs/2201.03569)
+
 72\. "The prospect of distinguishing astrophysical objects with LISA", Mostafizur Rahman, Arpan Bhattacharyya, [arXiv:2112.13869](https://arxiv.org/abs/2112.13869)
 
 71\. "Gravitational waveforms for compact binaries from second-order self-force theory", Barry Wardell, Adam Pound, Niels Warburton, Jeremy Miller, Leanne Durkan, Alexandre Le Tiec, [arXiv:2112.12265](https://arxiv.org/abs/2112.12265)
