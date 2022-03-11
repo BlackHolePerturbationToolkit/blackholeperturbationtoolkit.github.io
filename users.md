@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+78\. "Extreme mass-ratio inspirals as probes of scalar fields: eccentric equatorial orbits around Kerr black holes", Susanna Barsanti, Nicola Franchini, Leonardo Gualtieri, Andrea Maselli, Thomas P. Sotiriou, [arXiv:2203.05003](https://arxiv.org/abs/2203.05003)
+
 77\. "Hyperboloidal method for frequency-domain self-force calculations", Rodrigo Panosso Macedo, Benjamin Leather, Niels Warburton, Barry Wardell, Anıl Zenginoğlu, [arXiv:2202.01794](https://arxiv.org/abs/2202.01794)
 
 76\. "Precisely computing bound orbits of spinning bodies around black holes II: Generic orbits", Lisa V. Drummond, Scott A. Hughes, [arXiv:2201.13335](https://arxiv.org/abs/2201.13335)
