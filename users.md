@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+80\. "Surrogate model for gravitational wave signals from non-spinning, comparable- to large-mass-ratio black hole binaries built on black hole perturbation theory waveforms calibrated to numerical relativity", Tousif Islam, Scott E. Field, Scott A. Hughes, Gaurav Khanna, Vijay Varma, Matthew Giesler, Mark A. Scheel, Lawrence E. Kidder, Harald P. Pfeiffer, [arXiv:2204.01972](https://arxiv.org/abs/2204.01972) (*)
+
 79\. "High-order post-Newtonian expansion of the redshift invariant for eccentric-orbit non-spinning extreme-mass-ratio inspirals", Christopher Munna, Charles R. Evans, [arXiv:2203.13832](https://arxiv.org/abs/2203.13832)
 
 78\. "Extreme mass-ratio inspirals as probes of scalar fields: eccentric equatorial orbits around Kerr black holes", Susanna Barsanti, Nicola Franchini, Leonardo Gualtieri, Andrea Maselli, Thomas P. Sotiriou, [arXiv:2203.05003](https://arxiv.org/abs/2203.05003)
