@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+82\. "Modeling transient resonances in extreme-mass-ratio inspirals", Priti Gupta, Lorenzo Speri, Béatrice Bonga, Alvin J.K. Chua, Takahiro Tanaka, [arXiv:2205.04808](https://arxiv.org/abs/2205.04808)
+
 81\. "Detecting electric charge with Extreme Mass Ratio Inspirals", Chao Zhang, Yungui Gong, [arXiv:2204.01972](https://arxiv.org/abs/2204.08881)
 
 80\. "Surrogate model for gravitational wave signals from non-spinning, comparable- to large-mass-ratio black hole binaries built on black hole perturbation theory waveforms calibrated to numerical relativity", Tousif Islam, Scott E. Field, Scott A. Hughes, Gaurav Khanna, Vijay Varma, Matthew Giesler, Mark A. Scheel, Lawrence E. Kidder, Harald P. Pfeiffer, [arXiv:2204.01972](https://arxiv.org/abs/2204.01972) (*)
