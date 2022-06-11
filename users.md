@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+83\. "Post-Newtonian expansion of the spin-precession invariant for eccentric-orbit non-spinning extreme-mass-ratio inspirals to 9PN and e^16", Christopher Munna, Charles R. Evans, [2206.04085c](https://arxiv.org/abs/2206.04085) (*)
+
 82\. "Modeling transient resonances in extreme-mass-ratio inspirals", Priti Gupta, Lorenzo Speri, Béatrice Bonga, Alvin J.K. Chua, Takahiro Tanaka, [arXiv:2205.04808](https://arxiv.org/abs/2205.04808)
 
 81\. "Detecting electric charge with Extreme Mass Ratio Inspirals", Chao Zhang, Yungui Gong, [arXiv:2204.01972](https://arxiv.org/abs/2204.08881)
