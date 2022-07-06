@@ -19,21 +19,25 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
-85\. "Slow evolution of the metric perturbation due to a quasicircular inspiral into a Schwarzschild black hole", Leanne Durkan, Niels Warburton, [arXiv:2206.08179](https://arxiv.org/abs/2206.08179)
+87\. "Slow evolution of the metric perturbation due to a quasicircular inspiral into a Schwarzschild black hole", Leanne Durkan, Niels Warburton, [arXiv:2206.08179](https://arxiv.org/abs/2206.08179)
 
-84\. "QuasinormalModes.jl: A Julia package for computing discrete eigenvalues of second order ODEs", Lucas Timotheo Sanches, [arXiv:2206.04747](https://arxiv.org/abs/2206.04747)
+86\. "QuasinormalModes.jl: A Julia package for computing discrete eigenvalues of second order ODEs", Lucas Timotheo Sanches, [arXiv:2206.04747](https://arxiv.org/abs/2206.04747)
 
-83\. "Post-Newtonian expansion of the spin-precession invariant for eccentric-orbit non-spinning extreme-mass-ratio inspirals to 9PN and e^16", Christopher Munna, Charles R. Evans, [arXiv:2206.04085](https://arxiv.org/abs/2206.04085) (*)
+85\. "Post-Newtonian expansion of the spin-precession invariant for eccentric-orbit non-spinning extreme-mass-ratio inspirals to 9PN and e^16", Christopher Munna, Charles R. Evans, [arXiv:2206.04085](https://arxiv.org/abs/2206.04085) (*)
 
-82\. "Modeling transient resonances in extreme-mass-ratio inspirals", Priti Gupta, Lorenzo Speri, Béatrice Bonga, Alvin J.K. Chua, Takahiro Tanaka, [arXiv:2205.04808](https://arxiv.org/abs/2205.04808)
+84\. "Modeling transient resonances in extreme-mass-ratio inspirals", Priti Gupta, Lorenzo Speri, Béatrice Bonga, Alvin J.K. Chua, Takahiro Tanaka, [arXiv:2205.04808](https://arxiv.org/abs/2205.04808)
 
-81\. "Detecting electric charge with Extreme Mass Ratio Inspirals", Chao Zhang, Yungui Gong, [arXiv:2204.01972](https://arxiv.org/abs/2204.08881)
+83\. "The impact of relativistic corrections on the detectability of dark-matter spikes with gravitational waves", Nicholas Speeney, Andrea Antonelli, Vishal Baibhav, Emanuele Berti, [arXiv:2204.12508](https://arxiv.org/abs/2204.12508)
 
-80\. "Surrogate model for gravitational wave signals from non-spinning, comparable- to large-mass-ratio black hole binaries built on black hole perturbation theory waveforms calibrated to numerical relativity", Tousif Islam, Scott E. Field, Scott A. Hughes, Gaurav Khanna, Vijay Varma, Matthew Giesler, Mark A. Scheel, Lawrence E. Kidder, Harald P. Pfeiffer, [arXiv:2204.01972](https://arxiv.org/abs/2204.01972) (*)
+82\. "Detecting electric charge with Extreme Mass Ratio Inspirals", Chao Zhang, Yungui Gong, [arXiv:2204.01972](https://arxiv.org/abs/2204.08881)
 
-79\. "High-order post-Newtonian expansion of the redshift invariant for eccentric-orbit non-spinning extreme-mass-ratio inspirals", Christopher Munna, Charles R. Evans, [arXiv:2203.13832](https://arxiv.org/abs/2203.13832)
+81\. "Surrogate model for gravitational wave signals from non-spinning, comparable- to large-mass-ratio black hole binaries built on black hole perturbation theory waveforms calibrated to numerical relativity", Tousif Islam, Scott E. Field, Scott A. Hughes, Gaurav Khanna, Vijay Varma, Matthew Giesler, Mark A. Scheel, Lawrence E. Kidder, Harald P. Pfeiffer, [arXiv:2204.01972](https://arxiv.org/abs/2204.01972) (*)
 
-78\. "Extreme mass-ratio inspirals as probes of scalar fields: eccentric equatorial orbits around Kerr black holes", Susanna Barsanti, Nicola Franchini, Leonardo Gualtieri, Andrea Maselli, Thomas P. Sotiriou, [arXiv:2203.05003](https://arxiv.org/abs/2203.05003)
+80\. "High-order post-Newtonian expansion of the redshift invariant for eccentric-orbit non-spinning extreme-mass-ratio inspirals", Christopher Munna, Charles R. Evans, [arXiv:2203.13832](https://arxiv.org/abs/2203.13832)
+
+79\. "Extreme mass-ratio inspirals as probes of scalar fields: eccentric equatorial orbits around Kerr black holes", Susanna Barsanti, Nicola Franchini, Leonardo Gualtieri, Andrea Maselli, Thomas P. Sotiriou, [arXiv:2203.05003](https://arxiv.org/abs/2203.05003)
+
+78\. "Redshift factor and the small mass-ratio limit in binary black hole simulations", Sergi Navarro Albalat, Aaron Zimmerman, Matthew Giesler, Mark A. Scheel, [arXiv:2203.04893](https://arxiv.org/abs/2203.04893)
 
 77\. "Hyperboloidal method for frequency-domain self-force calculations", Rodrigo Panosso Macedo, Benjamin Leather, Niels Warburton, Barry Wardell, Anıl Zenginoğlu, [arXiv:2202.01794](https://arxiv.org/abs/2202.01794)
 
