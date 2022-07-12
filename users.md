@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+88\. "Post-geodesic corrections to the binding energy during the transition to plunge in numerical relativity simulations", Sergi Navarro Albalat, Aaron Zimmerman, Matthew Giesler, Mark A. Scheel, [arXiv:2207.04066](https://arxiv.org/abs/2207.04066)
+
 87\. "Slow evolution of the metric perturbation due to a quasicircular inspiral into a Schwarzschild black hole", Leanne Durkan, Niels Warburton, [arXiv:2206.08179](https://arxiv.org/abs/2206.08179)
 
 86\. "QuasinormalModes.jl: A Julia package for computing discrete eigenvalues of second order ODEs", Lucas Timotheo Sanches, [arXiv:2206.04747](https://arxiv.org/abs/2206.04747)
