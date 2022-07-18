@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+89\. "Extreme Love in the SPA: constraining the tidal deformability of supermassive objects with extreme mass ratio inspirals and semi-analytical, frequency-domain waveforms", Gabriel Andres Piovano, Andrea Maselli, Paolo Pani, [arXiv:2207.07452](https://arxiv.org/abs/2207.07452)
+
 88\. "Post-geodesic corrections to the binding energy during the transition to plunge in numerical relativity simulations", Sergi Navarro Albalat, Aaron Zimmerman, Matthew Giesler, Mark A. Scheel, [arXiv:2207.04066](https://arxiv.org/abs/2207.04066)
 
 87\. "Slow evolution of the metric perturbation due to a quasicircular inspiral into a Schwarzschild black hole", Leanne Durkan, Niels Warburton, [arXiv:2206.08179](https://arxiv.org/abs/2206.08179)
