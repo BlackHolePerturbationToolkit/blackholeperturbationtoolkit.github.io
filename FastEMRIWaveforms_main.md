@@ -30,4 +30,4 @@ The first follow up paper can be found at [arXiv:2104.04582](https://arxiv.org/a
 
 ## Authors and contributors
 
-**Michael Katz**, Alvin J. K. Chua, Niels Warburton
+**Michael Katz**, Alvin J. K. Chua, Scott. A. Hughes, Lorenzo Speri, Niels Warburton
