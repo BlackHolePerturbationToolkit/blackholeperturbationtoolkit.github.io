@@ -7,4 +7,4 @@ title: Black Hole Perturbation Toolkit
 
 | Package | Status |
 | --- | --- |
-| SpinWeightedSpheroidalHarmonics | ![SpinWeightedSpheroidalHarmonics unit test status](https://raw.githubusercontent.com/BlackHolePerturbationToolkit/SpinWeightedSpheroidalHarmonics/badges/master/testresult.svg) |
+| SpinWeightedSpheroidalHarmonics | ![SpinWeightedSpheroidalHarmonics unit test status](https://raw.githubusercontent.com/BlackHolePerturbationToolkit/SpinWeightedSpheroidalHarmonics/gh-pages/badges/master/testresult.svg) |
