@@ -21,7 +21,7 @@ We do our best to ensure the components of the Toolkit work correctly but inevit
 
 ## Unit testing
 
-One of the aims of the toolkit is for all components to be well-tested and reliable. Every commit is tested using a Jenkins continuous integration server. This means each time the code is changed it is automatically tested to ensure no errors have been introduced. You can find the current build status at [build.bhptoolkit.org](http://build.bhptoolkit.org/blue) (password protected for security reasons).
+One of the aims of the Toolkit is for all components to be well-tested and reliable. To assist with this we have enabled continuous integration testing using GitHub Actions. This means each time the code is changed it is automatically tested to ensure no errors have been introduced. You can find the current build status of various packages on the [unit test status page](https://bhptoolkit.org/teststatus).
 
 ## Naming conventions
 
