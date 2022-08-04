@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+92\. "Comparing second-order gravitational self-force and effective one body waveforms from inspiralling, quasi-circular and nonspinning black hole binaries II: the large-mass-ratio case", Angelica Albertini, Alessandro Nagar, Adam Pound, Niels Warburton, Barry Wardell, Leanne Durkan, Jeremy Miller, [arXiv:2208.02055](https://arxiv.org/abs/2208.02055)
+
 91\. "Comparing second-order gravitational self-force, numerical relativity and effective one body waveforms from inspiralling, quasi-circular and nonspinning black hole binaries", Angelica Albertini, Alessandro Nagar, Adam Pound, Niels Warburton, Barry Wardell, Leanne Durkan, Jeremy Miller, [arXiv:2208.01049](https://arxiv.org/abs/2208.01049)
 
 90\. "Measuring accretion-disk effects with gravitational waves from extreme mass ratio inspirals", Lorenzo Speri, Andrea Antonelli, Laura Sberna, Stanislav Babak, Enrico Barausse, Jonathan R. Gair, Michael L. Katz, [arXiv:2207.10086](https://arxiv.org/abs/2207.10086)
