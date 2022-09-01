@@ -19,41 +19,45 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
-92\. "Comparing second-order gravitational self-force and effective one body waveforms from inspiralling, quasi-circular and nonspinning black hole binaries II: the large-mass-ratio case", Angelica Albertini, Alessandro Nagar, Adam Pound, Niels Warburton, Barry Wardell, Leanne Durkan, Jeremy Miller, [arXiv:2208.02055](https://arxiv.org/abs/2208.02055)
+94\. "Comparing second-order gravitational self-force and effective one body waveforms from inspiralling, quasi-circular and nonspinning black hole binaries II: the large-mass-ratio case", Angelica Albertini, Alessandro Nagar, Adam Pound, Niels Warburton, Barry Wardell, Leanne Durkan, Jeremy Miller, [arXiv:2208.02055](https://arxiv.org/abs/2208.02055)
 
-91\. "Comparing second-order gravitational self-force, numerical relativity and effective one body waveforms from inspiralling, quasi-circular and nonspinning black hole binaries", Angelica Albertini, Alessandro Nagar, Adam Pound, Niels Warburton, Barry Wardell, Leanne Durkan, Jeremy Miller, [arXiv:2208.01049](https://arxiv.org/abs/2208.01049)
+93\. "Comparing second-order gravitational self-force, numerical relativity and effective one body waveforms from inspiralling, quasi-circular and nonspinning black hole binaries", Angelica Albertini, Alessandro Nagar, Adam Pound, Niels Warburton, Barry Wardell, Leanne Durkan, Jeremy Miller, [arXiv:2208.01049](https://arxiv.org/abs/2208.01049)
 
-90\. "Measuring accretion-disk effects with gravitational waves from extreme mass ratio inspirals", Lorenzo Speri, Andrea Antonelli, Laura Sberna, Stanislav Babak, Enrico Barausse, Jonathan R. Gair, Michael L. Katz, [arXiv:2207.10086](https://arxiv.org/abs/2207.10086)
+92\. "Collective filters: a new approach to analyze the gravitational-wave ringdown of binary black-hole mergers", Sizheng Ma, Keefe Mitman, Ling Sun, Nils Deppe, François Hébert, Lawrence E. Kidder, Jordan Moxon, William Throwe, Nils L. Vu, Yanbei Chen, [arXiv:2207.10870](https://arxiv.org/abs/2207.10870)
 
-89\. "Extreme Love in the SPA: constraining the tidal deformability of supermassive objects with extreme mass ratio inspirals and semi-analytical, frequency-domain waveforms", Gabriel Andres Piovano, Andrea Maselli, Paolo Pani, [arXiv:2207.07452](https://arxiv.org/abs/2207.07452)
+91\. "Measuring accretion-disk effects with gravitational waves from extreme mass ratio inspirals", Lorenzo Speri, Andrea Antonelli, Laura Sberna, Stanislav Babak, Enrico Barausse, Jonathan R. Gair, Michael L. Katz, [arXiv:2207.10086](https://arxiv.org/abs/2207.10086)
 
-88\. "Post-geodesic corrections to the binding energy during the transition to plunge in numerical relativity simulations", Sergi Navarro Albalat, Aaron Zimmerman, Matthew Giesler, Mark A. Scheel, [arXiv:2207.04066](https://arxiv.org/abs/2207.04066)
+90\. "Extreme Love in the SPA: constraining the tidal deformability of supermassive objects with extreme mass ratio inspirals and semi-analytical, frequency-domain waveforms", Gabriel Andres Piovano, Andrea Maselli, Paolo Pani, [arXiv:2207.07452](https://arxiv.org/abs/2207.07452)
 
-87\. "Slow evolution of the metric perturbation due to a quasicircular inspiral into a Schwarzschild black hole", Leanne Durkan, Niels Warburton, [arXiv:2206.08179](https://arxiv.org/abs/2206.08179)
+89\. "Post-geodesic corrections to the binding energy during the transition to plunge in numerical relativity simulations", Sergi Navarro Albalat, Aaron Zimmerman, Matthew Giesler, Mark A. Scheel, [arXiv:2207.04066](https://arxiv.org/abs/2207.04066)
 
-86\. "QuasinormalModes.jl: A Julia package for computing discrete eigenvalues of second order ODEs", Lucas Timotheo Sanches, [arXiv:2206.04747](https://arxiv.org/abs/2206.04747)
+88\. "Slow evolution of the metric perturbation due to a quasicircular inspiral into a Schwarzschild black hole", Leanne Durkan, Niels Warburton, [arXiv:2206.08179](https://arxiv.org/abs/2206.08179)
 
-85\. "Post-Newtonian expansion of the spin-precession invariant for eccentric-orbit non-spinning extreme-mass-ratio inspirals to 9PN and e^16", Christopher Munna, Charles R. Evans, [arXiv:2206.04085](https://arxiv.org/abs/2206.04085) (*)
+87\. "QuasinormalModes.jl: A Julia package for computing discrete eigenvalues of second order ODEs", Lucas Timotheo Sanches, [arXiv:2206.04747](https://arxiv.org/abs/2206.04747)
 
-84\. "Modeling transient resonances in extreme-mass-ratio inspirals", Priti Gupta, Lorenzo Speri, Béatrice Bonga, Alvin J.K. Chua, Takahiro Tanaka, [arXiv:2205.04808](https://arxiv.org/abs/2205.04808)
+86\. "Post-Newtonian expansion of the spin-precession invariant for eccentric-orbit non-spinning extreme-mass-ratio inspirals to 9PN and e^16", Christopher Munna, Charles R. Evans, [arXiv:2206.04085](https://arxiv.org/abs/2206.04085) (*)
 
-83\. "The impact of relativistic corrections on the detectability of dark-matter spikes with gravitational waves", Nicholas Speeney, Andrea Antonelli, Vishal Baibhav, Emanuele Berti, [arXiv:2204.12508](https://arxiv.org/abs/2204.12508)
+85\. "Modeling transient resonances in extreme-mass-ratio inspirals", Priti Gupta, Lorenzo Speri, Béatrice Bonga, Alvin J.K. Chua, Takahiro Tanaka, [arXiv:2205.04808](https://arxiv.org/abs/2205.04808)
 
-82\. "Detecting electric charge with Extreme Mass Ratio Inspirals", Chao Zhang, Yungui Gong, [arXiv:2204.01972](https://arxiv.org/abs/2204.08881)
+84\. "The impact of relativistic corrections on the detectability of dark-matter spikes with gravitational waves", Nicholas Speeney, Andrea Antonelli, Vishal Baibhav, Emanuele Berti, [arXiv:2204.12508](https://arxiv.org/abs/2204.12508)
 
-81\. "Surrogate model for gravitational wave signals from non-spinning, comparable- to large-mass-ratio black hole binaries built on black hole perturbation theory waveforms calibrated to numerical relativity", Tousif Islam, Scott E. Field, Scott A. Hughes, Gaurav Khanna, Vijay Varma, Matthew Giesler, Mark A. Scheel, Lawrence E. Kidder, Harald P. Pfeiffer, [arXiv:2204.01972](https://arxiv.org/abs/2204.01972) (*)
+83\. "Detecting electric charge with Extreme Mass Ratio Inspirals", Chao Zhang, Yungui Gong, [arXiv:2204.01972](https://arxiv.org/abs/2204.08881)
 
-80\. "High-order post-Newtonian expansion of the redshift invariant for eccentric-orbit non-spinning extreme-mass-ratio inspirals", Christopher Munna, Charles R. Evans, [arXiv:2203.13832](https://arxiv.org/abs/2203.13832)
+82\. "Surrogate model for gravitational wave signals from non-spinning, comparable- to large-mass-ratio black hole binaries built on black hole perturbation theory waveforms calibrated to numerical relativity", Tousif Islam, Scott E. Field, Scott A. Hughes, Gaurav Khanna, Vijay Varma, Matthew Giesler, Mark A. Scheel, Lawrence E. Kidder, Harald P. Pfeiffer, [arXiv:2204.01972](https://arxiv.org/abs/2204.01972) (*)
 
-79\. "Extreme mass-ratio inspirals as probes of scalar fields: eccentric equatorial orbits around Kerr black holes", Susanna Barsanti, Nicola Franchini, Leonardo Gualtieri, Andrea Maselli, Thomas P. Sotiriou, [arXiv:2203.05003](https://arxiv.org/abs/2203.05003)
+81\. "High-order post-Newtonian expansion of the redshift invariant for eccentric-orbit non-spinning extreme-mass-ratio inspirals", Christopher Munna, Charles R. Evans, [arXiv:2203.13832](https://arxiv.org/abs/2203.13832)
 
-78\. "Redshift factor and the small mass-ratio limit in binary black hole simulations", Sergi Navarro Albalat, Aaron Zimmerman, Matthew Giesler, Mark A. Scheel, [arXiv:2203.04893](https://arxiv.org/abs/2203.04893)
+80\. "Extreme mass-ratio inspirals as probes of scalar fields: eccentric equatorial orbits around Kerr black holes", Susanna Barsanti, Nicola Franchini, Leonardo Gualtieri, Andrea Maselli, Thomas P. Sotiriou, [arXiv:2203.05003](https://arxiv.org/abs/2203.05003)
 
-77\. "Hyperboloidal method for frequency-domain self-force calculations", Rodrigo Panosso Macedo, Benjamin Leather, Niels Warburton, Barry Wardell, Anıl Zenginoğlu, [arXiv:2202.01794](https://arxiv.org/abs/2202.01794)
+79\. "Redshift factor and the small mass-ratio limit in binary black hole simulations", Sergi Navarro Albalat, Aaron Zimmerman, Matthew Giesler, Mark A. Scheel, [arXiv:2203.04893](https://arxiv.org/abs/2203.04893)
 
-76\. "Precisely computing bound orbits of spinning bodies around black holes II: Generic orbits", Lisa V. Drummond, Scott A. Hughes, [arXiv:2201.13335](https://arxiv.org/abs/2201.13335)
+78\. "Hyperboloidal method for frequency-domain self-force calculations", Rodrigo Panosso Macedo, Benjamin Leather, Niels Warburton, Barry Wardell, Anıl Zenginoğlu, [arXiv:2202.01794](https://arxiv.org/abs/2202.01794)
 
-75\. "Precisely computing bound orbits of spinning bodies around black holes I: General framework and results for nearly equatorial orbits", Lisa V. Drummond, Scott A. Hughes, [arXiv:2201.13334](https://arxiv.org/abs/2201.13334)
+77\. "Precisely computing bound orbits of spinning bodies around black holes II: Generic orbits", Lisa V. Drummond, Scott A. Hughes, [arXiv:2201.13335](https://arxiv.org/abs/2201.13335)
+
+76\. "Precisely computing bound orbits of spinning bodies around black holes I: General framework and results for nearly equatorial orbits", Lisa V. Drummond, Scott A. Hughes, [arXiv:2201.13334](https://arxiv.org/abs/2201.13334)
+
+75\. "Detection of scalar fields by Extreme Mass Ratio Inspirals with a Kerr black hole", Hong Guo, Yunqi Liu, Chao Zhang, Yungui Gong, Wei-Liang Qian, Rui-Hong Yue, [arXiv:2201.10748](https://arxiv.org/abs/2201.10748)
 
 74\. "Adiabatic equatorial inspirals of a spinning body into a Kerr black hole", Viktor Skoupý, Georgios Lukes-Gerakopoulos, [arXiv:2201.07044](https://arxiv.org/abs/2201.07044)
 
