@@ -19,6 +19,10 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+96\. "Self-force correction to the deflection angle in black-hole scattering: a scalar charge toy model", Leor Barack, Oliver Long, [arXiv:2209.03740](https://arxiv.org/abs/2209.03740)
+
+95\. "Eccentric binary black holes: Comparing numerical relativity and small mass-ratio perturbation theory", Antoni Ramos-Buades, Maarten van de Meent, Harald P. Pfeiffer, Hannes R. Rüter, Mark A. Scheel, Michael Boyle, Lawrence E. Kidder, [arXiv:2209.03390](https://arxiv.org/abs/2209.03390)
+
 94\. "Comparing second-order gravitational self-force and effective one body waveforms from inspiralling, quasi-circular and nonspinning black hole binaries II: the large-mass-ratio case", Angelica Albertini, Alessandro Nagar, Adam Pound, Niels Warburton, Barry Wardell, Leanne Durkan, Jeremy Miller, [arXiv:2208.02055](https://arxiv.org/abs/2208.02055)
 
 93\. "Comparing second-order gravitational self-force, numerical relativity and effective one body waveforms from inspiralling, quasi-circular and nonspinning black hole binaries", Angelica Albertini, Alessandro Nagar, Adam Pound, Niels Warburton, Barry Wardell, Leanne Durkan, Jeremy Miller, [arXiv:2208.01049](https://arxiv.org/abs/2208.01049)
