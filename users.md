@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+97\. "Self-force regularization of a point particle for generic orbits in Kerr spacetime: electromagnetic and gravitational cases", Anna Heffernan, [arXiv:2209.05450](https://arxiv.org/abs/2209.05450)
+
 96\. "Self-force correction to the deflection angle in black-hole scattering: a scalar charge toy model", Leor Barack, Oliver Long, [arXiv:2209.03740](https://arxiv.org/abs/2209.03740)
 
 95\. "Eccentric binary black holes: Comparing numerical relativity and small mass-ratio perturbation theory", Antoni Ramos-Buades, Maarten van de Meent, Harald P. Pfeiffer, Hannes R. Rüter, Mark A. Scheel, Michael Boyle, Lawrence E. Kidder, [arXiv:2209.03390](https://arxiv.org/abs/2209.03390)
