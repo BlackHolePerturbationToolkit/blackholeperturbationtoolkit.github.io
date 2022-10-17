@@ -19,7 +19,9 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
-98\. "Gravitational waves from extreme-mass-ratio systems in astrophysical environments", Vitor Cardoso, Kyriakos Destounis, Francisco Duque, Rodrigo Panosso Macedo, Andrea Maselli, [arXiv:2210.01133](https://arxiv.org/abs/2210.01133)
+99\. "Gravitational waves from extreme-mass-ratio systems in astrophysical environments", Vitor Cardoso, Kyriakos Destounis, Francisco Duque, Rodrigo Panosso Macedo, Andrea Maselli, [arXiv:2210.01133](https://arxiv.org/abs/2210.01133)
+
+98\. "Regularized Stable Kerr Black Hole: Cosmic Censorships, Shadow and Quasi-Normal Modes", Rajes Ghosh, Mostafizur Rahman, Akash K Mishra, [arXiv:2209.12291](https://arxiv.org/abs/2209.12291)
 
 97\. "Self-force regularization of a point particle for generic orbits in Kerr spacetime: electromagnetic and gravitational cases", Anna Heffernan, [arXiv:2209.05450](https://arxiv.org/abs/2209.05450)
 
