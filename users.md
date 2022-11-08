@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+101\. "Expansions for semiclassical conformal blocks", Bruno Carneiro da Cunha, João Paulo Cavalcante, [arXiv:2211.03551](https://arxiv.org/abs/2211.03551)
+
 100\. "Gravitational waves from eccentric extreme mass-ratio inspirals as probes of scalar fields", Chao Zhang, Yungui Gong, Dicong Liang, Bin Wang, [arXiv:2210.11121](https://arxiv.org/abs/2210.11121)
 
 99\. "Gravitational waves from extreme-mass-ratio systems in astrophysical environments", Vitor Cardoso, Kyriakos Destounis, Francisco Duque, Rodrigo Panosso Macedo, Andrea Maselli, [arXiv:2210.01133](https://arxiv.org/abs/2210.01133)
