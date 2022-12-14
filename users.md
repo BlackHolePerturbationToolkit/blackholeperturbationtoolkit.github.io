@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+103\. "Rapid determination of LISA sensitivity to extreme mass ratio inspirals with machine learning", [arXiv:2212.06166](https://arxiv.org/abs/2212.06166)
+
 102\. "Gravitational wave from extreme mass-ratio inspirals as a probe of extra dimensions", [arXiv:2212.01404](https://arxiv.org/abs/2212.01404)
 
 101\. "Expansions for semiclassical conformal blocks", Bruno Carneiro da Cunha, João Paulo Cavalcante, [arXiv:2211.03551](https://arxiv.org/abs/2211.03551)
