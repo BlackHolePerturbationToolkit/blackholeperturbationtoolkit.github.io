@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+104\. "Detecting vector charge with extreme mass ratio inspirals onto Kerr black holes", Chao Zhang, Hong Guo, Yungui Gong, Bin Wang, [arXiv:2301.05915](https://arxiv.org/abs/2301.05915)
+
 103\. "Rapid determination of LISA sensitivity to extreme mass ratio inspirals with machine learning", Christian E. A. Chapman-Bird, Christopher P. L. Berry, Graham Woan, [arXiv:2212.06166](https://arxiv.org/abs/2212.06166)
 
 102\. "Gravitational wave from extreme mass-ratio inspirals as a probe of extra dimensions", Mostafizur Rahman, Shailesh Kumar, Arpan Bhattacharyya, [arXiv:2212.01404](https://arxiv.org/abs/2212.01404)
