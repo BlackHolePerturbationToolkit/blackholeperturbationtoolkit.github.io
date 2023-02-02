@@ -19,7 +19,9 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
-105\. "Action-Angle formalism for extreme mass ratio inspirals in Kerr spacetime", Morteza Kerachian, Lukáš Polcar, Viktor Skoupý, Christos Efthymiopoulos, Georgios Lukes-Gerakopoulos, [arXiv:2301.08150](https://arxiv.org/abs/2301.08150)
+106\. "Action-Angle formalism for extreme mass ratio inspirals in Kerr spacetime", Morteza Kerachian, Lukáš Polcar, Viktor Skoupý, Christos Efthymiopoulos, Georgios Lukes-Gerakopoulos, [arXiv:2301.08150](https://arxiv.org/abs/2301.08150)
+
+105\. "Remnant black hole properties from numerical-relativity-informed perturbation theory and implications for waveform modelling", Tousif Islam, Scott E. Field, Gaurav Khanna, [arXiv:2301.07215](https://arxiv.org/abs/2301.07215)
 
 104\. "Detecting vector charge with extreme mass ratio inspirals onto Kerr black holes", Chao Zhang, Hong Guo, Yungui Gong, Bin Wang, [arXiv:2301.05915](https://arxiv.org/abs/2301.05915)
 
