@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+107\. "Kerr-fully Diving into the Abyss: Analytic Solutions to Plunging Geodesics in Kerr", Conor Dyson, Maarten van de Meent, [arXiv:2302.03704](https://arxiv.org/abs/2302.03704) (*)
+
 106\. "Action-Angle formalism for extreme mass ratio inspirals in Kerr spacetime", Morteza Kerachian, Lukáš Polcar, Viktor Skoupý, Christos Efthymiopoulos, Georgios Lukes-Gerakopoulos, [arXiv:2301.08150](https://arxiv.org/abs/2301.08150)
 
 105\. "Remnant black hole properties from numerical-relativity-informed perturbation theory and implications for waveform modelling", Tousif Islam, Scott E. Field, Gaurav Khanna, [arXiv:2301.07215](https://arxiv.org/abs/2301.07215)
