@@ -19,7 +19,9 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
-109\. "Enhancing the SEOBNRv5 effective-one-body waveform model with second-order gravitational self-force fluxes", Maarten van de Meent, Alessandra Buonanno, Deyan P. Mihaylov, Serguei Ossokine, Lorenzo Pompili, Niels Warburton, Adam Pound, Barry Wardell, Leanne Durkan, Jeremy Miller, [arXiv:2303.18026](https://arxiv.org/abs/2303.18026)
+110\. "Enhancing the SEOBNRv5 effective-one-body waveform model with second-order gravitational self-force fluxes", Maarten van de Meent, Alessandra Buonanno, Deyan P. Mihaylov, Serguei Ossokine, Lorenzo Pompili, Niels Warburton, Adam Pound, Barry Wardell, Leanne Durkan, Jeremy Miller, [arXiv:2303.18026](https://arxiv.org/abs/2303.18026)
+
+109\. "Asymptotic gravitational-wave fluxes from a spinning test body on generic orbits around a Kerr black hole", Viktor Skoupý, Georgios Lukes-Gerakopoulos, Lisa V. Drummond, Scott A. Hughes, [arXiv:2303.16798](https://arxiv.org/abs/2303.16798)
 
 108\. "Black holes surrounded by generic dark matter profiles: appearance and gravitational-wave emission", Enzo Figueiredo, Andrea Maselli, Vitor Cardoso, [arXiv:2303.08183](https://arxiv.org/abs/2303.08183)
 
