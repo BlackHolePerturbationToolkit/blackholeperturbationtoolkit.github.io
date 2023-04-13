@@ -19,19 +19,25 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
-110\. "Enhancing the SEOBNRv5 effective-one-body waveform model with second-order gravitational self-force fluxes", Maarten van de Meent, Alessandra Buonanno, Deyan P. Mihaylov, Serguei Ossokine, Lorenzo Pompili, Niels Warburton, Adam Pound, Barry Wardell, Leanne Durkan, Jeremy Miller, [arXiv:2303.18026](https://arxiv.org/abs/2303.18026)
+113\. "Enhancing the SEOBNRv5 effective-one-body waveform model with second-order gravitational self-force fluxes", Maarten van de Meent, Alessandra Buonanno, Deyan P. Mihaylov, Serguei Ossokine, Lorenzo Pompili, Niels Warburton, Adam Pound, Barry Wardell, Leanne Durkan, Jeremy Miller, [arXiv:2303.18026](https://arxiv.org/abs/2303.18026)
 
-109\. "Asymptotic gravitational-wave fluxes from a spinning test body on generic orbits around a Kerr black hole", Viktor Skoupý, Georgios Lukes-Gerakopoulos, Lisa V. Drummond, Scott A. Hughes, [arXiv:2303.16798](https://arxiv.org/abs/2303.16798)
+112\. "Asymptotic gravitational-wave fluxes from a spinning test body on generic orbits around a Kerr black hole", Viktor Skoupý, Georgios Lukes-Gerakopoulos, Lisa V. Drummond, Scott A. Hughes, [arXiv:2303.16798](https://arxiv.org/abs/2303.16798)
 
-108\. "Black holes surrounded by generic dark matter profiles: appearance and gravitational-wave emission", Enzo Figueiredo, Andrea Maselli, Vitor Cardoso, [arXiv:2303.08183](https://arxiv.org/abs/2303.08183)
+111\. "Lensing of Vacuum Entanglement near Schwarzschild Black Holes", João G. A. Caribé, Robert H. Jonsson, Marc Casals, Achim Kempf, Eduardo Martín-Martínez, [arXiv:2303.01402](https://arxiv.org/abs/2303.01402)
 
-107\. "Kerr-fully Diving into the Abyss: Analytic Solutions to Plunging Geodesics in Kerr", Conor Dyson, Maarten van de Meent, [arXiv:2302.03704](https://arxiv.org/abs/2302.03704) (*)
+110\. "Black holes surrounded by generic dark matter profiles: appearance and gravitational-wave emission", Enzo Figueiredo, Andrea Maselli, Vitor Cardoso, [arXiv:2303.08183](https://arxiv.org/abs/2303.08183)
 
-106\. "Action-Angle formalism for extreme mass ratio inspirals in Kerr spacetime", Morteza Kerachian, Lukáš Polcar, Viktor Skoupý, Christos Efthymiopoulos, Georgios Lukes-Gerakopoulos, [arXiv:2301.08150](https://arxiv.org/abs/2301.08150)
+109\. "Kerr-fully Diving into the Abyss: Analytic Solutions to Plunging Geodesics in Kerr", Conor Dyson, Maarten van de Meent, [arXiv:2302.03704](https://arxiv.org/abs/2302.03704) (*)
 
-105\. "Remnant black hole properties from numerical-relativity-informed perturbation theory and implications for waveform modelling", Tousif Islam, Scott E. Field, Gaurav Khanna, [arXiv:2301.07215](https://arxiv.org/abs/2301.07215)
+108\. "Action-Angle formalism for extreme mass ratio inspirals in Kerr spacetime", Morteza Kerachian, Lukáš Polcar, Viktor Skoupý, Christos Efthymiopoulos, Georgios Lukes-Gerakopoulos, [arXiv:2301.08150](https://arxiv.org/abs/2301.08150)
 
-104\. "Detecting vector charge with extreme mass ratio inspirals onto Kerr black holes", Chao Zhang, Hong Guo, Yungui Gong, Bin Wang, [arXiv:2301.05915](https://arxiv.org/abs/2301.05915)
+107\. "Remnant black hole properties from numerical-relativity-informed perturbation theory and implications for waveform modelling", Tousif Islam, Scott E. Field, Gaurav Khanna, [arXiv:2301.07215](https://arxiv.org/abs/2301.07215)
+
+106\. "Quasi-normal modes of non-separable perturbation equations: the scalar non-Kerr case", Rajes Ghosh, Nicola Franchini, Sebastian H. Völkel, Enrico Barausse, [arXiv:2303.00088](https://arxiv.org/abs/2303.00088)
+
+105\. "Detecting vector charge with extreme mass ratio inspirals onto Kerr black holes", Chao Zhang, Hong Guo, Yungui Gong, Bin Wang, [arXiv:2301.05915](https://arxiv.org/abs/2301.05915)
+
+104\. "Quasinormal Modes from Penrose Limits", Kwinten Fransen, [arXiv:2301.06999](https://arxiv.org/abs/2301.06999)
 
 103\. "Rapid determination of LISA sensitivity to extreme mass ratio inspirals with machine learning", Christian E. A. Chapman-Bird, Christopher P. L. Berry, Graham Woan, [arXiv:2212.06166](https://arxiv.org/abs/2212.06166)
 
