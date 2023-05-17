@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+115\. "Extreme mass-ratio inspiral of a spinning body into a Kerr black hole I: Evolution along generic trajectories", Lisa V. Drummond, Alexandra G. Hanselman, Devin R. Becker, Scott A. Hughes, [arXiv:2305.08919](https://arxiv.org/abs/2305.08919)
+
 114\. "Detecting the secondary spin with extreme mass ratio inspirals in Scalar-Tensor theory", Hong Guo, Chao Zhang, Yunqi Liu, Rui-Hong Yue, Yungui Gong, Bin Wang, [arXiv:2305.00652](https://arxiv.org/abs/2305.00652)
 
 113\. "Enhancing the SEOBNRv5 effective-one-body waveform model with second-order gravitational self-force fluxes", Maarten van de Meent, Alessandra Buonanno, Deyan P. Mihaylov, Serguei Ossokine, Lorenzo Pompili, Niels Warburton, Adam Pound, Barry Wardell, Leanne Durkan, Jeremy Miller, [arXiv:2303.18026](https://arxiv.org/abs/2303.18026)
