@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+116\. "Frequency-domain approach to self-force in hyperbolic scattering", Christopher Whittall, Leor Barack, [arXiv:2305.09724](https://arxiv.org/abs/2305.09724)
+
 115\. "Extreme mass-ratio inspiral of a spinning body into a Kerr black hole I: Evolution along generic trajectories", Lisa V. Drummond, Alexandra G. Hanselman, Devin R. Becker, Scott A. Hughes, [arXiv:2305.08919](https://arxiv.org/abs/2305.08919)
 
 114\. "Detecting the secondary spin with extreme mass ratio inspirals in Scalar-Tensor theory", Hong Guo, Chao Zhang, Yunqi Liu, Rui-Hong Yue, Yungui Gong, Bin Wang, [arXiv:2305.00652](https://arxiv.org/abs/2305.00652)
