@@ -19,11 +19,13 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
-117\. "Self-forced inspirals with spin-orbit precession", Philip Lynch, Maarten van de Meent, Niels Warburton, [arXiv:2305.10533](https://arxiv.org/abs/2305.10533)
+118\. "Self-forced inspirals with spin-orbit precession", Philip Lynch, Maarten van de Meent, Niels Warburton, [arXiv:2305.10533](https://arxiv.org/abs/2305.10533)
 
-116\. "Frequency-domain approach to self-force in hyperbolic scattering", Christopher Whittall, Leor Barack, [arXiv:2305.09724](https://arxiv.org/abs/2305.09724)
+117\. "Frequency-domain approach to self-force in hyperbolic scattering", Christopher Whittall, Leor Barack, [arXiv:2305.09724](https://arxiv.org/abs/2305.09724)
 
-115\. "Extreme mass-ratio inspiral of a spinning body into a Kerr black hole I: Evolution along generic trajectories", Lisa V. Drummond, Alexandra G. Hanselman, Devin R. Becker, Scott A. Hughes, [arXiv:2305.08919](https://arxiv.org/abs/2305.08919)
+116\. "Extreme mass-ratio inspiral of a spinning body into a Kerr black hole I: Evolution along generic trajectories", Lisa V. Drummond, Alexandra G. Hanselman, Devin R. Becker, Scott A. Hughes, [arXiv:2305.08919](https://arxiv.org/abs/2305.08919)
+
+115\. "Gravitational Wave Peeps from EMRIs and their Implication for LISA Signal Confusion Noise", Daniel J Oliver, Aaron D Johnson, Joel Berrier, Kostas Glampedakis, Daniel Kennefick, [arXiv:2305.05793](https://arxiv.org/abs/2305.05793)
 
 114\. "Detecting the secondary spin with extreme mass ratio inspirals in Scalar-Tensor theory", Hong Guo, Chao Zhang, Yunqi Liu, Rui-Hong Yue, Yungui Gong, Bin Wang, [arXiv:2305.00652](https://arxiv.org/abs/2305.00652)
 
