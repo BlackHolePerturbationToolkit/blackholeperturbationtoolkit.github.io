@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+119\. "Gravitational waves from extreme mass ratio inspirals around a hairy Kerr black hole", Tieguang Zi, Peng-Cheng Li, [arXiv:2306.02683](https://arxiv.org/abs/2306.02683)
+
 118\. "Self-forced inspirals with spin-orbit precession", Philip Lynch, Maarten van de Meent, Niels Warburton, [arXiv:2305.10533](https://arxiv.org/abs/2305.10533)
 
 117\. "Frequency-domain approach to self-force in hyperbolic scattering", Christopher Whittall, Leor Barack, [arXiv:2305.09724](https://arxiv.org/abs/2305.09724)
