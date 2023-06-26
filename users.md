@@ -19,6 +19,10 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+121\. "Hyperboloidal discontinuous time-symmetric numerical algorithm with higher order jumps for gravitational self-force computations in the time domain", Lidia J. Gomes Da Silva, Rodrigo Panosso Macedo, Jonathan E. Thompson, Juan A. Valiente Kroon, Leanne Durkan, Oliver Long, [arXiv:2306.13153](https://arxiv.org/abs/2306.13153)
+
+120\. "Tidal heating and torquing of the primary black hole in eccentric-orbit, non-spinning extreme-mass-ratio inspirals to 22PN order", Christopher Munna, Charles R. Evans, Erik Forseth, [arXiv:2306.12481](https://arxiv.org/abs/2306.12481) (*)
+
 119\. "Gravitational waves from extreme mass ratio inspirals around a hairy Kerr black hole", Tieguang Zi, Peng-Cheng Li, [arXiv:2306.02683](https://arxiv.org/abs/2306.02683)
 
 118\. "Self-forced inspirals with spin-orbit precession", Philip Lynch, Maarten van de Meent, Niels Warburton, [arXiv:2305.10533](https://arxiv.org/abs/2305.10533)
