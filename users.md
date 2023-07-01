@@ -19,9 +19,9 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
-123\. "Recipes for computing radiation from a Kerr black hole using Generalized Sasaki-Nakamura formalism: I. Homogeneous solutions", Rico K. L. Lo, [arXiv:2306.16469](https://arxiv.org/abs/2306.16469)
+124\. "Recipes for computing radiation from a Kerr black hole using Generalized Sasaki-Nakamura formalism: I. Homogeneous solutions", Rico K. L. Lo, [arXiv:2306.16469](https://arxiv.org/abs/2306.16469)
 
-122\. "Metric perturbations of Kerr spacetime in Lorenz gauge: Circular equatorial orbits", Sam R. Dolan, Leanne Durkan, Chris Kavanagh, Barry Wardell, [arXiv:2306.16459](https://arxiv.org/abs/2306.16459)
+123\. "Metric perturbations of Kerr spacetime in Lorenz gauge: Circular equatorial orbits", Sam R. Dolan, Leanne Durkan, Chris Kavanagh, Barry Wardell, [arXiv:2306.16459](https://arxiv.org/abs/2306.16459)
 
 122\. "Importance of including higher signal harmonics in the modeling of extreme mass-ratio inspirals", Chao Zhang, Ning Dai, Dicong Liang, [arXiv:2306.13871](https://arxiv.org/abs/2306.13871)
 
