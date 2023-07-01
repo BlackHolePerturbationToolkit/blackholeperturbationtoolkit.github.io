@@ -21,7 +21,9 @@ Below is a list of research papers that have used or extended the Toolkit. Paper
 
 123\. "Recipes for computing radiation from a Kerr black hole using Generalized Sasaki-Nakamura formalism: I. Homogeneous solutions", Rico K. L. Lo, [arXiv:2306.16469](https://arxiv.org/abs/2306.16469)
 
-122\. "Metric perturbations of Kerr spacetime in Lorenz gauge: Circular equatorial orbits", Sam R. Dolan, Leanne Durkan, Chris Kavanagh, Barry Wardell, [arXiv:2306.16459](https://arxiv.org/abs/2306.16459)c
+122\. "Metric perturbations of Kerr spacetime in Lorenz gauge: Circular equatorial orbits", Sam R. Dolan, Leanne Durkan, Chris Kavanagh, Barry Wardell, [arXiv:2306.16459](https://arxiv.org/abs/2306.16459)
+
+122\. "Importance of including higher signal harmonics in the modeling of extreme mass-ratio inspirals", Chao Zhang, Ning Dai, Dicong Liang, [arXiv:2306.13871](https://arxiv.org/abs/2306.13871)
 
 121\. "Hyperboloidal discontinuous time-symmetric numerical algorithm with higher order jumps for gravitational self-force computations in the time domain", Lidia J. Gomes Da Silva, Rodrigo Panosso Macedo, Jonathan E. Thompson, Juan A. Valiente Kroon, Leanne Durkan, Oliver Long, [arXiv:2306.13153](https://arxiv.org/abs/2306.13153)
 
