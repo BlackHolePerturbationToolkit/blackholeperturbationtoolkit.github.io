@@ -19,6 +19,10 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+126\. "Second-order perturbations of the Schwarzschild spacetime: practical, covariant and gauge-invariant formalisms", Andrew Spiers, Adam Pound, Barry Wardell, [arXiv:2306.17847](https://arxiv.org/abs/2306.17847) (*)
+
+125\. "Applying the effective-source approach to frequency-domain self-force calculations for eccentric orbits", Benjamin Leather, Niels Warburton, [arXiv:2306.17221](https://arxiv.org/abs/2306.17221)
+
 124\. "Recipes for computing radiation from a Kerr black hole using Generalized Sasaki-Nakamura formalism: I. Homogeneous solutions", Rico K. L. Lo, [arXiv:2306.16469](https://arxiv.org/abs/2306.16469)
 
 123\. "Metric perturbations of Kerr spacetime in Lorenz gauge: Circular equatorial orbits", Sam R. Dolan, Leanne Durkan, Chris Kavanagh, Barry Wardell, [arXiv:2306.16459](https://arxiv.org/abs/2306.16459)
