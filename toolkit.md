@@ -13,12 +13,15 @@ Current **Mathematica** projects in the Toolkit include:
 * [QuasiNormalModes](https://bhptoolkit.org/QuasiNormalModes): Tools for computing quasinormal modes in Schwarzschild and Kerr spacetime
 * [GeneralRelativityTensors](https://bhptoolkit.org/GeneralRelativityTensors/): Provides a set of functions for performing coordinate-based tensor calculations with a focus on general relativity and black holes in particular.
 * [ReggeWheeler](https://bhptoolkit.org/ReggeWheeler/): A set of functions for computing solutions to the Regge-Wheeler equation for perturbations of the spacetime of a Schwarzschild black hole.
+* [PerturbationEquations](https://bhptoolkit.org/PerturbationEquations/): A set of tools for working with the spherical-harmonic decompositions of the first- and second-order Einstein equations and Teukolsky equations in Schwarzschild spacetime.
 
 Current **C/C++** projects in the Toolkit include:
 
 * [Fast Self-forced Inspirals](https://bhptoolkit.org/Fast_Self-Forced_Inspirals/): Code to compute self-force inspirals rapidly using the near-identity transformed (NIT'd) equations of motion.
 * [EMRI Kludge Suite](https://github.com/alvincjk/EMRI_Kludge_Suite): A suite of software for computing kludge waveforms for generic extreme mass-ratio inspirals into a Kerr black hole.
 * [Gremlin](https://bhptoolkit.org/GremlinEq): Code to solve the Teukolsky equation with a point-particle source
+* [h1Lorenz](https://github.com/BlackHolePerturbationToolkit/h1Lorenz): Code to compute the first-order metric perturbation in the Lorenz gauge
+* [SecondOrderRicci](https://github.com/BlackHolePerturbationToolkit/SecondOrderRicci): Computes the modes of the second-order Ricci tensor
 
 Current **Python** and **SageMath** projects in the Toolkit include:
 
