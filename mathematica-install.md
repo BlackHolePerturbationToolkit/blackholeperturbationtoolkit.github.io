@@ -53,6 +53,7 @@ PacletInstall["PostNewtonianSelfForce"];
 PacletInstall["ReggeWheeler"];
 PacletInstall["SpinWeightedSpheroidalHarmonics"];
 PacletInstall["Teukolsky"];
+PacletInstall["PerturbationEquaations"]
 ```
 
 ## Updating to latest version of a package
