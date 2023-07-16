@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+129\. "Strongly-Lensed Extreme Mass-ratio Inspirals", Martina Toscani, Ollie Burke, Chang Liu, Nour Bou Zamel, Nicola Tamanini, Federico Pozzoli, [arXiv:2307.06722](https://arxiv.org/abs/2307.06722)
+
 128\. "Towards exponentially-convergent simulations of extreme-mass-ratio inspirals: A time-domain solver for the scalar Teukolsky equation with singular source terms", Manas Vishal, Scott E. Field, Katherine Rink, Sigal Gottlieb, Gaurav Khanna, [arXiv:2307.01349](https://arxiv.org/abs/2307.01349)
 
 127\. "Second-order perturbations of the Schwarzschild spacetime: practical, covariant and gauge-invariant formalisms", Andrew Spiers, Adam Pound, Barry Wardell, [arXiv:2306.17847](https://arxiv.org/abs/2306.17847) (*)
