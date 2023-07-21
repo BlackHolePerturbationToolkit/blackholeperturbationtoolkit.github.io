@@ -1,6 +1,6 @@
 # Version control of Mathematica files with git
 
-Create a ```.gitattributes``` file in your repository and include the following:
+Create a `.gitattributes` file in your repository and include the following:
 ```gitconfig
 # Source files
 # Caution: *.m also matches Matlab files.
@@ -20,7 +20,7 @@ Create a ```.gitattributes``` file in your repository and include the following:
 *.mx             binary
 ```
 
-Add the following to your ```~/.gitconfig:
+Add the following to your `~/.gitconfig`:
 ```gitconfig
 [diff "mathematica"]
   binary = true
