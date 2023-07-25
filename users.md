@@ -19,6 +19,10 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+132\. "Fast and Fourier: Extreme Mass Ratio Inspiral Waveforms in the Frequency Domain", Lorenzo Speri, Michael L. Katz, Alvin J. K. Chua, Scott A. Hughes, Niels Warburton, Jonathan E. Thompson, Christian E. A. Chapman-Bird, Jonathan R. Gair, [arXiv:2307.12585](https://arxiv.org/abs/2307.12585) (*)
+
+131\. "High-order post-Newtonian expansion of the generalized redshift invariant for eccentric-orbit, equatorial extreme-mass-ratio inspirals with a spinning primary", Christopher Munna, [arXiv:2307.11158](https://arxiv.org/abs/2307.11158) (*)
+
 130\. "Quasinormal modes of rotating black holes in higher-derivative gravity", Pablo A. Cano, Kwinten Fransen, Thomas Hertog, Simon Maenaut, [arXiv:2307.07431](https://arxiv.org/abs/2307.07431)
 
 129\. "Strongly-Lensed Extreme Mass-ratio Inspirals", Martina Toscani, Ollie Burke, Chang Liu, Nour Bou Zamel, Nicola Tamanini, Federico Pozzoli, [arXiv:2307.06722](https://arxiv.org/abs/2307.06722)
