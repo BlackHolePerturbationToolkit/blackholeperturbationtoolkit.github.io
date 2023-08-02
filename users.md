@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+134\. "Analytic solutions for the motion of spinning particles near spherically symmetric black holes and exotic compact objects", Vojtěch Witzany, Gabriel Andres Piovano, [arXiv:2308.00021](https://arxiv.org/abs/2308.00021)
+
 133\. "Extreme mass-ratio inspirals into black holes surrounded by scalar clouds", Richard Brito, Shreya Shah, [arXiv:2307.16093](https://arxiv.org/abs/2307.16093)
 
 132\. "Fast and Fourier: Extreme Mass Ratio Inspiral Waveforms in the Frequency Domain", Lorenzo Speri, Michael L. Katz, Alvin J. K. Chua, Scott A. Hughes, Niels Warburton, Jonathan E. Thompson, Christian E. A. Chapman-Bird, Jonathan R. Gair, [arXiv:2307.12585](https://arxiv.org/abs/2307.12585) (*)
