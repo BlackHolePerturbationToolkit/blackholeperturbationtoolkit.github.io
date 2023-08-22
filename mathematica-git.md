@@ -25,7 +25,7 @@ Add the following to your `~/.gitconfig`:
 [diff "mathematica"]
   binary = true
 [difftool "mmadiff"]
-  cmd=open -a Mathematica `mmadiff.wls \"$LOCAL\" \"$REMOTE\"`
+  cmd=open -a Mathematica `nbdiff.wls \"$LOCAL\" \"$REMOTE\"`
 ```
 Put the below code in a script file called `nbdiff.wls` and put it somewhere that it can be found (e.g. `/usr/local/bin/nbdiff.wls`). 
 ```mathematica
