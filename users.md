@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+136\. "Gravitational radiation from a particle plunging into a Schwarzschild black hole: frequency-domain and semi-relativistic analyses", Hector O. Silva, Giovanni Tambalo, Kostas Glampedakis, Kent Yagi, [arXiv:2308.14823](https://arxiv.org/abs/2308.14823)
+
 135\. "Analytic solutions for the motion of spinning particles near spherically symmetric black holes and exotic compact objects", Vojtěch Witzany, Gabriel Andres Piovano, [arXiv:2308.00021](https://arxiv.org/abs/2308.00021)
 
 134\. "Detection of astrophysical gravitational wave sources by TianQin and LISA", Alejandro Torres-Orjuela, Shun-Jia Huang, Zheng-Cheng Liang, Shuai Liu, Hai-Tian Wang, Chang-Qing Ye, Yi-Ming Hu, Jianwei Mei, [arXiv:2307.16628](https://arxiv.org/abs/2307.16628)
