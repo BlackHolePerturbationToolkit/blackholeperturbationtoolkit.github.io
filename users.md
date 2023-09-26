@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+137\. "Adiabatic inspirals under electromagnetic radiation reaction on Kerr spacetime", Ethan J German, Kevin Cunningham, Visakan Balakumar, Niels Warburton, Sam R Dolan, [arXiv:2309.10028](https://arxiv.org/abs/2309.10028)
+
 136\. "Gravitational radiation from a particle plunging into a Schwarzschild black hole: frequency-domain and semi-relativistic analyses", Hector O. Silva, Giovanni Tambalo, Kostas Glampedakis, Kent Yagi, [arXiv:2308.14823](https://arxiv.org/abs/2308.14823)
 
 135\. "Analytic solutions for the motion of spinning particles near spherically symmetric black holes and exotic compact objects", Vojtěch Witzany, Gabriel Andres Piovano, [arXiv:2308.00021](https://arxiv.org/abs/2308.00021)
