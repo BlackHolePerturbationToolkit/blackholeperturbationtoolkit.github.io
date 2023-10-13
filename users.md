@@ -19,6 +19,10 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+140\. "Extreme mass-ratio inspiral and waveforms for a spinning body into a Kerr black hole via osculating geodesics and near-identity transformations", Lisa V. Drummond, Philip Lynch, Alexandra G. Hanselman, Devin R. Becker, Scott A. Hughes, [arXiv:2310.08438](https://arxiv.org/abs/2310.08438)
+
+139\. "Mapping between black-hole perturbation theory and numerical relativity: gravitational-wave energy flux", Tousif Islam, [arXiv:2310.05743](https://arxiv.org/abs/2310.05743)
+
 138\. "Impacts of Gravitational-Wave Background from Supermassive Black Hole Binaries on the Detection of Compact Binaries by LISA", Fan Huang, Yan-Chen Bi, Zhoujian Cao, Qing-Guo Huang, [arXiv:2309.14045](https://arxiv.org/abs/2309.14045)
 
 137\. "Adiabatic inspirals under electromagnetic radiation reaction on Kerr spacetime", Ethan J German, Kevin Cunningham, Visakan Balakumar, Niels Warburton, Sam R Dolan, [arXiv:2309.10028](https://arxiv.org/abs/2309.10028)
