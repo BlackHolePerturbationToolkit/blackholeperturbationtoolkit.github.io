@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+141\. "Accuracy Requirements: Assessing the Importance of First Post-Adiabatic Terms for Small-Mass-Ratio Binaries", Ollie Burke, Gabriel Andres Piovano, Niels Warburton, Phillip Lynch, Lorenzo Speri, Chris Kavanagh, Barry Wardell, Adam Pound, Leanne Durkan, Jeremy Miller, [arXiv:2310.08927](https://arxiv.org/abs/2310.08927)
+
 140\. "Extreme mass-ratio inspiral and waveforms for a spinning body into a Kerr black hole via osculating geodesics and near-identity transformations", Lisa V. Drummond, Philip Lynch, Alexandra G. Hanselman, Devin R. Becker, Scott A. Hughes, [arXiv:2310.08438](https://arxiv.org/abs/2310.08438)
 
 139\. "Mapping between black-hole perturbation theory and numerical relativity: gravitational-wave energy flux", Tousif Islam, [arXiv:2310.05743](https://arxiv.org/abs/2310.05743)
