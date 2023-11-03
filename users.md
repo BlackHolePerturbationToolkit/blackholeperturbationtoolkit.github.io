@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+144\. "Waveform Modelling for the Laser Interferometer Space Antenna", LISA Consortium Waveform Working Group et al., [arXiv:2311.01300](https://arxiv.org/abs/2311.01300)
+
 143\. "BHPWAVE: An adiabatic gravitational waveform model for compact objects undergoing quasi-circular inspirals into rotating massive black holes", Zachary Nasipak, [arXiv:2310.19706](https://arxiv.org/abs/2310.19706)
 
 142\. "Accuracy Requirements: Assessing the Importance of First Post-Adiabatic Terms for Small-Mass-Ratio Binaries", Ollie Burke, Gabriel Andres Piovano, Niels Warburton, Phillip Lynch, Lorenzo Speri, Chris Kavanagh, Barry Wardell, Adam Pound, Leanne Durkan, Jeremy Miller, [arXiv:2310.08927](https://arxiv.org/abs/2310.08927)
