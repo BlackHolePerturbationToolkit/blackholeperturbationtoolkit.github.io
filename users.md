@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+146\. "Black Hole Perturbation Theory Meets CFT2: Kerr Compton Amplitudes from Nekrasov-Shatashvili Functions", Yilber Fabian Bautista, Giulio Bonelli, Cristoforo Iossa, Alessandro Tanzini, Zihan Zhou, [arXiv:2312.05965](https://arxiv.org/abs/2312.05965)
+
 145\. "Ringdown of a dynamical spacetime", Jaime Redondo-Yuste, David Pereñiguez, Vitor Cardoso, [arXiv:2312.04633](https://arxiv.org/abs/2312.04633)
 
 144\. "Waveform Modelling for the Laser Interferometer Space Antenna", LISA Consortium Waveform Working Group et al., [arXiv:2311.01300](https://arxiv.org/abs/2311.01300)
