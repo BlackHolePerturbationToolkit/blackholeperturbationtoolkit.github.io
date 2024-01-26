@@ -19,6 +19,12 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+150\. "Extreme mass-ratio inspirals as probes of scalar fields: inclined circular orbits around Kerr black holes", Matteo Della Rocca, Susanna Barsanti, Leonardo Gualtieri, Andrea Maselli, [arXiv:2401.09542](https://arxiv.org/abs/2401.09542)
+
+149\. "DiscoTEX: Discontinuous collocation and implicit-turned-explicit (IMTEX) integration symplectic, symmetric numerical algorithms with higher order jumps for differential equations with numerical black hole perturbation theory applications", Lidia J. Gomes Da Silva, [arXiv:2401.08758](https://arxiv.org/abs/2401.08758)
+
+148\. "Testing gravity with Extreme-Mass-Ratio Inspirals", Alejandro Cárdenas-Avendaño, Carlos F. Sopuerta, [arXiv:2401.08085](https://arxiv.org/abs/2401.08085)
+
 147\. "Detecting dark matter with extreme mass-ratio inspirals", Chao Zhang, Guoyang Fu, Ning Dai, [arXiv:2401.04467](https://arxiv.org/abs/2401.04467)
 
 146\. "Black Hole Perturbation Theory Meets CFT2: Kerr Compton Amplitudes from Nekrasov-Shatashvili Functions", Yilber Fabian Bautista, Giulio Bonelli, Cristoforo Iossa, Alessandro Tanzini, Zihan Zhou, [arXiv:2312.05965](https://arxiv.org/abs/2312.05965)
