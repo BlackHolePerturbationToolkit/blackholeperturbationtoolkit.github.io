@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+155\. "Conserved currents for Kerr and orthogonality of quasinormal modes", Stephen R. Green, Stefan Hollands, Laura Sberna, Vahid Toomani, Peter Zimmerman, [arXiv:2210.15935](https://arxiv.org/abs/2210.15935)
+
 154\. "Relativistic aerodynamics of spinning black holes", Conor Dyson, Jaime Redondo-Yuste, Maarten van de Meent, Vitor Cardoso, [arXiv:2402.07981](https://arxiv.org/abs/2402.07981)
 
 153\. "A Survey of Four Precessing Waveform Models for Binary Black Hole Systems", Jake Mac Uilliam, Sarp Akcay, Jonathan E. Thompson, [arXiv:2402.06781](https://arxiv.org/abs/2402.06781)
