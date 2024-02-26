@@ -19,6 +19,14 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+154\. "Relativistic aerodynamics of spinning black holes", Conor Dyson, Jaime Redondo-Yuste, Maarten van de Meent, Vitor Cardoso, [arXiv:2402.07981](https://arxiv.org/abs/2402.07981)
+
+153\. "A Survey of Four Precessing Waveform Models for Binary Black Hole Systems", Jake Mac Uilliam, Sarp Akcay, Jonathan E. Thompson, [arXiv:2402.06781](https://arxiv.org/abs/2402.06781)
+
+152\. "The excitation of quadratic quasinormal modes for Kerr black holes", Sizheng Ma, Huan Yang, [arXiv:2401.15516](https://arxiv.org/abs/2401.15516)
+
+151\. "Mapping between black-hole perturbation theory and numerical relativity II: gravitational-wave momentum", Tousif Islam, [arXiv:2401.14532](https://arxiv.org/abs/2401.14532)
+
 150\. "Extreme mass-ratio inspirals as probes of scalar fields: inclined circular orbits around Kerr black holes", Matteo Della Rocca, Susanna Barsanti, Leonardo Gualtieri, Andrea Maselli, [arXiv:2401.09542](https://arxiv.org/abs/2401.09542)
 
 149\. "DiscoTEX: Discontinuous collocation and implicit-turned-explicit (IMTEX) integration symplectic, symmetric numerical algorithms with higher order jumps for differential equations with numerical black hole perturbation theory applications", Lidia J. Gomes Da Silva, [arXiv:2401.08758](https://arxiv.org/abs/2401.08758)
