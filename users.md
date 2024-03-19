@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+157\. "Worldtube excision method for intermediate-mass-ratio inspirals: self-consistent evolution in a scalar-charge model", Nikolas A. Wittek, Adam Pound, Harald P. Pfeiffer, Leor Barack, [arXiv:2403.08864](https://arxiv.org/abs/2403.08864)
+
 156\. "Conserved currents for Kerr and orthogonality of quasinormal modes", Stephen R. Green, Stefan Hollands, Laura Sberna, Vahid Toomani, Peter Zimmerman, [arXiv:2210.15935](https://arxiv.org/abs/2210.15935)
 
 155\. "Relativistic aerodynamics of spinning black holes", Conor Dyson, Jaime Redondo-Yuste, Maarten van de Meent, Vitor Cardoso, [arXiv:2402.07981](https://arxiv.org/abs/2402.07981)
