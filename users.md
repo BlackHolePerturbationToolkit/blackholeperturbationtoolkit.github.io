@@ -19,15 +19,17 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
-155\. "Conserved currents for Kerr and orthogonality of quasinormal modes", Stephen R. Green, Stefan Hollands, Laura Sberna, Vahid Toomani, Peter Zimmerman, [arXiv:2210.15935](https://arxiv.org/abs/2210.15935)
+156\. "Conserved currents for Kerr and orthogonality of quasinormal modes", Stephen R. Green, Stefan Hollands, Laura Sberna, Vahid Toomani, Peter Zimmerman, [arXiv:2210.15935](https://arxiv.org/abs/2210.15935)
 
-154\. "Relativistic aerodynamics of spinning black holes", Conor Dyson, Jaime Redondo-Yuste, Maarten van de Meent, Vitor Cardoso, [arXiv:2402.07981](https://arxiv.org/abs/2402.07981)
+155\. "Relativistic aerodynamics of spinning black holes", Conor Dyson, Jaime Redondo-Yuste, Maarten van de Meent, Vitor Cardoso, [arXiv:2402.07981](https://arxiv.org/abs/2402.07981)
 
-153\. "A Survey of Four Precessing Waveform Models for Binary Black Hole Systems", Jake Mac Uilliam, Sarp Akcay, Jonathan E. Thompson, [arXiv:2402.06781](https://arxiv.org/abs/2402.06781)
+154\. "A Survey of Four Precessing Waveform Models for Binary Black Hole Systems", Jake Mac Uilliam, Sarp Akcay, Jonathan E. Thompson, [arXiv:2402.06781](https://arxiv.org/abs/2402.06781)
 
-152\. "The excitation of quadratic quasinormal modes for Kerr black holes", Sizheng Ma, Huan Yang, [arXiv:2401.15516](https://arxiv.org/abs/2401.15516)
+153\. "The excitation of quadratic quasinormal modes for Kerr black holes", Sizheng Ma, Huan Yang, [arXiv:2401.15516](https://arxiv.org/abs/2401.15516)
 
-151\. "Mapping between black-hole perturbation theory and numerical relativity II: gravitational-wave momentum", Tousif Islam, [arXiv:2401.14532](https://arxiv.org/abs/2401.14532)
+152\. "Mapping between black-hole perturbation theory and numerical relativity II: gravitational-wave momentum", Tousif Islam, [arXiv:2401.14532](https://arxiv.org/abs/2401.14532)
+
+151\. "Building a bridge between comparable and extreme mass ratio black hole binaries: a single spin precessing model for the final state", Maria de Lluc Planas, Joan Llobera-Querol, Sascha Husa, [arXiv:2401.13342](https://arxiv.org/abs/2401.13342)
 
 150\. "Extreme mass-ratio inspirals as probes of scalar fields: inclined circular orbits around Kerr black holes", Matteo Della Rocca, Susanna Barsanti, Leonardo Gualtieri, Andrea Maselli, [arXiv:2401.09542](https://arxiv.org/abs/2401.09542)
 
