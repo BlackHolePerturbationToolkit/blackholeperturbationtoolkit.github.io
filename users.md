@@ -19,11 +19,15 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
-159\. "Self-force framework for transition-to-plunge waveforms", Lorenzo Küchler, Geoffrey Compère, Leanne Durkan, Adam Pound, [arXiv:2405.00170](https://arxiv.org/abs/2405.00170)
+161\. "Backreaction from quantum fluxes at the Kerr inner horizon", Tyler McMaken, [arXiv:2405.13221](https://arxiv.org/abs/2405.13221)
 
-158\. "Implementation of a GHZ-Teukolsky puncture scheme for gravitational self-force calculations", Patrick Bourg, Benjamin Leather, Marc Casals, Adam Pound, Barry Wardell, [arXiv:2403.12634](https://arxiv.org/abs/2403.12634)
+160\. "Self-force framework for transition-to-plunge waveforms", Lorenzo Küchler, Geoffrey Compère, Leanne Durkan, Adam Pound, [arXiv:2405.00170](https://arxiv.org/abs/2405.00170)
 
-157\. "Worldtube excision method for intermediate-mass-ratio inspirals: self-consistent evolution in a scalar-charge model", Nikolas A. Wittek, Adam Pound, Harald P. Pfeiffer, Leor Barack, [arXiv:2403.08864](https://arxiv.org/abs/2403.08864)
+159\. "Implementation of a GHZ-Teukolsky puncture scheme for gravitational self-force calculations", Patrick Bourg, Benjamin Leather, Marc Casals, Adam Pound, Barry Wardell, [arXiv:2403.12634](https://arxiv.org/abs/2403.12634)
+
+158\. "Worldtube excision method for intermediate-mass-ratio inspirals: self-consistent evolution in a scalar-charge model", Nikolas A. Wittek, Adam Pound, Harald P. Pfeiffer, Leor Barack, [arXiv:2403.08864](https://arxiv.org/abs/2403.08864)
+
+157\. "Hawking radiation inside a rotating black hole", Tyler McMaken, Andrew J. S. Hamilton, [arXiv:2401.03098](https://arxiv.org/abs/2401.03098)
 
 156\. "Conserved currents for Kerr and orthogonality of quasinormal modes", Stephen R. Green, Stefan Hollands, Laura Sberna, Vahid Toomani, Peter Zimmerman, [arXiv:2210.15935](https://arxiv.org/abs/2210.15935)
 
