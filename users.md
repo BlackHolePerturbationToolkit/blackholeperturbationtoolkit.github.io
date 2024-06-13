@@ -19,6 +19,10 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+164\. "Black hole scattering near the transition to plunge: Self-force and resummation of post-Minkowskian theory", Oliver Long, Christopher Whittall, Leor Barack, [arXiv:2406.08363](https://arxiv.org/abs/2406.08363)
+
+163\. "Probing fundamental physics with Extreme Mass Ratio Inspirals: a full Bayesian inference for scalar charge", Lorenzo Speri, Susanna Barsanti, Andrea Maselli, Thomas P. Sotiriou, Niels Warburton, Maarten van de Meent, Alvin J. K. Chua, Ollie Burke, Jonathan Gair, [arXiv:2406.07607](https://arxiv.org/abs/2406.07607)
+
 162\. "KerrGeoPy: A Python Package for Computing Timelike Geodesics in Kerr Spacetime", Seyong Park, Zachary Nasipak, [arXiv:2406.01413](https://arxiv.org/abs/2406.01413)
 
 161\. "Backreaction from quantum fluxes at the Kerr inner horizon", Tyler McMaken, [arXiv:2405.13221](https://arxiv.org/abs/2405.13221)
