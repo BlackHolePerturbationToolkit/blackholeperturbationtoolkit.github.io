@@ -19,6 +19,18 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+170\. "Post-Newtonian expansions of extreme mass ratio inspirals of spinning bodies into Schwarzschild black holes", Viktor Skoupý, Vojtěch Witzany, [arXiv:2406.14291](https://arxiv.org/abs/2406.14291)
+
+169\. "Sourced metric perturbations of Kerr spacetime in Lorenz gauge", Barry Wardell, Chris Kavanagh, Sam R. Dolan, [arXiv:2406.12510](https://arxiv.org/abs/2406.12510)
+
+168\. "Testing eccentric corrections to the radiation-reaction force in the test-mass limit of effective-one-body models", Guglielmo Faggioli, Maarten van de Meent, Alessandra Buonanno, Aldo Gamboa, Mohammed Khalil, Gaurav Khanna, [arXiv:2405.19006](https://arxiv.org/abs/2405.19006)
+
+167\. "Fast inspirals and the treatment of orbital resonances", Philip Lynch, Vojtěch Witzany, Maarten van de Meent, Niels Warburton, [arXiv:2405.21072](https://arxiv.org/abs/2405.21072)
+
+166\. "Detecting the massive vector field with extreme mass-ratio inspirals",  [arXiv:2406.11724](https://arxiv.org/abs/2406.11724)
+
+165\. "Gravitational wave fluxes on generic orbits in near-extreme Kerr spacetime: higher spin and large eccentricity", Changkai Chen, Jiliang Jing, [arXiv:2311.15295](https://arxiv.org/abs/2311.15295)
+
 164\. "Black hole scattering near the transition to plunge: Self-force and resummation of post-Minkowskian theory", Oliver Long, Christopher Whittall, Leor Barack, [arXiv:2406.08363](https://arxiv.org/abs/2406.08363)
 
 163\. "Probing fundamental physics with Extreme Mass Ratio Inspirals: a full Bayesian inference for scalar charge", Lorenzo Speri, Susanna Barsanti, Andrea Maselli, Thomas P. Sotiriou, Niels Warburton, Maarten van de Meent, Alvin J. K. Chua, Ollie Burke, Jonathan Gair, [arXiv:2406.07607](https://arxiv.org/abs/2406.07607)
