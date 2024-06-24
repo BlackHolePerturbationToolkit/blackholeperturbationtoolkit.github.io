@@ -29,7 +29,7 @@ Below is a list of research papers that have used or extended the Toolkit. Paper
 
 167\. "Fast inspirals and the treatment of orbital resonances", Philip Lynch, Vojtěch Witzany, Maarten van de Meent, Niels Warburton, [arXiv:2405.21072](https://arxiv.org/abs/2405.21072)
 
-166\. "Detecting the massive vector field with extreme mass-ratio inspirals",  [arXiv:2406.11724](https://arxiv.org/abs/2406.11724)
+166\. "Detecting the massive vector field with extreme mass-ratio inspirals", Tieguang Zi, Chao Zhang,  [arXiv:2406.11724](https://arxiv.org/abs/2406.11724)
 
 165\. "Gravitational wave fluxes on generic orbits in near-extreme Kerr spacetime: higher spin and large eccentricity", Changkai Chen, Jiliang Jing, [arXiv:2311.15295](https://arxiv.org/abs/2311.15295)
 
