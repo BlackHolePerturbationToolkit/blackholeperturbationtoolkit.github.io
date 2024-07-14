@@ -19,7 +19,9 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
-172\. "Probing new fundamental fields with Extreme Mass Ratio Inspirals", Chao Zhang, Yungui Gong, [arXiv:2407.07449](https://arxiv.org/abs/2407.07449)
+173\. "Probing new fundamental fields with Extreme Mass Ratio Inspirals", Chao Zhang, Yungui Gong, [arXiv:2407.07449](https://arxiv.org/abs/2407.07449)
+
+172\. "High-speed reconstruction of long-duration gravitational waves from extreme mass ratio inspirals using sparse dictionary learning", Charles Badger, José A. Font, Mairi Sakellariadou, Alejandro Torres-Forné, [arXiv:2407.02908](https://arxiv.org/abs/2407.02908)
 
 171\. "Amplitudes and Polarizations of Quadratic Quasi-Normal Modes for a Schwarzschild Black Hole", Bruno Bucciotti, Leonardo Juliano, Adrien Kuntz, Enrico Trincherini, [arXiv:2406.14611](https://arxiv.org/abs/2406.14611)
 
