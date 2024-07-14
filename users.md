@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+172\. "Probing new fundamental fields with Extreme Mass Ratio Inspirals", Chao Zhang, Yungui Gong, [arXiv:2407.07449](https://arxiv.org/abs/2407.07449)
+
 171\. "Amplitudes and Polarizations of Quadratic Quasi-Normal Modes for a Schwarzschild Black Hole", Bruno Bucciotti, Leonardo Juliano, Adrien Kuntz, Enrico Trincherini, [arXiv:2406.14611](https://arxiv.org/abs/2406.14611)
 
 170\. "Post-Newtonian expansions of extreme mass ratio inspirals of spinning bodies into Schwarzschild black holes", Viktor Skoupý, Vojtěch Witzany, [arXiv:2406.14291](https://arxiv.org/abs/2406.14291)
