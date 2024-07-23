@@ -19,6 +19,10 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+175\. "Phenomenology and origin of late-time tails in eccentric binary black hole mergers", Tousif Islam, Guglielmo Faggioli, Gaurav Khanna, Scott E. Field, Maarten van de Meent, Alessandra Buonanno, [arXiv:2407.04682](https://arxiv.org/abs/2407.04682)
+
+174\. "Teukolsky equation for near-extremal black holes beyond general relativity: near-horizon analysis", Pablo A. Cano, Marina David, [arXiv:2407.02017](https://arxiv.org/abs/2407.02017)
+
 173\. "Probing new fundamental fields with Extreme Mass Ratio Inspirals", Chao Zhang, Yungui Gong, [arXiv:2407.07449](https://arxiv.org/abs/2407.07449)
 
 172\. "High-speed reconstruction of long-duration gravitational waves from extreme mass ratio inspirals using sparse dictionary learning", Charles Badger, José A. Font, Mairi Sakellariadou, Alejandro Torres-Forné, [arXiv:2407.02908](https://arxiv.org/abs/2407.02908)
