@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+177\. "Gravitational wave surrogate model for spinning, intermediate mass ratio binaries based on perturbation theory and numerical relativity", Katie Rink, Ritesh Bachhar, Tousif Islam, Nur E. M. Rifat, Kevin Gonzalez-Quesada, Scott E. Field, Gaurav Khanna, Scott A. Hughes, Vijay Varma, [arXiv:2407.18319](https://arxiv.org/abs/2407.18319)
+
 176\. "Gravitational waves from black hole emission", Tousif Islam, Gaurav Khanna, Steven L. Liebling, [arXiv:2407.16989](https://arxiv.org/abs/2407.16989)
 
 175\. "Phenomenology and origin of late-time tails in eccentric binary black hole mergers", Tousif Islam, Guglielmo Faggioli, Gaurav Khanna, Scott E. Field, Maarten van de Meent, Alessandra Buonanno, [arXiv:2407.04682](https://arxiv.org/abs/2407.04682)
