@@ -19,6 +19,10 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+180\. "Floating orbits and energy extraction from magnetized Kerr black holes", João S. Santos, Vítor Cardoso, José Natário, [arXiv:2409.17225](https://arxiv.org/abs/2409.17225)
+
+179\. "Spin wave optics for gravitational waves lensed by a Kerr black hole", Kei-ichiro Kubota, Shun Arai, Hayato Motohashi, Shinji Mukohyama, [arXiv:2408.03289](https://arxiv.org/abs/2408.03289)
+
 178\. "Post-Newtonian observables for aligned-spin binaries to sixth order in spin from gravitational self-force and Compton amplitudes", Yilber Fabian Bautista, Mohammed Khalil, Matteo Sergola, Chris Kavanagh, Justin Vines, [arXiv:2408.01871](https://arxiv.org/abs/2408.01871)
 
 177\. "Gravitational wave surrogate model for spinning, intermediate mass ratio binaries based on perturbation theory and numerical relativity", Katie Rink, Ritesh Bachhar, Tousif Islam, Nur E. M. Rifat, Kevin Gonzalez-Quesada, Scott E. Field, Gaurav Khanna, Scott A. Hughes, Vijay Varma, [arXiv:2407.18319](https://arxiv.org/abs/2407.18319)
