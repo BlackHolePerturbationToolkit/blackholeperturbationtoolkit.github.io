@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+181\. "Gravitational Wave Astronomy With TianQin", En-Kun Li et al. [arXiv:2409.19665](https://arxiv.org/abs/2409.19665)
+
 180\. "Floating orbits and energy extraction from magnetized Kerr black holes", João S. Santos, Vítor Cardoso, José Natário, [arXiv:2409.17225](https://arxiv.org/abs/2409.17225)
 
 179\. "Spin wave optics for gravitational waves lensed by a Kerr black hole", Kei-ichiro Kubota, Shun Arai, Hayato Motohashi, Shinji Mukohyama, [arXiv:2408.03289](https://arxiv.org/abs/2408.03289)
