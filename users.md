@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+184\. "Impact of relativistic waveforms in LISA's science objectives with extreme-mass-ratio inspirals", Hassan Khalvati, Alessandro Santini, Francisco Duque, Lorenzo Speri, Jonathan Gair, Huan Yang, Richard Brito, [arXiv:2410.17310](https://arxiv.org/abs/2410.17310)
+
 183\. "A test for LISA foreground Gaussianity and stationarity. II. Extreme mass-ratio inspirals", Manuel Piarulli, Riccardo Buscicchio, Federico Pozzoli, Ollie Burke, Matteo Bonetti, Alberto Sesana, [arXiv:2410.08862](https://arxiv.org/abs/2410.08862)
 
 182\. "Spinning particles near Kerr black holes: Orbits and gravitational-wave fluxes through the Hamilton-Jacobi formalism", Gabriel Andres Piovano, Christiana Pantelidou, Jake Mac Uilliam, Vojtěch Witzany, [arXiv:2410.05769](https://arxiv.org/abs/2410.05769)
