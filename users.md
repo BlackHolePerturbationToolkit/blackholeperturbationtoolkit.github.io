@@ -19,7 +19,9 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
-185\. "Gravitational memory: new results from post-Newtonian and self-force theory", Kevin Cunningham, Chris Kavanagh, Adam Pound, David Trestini, Niels Warburton, Jakob Neef, [arXiv:2410.23950](https://arxiv.org/abs/2410.23950)
+186\. "Gravitational memory: new results from post-Newtonian and self-force theory", Kevin Cunningham, Chris Kavanagh, Adam Pound, David Trestini, Niels Warburton, Jakob Neef, [arXiv:2410.23950](https://arxiv.org/abs/2410.23950)
+
+185\. "Mode-sum prescription for renormalized expectation values for a charged quantum scalar field on a charged black hole", Cormac Breen, George Montagnon, Peter Taylor, Elizabeth Winstanley, [arXiv:2410.18211](https://arxiv.org/abs/2410.18211)
 
 184\. "Impact of relativistic waveforms in LISA's science objectives with extreme-mass-ratio inspirals", Hassan Khalvati, Alessandro Santini, Francisco Duque, Lorenzo Speri, Jonathan Gair, Huan Yang, Richard Brito, [arXiv:2410.17310](https://arxiv.org/abs/2410.17310)
 
