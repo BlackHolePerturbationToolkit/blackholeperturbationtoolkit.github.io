@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+188\. "Post-Newtonian expansion of energy and angular momentum fluxes: inclined spherical orbits about a Kerr black hole", Jezreel C. Castillo, Charles R. Evans, Chris Kavanagh, Jakob Neef, Adrian Ottewill, Barry Wardell, [arXiv:2411.09700](https://arxiv.org/abs/2411.09700) (*)
+
 187\. "A note on the conversion of orbital angles for extreme mass ratio inspirals", Philip Lynch, Ollie Burke, [arXiv:2411.04955](https://arxiv.org/abs/2411.04955) (*)
 
 186\. "Gravitational memory: new results from post-Newtonian and self-force theory", Kevin Cunningham, Chris Kavanagh, Adam Pound, David Trestini, Niels Warburton, Jakob Neef, [arXiv:2410.23950](https://arxiv.org/abs/2410.23950) (*)
