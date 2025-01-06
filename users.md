@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+192\. "Post-adiabatic waveform-generation framework for asymmetric precessing binaries", Josh Mathews, Adam Pound, [arXiv:2501.01413](https://arxiv.org/abs/2501.01413)
+
 191\. "Ringdown of a postinnermost stable circular orbit of a rapidly spinning black hole: Mass ratio dependence of higher harmonic quasinormal mode excitation", Daiki Watarai, [arXiv:2408.16747](https://arxiv.org/abs/2408.16747)
 
 190\. "Analytic solution for the motion of spinning particles in Kerr space-time", Viktor Skoupý, Vojtěch Witzany, [arXiv:2411.16855](https://arxiv.org/abs/2411.16855)
