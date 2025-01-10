@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+193\. "Monodromy eigenvalues of the radial Teukolsky equation and their connection to the renormalized angular momentum", Zachary Nasipak, [arXiv:2412.06503](https://arxiv.org/abs/2412.06503)
+
 192\. "Post-adiabatic waveform-generation framework for asymmetric precessing binaries", Josh Mathews, Adam Pound, [arXiv:2501.01413](https://arxiv.org/abs/2501.01413)
 
 191\. "Ringdown of a postinnermost stable circular orbit of a rapidly spinning black hole: Mass ratio dependence of higher harmonic quasinormal mode excitation", Daiki Watarai, [arXiv:2408.16747](https://arxiv.org/abs/2408.16747)
