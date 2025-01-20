@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+194\. "Environmental effects in extreme mass ratio inspirals: perturbations to the environment in Kerr", Conor Dyson, Thomas F.M. Spieksma, Richard Brito, Maarten van de Meent, Sam Dolan, [arXiv:2501.09806](https://arxiv.org/abs/2501.09806)
+
 193\. "Monodromy eigenvalues of the radial Teukolsky equation and their connection to the renormalized angular momentum", Zachary Nasipak, [arXiv:2412.06503](https://arxiv.org/abs/2412.06503)
 
 192\. "Post-adiabatic waveform-generation framework for asymmetric precessing binaries", Josh Mathews, Adam Pound, [arXiv:2501.01413](https://arxiv.org/abs/2501.01413)
