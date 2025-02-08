@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+198\. "Quantum Criticality in Black Hole Scattering", Uri Kol, [arXiv:2411.09814](https://arxiv.org/abs/2411.09814)
+
 197\. "Renormalized charged scalar current on a Reissner-Nordstrom black hole in the presence of charge superradiance", George Montagnon, Elizabeth Winstanley, [arXiv:2501.10780](https://arxiv.org/abs/2501.10780)
 
 196\. "Quantum-Corrected Hawking Radiation from Near-Extremal Kerr-Newman Black Holes", Sabyasachi Maulik, Xin Meng, Leopoldo A. Pando Zayas, [arXiv:2501.08252](https://arxiv.org/abs/2501.08252)
