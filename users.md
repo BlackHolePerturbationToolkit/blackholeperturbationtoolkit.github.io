@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+200\. "Lensing and wave optics in the strong field of a black hole", Juno C. L. Chan, Conor Dyson, Matilde Garcia, Jaime Redondo-Yuste, Luka Vujeva, [arXiv:2502.14073](https://arxiv.org/abs/2502.14073)
+
 199\. "Approach to the separatrix with eccentric orbits", Guillaume Lhost, Geoffrey Compère, [arXiv:2412.04249](https://arxiv.org/abs/2412.04249)
 
 198\. "Quantum Criticality in Black Hole Scattering", Uri Kol, [arXiv:2411.09814](https://arxiv.org/abs/2411.09814)
