@@ -19,6 +19,10 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+202\. "Fundamental Physics and Cosmology with TianQin", Jun Luo et al. [arXiv:2502.20138](https://arxiv.org/abs/2502.20138)
+
+201\. "Parametric solutions to the Kerr separatrix", Tammy Ng, Edward Teo, [arXiv:2502.18141](https://arxiv.org/abs/2502.18141)
+
 200\. "Lensing and wave optics in the strong field of a black hole", Juno C. L. Chan, Conor Dyson, Matilde Garcia, Jaime Redondo-Yuste, Luka Vujeva, [arXiv:2502.14073](https://arxiv.org/abs/2502.14073)
 
 199\. "Approach to the separatrix with eccentric orbits", Guillaume Lhost, Geoffrey Compère, [arXiv:2412.04249](https://arxiv.org/abs/2412.04249)
