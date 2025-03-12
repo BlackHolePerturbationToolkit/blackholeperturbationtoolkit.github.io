@@ -19,6 +19,10 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+204\. "Quadratic quasinormal modes at null infinity on a Schwarzschild spacetime", Patrick Bourg, Rodrigo Panosso Macedo, Andrew Spiers, Benjamin Leather, Bonga Béatrice, Adam Pound, [arXiv:2503.07432](https://arxiv.org/abs/2503.07432)
+
+203\. "Signatures of Quantum Gravity in Gravitational Wave Memory", Nils Deppe, Lavinia Heisenberg, Lawrence E. Kidder, David Maibach, Sizheng Ma, Jordan Moxon, Kyle C. Nelli, William Throwe, Nils L. Vu, [arXiv:2502.20584](https://arxiv.org/abs/2502.20584)
+
 202\. "Fundamental Physics and Cosmology with TianQin", Jun Luo et al. [arXiv:2502.20138](https://arxiv.org/abs/2502.20138)
 
 201\. "Parametric solutions to the Kerr separatrix", Tammy Ng, Edward Teo, [arXiv:2502.18141](https://arxiv.org/abs/2502.18141)
