@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+206\. "Korteweg-de Vries Integrals for Modified Black Hole Potentials: Instabilities and other Questions", Michele Lenzi, Arnau Montava Agudo, Carlos F. Sopuerta, [arXiv:2503.09918](https://arxiv.org/abs/2503.09918)
+
 205\. "Superconvergent Discontinuous Galerkin Method for the Scalar Teukolsky Equation on Hyperboloidal Domains: Efficient Waveform and Self-Force Computation", Manas Vishal, Scott E. Field, Sigal Gottlieb, Jennifer Ryan, [arXiv:2503.11523](https://arxiv.org/abs/2503.11523)
 
 204\. "Quadratic quasinormal modes at null infinity on a Schwarzschild spacetime", Patrick Bourg, Rodrigo Panosso Macedo, Andrew Spiers, Benjamin Leather, Bonga Béatrice, Adam Pound, [arXiv:2503.07432](https://arxiv.org/abs/2503.07432)
