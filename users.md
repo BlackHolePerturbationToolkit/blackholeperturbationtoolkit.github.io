@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+209\. "Resonant DM scattering in the galactic center under the influence of EMRI", Takafumi Kakehi, Hidetoshi Omiya, Takuya Takahashi, Takahiro Tanaka, [arXiv:2505.10036](https://arxiv.org/abs/2505.10036)
+
 208\. "Universal Waveforms for Extreme Mass-Ratio Inspiral", Ilan Strusberg, Barak Rom, Re'em Sari, [arXiv:2505.07941](https://arxiv.org/abs/2505.07941)
 
 207\. "Extreme mass ratio inspirals in rotating dark matter spikes", Soumodeep Mitra, Nicholas Speeney, Sumanta Chakraborty, Emanuele Berti, [arXiv:2505.04697](https://arxiv.org/abs/2505.04697)
