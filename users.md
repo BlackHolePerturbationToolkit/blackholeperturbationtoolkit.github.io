@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+211\. "Self-force framework for merger-ringdown waveforms", Lorenzo Küchler, Geoffrey Compère, Adam Pound [arXiv:2506.02189](https://arxiv.org/abs/2506.02189)
+
 210\. "Black hole spectroscopy: from theory to experiment", Emanuele Berti et al. [arXiv:2505.23895](https://arxiv.org/abs/2505.23895)
 
 209\. "Resonant DM scattering in the galactic center under the influence of EMRI", Takafumi Kakehi, Hidetoshi Omiya, Takuya Takahashi, Takahiro Tanaka, [arXiv:2505.10036](https://arxiv.org/abs/2505.10036)
