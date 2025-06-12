@@ -19,6 +19,10 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+213\. The Fast and the Frame-Dragging: Efficient waveforms for asymmetric-mass eccentric equatorial inspirals into rapidly-spinning black holes, Christian E. A. Chapman-Bird, Lorenzo Speri, Zachary Nasipak, Ollie Burke, Michael L. Katz, Alessandro Santini, Shubham Kejriwal, Philip Lynch, Josh Mathews, Hassan Khalvati, Jonathan E. Thompson, Soichiro Isoyama, Scott A. Hughes, Niels Warburton, Alvin J. K. Chua, Maxime Pigou, [arXiv:2506.09470](https://arxiv.org/abs/2506.09470) (*)
+
+212\. "Quasinormal modes in Kerr spacetime as a 2D Eigenvalue problem", Jamil Assaad, Rodrigo Panosso Macedo, [arXiv:2506.04326](https://arxiv.org/abs/2506.04326)
+
 211\. "Self-force framework for merger-ringdown waveforms", Lorenzo Küchler, Geoffrey Compère, Adam Pound [arXiv:2506.02189](https://arxiv.org/abs/2506.02189)
 
 210\. "Black hole spectroscopy: from theory to experiment", Emanuele Berti et al. [arXiv:2505.23895](https://arxiv.org/abs/2505.23895)
