@@ -17,7 +17,7 @@ Currently, the package contains code to compute waveforms for eccentric, equator
 
 <img src="images/FEW2_waveform.png"/>
 
-  Additionally, FastEMRIWaveforms provides a highly modular framework that allows users to build in custom modules particular to their research. We expect to add models for inspirals in Kerr spacetime in the near future and it should be straight forward to add additional physics such as phasing corrections from environmental or beyond GR effects.
+  Additionally, FastEMRIWaveforms provides a highly modular framework that allows users to build in custom modules particular to their research. In many cases, this makes it straightforward to add additional physics such as phasing corrections from environmental or beyond GR effects.
 
 ## Installation and documentation
 
