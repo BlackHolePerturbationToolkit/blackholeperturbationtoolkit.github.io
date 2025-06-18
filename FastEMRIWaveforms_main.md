@@ -13,7 +13,7 @@ FastEMRIWaveforms is a Python package that generates "blazingly fast" and accura
 
 Unlike [kludge models](https://arxiv.org/abs/1705.04259) which make use of various weak field approximations the FEW model contains the full harmonic content of the EMRI waveform. The waveform generation time is typically 10s seconds on a CPU and < 1s on a GPU.
  
-Currently, the package contains code to compute waveforms for eccentric, equatorial inspirals into a Kerr black hole, as well as the various separate modules used to create them. For the Kerr model the resulting waveforms faithfully match (slow to generate) reference waveforms with a worst case overlap of $\sim\times10^{-5}$ for inspirals with initial eccentricity $e_0 \le 0.85$. The figure below shows an example of the waveform from an inspiral into a Kerr black hole.
+Currently, the package contains code to compute waveforms for eccentric, equatorial inspirals into a Kerr black hole, as well as the various separate modules used to create them. For the Kerr model the resulting waveforms faithfully match (slow to generate) reference waveforms with a worst case overlap of $\sim 10^{-5}$ for inspirals with initial eccentricity $e_0 \le 0.85$. The figure below shows an example of the waveform from an inspiral into a Kerr black hole.
 
 <img src="images/FEW2_waveform.png"/>
 
@@ -25,7 +25,7 @@ All information and examples on installing and running the code can be found [in
 
 ## Publications
 
-Below we list the papers associated with the release of major updates of FEW. Additional papers that make use of FEW can be found in on the [BHPToolkit users page](https://bhptoolkit.org/users.html)
+Below we list the papers associated with the release of major updates of FEW. Additional papers that make use of FEW can be found in on the [BHPToolkit users page](https://bhptoolkit.org/users.html).
 
 - v2.0.0 Kerr, equatorial model: [arXiv:2506.09470](https://arxiv.org/abs/2506.09470)
 - v1.4.1 Frequency domain model: [arXiv:2307.12585](https://arxiv.org/abs/2307.12585)
