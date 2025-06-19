@@ -19,7 +19,9 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
-213\. The Fast and the Frame-Dragging: Efficient waveforms for asymmetric-mass eccentric equatorial inspirals into rapidly-spinning black holes, Christian E. A. Chapman-Bird, Lorenzo Speri, Zachary Nasipak, Ollie Burke, Michael L. Katz, Alessandro Santini, Shubham Kejriwal, Philip Lynch, Josh Mathews, Hassan Khalvati, Jonathan E. Thompson, Soichiro Isoyama, Scott A. Hughes, Niels Warburton, Alvin J. K. Chua, Maxime Pigou, [arXiv:2506.09470](https://arxiv.org/abs/2506.09470) (*)
+214\. "Gravitational waves from b-EMRIs: Doppler shift and beaming, resonant excitation, helicity oscillations and self-lensing", João S. Santos, Vitor Cardoso, José Natário, Maarten van de Meent, [arXiv:2506.14868](https://arxiv.org/abs/2506.14868)
+
+213\. "The Fast and the Frame-Dragging: Efficient waveforms for asymmetric-mass eccentric equatorial inspirals into rapidly-spinning black holes", Christian E. A. Chapman-Bird, Lorenzo Speri, Zachary Nasipak, Ollie Burke, Michael L. Katz, Alessandro Santini, Shubham Kejriwal, Philip Lynch, Josh Mathews, Hassan Khalvati, Jonathan E. Thompson, Soichiro Isoyama, Scott A. Hughes, Niels Warburton, Alvin J. K. Chua, Maxime Pigou, [arXiv:2506.09470](https://arxiv.org/abs/2506.09470) (*)
 
 212\. "Quasinormal modes in Kerr spacetime as a 2D Eigenvalue problem", Jamil Assaad, Rodrigo Panosso Macedo, [arXiv:2506.04326](https://arxiv.org/abs/2506.04326)
 
