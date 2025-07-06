@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+217\. "Extreme mass-ratio inspiral within an ultralight scalar cloud I. Scalar radiation", Dongjun Li, Colin Weller, Patrick Bourg, Michael LaHaye, Nicolás Yunes, Huan Yang, [arXiv:2507.02045](https://arxiv.org/abs/2507.02045)
+
 216\. "Spherical inspirals of spinning bodies into Kerr black holes", Viktor Skoupý, Gabriel Andres Piovano, Vojtěch Witzany, [arXiv:2506.20726](https://arxiv.org/abs/2506.20726)
 
 215\. "Complete quasinormal modes of Type-D black holes", Changkai Chen, Jiliang Jing, Zhoujian Cao, Mengjie Wang, [arXiv:2506.14635](https://arxiv.org/abs/2506.14635)
