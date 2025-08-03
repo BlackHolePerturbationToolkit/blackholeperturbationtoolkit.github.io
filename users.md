@@ -19,6 +19,18 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+223\. "Gravitational Wave Peep Contributions to Background Signal Confusion Noise for LISA", Daniel J Oliver, Aaron D Johnson, Lena Janssen, Joel Berrier, Kostas Glampedakis, Daniel Kennefick, [arXiv:2507.19704](https://arxiv.org/abs/2507.19704)
+
+222\. "Towards relativistic inspirals into black holes surrounded by matter", Lukáš Polcar, Vojtěch Witzany, [arXiv:2507.15720](https://arxiv.org/abs/2507.15720)
+
+221\. "A New High-Performing Method for Solving the Homogeneous Teukolsky Equation", Ye Jiang, Wen-Biao Han, [arXiv:2507.15363](https://arxiv.org/abs/2507.15363)
+
+220\. "Post-adiabatic waveforms from extreme mass ratio inspirals in the presence of dark matter", Mostafizur Rahman, Takuya Takahashi, [arXiv:2507.06923](https://arxiv.org/abs/2507.06923)
+
+219\. "Post-Newtonian expansion of fluxes from a scalar charge on an inclined-spherical orbit about a Kerr black hole", Jezreel C. Castillo, Charles R. Evans, Chris Kavanagh, Jakob Neef, Barry Wardell, Adrian Ottewill, [arXiv:2507.07303](https://arxiv.org/abs/2507.07303) (*)
+
+218\. "Peaking into the abyss: Characterizing the merger of equatorial-eccentric-geodesic plunges in rotating black holes", Guglielmo Faggioli, Maarten van de Meent, Alessandra Buonanno, Gaurav Khanna, [arXiv:2507.05870](https://arxiv.org/abs/2507.05870)
+
 217\. "Extreme mass-ratio inspiral within an ultralight scalar cloud I. Scalar radiation", Dongjun Li, Colin Weller, Patrick Bourg, Michael LaHaye, Nicolás Yunes, Huan Yang, [arXiv:2507.02045](https://arxiv.org/abs/2507.02045)
 
 216\. "Spherical inspirals of spinning bodies into Kerr black holes", Viktor Skoupý, Gabriel Andres Piovano, Vojtěch Witzany, [arXiv:2506.20726](https://arxiv.org/abs/2506.20726)
