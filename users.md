@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+224\. "Effective source for second-order self-force calculations: quasicircular orbits in Schwarzschild spacetime", Samuel D. Upton, Barry Wardell, Adam Pound, Niels Warburton, Leor Barack, [arXiv:2508.00087](https://arxiv.org/abs/2508.00087)
+
 223\. "Gravitational Wave Peep Contributions to Background Signal Confusion Noise for LISA", Daniel J Oliver, Aaron D Johnson, Lena Janssen, Joel Berrier, Kostas Glampedakis, Daniel Kennefick, [arXiv:2507.19704](https://arxiv.org/abs/2507.19704)
 
 222\. "Towards relativistic inspirals into black holes surrounded by matter", Lukáš Polcar, Vojtěch Witzany, [arXiv:2507.15720](https://arxiv.org/abs/2507.15720)
