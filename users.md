@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+226\. "Prospects for EMRI/MBH parameter estimation using Quasi-Periodic Eruption timings: short-timescale analysis", Joheen Chakraborty, Lisa V. Drummond, Matteo Bonetti, Alessia Franchini, Shubham Kejriwal, Giovanni Miniutti, Riccardo Arcodia, Scott A. Hughes, Francisco Duque, Erin Kara, Alberto Sesana, Margherita Giustini, Amedeo Motta, Kevin Burdge, [arXiv:2508.20162](https://arxiv.org/abs/2508.20162)
+
 225\. "Emergent Turbulence in Nonlinear Gravity", Sizheng Ma, Luis Lehner, Huan Yang, Lawrence E. Kidder, Harald P. Pfeiffer, Mark A. Scheel, [arXiv:2508.13294](https://arxiv.org/abs/2508.13294)
 
 224\. "Effective source for second-order self-force calculations: quasicircular orbits in Schwarzschild spacetime", Samuel D. Upton, Barry Wardell, Adam Pound, Niels Warburton, Leor Barack, [arXiv:2508.00087](https://arxiv.org/abs/2508.00087)
