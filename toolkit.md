@@ -10,7 +10,7 @@ Current **Mathematica** projects in the Toolkit include:
 * [SpinWeightedSpheroidalHarmonics](https://bhptoolkit.org/SpinWeightedSpheroidalHarmonics): Tools for computing spin-weighted spheroidal harmonics and their associated eigenvalues.
 * [KerrGeodesics](https://bhptoolkit.org/KerrGeodesics): Tools for computing bound timelike geodesics about a Kerr black hole.
 * [Teukolsky](https://bhptoolkit.org/Teukolsky): A set of functions for computing solutions to the Teukolsky equation for perturbations of the spacetime of a Kerr black hole.
-* [QuasiNormalModes](https://bhptoolkit.org/QuasiNormalModes): Tools for computing quasinormal modes in Schwarzschild and Kerr spacetime
+* [QNM](https://bhptoolkit.org/QNM-Mathematica): Tools for computing quasinormal modes in Schwarzschild and Kerr spacetime
 * [GeneralRelativityTensors](https://bhptoolkit.org/GeneralRelativityTensors/): Provides a set of functions for performing coordinate-based tensor calculations with a focus on general relativity and black holes in particular.
 * [ReggeWheeler](https://bhptoolkit.org/ReggeWheeler/): A set of functions for computing solutions to the Regge-Wheeler equation for perturbations of the spacetime of a Schwarzschild black hole.
 * [PerturbationEquations](https://bhptoolkit.org/PerturbationEquations/): A set of tools for working with the spherical-harmonic decompositions of the first- and second-order Einstein equations and Teukolsky equations in Schwarzschild spacetime.
