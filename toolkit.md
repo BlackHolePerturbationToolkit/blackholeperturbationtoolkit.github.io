@@ -14,6 +14,7 @@ Current **Mathematica** projects in the Toolkit include:
 * [GeneralRelativityTensors](https://bhptoolkit.org/GeneralRelativityTensors/): Provides a set of functions for performing coordinate-based tensor calculations with a focus on general relativity and black holes in particular.
 * [ReggeWheeler](https://bhptoolkit.org/ReggeWheeler/): A set of functions for computing solutions to the Regge-Wheeler equation for perturbations of the spacetime of a Schwarzschild black hole.
 * [PerturbationEquations](https://bhptoolkit.org/PerturbationEquations/): A set of tools for working with the spherical-harmonic decompositions of the first- and second-order Einstein equations and Teukolsky equations in Schwarzschild spacetime.
+* [WaSABI](https://bhptoolkit.org/WaSABI/): A package to generate gravitational waveforms from SF theory and SF-PN Hybrids.
 
 Current **C/C++** projects in the Toolkit include:
 
