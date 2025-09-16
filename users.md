@@ -19,7 +19,9 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
-227\. "Resonance in black hole ringdown: Benchmarking quasinormal mode excitation and extraction", Kei-ichiro Kubota, Hayato Motohashi [arXiv:2509.06411](https://arxiv.org/abs/2509.06411)
+228\. "Systematic errors in fast relativistic waveforms for Extreme Mass Ratio Inspirals", Hassan Khalvati, Philip Lynch, Ollie Burke, Lorenzo Speri, Maarten van de Meent, Zachary Nasipak, [arXiv:2509.08875](https://arxiv.org/abs/2509.08875)
+
+227\. "Resonance in black hole ringdown: Benchmarking quasinormal mode excitation and extraction", Kei-ichiro Kubota, Hayato Motohashi, [arXiv:2509.06411](https://arxiv.org/abs/2509.06411)
 
 226\. "Prospects for EMRI/MBH parameter estimation using Quasi-Periodic Eruption timings: short-timescale analysis", Joheen Chakraborty, Lisa V. Drummond, Matteo Bonetti, Alessia Franchini, Shubham Kejriwal, Giovanni Miniutti, Riccardo Arcodia, Scott A. Hughes, Francisco Duque, Erin Kara, Alberto Sesana, Margherita Giustini, Amedeo Motta, Kevin Burdge, [arXiv:2508.20162](https://arxiv.org/abs/2508.20162)
 
