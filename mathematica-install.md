@@ -54,6 +54,8 @@ PacletInstall["ReggeWheeler"];
 PacletInstall["SpinWeightedSpheroidalHarmonics"];
 PacletInstall["Teukolsky"];
 PacletInstall["PerturbationEquations"];
+PacletInstall["WaSABI"];
+PacletInstall["QNM"];
 ```
 
 ## Updating to latest version of a package
