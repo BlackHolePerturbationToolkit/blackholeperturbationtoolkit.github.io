@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+231\. "A relativistic treatment of accretion disk torques on extreme mass ratio inspirals around spinning black holes", Abhishek Hegade K.R., Charles F. Gammie, Nicolás Yunes, [arXiv:2510.03564](https://arxiv.org/abs/2510.03564)
+
 230\. "Consistency of spin effects between numerical relativity and perturbation theory for inspiraling comparable-mass black hole binaries", Tousif Islam, Gaurav Khanna, Scott E. Field, [arXiv:2510.00531](https://arxiv.org/abs/2510.00531)
 
 229\. "A relativistic treatment of accretion disk torques on extreme mass-ratio inspirals around non-spinning black holes", Abhishek Hegade K. R., Charles F. Gammie, Nicolás Yunes, [arXiv:2509.20457](https://arxiv.org/abs/2509.20457)
