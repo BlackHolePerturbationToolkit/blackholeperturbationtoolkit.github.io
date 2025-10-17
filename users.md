@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+234\. "Transition-to-plunge self-force waveforms with a spinning primary", Loïc Honet, Lorenzo Küchler, Adam Pound, Geoffrey Compère, [arXiv:2510.13958](https://arxiv.org/abs/2510.13958)
+
 233\. "Hybridization of second-order gravitational self-force and numerical relativity waveforms for quasi-circular and non-spinning black hole binaries", Hector Iglesias, Leanne Durkan, Deirdre Shoemaker, [arXiv:2510.11685](https://arxiv.org/abs/2510.11685)
 
 232\. "Particles with precessing spin in Kerr spacetime: analytic solutions for eccentric orbits and homoclinic motion near the equatorial plane", Gabriel Andres Piovano, [arXiv:2510.09597](https://arxiv.org/abs/2510.09597)
