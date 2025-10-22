@@ -19,6 +19,12 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+238\. "Hybrid waveform model for asymmetric spinning binaries: Self-force meets post-Newtonian theory", Loïc Honet, Adam Pound, Geoffrey Compère, [arXiv:2510.16114](https://arxiv.org/abs/2510.16114)
+
+237\. "Post-adiabatic self-force waveforms: slowly spinning primary and precessing secondary", Josh Mathews, Barry Wardell, Adam Pound, Niels Warburton, [arXiv:2510.16113](https://arxiv.org/abs/2510.16113)
+
+236\. "Spin-aligned inspiral waveforms from self-force and post-Newtonian theory", Loïc Honet, Josh Mathews, Geoffrey Compère, Adam Pound, Barry Wardell, Gabriel Andres Piovano, Maarten van de Meent, Niels Warburton, [arXiv:2510.16112](https://arxiv.org/abs/2510.16112)
+
 235\. "Transition-to-plunge self-force waveforms with a spinning primary", Loïc Honet, Lorenzo Küchler, Adam Pound, Geoffrey Compère, [arXiv:2510.13958](https://arxiv.org/abs/2510.13958)
 
 234\. "Black hole mergers beyond general relativity: a self-force approach", Ayush Roy, Lorenzo Küchler, Adam Pound, Rodrigo Panosso Macedo, [arXiv:2510.11793](https://arxiv.org/abs/2510.11793)
