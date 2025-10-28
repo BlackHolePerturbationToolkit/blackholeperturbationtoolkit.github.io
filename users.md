@@ -19,6 +19,10 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+240\. "Eccentric extreme-mass-ratio inspirals: a new window into ultra-light vector fields", Tieguang Zi, Fu-Wen Shu, [arXiv:2510.22275](https://arxiv.org/abs/2510.22275)
+
+239\. "Ab uno disce omnes: Single-harmonic search for extreme mass-ratio inspirals", Lorenzo Speri, Rodrigo Tenorio, Christian Chapman-Bird, Davide Gerosa, [arXiv:2510.20891](https://arxiv.org/abs/2510.20891)
+
 238\. "Hybrid waveform model for asymmetric spinning binaries: Self-force meets post-Newtonian theory", Loïc Honet, Adam Pound, Geoffrey Compère, [arXiv:2510.16114](https://arxiv.org/abs/2510.16114)
 
 237\. "Post-adiabatic self-force waveforms: slowly spinning primary and precessing secondary", Josh Mathews, Barry Wardell, Adam Pound, Niels Warburton, [arXiv:2510.16113](https://arxiv.org/abs/2510.16113)
