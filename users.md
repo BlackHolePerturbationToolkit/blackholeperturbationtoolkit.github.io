@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+242\. "Gravitational radiation from Kerr black holes using the Sasaki-Nakamura formalism: waveforms and fluxes at infinity", Yucheng Yin, Rico K. L. Lo, Xian Chen, [arXiv:2511.08673](https://arxiv.org/abs/2511.08673)
+
 241\. "A-BHPT-toolkit: Analytic Black Hole Perturbation Theory Package for Gravitational Scattering Amplitudes", Jovan Markovic, Mikhail M. Ivanov, [arXiv:2511.04765](https://arxiv.org/abs/2511.04765)
 
 240\. "Eccentric extreme-mass-ratio inspirals: a new window into ultra-light vector fields", Tieguang Zi, Fu-Wen Shu, [arXiv:2510.22275](https://arxiv.org/abs/2510.22275)
