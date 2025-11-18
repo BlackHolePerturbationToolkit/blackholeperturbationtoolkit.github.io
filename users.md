@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+244\. "Sub-Solar Mass Intermediate Mass Ratio Inspirals: Waveform Systematics and Detection Prospects with Gravitational Waves", Devesh Giri, Bhooshan Gadre, [arXiv:2511.13324](https://arxiv.org/abs/2511.13324)
+
 243\. "Black-hole scattering with numerical relativity: Self-force extraction and post-Minkowskian validation", Oliver Long, Harald P. Pfeiffer, Lawrence E. Kidder, Mark A. Scheel, [arXiv:2511.10196](https://arxiv.org/abs/2511.10196)
 
 242\. "Gravitational radiation from Kerr black holes using the Sasaki-Nakamura formalism: waveforms and fluxes at infinity", Yucheng Yin, Rico K. L. Lo, Xian Chen, [arXiv:2511.08673](https://arxiv.org/abs/2511.08673)
