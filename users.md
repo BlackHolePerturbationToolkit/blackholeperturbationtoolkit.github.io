@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+246\. "Constraint on massive vector field with extreme-mass-ratio inspirals around a slowly rotating black hole", Tieguang Zi, Peng-Cheng Li, Bao-Min Gu, Fu-Wen Shu, [arXiv:2511.18435](https://arxiv.org/abs/2511.18435)
+
 245\. "The Physics of Black Holes and Their Environments: Consequences for Gravitational Wave Science", Vitor Cardoso, Shauvik Biswas, Subhodeep Sarkar, [arXiv:2511.14841](https://arxiv.org/abs/2511.14841)
 
 244\. "Sub-Solar Mass Intermediate Mass Ratio Inspirals: Waveform Systematics and Detection Prospects with Gravitational Waves", Devesh Giri, Bhooshan Gadre, [arXiv:2511.13324](https://arxiv.org/abs/2511.13324)
