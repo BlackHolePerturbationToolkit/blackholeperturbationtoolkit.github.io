@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+249\. "Quasinormal ringing of Kerr black holes. III. Excitation coefficients for equatorial inspirals from the innermost stable circular orbit", Matteo Della Rocca, Laura Pezzella, Emanuele Berti, Leonardo Gualtieri, Andrea Maselli, [arXiv:2512.07959](https://arxiv.org/abs/2512.07959)
+
 248\. "Gravitational radiation from hyperbolic orbits: comparison between self-force, post-Minkowskian, post-Newtonian, and numerical relativity results", Niels Warburton, [arXiv:2512.02274](https://arxiv.org/abs/2512.02274)
 
 247\. "Scattering of charged massive scalar waves by Kerr-Newman black holes", Qian Li, Qianchuan Wang, Junji Jia, [arXiv:2511.21318](https://arxiv.org/abs/2511.21318)
