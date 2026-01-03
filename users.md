@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+253\. "Quasinormal mode/grey-body factor correspondence for Kerr black holes", Zun-Xian Huang, Peng-Cheng Li, [arXiv:2512.23510](https://arxiv.org/abs/2512.23510)
+
 252\. "The evaporation of near-extremal black holes through charged particle emission", Ilija Rakic, [arXiv:2512.18895](https://arxiv.org/abs/2512.18895)
 
 251\. "Quasinormal modes of rotating black holes beyond general relativity in the WKB approximation", Ruijing Tang, Nicola Franchini, Sebastian H. Völkel, Emanuele Berti, [arXiv:2512.17786](https://arxiv.org/abs/2512.17786)
