@@ -19,7 +19,17 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
-249\. "Constants of motion in gravitational self-force theory", David Trestini, Zachary Nasipak, Adam Pound, [arXiv:2601.05223](https://arxiv.org/abs/2601.05223)
+254\. "Constants of motion in gravitational self-force theory", David Trestini, Zachary Nasipak, Adam Pound, [arXiv:2601.05223](https://arxiv.org/abs/2601.05223)
+=======
+253\. "Quasinormal mode/grey-body factor correspondence for Kerr black holes", Zun-Xian Huang, Peng-Cheng Li, [arXiv:2512.23510](https://arxiv.org/abs/2512.23510)
+
+252\. "The evaporation of near-extremal black holes through charged particle emission", Ilija Rakic, [arXiv:2512.18895](https://arxiv.org/abs/2512.18895)
+
+251\. "Quasinormal modes of rotating black holes beyond general relativity in the WKB approximation", Ruijing Tang, Nicola Franchini, Sebastian H. Völkel, Emanuele Berti, [arXiv:2512.17786](https://arxiv.org/abs/2512.17786)
+
+250\. "Inspiral-Transition-Plunge Gravitational Waveforms Beyond Kerr: A Kerr-Newman Case Study", Daiki Watarai, Kent Yagi, Shammi Tahura, [arXiv:2512.14156](https://arxiv.org/abs/2512.14156)
+
+249\. "Quasinormal ringing of Kerr black holes. III. Excitation coefficients for equatorial inspirals from the innermost stable circular orbit", Matteo Della Rocca, Laura Pezzella, Emanuele Berti, Leonardo Gualtieri, Andrea Maselli, [arXiv:2512.07959](https://arxiv.org/abs/2512.07959)
 
 248\. "Gravitational radiation from hyperbolic orbits: comparison between self-force, post-Minkowskian, post-Newtonian, and numerical relativity results", Niels Warburton, [arXiv:2512.02274](https://arxiv.org/abs/2512.02274)
 
