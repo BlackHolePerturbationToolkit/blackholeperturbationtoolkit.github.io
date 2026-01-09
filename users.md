@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+249\. "Constants of motion in gravitational self-force theory", David Trestini, Zachary Nasipak, Adam Pound, [arXiv:2601.05223](https://arxiv.org/abs/2601.05223)
+
 248\. "Gravitational radiation from hyperbolic orbits: comparison between self-force, post-Minkowskian, post-Newtonian, and numerical relativity results", Niels Warburton, [arXiv:2512.02274](https://arxiv.org/abs/2512.02274)
 
 247\. "Scattering of charged massive scalar waves by Kerr-Newman black holes", Qian Li, Qianchuan Wang, Junji Jia, [arXiv:2511.21318](https://arxiv.org/abs/2511.21318)
