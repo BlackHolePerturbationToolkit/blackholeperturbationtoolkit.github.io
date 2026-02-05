@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+256\. "Decomposition of Schwarzschild Green's Function", Junquan Su, Neev Khera, Marc Casals, Sizheng Ma, Abhishek Chowdhuri, Huan Yang, [arXiv:2601.22015](https://arxiv.org/abs/2601.22015)
+
 255\. "Spiral Density Waves and Torque Balance in the Kerr Geometry", Conor Dyson, Daniel J. D'Orazio, [arXiv:2601.19123](https://arxiv.org/abs/2601.19123)
 
 254\. "Constants of motion in gravitational self-force theory", David Trestini, Zachary Nasipak, Adam Pound, [arXiv:2601.05223](https://arxiv.org/abs/2601.05223)
