@@ -19,6 +19,12 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+259\. "Probing Quantum Gravity effects with Extreme Mass Ratio Inspirals around Rotating Hayward Black Holes", Dan Zhang, Chao Zhang, Qiyuan Pan, Guoyang Fu, Jian-Pin Wu, [arXiv:2602.07436](https://arxiv.org/abs/2602.07436)
+
+258\. "The gravitational Compton amplitude at third post-Minkowskian order", N. Emil J. Bjerrum-Bohr, Gang Chen, Carl Jordan Eriksen, Nabha Shah, [arXiv:2602.06947](https://arxiv.org/abs/2602.06947)
+
+257\. "Gravitational Wave Scattering in Spinless WQFT", Yilber Fabian Bautista, Mathias Driesse, Kays Haddad, Gustav Uhre Jakobsen, [arXiv:2602.06125](https://arxiv.org/abs/2602.06125)
+
 256\. "Decomposition of Schwarzschild Green's Function", Junquan Su, Neev Khera, Marc Casals, Sizheng Ma, Abhishek Chowdhuri, Huan Yang, [arXiv:2601.22015](https://arxiv.org/abs/2601.22015)
 
 255\. "Spiral Density Waves and Torque Balance in the Kerr Geometry", Conor Dyson, Daniel J. D'Orazio, [arXiv:2601.19123](https://arxiv.org/abs/2601.19123)
