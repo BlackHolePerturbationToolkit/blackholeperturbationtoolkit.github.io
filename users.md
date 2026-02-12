@@ -19,6 +19,10 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+261\. "Bayesian inference for tidal heating with extreme mass ratio inspirals", Zhong-Wu Xia, Sheng Long, Qiyuan Pan, Jiliang Jing, Wei-Liang Qian, [arXiv:2602.11039](https://arxiv.org/abs/2602.11039)
+
+260\. "Resummed energy loss in extreme-mass-ratio scattering using critical orbits", Leor Barack, Riccardo Gonzo, Benjamin Leather, Oliver Long, Niels Warburton, [arXiv:2602.10089](https://arxiv.org/abs/2602.10089)
+
 259\. "Probing Quantum Gravity effects with Extreme Mass Ratio Inspirals around Rotating Hayward Black Holes", Dan Zhang, Chao Zhang, Qiyuan Pan, Guoyang Fu, Jian-Pin Wu, [arXiv:2602.07436](https://arxiv.org/abs/2602.07436)
 
 258\. "The gravitational Compton amplitude at third post-Minkowskian order", N. Emil J. Bjerrum-Bohr, Gang Chen, Carl Jordan Eriksen, Nabha Shah, [arXiv:2602.06947](https://arxiv.org/abs/2602.06947)
