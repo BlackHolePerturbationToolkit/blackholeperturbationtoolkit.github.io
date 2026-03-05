@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+262\. "Scalar quasinormal modes of rotating black holes in parity-violating gravity", Hiroaki W. H. Tahara, Hayato Motohashi, Kazufumi Takahashi, Vicharit Yingcharoenrat, [arXiv:2603.03722](https://arxiv.org/abs/2603.03722)
+
 261\. "Bayesian inference for tidal heating with extreme mass ratio inspirals", Zhong-Wu Xia, Sheng Long, Qiyuan Pan, Jiliang Jing, Wei-Liang Qian, [arXiv:2602.11039](https://arxiv.org/abs/2602.11039)
 
 260\. "Resummed energy loss in extreme-mass-ratio scattering using critical orbits", Leor Barack, Riccardo Gonzo, Benjamin Leather, Oliver Long, Niels Warburton, [arXiv:2602.10089](https://arxiv.org/abs/2602.10089)
