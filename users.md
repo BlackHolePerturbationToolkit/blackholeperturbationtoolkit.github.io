@@ -19,6 +19,8 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+263\. "Going into a tailspin near the abyss: analytic solutions for spinning particles on near equatorial, plunging orbits in Kerr spacetime", Gabriel Andres Piovano, [arXiv:2603.04682](https://arxiv.org/abs/2603.04682)
+
 262\. "Scalar quasinormal modes of rotating black holes in parity-violating gravity", Hiroaki W. H. Tahara, Hayato Motohashi, Kazufumi Takahashi, Vicharit Yingcharoenrat, [arXiv:2603.03722](https://arxiv.org/abs/2603.03722)
 
 261\. "Bayesian inference for tidal heating with extreme mass ratio inspirals", Zhong-Wu Xia, Sheng Long, Qiyuan Pan, Jiliang Jing, Wei-Liang Qian, [arXiv:2602.11039](https://arxiv.org/abs/2602.11039)
