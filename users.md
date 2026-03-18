@@ -19,6 +19,10 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+268\. "A new approach to the calculation of extreme-mass-ratio inspirals with a spinning secondary", Viktor Skoupý, [arXiv:2603.13482](https://arxiv.org/abs/2603.13482)
+
+267\. "Shifted-geodesic approximation for spinning-body gravitational wave fluxes", Lisa V. Drummond, Scott A. Hughes, Viktor Skoupý, Philip Lynch, Gabriel Andres Piovano, [arXiv:2603.12189](https://arxiv.org/abs/2603.12189)
+
 266\. "A Deep Learning Framework for Amplitude Generation of Generic EMRIs", Yan-bo Zeng, Jian-dong Zhang, Yi-Ming Hu, Jianwei Mei, [arXiv:2603.08635](https://arxiv.org/abs/2603.08635)
 
 265\. "Green functions of the Regge-Wheeler and Teukolsky equations in Schwarzschild spacetime", David Q. Aruquipa, Marc Casals, [arXiv:2603.07747](https://arxiv.org/abs/2603.07747)
