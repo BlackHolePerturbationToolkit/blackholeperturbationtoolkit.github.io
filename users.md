@@ -19,6 +19,18 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+274\. "Precision tests of analytical tail-term approximations for radiation reaction in Schwarzschild spacetime", Bakhtinur Juraev, Arman Tursunov, Zdeněk Stuchlík, Martin Kološ, Dmitri V. Gal'tsov, [arXiv:2604.13684](https://arxiv.org/abs/2604.13684)
+
+273\. "Relativistic signatures of scalar dark matter in extreme-mass-ratio inspirals", Robrecht Keijzer, Simon Maenaut, Henri Inchauspé, Thomas Hertog, [arXiv:2604.11893](https://arxiv.org/abs/2604.11893)
+
+272\. "Self-gravitating thin shells are dynamically unstable on all angular scales", Tristan Pitre, Berend Schneider, Eric Poisson, [arXiv:2604.05980](https://arxiv.org/abs/2604.05980)
+
+271\. "The point-particle-limit effective-source approach for computing gravitational self-force in the Lorenz gauge", Chao Zhang, Yungui Gong, Xuchen Lu, Wenting Zhou, [arXiv:2603.27284](https://arxiv.org/abs/2603.27284)
+
+270\. "Modeling the merger-ringdown of an eccentric test-mass inspiral into a Kerr black hole using the effective-one-body framework", Guglielmo Faggioli, Alessandra Buonanno, Maarten van de Meent, Gaurav Khanna, [arXiv:2603.19913](https://arxiv.org/abs/2603.19913)
+
+269\. "Quantifying the Scientific Potential of Intermediate and Extreme Mass Ratio Inspirals with the Laser Interferometer Space Antenna", Lorenzo Speri, Francisco Duque, Susanna Barsanti, Alessandro Santini, Shubham Kejriwal, Ollie Burke, Christian E. A. Chapman-Bird, [arXiv:2603.17072](https://arxiv.org/abs/2603.17072)
+
 268\. "A new approach to the calculation of extreme-mass-ratio inspirals with a spinning secondary", Viktor Skoupý, [arXiv:2603.13482](https://arxiv.org/abs/2603.13482)
 
 267\. "Shifted-geodesic approximation for spinning-body gravitational wave fluxes", Lisa V. Drummond, Scott A. Hughes, Viktor Skoupý, Philip Lynch, Gabriel Andres Piovano, [arXiv:2603.12189](https://arxiv.org/abs/2603.12189)
