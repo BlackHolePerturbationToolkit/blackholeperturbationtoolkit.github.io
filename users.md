@@ -19,6 +19,10 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+276\. "Gravitational waves of extreme-mass-ratio inspirals in a rotating black hole with Dehnen dark matter halo", Kun Meng, Shao-Jun Zhang, Nan Yang, [arXiv:2604.24413](https://arxiv.org/abs/2604.24413)
+
+275\. "Physics informed operator learning of parameter dependent spectra", Haohao Gu, Sensen He, Hanlin Song, Bo Liang, Zhenwei Lyu, Xiaoguang Hu, Minghui Du, Peng Xu, Bo-Qiang Ma, [arXiv:2604.23625](https://arxiv.org/abs/2604.23625)
+
 274\. "Precision tests of analytical tail-term approximations for radiation reaction in Schwarzschild spacetime", Bakhtinur Juraev, Arman Tursunov, Zdeněk Stuchlík, Martin Kološ, Dmitri V. Gal'tsov, [arXiv:2604.13684](https://arxiv.org/abs/2604.13684)
 
 273\. "Relativistic signatures of scalar dark matter in extreme-mass-ratio inspirals", Robrecht Keijzer, Simon Maenaut, Henri Inchauspé, Thomas Hertog, [arXiv:2604.11893](https://arxiv.org/abs/2604.11893)
