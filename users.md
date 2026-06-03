@@ -19,6 +19,20 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+283\. "Recoil-regulated extreme mass-ratio inspirals in AGN disks", LingQin Xue, Zoltán Haiman, Hiromichi Tagawa, Imre Bartos, [arXiv:2605.29305](https://arxiv.org/abs/2605.29305)
+
+282\. "Analytical Fluxes from Generic Schwarzschild Geodesics", Majed Khalaf, Chris Kavanagh, Ofri Telem, [arXiv:2605.13847](https://arxiv.org/abs/2605.13847)
+
+281\. "Constraining Lorentz symmetry breaking in bumblebee gravity with extreme mass-ratio inspirals", Sheng Long, Zhong-wu Xia, Huajie Gong, Zhoujian Cao, Qiyuan Pan, Jiliang Jing, [arXiv:2605.05362](https://arxiv.org/abs/2605.05362)
+
+280\. "Pole Structure of Kerr Green's Function", Hayato Motohashi, Yuto Suichi, [arXiv:2605.01964](https://arxiv.org/abs/2605.01964)
+
+279\. "Efficient and Stable Computation of Gravitational-Wave Fluxes from Generic Kerr Orbits via a Unified HeunC Framework", Changkai Chen, Zhoujian Cao, Jiliang Jing, [arXiv:2605.09250](https://arxiv.org/abs/2605.09250)
+
+278\. "Pole Skipping, Avoided Crossing, and Resonant Excitation in Kerr Quasinormal Modes near Algebraically Special Frequencies", Kei-ichiro Kubota, Hayato Motohashi, [arXiv:2605.17840](https://arxiv.org/abs/2605.17840)
+
+277\. "Dynamical tidal Love numbers of black holes under generic perturbations: Connecting black hole perturbation theory with effective field theory", Sumanta Chakraborty, M.V.S Saketh, Tanja Hinderer, Jan Steinhoff, [arXiv:2605.00693](https://arxiv.org/abs/2605.00693)
+
 276\. "Gravitational waves of extreme-mass-ratio inspirals in a rotating black hole with Dehnen dark matter halo", Kun Meng, Shao-Jun Zhang, Nan Yang, [arXiv:2604.24413](https://arxiv.org/abs/2604.24413)
 
 275\. "Physics informed operator learning of parameter dependent spectra", Haohao Gu, Sensen He, Hanlin Song, Bo Liang, Zhenwei Lyu, Xiaoguang Hu, Minghui Du, Peng Xu, Bo-Qiang Ma, [arXiv:2604.23625](https://arxiv.org/abs/2604.23625)
