@@ -19,7 +19,7 @@ ResourceFunction["SaveReadableNotebook"]["file.nb", "file.nb",
 ```
 where `file.nb` is the name of the notebook file.
 
-## (Optional) Don't clutter `git diff` outbook with notebook diffs
+## (Optional) Don't clutter `git diff` output with notebook diffs
 
 It's possible to tell git to treat Mathematica notebooks as text files for the purpose of tracking changes (so that small changes only lead to small commits), but to make `git diff` treat them as binary so that it only shows them as having changed and doesn't give the largely unreadable text diffs. To do this, add the following to your `~/.gitconfig`:
 ```gitconfig
@@ -46,7 +46,7 @@ As of version 14.1, Mathematica has a nice built-in `Diff` command that can be u
   cmd = open -a Wolfram `nbdiff.wls \"$LOCAL\" \"$REMOTE\" \"$MERGED\"`
 ```
 2. Put the below code in a script file called `nbdiff.wls` and put it somewhere that it can be found (e.g. `/usr/local/bin/nbdiff.wls`). 
-```mathematica
+```Mathematica
 #!/usr/bin/env wolframscript
 
 UsingFrontEnd[
@@ -79,7 +79,7 @@ As of version 14.1, Mathematica has a nice built-in `Diff3` command that can be 
   cmd = open -a Wolfram `nbmerge.wls \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"`
 ```
 2. Put the below code in a script file called `nbmerge.wls` and put it somewhere that it can be found (e.g. `/usr/local/bin/nbmerge.wls`). 
-```mathematica
+```Mathematica
 #!/usr/bin/env wolframscript
 
 UsingFrontEnd[
