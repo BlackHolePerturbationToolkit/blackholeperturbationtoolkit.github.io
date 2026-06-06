@@ -50,7 +50,7 @@ As of version 14.1, Mathematica has a nice built-in `Diff` command that can be u
 [difftool "nbdiff"]
   cmd = open -a Wolfram `nbdiff.wls \"$LOCAL\" \"$REMOTE\" \"$MERGED\"`
 ```
-2. Put the below code in a script file called `nbdiff.wls` and put it somewhere that it can be found (e.g. `/usr/local/bin/nbdiff.wls`). 
+2. Put the below code in a script file called `nbdiff.wls` and put it somewhere that it can be found (e.g. `/usr/local/bin/nbdiff.wls`): 
 ```Mathematica
 #!/usr/bin/env wolframscript
 
@@ -84,8 +84,7 @@ As of version 14.1, Mathematica has a nice built-in `Diff3` command that can be 
 [mergetool "nbmerge"]
   cmd = open -a Wolfram `nbmerge.wls \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"`
 ```
-2. Put the below code in a script file called `nbmerge.wls` and put it somewhere that it can be found (e.g. `/usr/local/bin/nbmerge.wls`). 
-
+2. Put the below code in a script file called `nbmerge.wls` and put it somewhere that it can be found (e.g. `/usr/local/bin/nbmerge.wls`): 
 ```Mathematica
 #!/usr/bin/env wolframscript
 
