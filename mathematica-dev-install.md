@@ -19,4 +19,4 @@ If you are looking for things to work on in a particular package then a good pla
 
 If you are working on the webpage for a package then see our [gh-pages guide](gh-pages).
 
-Developers may also be interested in seeing the pages on [Creating Documentation](mathematica-documentation-build) and  [Creating Paclets](mathematica-paclets).
+Developers may also be interested in seeing the pages on [Creating Documentation](mathematica-dev-documentation) and  [Creating Paclets](mathematica-dev-paclets).
