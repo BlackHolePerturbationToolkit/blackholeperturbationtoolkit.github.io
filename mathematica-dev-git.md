@@ -46,7 +46,7 @@ As of version 14.1, Mathematica has a nice built-in `Diff` command that can be u
   cmd = open -a Wolfram `nbdiff.wls \"$LOCAL\" \"$REMOTE\" \"$MERGED\"`
 ```
 2. Put the below code in a script file called `nbdiff.wls` and put it somewhere that it can be found (e.g. `/usr/local/bin/nbdiff.wls`). 
-```Mathematica
+```
 #!/usr/bin/env wolframscript
 
 UsingFrontEnd[
