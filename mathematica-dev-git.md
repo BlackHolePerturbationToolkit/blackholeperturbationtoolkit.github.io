@@ -51,7 +51,8 @@ As of version 14.1, Mathematica has a nice built-in `Diff` command that can be u
   cmd = open -a Wolfram `nbdiff.wls \"$LOCAL\" \"$REMOTE\" \"$MERGED\"`
 ```
 2. Put the below code in a script file called `nbdiff.wls` and put it somewhere that it can be found (e.g. `/usr/local/bin/nbdiff.wls`). 
-```
+
+```Mathematica
 #!/usr/bin/env wolframscript
 
 UsingFrontEnd[
@@ -71,6 +72,7 @@ UsingFrontEnd[
 ]];
 Return[nbfile]
 ```
+
 3. Use git's difftool command to get a user-friendly list of changes in a Mathematica notebook:
 ```bash
 git difftool -t nbdiff
@@ -84,6 +86,7 @@ As of version 14.1, Mathematica has a nice built-in `Diff3` command that can be 
   cmd = open -a Wolfram `nbmerge.wls \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"`
 ```
 2. Put the below code in a script file called `nbmerge.wls` and put it somewhere that it can be found (e.g. `/usr/local/bin/nbmerge.wls`). 
+
 ```Mathematica
 #!/usr/bin/env wolframscript
 
@@ -106,6 +109,7 @@ UsingFrontEnd[
 ]];
 Return[nbfile]
 ```
+
 3. Use git's mergetool command to get merge the changes
 ```bash
 git mergetool -t nbmerge
