@@ -45,12 +45,12 @@ This solution is not essential if you use the `SaveReadableNotebook` function de
 
 ## Use Mathematica to show changes to a notebook in a human-readable form
 As of version 14.1, Mathematica has a nice built-in `Diff` command that can be used to compare two notebooks. It's straightforward to hook this in with git through its `difftool` command (this is for macOS, you may need a slightly different `cmd=...` line if you are using Linux or Windows):
-1. Add the following to your `~/.gitconfig`:
+- Add the following to your `~/.gitconfig`:
 ```gitconfig
 [difftool "nbdiff"]
   cmd = open -a Wolfram `nbdiff.wls \"$LOCAL\" \"$REMOTE\" \"$MERGED\"`
 ```
-2. Put the below code in a script file called `nbdiff.wls` and put it somewhere that it can be found (e.g. `/usr/local/bin/nbdiff.wls`):
+- Put the below code in a script file called `nbdiff.wls` and put it somewhere that it can be found (e.g. `/usr/local/bin/nbdiff.wls`):
    
 ```Mathematica
 #!/usr/bin/env wolframscript
@@ -72,19 +72,20 @@ UsingFrontEnd[
 ]];
 Return[nbfile]
 ```
-3. Use git's difftool command to get a user-friendly list of changes in a Mathematica notebook:
+- Use git's difftool command to get a user-friendly list of changes in a Mathematica notebook:
 ```bash
 git difftool -t nbdiff
 ```
 
 ## Use Mathematica to perform git merges with notebooks
 As of version 14.1, Mathematica has a nice built-in `Diff3` command that can be used to merge two sets of changes to a notebook. It's straightforward to hook this in with git through its `mergetool` command (this is for macOS, you may need a slightly different `cmd=...` line if you are using Linux or Windows):
-1. Add the following to your `~/.gitconfig`:
+- Add the following to your `~/.gitconfig`:
 ```gitconfig
 [mergetool "nbmerge"]
   cmd = open -a Wolfram `nbmerge.wls \"$BASE\" \"$LOCAL\" \"$REMOTE\" \"$MERGED\"`
 ```
-2. Put the below code in a script file called `nbmerge.wls` and put it somewhere that it can be found (e.g. `/usr/local/bin/nbmerge.wls`): 
+- Put the below code in a script file called `nbmerge.wls` and put it somewhere that it can be found (e.g. `/usr/local/bin/nbmerge.wls`):
+
 ```Mathematica
 #!/usr/bin/env wolframscript
 
@@ -108,7 +109,7 @@ UsingFrontEnd[
 Return[nbfile]
 ```
 
-3. Use git's mergetool command to get merge the changes
+- Use git's mergetool command to get merge the changes
 ```bash
 git mergetool -t nbmerge
 ```
