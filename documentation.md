@@ -33,5 +33,5 @@ Find information on upcoming and previous workshops on the [BHPToolkit workshops
 
 ## Other useful information
 
-- [Mathematica and git](cleannb.html)
+- [Mathematica developers](mathematica-dev)
 - [Setting up repository webpages with gh-pages](http://bhptoolkit.org/gh-pages)
