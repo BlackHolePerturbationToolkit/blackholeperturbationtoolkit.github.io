@@ -15,7 +15,7 @@ Clicking the second "Issues" tab will bring you to the issue tracker. On this pa
 
 <center><img src="images/NewIssue.png"  width="400"></center>
 
-This will bring you to a new page where you can enter a description of the issue. If it is a software bug try to give a concrete example of where the software is failing, and if possible, what the correct result should be. The issue trackers are for more than just bugs. You can also submit enhancements your like to see, or even just genera questions you have about the Toolkit. On the right of the page you can label your issue to help the others know what sort of issue it is.
+This will bring you to a new page where you can enter a description of the issue. If it is a software bug try to give a concrete example of where the software is failing, and if possible, what the correct result should be. The issue trackers are for more than just bugs. You can also submit enhancements you would like to see, or even just general questions you have about the Toolkit. On the right of the page you can label your issue to help the others know what sort of issue it is.
 
 <center><img src="images/IssueLabels.png"  width="350"></center>
 
