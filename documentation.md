@@ -33,5 +33,5 @@ Find information on upcoming and previous workshops on the [BHPToolkit workshops
 
 ## Other useful information
 
-- [Mathematica developers](mathematica-dev)
+- [Information for developers of Mathematica tools](mathematica-dev)
 - [Setting up repository webpages with gh-pages](http://bhptoolkit.org/gh-pages)
