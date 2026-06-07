@@ -6,7 +6,7 @@ title: Black Hole Perturbation Toolkit
 # Version control of Mathematica notebooks with git
 
 There are several problems with keeping Mathematica notebooks under version control with git, most notably:
-- Small changes to a file often introduce significant changes throughout the file.
+- Small changes to a notebook often introduce significant changes throughout the file.
 - The output of `git diff` is not very human readable when applied to Mathematica notebooks.
 
 The following are some suggestions to make working with notebooks under version control more tolerable.
