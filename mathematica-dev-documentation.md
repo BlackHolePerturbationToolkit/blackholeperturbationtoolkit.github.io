@@ -22,10 +22,10 @@ The documentation is built from source files stored in the Documentation directo
 
 
 ## 3. Build the documentation
-The documentation is generated as part of the [Paclet build](https://bhptoolkit.org/mathematica-dev-paclets) process.
+The documentation is generated as part of the [Paclet build](mathematica-dev-paclets) process.
 
 
 ## Important points
-- When creating documentation notebooks, it is a good idea to [store them in a version-control friendly form](http://bhptoolkit.org/mathematica-dev-git).
+- When creating documentation notebooks, it is a good idea to [store them in a version-control friendly form](mathematica-dev-git).
 - It may be preferable for notebooks to not have any output cells, so as not to bloat the repository.
 - You may wish to set the FrontEndVersion for tutorial notebooks for maximum support of older Mathematica versions.
