@@ -24,7 +24,7 @@ ResourceFunction["SaveReadableNotebook"]["file.nb", "file.nb",
 ```
 where `file.nb` is the name of the notebook file.
 
-## (Optional) Don't clutter `git diff` output with notebook diffs
+## Don't clutter `git diff` output with notebook diffs
 
 It's possible to tell git to treat Mathematica notebooks as text files for the purpose of tracking changes (so that small changes only lead to small commits), but to make `git diff` treat them as binary so that it only shows them as having changed and doesn't give the largely unreadable text diffs. To do this, add the following to your `~/.gitconfig`:
 ```gitconfig
@@ -90,15 +90,15 @@ As of version 14.1, Mathematica has a nice built-in `Diff3` command that can be 
 #!/usr/bin/env wolframscript
 
 UsingFrontEnd[
-  With[{old = File[$ScriptCommandLine[[2]]], new1 = File[$ScriptCommandLine[[3]]], new2 = File[$ScriptCommandLine[[4]]], file = $ScriptCommandLine[[5]]}, {diff3 = Diff3[old, new1, new2]},
+  With[{old = File[$ScriptCommandLine[[2]]], new1 = File[$ScriptCommandLine[[3]]], new2 = File[$ScriptCommandLine[[4]]], file = $ScriptCommandLine[[5]]}, {diff3 = Diff3[old, new1, new2], oldabs = AbsoluteFileName[old], fileabs = AbsoluteFileName[file]},
     contents = {
 	  TextCell["Notebook changes", "Section"],
 	  TextCell["Showing changes for file: "<>file, "Text"],
 	  ExpressionCell[Defer[changes = diff3;], "Input", Editable -> False],
 	  ExpressionCell[Defer[changes], "Input"],
 	  ExpressionCell[diff3, "Output"],
-	  TextCell["To apply these changes, run the line above and then run the following line: ", "Text"],
-	  ExpressionCell[Defer[DiffApply[diff3, old, File[file], "Input"]};
+	  TextCell["To apply these changes, run the following line: ", "Text"],
+	  ExpressionCell[Defer[DiffApply[diff3, File[oldabs], File[fileabs]]], "Input"]};
 	nb = CreateDocument[contents];
 	tmpfile = CreateFile[];
 	nbfile = tmpfile<>".nb";
