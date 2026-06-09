@@ -19,6 +19,10 @@ The graph below show the accumulated citations to the Toolkit over time. The blu
 
 Below is a list of research papers that have used or extended the Toolkit. Papers that have contributed code or data to the Toolkit have a (*) after them.
 
+285\. "Detectability to extreme mass ratio inspirals with alternative space-based detector networks", Chao Zhang, Gang Wang, [arXiv:2606.09238](https://arxiv.org/abs/2606.09238)
+
+284\. "Modified Teukolsky Formalism for Extreme Mass-Ratio Inspirals in Higher-Derivative Gravity", Chaoyi Yang, Neev Khera, Dongjun Li, Huan Yang, [arXiv:2606.09766](https://arxiv.org/abs/2606.09766)
+
 283\. "Recoil-regulated extreme mass-ratio inspirals in AGN disks", LingQin Xue, Zoltán Haiman, Hiromichi Tagawa, Imre Bartos, [arXiv:2605.29305](https://arxiv.org/abs/2605.29305)
 
 282\. "Analytical Fluxes from Generic Schwarzschild Geodesics", Majed Khalaf, Chris Kavanagh, Ofri Telem, [arXiv:2605.13847](https://arxiv.org/abs/2605.13847)
