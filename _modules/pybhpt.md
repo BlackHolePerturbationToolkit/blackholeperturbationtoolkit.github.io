@@ -4,7 +4,7 @@ summary: "A python package for solving problems in black hole perturbation theor
 lang: "Python"
 domain: "teukolsky"
 status: "stable"
-repo: "https://github.com/pybhpt/pybhpt"
+repo: "https://github.com/znasipak/pybhpt"
 install: "pip install pybhpt"
 ---
 
@@ -12,7 +12,7 @@ install: "pip install pybhpt"
      documentation, then delete the stub notice below. -->
 
 <div class="callout" markdown="1">
-**Stub page.** Full documentation for pybhpt is in progress. For now, see the [source repository](https://github.com/pybhpt/pybhpt).
+**Stub page.** Full documentation for pybhpt is in progress. For now, see the [source repository](https://github.com/znasipak/pybhpt).
 </div>
 
 ## Overview
@@ -40,4 +40,4 @@ pip install pybhpt
 ## Examples
 
 <!-- TODO: link to worked examples or notebooks. -->
-See the [repository](https://github.com/pybhpt/pybhpt) for examples.
+See the [repository](https://github.com/znasipak/pybhpt) for examples.

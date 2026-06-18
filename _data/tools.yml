@@ -90,7 +90,7 @@
   domain: teukolsky
   status: stable
   tags: [Teukolsky, point particle, Kerr, frequency-domain]
-  repo: https://github.com/pybhpt/pybhpt
+  repo: https://github.com/znasipak/pybhpt
   install: pip install pybhpt
 
 # --- Quasinormal modes -----------------------------------------------------
