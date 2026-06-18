@@ -1,9 +1,10 @@
 ---
-layout: default
-title: Black Hole Perturbation Toolkit
+layout: page
+title: Version control of Mathematica notebooks with git
 ---
 
-# Version control of Mathematica notebooks with git
+{% include head.html %}
+
 
 There are several problems with keeping Mathematica notebooks under version control with git, most notably:
 - Small changes to a notebook often introduce significant changes throughout the file.

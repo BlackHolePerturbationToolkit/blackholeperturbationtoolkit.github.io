@@ -1,9 +1,10 @@
 ---
-layout: default
-title: Black Hole Perturbation Toolkit
+layout: page
+title: Generating documentation for Mathematica packages
 ---
 
-# Generating documentation for Mathematica packages
+{% include head.html %}
+
 
 All of the Mathematica packages within the Black Hole Perturbation Toolkit include documentation that is built directly into the Mathematica documentation centre. This is generated using the built-in documentation facilities in Mathematica. There are three steps to creating new documentation for a package: 
 

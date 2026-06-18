@@ -1,9 +1,10 @@
 ---
-layout: default
-title: Black Hole Perturbation Toolkit
+layout: page
+title: Black Hole Perturbation Theory
 ---
 
-# Black Hole Perturbation Theory
+{% include head.html %}
+
 
 Black hole perturbation theory is a technique for modeling black hole spacetimes which are a small perturbation away from a known exact black hole solutions of Einstein's theory of General Relativity. This approach has many uses including modeling compact binary coalescences when one object is much more massive than the other, or (for all mass ratios) modeling the aftermath of a black hole binary coalescence (the so-called 'ringdown').
 

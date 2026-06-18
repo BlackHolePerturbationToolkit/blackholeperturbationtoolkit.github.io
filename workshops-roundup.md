@@ -1,9 +1,9 @@
 ---
-layout: default
-title: Black Hole Perturbation Toolkit
+layout: page
+title: Toolkit workshops round up
 ---
 
-# Toolkit workshops round up
+{% include head.html %}
 
 First of all, a big thank you to everyone that attended the workshops. Between the MIT and UCD workshops we had over 40 participants. We are extremely grateful to many of you who have contributed code, improved documentation, added unit tests and submitted issues to the issue trackers.
 

@@ -1,9 +1,9 @@
 ---
-layout: default
-title: Black Hole Perturbation Toolkit
+layout: page
+title: Summer of Code in Space 2019
 ---
 
-# Summer of Code in Space 2019
+{% include head.html %}
 
 We are proposing a project for the [Summer of Code in Space 2019 programme](https://socis.esa.int/)!
 

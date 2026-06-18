@@ -1,13 +1,11 @@
 ---
-layout: default
-title: Black Hole Perturbation Toolkit
+layout: page
+title: FastEMRIWaveforms
 ---
 
 {% include head.html %}
 
-<p>
- <h1 style="display:inline">FastEMRIWaveforms</h1> <span style="float:right;"><a href="https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms" class="code_btn">Get the code!</a></span>
-</p>
+<span style="float:right;"><a href="https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms" class="code_btn">Get the code!</a></span>
 
 FastEMRIWaveforms is a Python package that generates "blazingly fast" and accurate EMRI waveforms with both CPU and GPU capabilities. There are pure Python modules as well as Python modules that wrap C/C++ and CUDA code. 
 

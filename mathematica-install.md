@@ -1,9 +1,10 @@
 ---
-layout: default
-title: Black Hole Perturbation Toolkit
+layout: page
+title: Installing Mathematica Packages
 ---
 
-# Installing Mathematica Packages
+{% include head.html %}
+
 
 If you are a regular user we recommend that you install the Toolkit Mathematica packages via the Paclet server. The instructions for doing this are given immediately below. If you are a developer see the [Mathematica developer instructions](mathematica-dev-install).
 

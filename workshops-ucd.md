@@ -1,9 +1,9 @@
 ---
-layout: default
-title: Black Hole Perturbation Toolkit
+layout: page
+title: Toolkit Workshop @ UCD
 ---
 
-# Toolkit Workshop @ UCD
+{% include head.html %}
 
 The schedule below is purposefully not very rigid to allow it to develop over the course of the workshop. The first day will focus on getting to know the current modules in the Toolkit and planning what to do on the second and third days. The overview talks on the first day will be ~10 minutes long and have time in between for questions and discussion. The second and third days aim to have open discussion and hacking on various aspects of the Toolkit.
 

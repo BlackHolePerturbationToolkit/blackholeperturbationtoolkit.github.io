@@ -1,7 +1,9 @@
 ---
-layout: default
-title: Black Hole Perturbation Toolkit
+layout: page
+title: Mathematica development
 ---
+
+{% include head.html %}
 
 Here you will find links to several pages that are useful for developers of Mathematica packages:
 - [Keeping notebooks under version control](mathematica-dev-git)

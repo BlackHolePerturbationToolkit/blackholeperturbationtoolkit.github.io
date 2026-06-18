@@ -1,6 +1,9 @@
-{% include head.html %}
+---
+layout: page
+title: Creating a website for a repository using gh-pages
+---
 
-# Creating a website for a repository using gh-pages
+{% include head.html %}
 
 Each repository can have a website associated with it using GitHub's [gh-pages](https://pages.github.com/). This allows for websites to easily be built using Markdown. The gh-pages website lives in a separate root branch of the repository. This can be setup via:
 

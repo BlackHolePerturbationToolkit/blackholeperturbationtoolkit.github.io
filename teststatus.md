@@ -1,9 +1,10 @@
 ---
-layout: default
-title: Black Hole Perturbation Toolkit
+layout: page
+title: Unit test status
 ---
 
-# Unit test status
+{% include head.html %}
+
 
 | Package | Status |
 | --- | --- |

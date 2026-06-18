@@ -1,9 +1,9 @@
 ---
-layout: default
-title: Black Hole Perturbation Toolkit
+layout: page
+title: How to use the issue trackers
 ---
 
-# How to use the issue trackers
+{% include head.html %}
 
 Before submitting an issue we recommend you upgrade to the lastest version of the package in question as your issue might already have been resolved. If upgrading does not fix your issue, the instructions below tells you how to let us know about the issue.  
 

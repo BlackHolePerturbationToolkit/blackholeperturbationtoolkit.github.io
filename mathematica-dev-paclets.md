@@ -1,9 +1,10 @@
 ---
-layout: default
-title: Black Hole Perturbation Toolkit
+layout: page
+title: Creating Paclets for Mathematica packages
 ---
 
-# Creating Paclets for Mathematica packages
+{% include head.html %}
+
 
 The Mathematica packages in the toolkit are all distributed to users using the [Paclet](https://reference.wolfram.com/language/guide/Paclets.html) system. This is described in detail in a [notebook](https://www.wolframcloud.com/obj/tgayley/Published/PacletDevelopment.nb) and [introductory video](https://www.wolfram.com/broadcast/video.php?sx=paclet&v=2833) by Todd Gayley, the creater of the Paclet system. Below is a brief description of the steps required to build paclets for release by the toolkit. This is based on creating release version 0.5.0 of the PostNewtonianSelfForce package. The instructions should be adjusted in the obvious way for different versions and packages. 
 

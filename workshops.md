@@ -1,9 +1,9 @@
 ---
-layout: default
-title: Black Hole Perturbation Toolkit
+layout: page
+title: Toolkit Workshops
 ---
 
-# Toolkit workshops
+{% include head.html %}
 
 We try to run at least one workshop for the BHPToolkit per year. The goal of these workshops is to introduce new users to the Toolkit and also for developers to meet up and hack on the Toolkit. Below is a list of previous workshops.
 

@@ -1,10 +1,10 @@
 ---
-layout: default
-title: Black Hole Perturbation Toolkit
+layout: page
+title: Toolkit Workshops
 ---
 
+{% include head.html %}
 
-# Toolkit Workshops
 
 *** [Workshop roundup](workshops-roundup.html)***
 

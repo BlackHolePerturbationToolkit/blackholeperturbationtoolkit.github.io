@@ -1,11 +1,9 @@
 ---
-layout: default
-title: Black Hole Perturbation Toolkit
+layout: page
+title: Naming Conventions
 ---
 
 {% include head.html %}
-
-## Naming Conventions
 
 We aim to have consistent naming conventions across the Toolkit. Where possible the following conventions should be used. In all cases the symbols used below should be understood to be adimensionalized, e.g., for the orbital frequencies $\Omega \equiv M\Omega$.
 

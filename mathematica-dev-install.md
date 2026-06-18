@@ -1,9 +1,9 @@
 ---
-layout: default
-title: Black Hole Perturbation Toolkit
+layout: page
+title: Installing Mathematica Packages for developers
 ---
 
-# Installing Mathematica Packages for developers
+{% include head.html %}
 
 Most users should install the Mathematica packages via the [Paclet server](mathematica-install). However if you are working on developing a new feature or bugfix for a package you may wish to have Mathematica instead load a version directly from a git repository. You will find the link to the GitHub repository at the bottom of each of the individual package webpages.
 
