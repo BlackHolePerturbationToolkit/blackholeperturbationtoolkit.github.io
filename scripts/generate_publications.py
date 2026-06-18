@@ -227,18 +227,50 @@ def write_citations(points, path):
     open(path, "w", encoding="utf-8").write("\n".join(lines) + "\n")
 
 
+def resolve_month(raw, arxiv_id=None):
+    """Return a 'YYYY-MM' string, preferring a real month. Some sources (e.g.
+    INSPIRE earliest_date) return a year only; fall back to the arXiv id's month,
+    then to January of a year-only date."""
+    if raw:
+        m = re.match(r"(\d{4})-(\d{2})", str(raw))
+        if m:
+            return f"{m.group(1)}-{m.group(2)}"
+    if arxiv_id:
+        d = date_from_arxiv(arxiv_id)
+        if d:
+            return d
+    if raw:
+        m = re.match(r"(\d{4})", str(raw))
+        if m:
+            return f"{m.group(1)}-01"      # year-only -> January
+    return None
+
+
 def build_citations(papers):
-    """One cumulative point per year, dated at the latest paper in that year."""
-    by_year = {}
-    for p in papers:
-        by_year.setdefault(p["year"], []).append(p)
+    """Cumulative totals at monthly resolution, one point per month across the
+    full range from the first to the most recent paper (months with no new
+    papers carry the running total forward, so the x-axis is linear in time)."""
+    if not papers:
+        return []
+
+    def to_idx(d):                       # "YYYY-MM" -> integer month index
+        m = re.match(r"(\d{4})(?:-(\d{2}))?", str(d))
+        if not m:
+            return None
+        return int(m.group(1)) * 12 + ((int(m.group(2)) if m.group(2) else 1) - 1)
+
+    recs = [(to_idx(p["date"]), bool(p.get("contributed"))) for p in papers]
+    recs = [(i, c) for i, c in recs if i is not None]
+    if not recs:
+        return []
+    start, end = min(i for i, _ in recs), max(i for i, _ in recs)
     points = []
-    years = sorted(by_year)
-    for yr in years:
-        latest = max(pp["date"] for pp in by_year[yr])
-        total = sum(1 for pp in papers if pp["year"] <= yr)
-        contrib = sum(1 for pp in papers if pp["year"] <= yr and pp.get("contributed"))
-        points.append({"date": latest, "total": total, "contributed": contrib})
+    for m in range(start, end + 1):
+        total = sum(1 for i, _ in recs if i <= m)
+        contrib = sum(1 for i, c in recs if i <= m and c)
+        yr, mo = divmod(m, 12)
+        points.append({"date": f"{yr:04d}-{mo + 1:02d}",
+                       "total": total, "contributed": contrib})
     return points
 
 
@@ -288,9 +320,7 @@ def main():
                     sys.stderr.write("not found\n")
                 time.sleep(args.sleep)
 
-        date = (entry.get("date")
-                or (meta or {}).get("date")
-                or (date_from_arxiv(arxiv_id) if arxiv_id else None))
+        date = resolve_month(entry.get("date") or (meta or {}).get("date"), arxiv_id)
         if not date:
             sys.stderr.write(f"  skipping entry with no date/arxiv: {entry}\n")
             continue

@@ -69,7 +69,7 @@
   }
   var xlabels = "";
   data.forEach(function (d, i) {
-    if (i % 2 === 0 || i === data.length - 1) {
+    if (d.date.slice(5, 7) === "01") {   // label at each January boundary
       xlabels += '<text x="' + x(i).toFixed(1) + '" y="' + (H - padB + 20) + '" text-anchor="middle" fill="' + muted + '" font-size="11" font-family="monospace">' + d.date.slice(0, 4) + "</text>";
     }
   });
