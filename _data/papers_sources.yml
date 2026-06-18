@@ -1,40 +1,294 @@
 # ---------------------------------------------------------------------------
 # Source of truth for the publications list. Discovery stays human: add an
-# entry when a paper is reported. Metadata, numbering and the citation curve
-# are produced by scripts/generate_publications.py.
+# entry when a paper is reported (email niels). Metadata, numbering and the
+# citation curve are produced by scripts/generate_publications.py.
 #
-# This seed holds a small recent subset so the site works out of the box.
-# Run scripts/migrate_legacy_list.py --force to replace it with the full list.
+# Each entry needs an `arxiv` id. Mark code/data contributions with
+# `contributed: true`. For papers with no arXiv id, give title/authors/year
+# directly (and optionally `doi:`) and the generator will pass them through.
 # ---------------------------------------------------------------------------
-- {arxiv: "1709.05990"}
-- {arxiv: "1802.05281", contributed: true}
-- {arxiv: "1908.10377", contributed: true}
-- {arxiv: "2008.06071", contributed: true}
-- {arxiv: "2101.04592"}
-- {arxiv: "2104.04582", contributed: true}
-- {arxiv: "2107.01298"}
-- {arxiv: "2112.12265"}
-- {arxiv: "2302.03704", contributed: true}
-- {arxiv: "2307.12585", contributed: true}
-- {arxiv: "2310.19706"}
-- {arxiv: "2311.01300"}
-- {arxiv: "2403.12634"}
-- {arxiv: "2406.01413"}
-- {arxiv: "2406.12510"}
-- {arxiv: "2410.23950", contributed: true}
-- {arxiv: "2411.09700", contributed: true}
-- {arxiv: "2501.01413"}
-- {arxiv: "2505.23895"}
-- {arxiv: "2506.02189"}
-- {arxiv: "2506.09470", contributed: true}
-- {arxiv: "2507.07303", contributed: true}
-- {arxiv: "2508.00087"}
-- {arxiv: "2510.16112"}
-- {arxiv: "2510.16113"}
-- {arxiv: "2511.04765"}
-- {arxiv: "2512.02274"}
-- {arxiv: "2602.10089"}
-- {arxiv: "2603.17072"}
-- {arxiv: "2605.13847"}
 - {arxiv: "2606.09238"}
 - {arxiv: "2606.09766"}
+- {arxiv: "2605.29305"}
+- {arxiv: "2605.13847"}
+- {arxiv: "2605.05362"}
+- {arxiv: "2605.01964"}
+- {arxiv: "2605.09250"}
+- {arxiv: "2605.17840"}
+- {arxiv: "2605.00693"}
+- {arxiv: "2604.24413"}
+- {arxiv: "2604.23625"}
+- {arxiv: "2604.13684"}
+- {arxiv: "2604.11893"}
+- {arxiv: "2604.05980"}
+- {arxiv: "2603.27284"}
+- {arxiv: "2603.19913"}
+- {arxiv: "2603.17072"}
+- {arxiv: "2603.13482"}
+- {arxiv: "2603.12189"}
+- {arxiv: "2603.08635"}
+- {arxiv: "2603.07747"}
+- {arxiv: "2603.05601"}
+- {arxiv: "2603.04682"}
+- {arxiv: "2603.03722"}
+- {arxiv: "2602.11039"}
+- {arxiv: "2602.10089"}
+- {arxiv: "2602.07436"}
+- {arxiv: "2602.06947"}
+- {arxiv: "2602.06125"}
+- {arxiv: "2601.22015"}
+- {arxiv: "2601.19123"}
+- {arxiv: "2601.05223"}
+- {arxiv: "2512.23510"}
+- {arxiv: "2512.18895"}
+- {arxiv: "2512.17786"}
+- {arxiv: "2512.14156"}
+- {arxiv: "2512.07959"}
+- {arxiv: "2512.02274"}
+- {arxiv: "2511.21318"}
+- {arxiv: "2511.18435"}
+- {arxiv: "2511.14841"}
+- {arxiv: "2511.13324"}
+- {arxiv: "2511.10196"}
+- {arxiv: "2511.08673"}
+- {arxiv: "2511.04765"}
+- {arxiv: "2510.22275"}
+- {arxiv: "2510.20891"}
+- {arxiv: "2510.16114"}
+- {arxiv: "2510.16113"}
+- {arxiv: "2510.16112"}
+- {arxiv: "2510.13958"}
+- {arxiv: "2510.11793"}
+- {arxiv: "2510.11685"}
+- {arxiv: "2510.09597"}
+- {arxiv: "2510.03564"}
+- {arxiv: "2510.00531"}
+- {arxiv: "2509.20457"}
+- {arxiv: "2509.08875"}
+- {arxiv: "2509.06411"}
+- {arxiv: "2508.20162"}
+- {arxiv: "2508.13294"}
+- {arxiv: "2508.00087"}
+- {arxiv: "2507.19704"}
+- {arxiv: "2507.15720"}
+- {arxiv: "2507.15363"}
+- {arxiv: "2507.06923"}
+- {arxiv: "2507.07303", contributed: true}
+- {arxiv: "2507.05870"}
+- {arxiv: "2507.02045"}
+- {arxiv: "2506.20726"}
+- {arxiv: "2506.14635"}
+- {arxiv: "2506.14868"}
+- {arxiv: "2506.09470", contributed: true}
+- {arxiv: "2506.04326"}
+- {arxiv: "2506.02189"}
+- {arxiv: "2505.23895"}
+- {arxiv: "2505.10036"}
+- {arxiv: "2505.07941"}
+- {arxiv: "2505.04697"}
+- {arxiv: "2503.09918"}
+- {arxiv: "2503.11523"}
+- {arxiv: "2503.07432"}
+- {arxiv: "2502.20584"}
+- {arxiv: "2502.20138"}
+- {arxiv: "2502.18141"}
+- {arxiv: "2502.14073"}
+- {arxiv: "2412.04249"}
+- {arxiv: "2411.09814"}
+- {arxiv: "2501.10780"}
+- {arxiv: "2501.08252"}
+- {arxiv: "2501.19257"}
+- {arxiv: "2501.09806"}
+- {arxiv: "2412.06503"}
+- {arxiv: "2501.01413"}
+- {arxiv: "2408.16747"}
+- {arxiv: "2411.16855"}
+- {arxiv: "2411.14976"}
+- {arxiv: "2411.09700", contributed: true}
+- {arxiv: "2411.04955", contributed: true}
+- {arxiv: "2410.23950", contributed: true}
+- {arxiv: "2410.18211"}
+- {arxiv: "2410.17310"}
+- {arxiv: "2410.08862"}
+- {arxiv: "2410.05769"}
+- {arxiv: "2409.19665"}
+- {arxiv: "2409.17225"}
+- {arxiv: "2408.03289"}
+- {arxiv: "2408.01871"}
+- {arxiv: "2407.18319"}
+- {arxiv: "2407.16989"}
+- {arxiv: "2407.04682"}
+- {arxiv: "2407.02017"}
+- {arxiv: "2407.07449"}
+- {arxiv: "2407.02908"}
+- {arxiv: "2406.14611"}
+- {arxiv: "2406.14291"}
+- {arxiv: "2406.12510"}
+- {arxiv: "2405.19006"}
+- {arxiv: "2405.21072"}
+- {arxiv: "2406.11724"}
+- {arxiv: "2311.15295"}
+- {arxiv: "2406.08363"}
+- {arxiv: "2406.07607"}
+- {arxiv: "2406.01413"}
+- {arxiv: "2405.13221"}
+- {arxiv: "2405.00170"}
+- {arxiv: "2403.12634"}
+- {arxiv: "2403.08864"}
+- {arxiv: "2401.03098"}
+- {arxiv: "2210.15935"}
+- {arxiv: "2402.07981"}
+- {arxiv: "2402.06781"}
+- {arxiv: "2401.15516"}
+- {arxiv: "2401.14532"}
+- {arxiv: "2401.13342"}
+- {arxiv: "2401.09542"}
+- {arxiv: "2401.08758"}
+- {arxiv: "2401.08085"}
+- {arxiv: "2401.04467"}
+- {arxiv: "2312.05965"}
+- {arxiv: "2312.04633"}
+- {arxiv: "2311.01300"}
+- {arxiv: "2310.19706"}
+- {arxiv: "2310.08927"}
+- {arxiv: "2310.08438"}
+- {arxiv: "2310.05743"}
+- {arxiv: "2309.14045"}
+- {arxiv: "2309.10028"}
+- {arxiv: "2308.14823"}
+- {arxiv: "2308.00021"}
+- {arxiv: "2307.16628"}
+- {arxiv: "2307.16093"}
+- {arxiv: "2307.12585", contributed: true}
+- {arxiv: "2307.11158", contributed: true}
+- {arxiv: "2307.07431"}
+- {arxiv: "2307.06722"}
+- {arxiv: "2307.01349"}
+- {arxiv: "2306.17847", contributed: true}
+- {arxiv: "2306.17221"}
+- {arxiv: "2306.16469"}
+- {arxiv: "2306.16459"}
+- {arxiv: "2306.13871"}
+- {arxiv: "2306.13153"}
+- {arxiv: "2306.12481", contributed: true}
+- {arxiv: "2306.02683"}
+- {arxiv: "2305.10533"}
+- {arxiv: "2305.09724"}
+- {arxiv: "2305.08919"}
+- {arxiv: "2305.05793"}
+- {arxiv: "2305.00652"}
+- {arxiv: "2304.09200"}
+- {arxiv: "2303.18026"}
+- {arxiv: "2303.16798"}
+- {arxiv: "2303.01402"}
+- {arxiv: "2303.08183"}
+- {arxiv: "2302.03704", contributed: true}
+- {arxiv: "2301.08150"}
+- {arxiv: "2301.07215"}
+- {arxiv: "2303.00088"}
+- {arxiv: "2301.05915"}
+- {arxiv: "2301.06999"}
+- {arxiv: "2212.06166"}
+- {arxiv: "2212.01404"}
+- {arxiv: "2211.03551"}
+- {arxiv: "2210.11121"}
+- {arxiv: "2210.01133"}
+- {arxiv: "2209.12291"}
+- {arxiv: "2209.05450"}
+- {arxiv: "2209.03740"}
+- {arxiv: "2209.03390"}
+- {arxiv: "2208.02055"}
+- {arxiv: "2208.01049"}
+- {arxiv: "2207.10870"}
+- {arxiv: "2207.10086"}
+- {arxiv: "2207.07452"}
+- {arxiv: "2207.04066"}
+- {arxiv: "2206.08179"}
+- {arxiv: "2206.04747"}
+- {arxiv: "2206.04085", contributed: true}
+- {arxiv: "2205.04808"}
+- {arxiv: "2204.12508"}
+- {arxiv: "2204.08881"}
+- {arxiv: "2204.01972", contributed: true}
+- {arxiv: "2203.13832"}
+- {arxiv: "2203.05003"}
+- {arxiv: "2203.04893"}
+- {arxiv: "2202.01794"}
+- {arxiv: "2201.13335"}
+- {arxiv: "2201.13334"}
+- {arxiv: "2201.10748"}
+- {arxiv: "2201.07044"}
+- {arxiv: "2201.03569"}
+- {arxiv: "2112.13869"}
+- {arxiv: "2112.12265"}
+- {arxiv: "2111.05288"}
+- {arxiv: "2109.09514"}
+- {arxiv: "2109.12092"}
+- {arxiv: "2109.02170"}
+- {arxiv: "2109.00754"}
+- {arxiv: "2109.00056"}
+- {arxiv: "2108.04511"}
+- {arxiv: "2107.14750", contributed: true}
+- {arxiv: "2107.01298"}
+- {arxiv: "2106.11325"}
+- {arxiv: "2106.09721"}
+- {arxiv: "2106.03141"}
+- {arxiv: "2105.15188"}
+- {arxiv: "2105.07083"}
+- {arxiv: "2105.05630"}
+- {arxiv: "2104.11848"}
+- {arxiv: "2104.04582", contributed: true}
+- {arxiv: "2104.03422"}
+- {arxiv: "2103.06306"}
+- {arxiv: "2102.08135"}
+- {arxiv: "2102.06734"}
+- {arxiv: "2102.04819"}
+- {arxiv: "2101.06402"}
+- {arxiv: "2101.04592"}
+- {arxiv: "2101.04533"}
+- {arxiv: "2012.01350"}
+- {arxiv: "2010.15818"}
+- {arxiv: "2010.05932"}
+- {arxiv: "2008.13554"}
+- {arxiv: "2008.12703", contributed: true}
+- {arxiv: "2008.11396"}
+- {arxiv: "2008.10622", contributed: true}
+- {arxiv: "2008.06071", contributed: true}
+- {arxiv: "2007.07906"}
+- {arxiv: "2006.12036"}
+- {arxiv: "2005.12286"}
+- {arxiv: "2005.03671"}
+- {arxiv: "2005.03044", contributed: true}
+- {arxiv: "2004.06434"}
+- {arxiv: "2004.02654", contributed: true}
+- {arxiv: "2003.08448"}
+- {arxiv: "2002.12296"}
+- {arxiv: "2001.03478", contributed: true}
+- {arxiv: "1912.09461", contributed: true}
+- {arxiv: "1912.07609", contributed: true}
+- {arxiv: "1910.10473", contributed: true}
+- {arxiv: "1912.05419"}
+- {arxiv: "1910.09476"}
+- {arxiv: "1910.07841"}
+- {arxiv: "1911.07122"}
+- {arxiv: "1910.02567"}
+- {arxiv: "1909.12846"}
+- {arxiv: "1909.05877", contributed: true}
+- {arxiv: "1908.11391"}
+- {arxiv: "1908.10377", contributed: true}
+- {arxiv: "1907.12233", contributed: true}
+- {arxiv: "1907.11597"}
+- {arxiv: "1906.05090", contributed: true}
+- {arxiv: "1905.13237", contributed: true}
+- {arxiv: "1903.03651"}
+- {arxiv: "1903.02049", contributed: true}
+- {arxiv: "1901.05901"}
+- {arxiv: "1901.05370"}
+- {arxiv: "1901.04586"}
+- {arxiv: "1810.00432", contributed: true}
+- {arxiv: "1809.11118"}
+- {arxiv: "1809.02516", contributed: true}
+- {arxiv: "1806.05195"}
+- {arxiv: "1802.05281", contributed: true}
+- {arxiv: "1712.07130"}
+- {arxiv: "1709.05990"}
