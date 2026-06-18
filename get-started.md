@@ -28,8 +28,15 @@ requirements — see the package page for the matching build.
 
 ## Mathematica
 
-Mathematica packages are distributed as paclets. Once you've added the
-BHPToolkit paclet server, install any package by name:
+Mathematica packages are distributed as paclets. If you haven't done so already, add the
+BHPToolkit paclet server and refresh the list of packages available:
+
+```mathematica
+PacletSiteRegister["https://pacletserver.bhptoolkit.org", "Black Hole Perturbation Toolkit Paclet Server"]
+PacletSiteUpdate["https://pacletserver.bhptoolkit.org"]
+```
+
+then install any package by name:
 
 ```mathematica
 PacletInstall["Teukolsky"]
