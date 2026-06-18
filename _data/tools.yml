@@ -84,6 +84,15 @@
   repo: https://github.com/BlackHolePerturbationToolkit/GremlinEq
   url: https://bhptoolkit.org/GremlinEq
 
+- name: pybhpt
+  blurb: A python package for solving problems in black hole perturbation theory.
+  lang: Python
+  domain: teukolsky
+  status: stable
+  tags: [Teukolsky, point particle, Kerr, frequency-domain]
+  repo: https://github.com/pybhpt/pybhpt
+  install: pip install pybhpt
+
 # --- Quasinormal modes -----------------------------------------------------
 - name: qnm
   blurb: Kerr QNM frequencies and spherical-spheroidal mixing coefficients
