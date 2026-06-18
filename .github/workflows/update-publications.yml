@@ -1,0 +1,43 @@
+name: Update publications
+
+# Regenerates _data/papers.yml and _data/citations.yml from the source list.
+# Runs weekly, whenever the source file changes, and on manual dispatch.
+on:
+  schedule:
+    - cron: "0 6 * * 1"        # Mondays 06:00 UTC
+  push:
+    paths:
+      - "_data/papers_sources.yml"
+      - "scripts/generate_publications.py"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Regenerate publications data
+        run: python scripts/generate_publications.py
+
+      - name: Commit changes if any
+        run: |
+          if [ -n "$(git status --porcelain _data/papers.yml _data/citations.yml)" ]; then
+            git config user.name  "bhptoolkit-bot"
+            git config user.email "actions@users.noreply.github.com"
+            git add _data/papers.yml _data/citations.yml
+            git commit -m "chore: regenerate publications data"
+            git push
+          else
+            echo "No changes to publications data."
+          fi
