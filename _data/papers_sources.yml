@@ -1,0 +1,40 @@
+# ---------------------------------------------------------------------------
+# Source of truth for the publications list. Discovery stays human: add an
+# entry when a paper is reported. Metadata, numbering and the citation curve
+# are produced by scripts/generate_publications.py.
+#
+# This seed holds a small recent subset so the site works out of the box.
+# Run scripts/migrate_legacy_list.py --force to replace it with the full list.
+# ---------------------------------------------------------------------------
+- {arxiv: "1709.05990"}
+- {arxiv: "1802.05281", contributed: true}
+- {arxiv: "1908.10377", contributed: true}
+- {arxiv: "2008.06071", contributed: true}
+- {arxiv: "2101.04592"}
+- {arxiv: "2104.04582", contributed: true}
+- {arxiv: "2107.01298"}
+- {arxiv: "2112.12265"}
+- {arxiv: "2302.03704", contributed: true}
+- {arxiv: "2307.12585", contributed: true}
+- {arxiv: "2310.19706"}
+- {arxiv: "2311.01300"}
+- {arxiv: "2403.12634"}
+- {arxiv: "2406.01413"}
+- {arxiv: "2406.12510"}
+- {arxiv: "2410.23950", contributed: true}
+- {arxiv: "2411.09700", contributed: true}
+- {arxiv: "2501.01413"}
+- {arxiv: "2505.23895"}
+- {arxiv: "2506.02189"}
+- {arxiv: "2506.09470", contributed: true}
+- {arxiv: "2507.07303", contributed: true}
+- {arxiv: "2508.00087"}
+- {arxiv: "2510.16112"}
+- {arxiv: "2510.16113"}
+- {arxiv: "2511.04765"}
+- {arxiv: "2512.02274"}
+- {arxiv: "2602.10089"}
+- {arxiv: "2603.17072"}
+- {arxiv: "2605.13847"}
+- {arxiv: "2606.09238"}
+- {arxiv: "2606.09766"}

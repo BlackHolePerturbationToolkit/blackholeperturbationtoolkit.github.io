@@ -1,37 +1,55 @@
 ---
-layout: default
-title: Black Hole Perturbation Toolkit
+layout: page
+title: Documentation
+permalink: /documentation/
+eyebrow: Status &amp; docs
+lede: Each module carries its own documentation. This hub points you to per-package docs, tutorials, conventions and the things that keep the Toolkit reliable.
+description: Documentation, tutorials, conventions, test status and workshops for the Black Hole Perturbation Toolkit.
 ---
 
-## Installation
+## Per-module documentation
 
-The BHPToolkit is made up of many individual tools that can be installed depending on what the user is interested in. The webpage for each tool gives the instructions for installation. We recommend (where available) using the packaged versions of each tool as the development version can be unstable if changes are being made. For Python code the tool can often be installed via [pip](https://packaging.python.org/tutorials/installing-packages/), C and C++ tools will each describe their dependencies in their README pages, and Mathematica packages can be installed via the Paclet system. Instructions for the latter are given below.
+Every package documents itself on its own page — start from the
+[catalogue]({{ '/tools/' | relative_url }}) and follow the **Docs** link on any card.
+Coverage varies by module and we're continuously improving it; direct links to
+the Mathematica documentation for key modules are being added here.
 
-- [Installing BHPToolkit Mathematica packages](mathematica-install.html)
+## Tutorials &amp; talks
 
-## Documentation
+All talks from the 2020 virtual BHPToolkit workshop were recorded and are a
+great introduction for new users. Watch them on the
+[BHPToolkit YouTube channel]({{ site.youtube }}). Worked examples for the
+Mathematica modules live in the
+[MathematicaToolkitExamples](https://github.com/BlackHolePerturbationToolkit/MathematicaToolkitExamples)
+repository.
 
-Each module comes with its own documentation. Currently, in places this can be quite minimal but we are continuously working to improve this. Soon we have have direct links to the Mathematica documentation here, as well as links to the documentation for other key modules.
+## Reporting issues &amp; suggesting features
 
-At the 2020 virtual BHPToolkit workshop all the talks where recorded. They are a great introduction for new users. Check them out on the [BHPToolkit YouTube channel](https://www.youtube.com/channel/UCuQQbp9Buq-R3da4zASTFfw).
+We test the components carefully, but errors do slip through. Please report
+anything you think is wrong — or suggest new features — via the issue tracker
+on the relevant repository. See the
+[issue tracker guide](https://bhptoolkit.org/issue-tracker-info.html) for how
+to file a useful report.
 
-## Reporting issues or making suggestions
+## Reliability
 
-We do our best to ensure the components of the Toolkit work correctly but inevitably errors will slip through our tests. If you find something you think is in error please do report it via the issue tracker associated with the corresponding repository. Similarly, if you have a suggestion for new features these can also be added to the issue trackers. See our [issue tracker information page](issue-tracker-info.html) for a guide on using the issue trackers.
+<div class="two-col" markdown="0">
+  <div class="panel">
+    <h3>Continuous integration</h3>
+    <p class="muted">Packages are tested automatically on every change using GitHub Actions, so regressions are caught early. Current build status is on the <a href="https://bhptoolkit.org/teststatus">unit test status page</a>.</p>
+  </div>
+  <div class="panel">
+    <h3>Naming conventions</h3>
+    <p class="muted">We keep consistent naming across the Toolkit so functions and quantities mean the same thing everywhere. The current list is on the <a href="https://bhptoolkit.org/conventions.html">conventions page</a>.</p>
+  </div>
+</div>
 
-## Unit testing
+## Workshops
 
-One of the aims of the Toolkit is for all components to be well-tested and reliable. To assist with this we have enabled continuous integration testing using GitHub Actions. This means each time the code is changed it is automatically tested to ensure no errors have been introduced. You can find the current build status of various packages on the [unit test status page](https://bhptoolkit.org/teststatus).
+Information on upcoming and previous workshops is on the
+[workshops page](https://bhptoolkit.org/workshops.html).
 
-## Naming conventions
+## For developers
 
-We aim to have consistent naming conventions in use across the Toolkit. The current list can be found on the [name conventions page](conventions.html).
-
-## BHPToolkit Workshops
-
-Find information on upcoming and previous workshops on the [BHPToolkit workshops page](workshops.html).
-
-## Other useful information
-
-- [Information for developers of Mathematica tools](mathematica-dev)
-- [Setting up repository webpages with gh-pages](http://bhptoolkit.org/gh-pages)
+- [Developing Mathematica tools](https://bhptoolkit.org/mathematica-dev)
+- [Setting up repository webpages with gh-pages](https://bhptoolkit.org/gh-pages)

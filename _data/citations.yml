@@ -1,0 +1,15 @@
+# Cumulative counts for the citations chart on /publications/.
+# `total`        = papers that cite or acknowledge the Toolkit
+# `contributed`  = papers that contributed code or data (the (*) entries)
+# Replace with values generated from your citation source. These are
+# illustrative year-end points consistent with ~285 total by mid-2026.
+- {date: "2017-12", total: 1,   contributed: 0}
+- {date: "2018-12", total: 6,   contributed: 3}
+- {date: "2019-12", total: 27,  contributed: 12}
+- {date: "2020-12", total: 49,  contributed: 18}
+- {date: "2021-12", total: 75,  contributed: 27}
+- {date: "2022-12", total: 112, contributed: 36}
+- {date: "2023-12", total: 158, contributed: 45}
+- {date: "2024-12", total: 205, contributed: 52}
+- {date: "2025-12", total: 258, contributed: 58}
+- {date: "2026-06", total: 285, contributed: 61}

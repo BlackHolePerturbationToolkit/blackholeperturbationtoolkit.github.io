@@ -1,0 +1,80 @@
+---
+layout: default
+---
+
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Black hole perturbation theory</p>
+    <h1>Open tools for modelling gravitational waves</h1>
+    <p class="lead">A community-built suite of software and data for black hole perturbation theory, self-force, waveforms and ringdown.</p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="{{ '/tools/' | relative_url }}">Browse the tools</a>
+      <a class="btn" href="{{ '/get-started/' | relative_url }}">Quick start <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
+    </div>
+
+    <svg class="waveform" viewBox="0 0 1000 120" preserveAspectRatio="none" role="img" aria-label="A simulated extreme-mass-ratio inspiral waveform: a long, slowly chirping gravitational-wave signal with eccentric periastron bursts that sweeps up in frequency and amplitude toward plunge.">
+      <defs>
+        <linearGradient id="wave-grad" x1="0" y1="0" x2="1" y2="0">
+          <stop offset="0" stop-color="var(--accent)" stop-opacity="0.35"/>
+          <stop offset="0.7" stop-color="var(--accent)"/>
+          <stop offset="1" stop-color="var(--violet)"/>
+        </linearGradient>
+      </defs>
+      <path id="wave-path"></path>
+    </svg>
+  </div>
+</section>
+
+<section class="section-tight">
+  <div class="wrap">
+    <div class="quickstart" aria-label="Quick start commands">
+      <div><span class="prompt">$</span> <span class="cmd">pip install</span> <span class="arg">fastemriwaveforms</span></div>
+      <div><span class="prompt"># Mathematica &middot;</span> <span class="pac">PacletInstall</span><span class="arg">["Teukolsky"]</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2>Explore by physics</h2>
+    <p class="muted" style="margin-bottom:24px; max-width:60ch;">Find a tool by the problem you're solving, not the language it's written in. Every package installs independently.</p>
+    <div class="tile-grid">
+      {% for d in site.data.domains %}
+      <a class="tile" href="{{ '/tools/' | relative_url }}#{{ d.id }}">
+        <i class="ti ti-{{ d.icon }}" aria-hidden="true"></i>
+        <h3>{{ d.name }}</h3>
+        <p>{{ d.blurb }}</p>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="wrap">
+    <div class="toolbar">
+      <h2 style="margin:0;">Featured tools</h2>
+      <a href="{{ '/tools/' | relative_url }}" class="muted" style="font-size:0.92rem;">See all {{ site.data.tools | size }} tools <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
+    </div>
+    <div class="card-grid">
+      {% for tool in site.data.tools %}{% if tool.featured %}
+      {% include tool-card.html tool=tool %}
+      {% endif %}{% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="section" style="padding-top:0;">
+  <div class="wrap two-col">
+    <div class="panel">
+      <h3>Why a Toolkit?</h3>
+      <p class="muted">For decades, black hole perturbation theory codes were scattered across individual groups and rewritten from scratch. The Toolkit gathers the core elements so researchers spend less time writing code and more time doing physics.</p>
+      <a href="{{ site.github_org }}" style="font-size:0.92rem;">View the source on GitHub <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
+    </div>
+    <div class="panel">
+      <h3>Used across the field</h3>
+      <p class="muted">The Toolkit is cited and extended in hundreds of papers and underpins waveform models for LISA. The community spans dozens of institutions worldwide.</p>
+      <a href="{{ '/publications/' | relative_url }}" style="font-size:0.92rem;">See the publications <i class="ti ti-arrow-right" aria-hidden="true"></i></a>
+    </div>
+  </div>
+</section>

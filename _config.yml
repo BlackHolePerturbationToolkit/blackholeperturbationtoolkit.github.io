@@ -1,6 +1,43 @@
-theme: jekyll-theme-cayman
 title: Black Hole Perturbation Toolkit
-description: Open tools for black hole perturbation theory
-google_analytics: UA-136279496-1
-github:
-  is_project_page: false
+tagline: Open tools for black hole perturbation theory
+description: >-
+  A community-built suite of software and data for black hole perturbation
+  theory: self-force, waveforms and ringdown.
+url: "https://bhptoolkit.org"
+baseurl: ""
+
+github_org: https://github.com/BlackHolePerturbationToolkit
+zenodo: https://zenodo.org/communities/bhptoolkit/
+youtube: https://www.youtube.com/channel/UCuQQbp9Buq-R3da4zASTFfw
+contact_email: "niels [dot] warburton [at] ucd [dot] ie"
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
+
+# Per-module documentation pages. One markdown file per tool in _modules/,
+# rendered with the `module` layout. The front-matter `name` must match the
+# tool's name in _data/tools.yml so the catalogue links to it automatically.
+collections:
+  modules:
+    output: true
+    permalink: /modules/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: modules
+    values:
+      layout: module
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - .sass-cache
+  - .jekyll-cache
+
+# Domains used to organise the tool catalogue (by physics, not by language).
+# Edit assets and order here; cards are driven by _data/tools.yml.

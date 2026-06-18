@@ -1,0 +1,35 @@
+# Physics domains used to organise and filter the tool catalogue.
+# `id` must match the `domain` field of entries in tools.yml.
+# `icon` is a Tabler icon name (https://tabler.io/icons).
+- id: geodesics
+  name: Geodesics & orbits
+  icon: orbit
+  blurb: Bound and plunging trajectories in Kerr and Schwarzschild.
+- id: harmonics
+  name: Spheroidal harmonics
+  icon: wave-sine
+  blurb: Spin-weighted spheroidal harmonics and eigenvalues.
+- id: teukolsky
+  name: Perturbation equations
+  icon: function
+  blurb: Teukolsky, Regge-Wheeler and the Einstein equations.
+- id: qnm
+  name: Quasinormal modes
+  icon: ripple
+  blurb: Ringdown frequencies and mode mixing.
+- id: self-force
+  name: Self-force & inspirals
+  icon: route
+  blurb: Metric perturbations, punctures and inspiral evolution.
+- id: waveforms
+  name: Waveforms & EMRI
+  icon: activity
+  blurb: Fast, accurate waveforms for LISA sources.
+- id: tensors
+  name: Tensor algebra
+  icon: math-symbols
+  blurb: Coordinate-based tensor calculations for GR.
+- id: data
+  name: Data repositories
+  icon: database
+  blurb: Fluxes, regularisation parameters and PN series.

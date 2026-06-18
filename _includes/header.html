@@ -1,0 +1,23 @@
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      {% include logo.html %}
+      <span>BHP<span class="accent">Toolkit</span></span>
+    </a>
+    <nav class="nav-links" id="nav-links" aria-label="Primary">
+      {% for item in site.data.navigation %}
+        {% assign cur = page.url | remove: 'index.html' %}
+        <a href="{{ item.url | relative_url }}"{% if cur contains item.url %} aria-current="page"{% endif %}>{{ item.title }}</a>
+      {% endfor %}
+      <a href="{{ site.github_org }}" aria-label="GitHub organisation"><i class="ti ti-brand-github" aria-hidden="true"></i></a>
+    </nav>
+    <div style="display:flex; align-items:center; gap:8px;">
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle light and dark theme">
+        <i class="ti ti-moon" aria-hidden="true"></i>
+      </button>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <i class="ti ti-menu-2" aria-hidden="true"></i>
+      </button>
+    </div>
+  </div>
+</header>

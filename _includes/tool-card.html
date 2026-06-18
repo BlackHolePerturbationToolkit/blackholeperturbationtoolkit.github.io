@@ -1,0 +1,34 @@
+{% assign tool = include.tool %}
+{% assign langclass = tool.lang | replace: 'C/C++', 'CC' %}
+{% assign link = tool.url | default: tool.repo %}
+{% assign mod = site.modules | where: "name", tool.name | first %}
+{% assign tagstr = tool.tags | join: ' ' %}
+<article class="card"
+         data-domain="{{ tool.domain }}"
+         data-lang="{{ tool.lang | downcase }}"
+         data-status="{{ tool.status }}"
+         data-search="{{ tool.name | downcase }} {{ tool.blurb | downcase }} {{ tagstr | downcase }} {{ tool.lang | downcase }} {{ tool.domain }}">
+  <div class="card-top">
+    <h3>{{ tool.name }}</h3>
+    <span class="lang lang-{{ langclass }}">{{ tool.lang }}</span>
+  </div>
+  <p class="blurb">{{ tool.blurb }}</p>
+  <div class="card-meta">
+    {% if tool.status == 'stable' %}<span class="badge badge-stable"><span class="dot"></span>Stable</span>{% endif %}
+    {% if tool.status == 'beta' %}<span class="badge badge-beta"><span class="dot"></span>Beta</span>{% endif %}
+    {% if tool.status == 'data' %}<span class="badge badge-data"><span class="dot"></span>Data</span>{% endif %}
+    {% assign first_tag = tool.tags | first %}
+    <span class="tag-mono">{{ first_tag }}</span>
+  </div>
+  {% if tool.install %}
+  <div class="install">
+    <code>{{ tool.install }}</code>
+    <button class="copy-btn" data-copy="{{ tool.install }}" aria-label="Copy install command"><i class="ti ti-copy" aria-hidden="true"></i></button>
+  </div>
+  {% endif %}
+  <div class="card-links">
+    {% if mod %}<a href="{{ mod.url | relative_url }}"><i class="ti ti-book" aria-hidden="true"></i> Docs</a>
+    {% else %}<a href="{{ link }}"><i class="ti ti-book" aria-hidden="true"></i> Docs</a>{% endif %}
+    <a href="{{ tool.repo }}"><i class="ti ti-brand-github" aria-hidden="true"></i> Code</a>
+  </div>
+</article>

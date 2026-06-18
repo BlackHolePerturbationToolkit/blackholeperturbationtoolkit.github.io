@@ -1,0 +1,68 @@
+---
+layout: default
+permalink: /publications/
+---
+
+{% assign years = site.data.papers | map: 'year' | uniq | sort | reverse %}
+
+<section class="section">
+  <div class="wrap">
+    <p class="eyebrow">Impact</p>
+    <h1>Publications</h1>
+    <p class="lede">Papers that cite, acknowledge or extend the Toolkit. Those that contributed code or data are marked.</p>
+
+    <div class="chart-card" style="margin:32px 0;">
+      <h3 style="margin-bottom:4px;">Citations over time</h3>
+      <p class="muted" style="font-size:0.88rem; margin-bottom:12px;">Cumulative papers using the Toolkit, and the subset that contributed code or data.</p>
+      <div id="cite-chart" data-points='{{ site.data.citations | jsonify }}'></div>
+      <div class="chart-legend">
+        <span><span class="swatch" style="background:var(--accent);"></span> Cite or acknowledge</span>
+        <span><span class="swatch" style="background:var(--violet);"></span> Contributed code or data</span>
+      </div>
+    </div>
+
+    <div class="callout" markdown="0">
+      <p style="margin:0;"><strong>Note for maintainers.</strong> This list and the chart above are generated from <code>_data/papers_sources.yml</code> by <code>scripts/generate_publications.py</code>. The shipped seed is a recent subset — run <code>scripts/migrate_legacy_list.py</code> once to import the full history, then delete this note.</p>
+    </div>
+
+    <div class="toolbar" style="margin:28px 0 8px;">
+      <div class="filters" style="align-items:center;">
+        <label class="search">
+          <i class="ti ti-search" aria-hidden="true"></i>
+          <input type="search" id="pub-search" placeholder="search title or author…" aria-label="Search publications">
+        </label>
+        <select id="pub-year" class="pill" aria-label="Filter by year" style="cursor:pointer;">
+          <option value="all">All years</option>
+          {% for y in years %}<option value="{{ y }}">{{ y }}</option>{% endfor %}
+        </select>
+        <label class="pill" style="cursor:pointer; display:inline-flex; align-items:center; gap:7px;">
+          <input type="checkbox" id="pub-contrib"> Contributed only
+        </label>
+      </div>
+      <span class="muted" style="font-size:0.85rem;" id="pub-count"></span>
+    </div>
+
+    <div id="pub-list">
+      {% for p in site.data.papers %}
+      <div class="pub-row" data-year="{{ p.year }}" data-contributed="{{ p.contributed }}"
+           data-search="{{ p.title | downcase | escape }} {{ p.authors | downcase | escape }}">
+        <div class="pub-num">{% if p.num %}{{ p.num }}{% endif %}</div>
+        <div class="pub-body">
+          <p class="pub-title">{% if p.arxiv %}<a href="https://arxiv.org/abs/{{ p.arxiv }}">{{ p.title }}</a>{% else %}{{ p.title }}{% endif %}</p>
+          <p class="pub-authors">{{ p.authors }}</p>
+          <div class="pub-tags">
+            <span class="pub-year">{{ p.year }}</span>
+            {% if p.arxiv %}<a class="tag-mono" href="https://arxiv.org/abs/{{ p.arxiv }}">arXiv:{{ p.arxiv }}</a>{% endif %}
+            {% if p.contributed %}<span class="contributed-tag">contributed code / data</span>{% endif %}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <p class="empty" id="pub-empty" style="display:none;">No papers match those filters.</p>
+
+    <p class="muted" style="margin-top:28px; font-size:0.9rem;">Published work that uses the Toolkit but isn't listed? Email <strong>{{ site.contact_email }}</strong> and we'll add it.</p>
+  </div>
+</section>
+
+<script src="{{ '/assets/js/papers.js' | relative_url }}"></script>

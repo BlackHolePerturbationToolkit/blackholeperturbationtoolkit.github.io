@@ -1,0 +1,37 @@
+---
+name: "CircularOrbitSelfForceData"
+summary: "Fluxes and self-force quantities for circular orbits"
+lang: "Mathematica"
+domain: "data"
+status: "data"
+repo: "https://github.com/BlackHolePerturbationToolkit/CircularOrbitSelfForceData"
+---
+
+<!-- Scaffolded from _data/tools.yml. Replace the TODO sections with real
+     documentation, then delete the stub notice below. -->
+
+<div class="callout" markdown="1">
+**Stub page.** Full documentation for CircularOrbitSelfForceData is in progress. For now, see the [source repository](https://github.com/BlackHolePerturbationToolkit/CircularOrbitSelfForceData).
+</div>
+
+## Overview
+
+Fluxes and self-force quantities for circular orbits.
+
+<!-- TODO: expand — what it computes, key features, and related packages. -->
+
+## Accessing the data
+
+<!-- TODO: describe the dataset layout, formats and how to load it. -->
+The data lives in the [repository](https://github.com/BlackHolePerturbationToolkit/CircularOrbitSelfForceData).
+
+The repository includes a Mathematica package for loading and manipulating the data:
+
+```mathematica
+(* see the repository for the loader and dataset layout *)
+```
+
+## Examples
+
+<!-- TODO: link to worked examples or notebooks. -->
+See the [repository](https://github.com/BlackHolePerturbationToolkit/CircularOrbitSelfForceData) for examples.

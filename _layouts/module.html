@@ -1,0 +1,88 @@
+---
+layout: default
+---
+
+{% assign domain = site.data.domains | where: "id", page.domain | first %}
+{% assign langclass = page.lang | replace: 'C/C++', 'CC' %}
+{% assign related = site.data.tools | where: "domain", page.domain %}
+
+<section class="section">
+  <div class="wrap">
+
+    <nav class="crumbs" aria-label="Breadcrumb">
+      <a href="{{ '/tools/' | relative_url }}">Tools</a>
+      <span aria-hidden="true">/</span>
+      {% if domain %}<a href="{{ '/tools/' | relative_url }}#{{ domain.id }}">{{ domain.name }}</a>
+      <span aria-hidden="true">/</span>{% endif %}
+      <span class="current">{{ page.name }}</span>
+    </nav>
+
+    <header class="module-head">
+      {% if domain %}<p class="eyebrow">{{ domain.name }}</p>{% endif %}
+      <h1>{{ page.name }}</h1>
+      {% if page.summary %}<p class="lede">{{ page.summary }}</p>{% endif %}
+      <div class="module-badges">
+        {% if page.lang %}<span class="lang lang-{{ langclass }}">{{ page.lang }}</span>{% endif %}
+        {% if page.status == 'stable' %}<span class="badge badge-stable"><span class="dot"></span>Stable</span>{% endif %}
+        {% if page.status == 'beta' %}<span class="badge badge-beta"><span class="dot"></span>Beta</span>{% endif %}
+        {% if page.status == 'data' %}<span class="badge badge-data"><span class="dot"></span>Data</span>{% endif %}
+        {% if page.requirements %}<span class="tag-mono">Requires {{ page.requirements }}</span>{% endif %}
+      </div>
+    </header>
+
+    {% if page.install %}
+    <div class="install module-install">
+      <code>{{ page.install }}</code>
+      <button class="copy-btn" data-copy="{{ page.install }}" aria-label="Copy install command"><i class="ti ti-copy" aria-hidden="true"></i></button>
+    </div>
+    {% endif %}
+
+    <div class="module-links">
+      {% if page.repo %}<a class="btn" href="{{ page.repo }}"><i class="ti ti-brand-github" aria-hidden="true"></i> Source</a>{% endif %}
+      {% if page.docs %}<a class="btn" href="{{ page.docs }}"><i class="ti ti-external-link" aria-hidden="true"></i> Full docs</a>{% endif %}
+      {% if page.repo %}<a class="btn" href="{{ page.repo }}/issues"><i class="ti ti-bug" aria-hidden="true"></i> Report an issue</a>{% endif %}
+    </div>
+
+    <div class="module-layout">
+      <aside class="toc-rail">
+        <nav id="toc" class="toc" aria-label="On this page"></nav>
+      </aside>
+
+      <div class="prose module-body">
+        {{ content }}
+
+        <h2 id="citing">Citing {{ page.name }}</h2>
+        <p>If you use {{ page.name }} in your research, please acknowledge the Toolkit:</p>
+        <div class="callout" markdown="0">
+          <p style="margin:0;">This work makes use of the Black Hole Perturbation Toolkit.</p>
+        </div>
+        {% if page.citation %}
+        <p>{{ page.name }} also requests the following citation{% if page.citation.size > 1 %}s{% endif %}:</p>
+        <ul>
+          {% for c in page.citation %}
+          <li>{% if c.url %}<a href="{{ c.url }}">{{ c.text }}</a>{% else %}{{ c.text }}{% endif %}</li>
+          {% endfor %}
+        </ul>
+        {% endif %}
+        <p>See <a href="{{ '/community/#citing' | relative_url }}">how to cite</a> for the BibTeX entry and guidance.</p>
+      </div>
+    </div>
+
+    {% if related.size > 1 %}
+    <section class="related">
+      <h2>Related tools</h2>
+      <p class="muted" style="font-size:0.9rem; margin-bottom:14px;">More in {{ domain.name | downcase }}.</p>
+      <div class="card-grid">
+        {% for tool in related %}{% unless tool.name == page.name %}
+          {% include tool-card.html tool=tool %}
+        {% endunless %}{% endfor %}
+      </div>
+    </section>
+    {% endif %}
+
+    <p style="margin-top:32px;"><a href="{{ '/tools/' | relative_url }}"><i class="ti ti-arrow-left" aria-hidden="true"></i> Back to all tools</a></p>
+
+  </div>
+</section>
+
+<script src="{{ '/assets/js/module.js' | relative_url }}"></script>

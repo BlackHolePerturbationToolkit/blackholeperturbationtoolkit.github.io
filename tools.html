@@ -1,0 +1,49 @@
+---
+layout: default
+permalink: /tools/
+---
+
+<section class="section">
+  <div class="wrap">
+    <p class="eyebrow">The catalogue</p>
+    <h1>Tools &amp; data</h1>
+    <p class="lede">{{ site.data.tools | size }} packages, organised by the physics they solve. Each installs independently &mdash; pick what you need.</p>
+
+    <div class="toolbar" style="margin-top:32px;">
+      <div class="filters" role="group" aria-label="Filter tools by domain">
+        <button class="pill active" data-filter="all" aria-pressed="true">All</button>
+        {% for d in site.data.domains %}
+        <button class="pill" data-filter="{{ d.id }}" aria-pressed="false">{{ d.name }}</button>
+        {% endfor %}
+      </div>
+      <label class="search">
+        <i class="ti ti-search" aria-hidden="true"></i>
+        <input type="search" id="tool-search" placeholder="search tools…" aria-label="Search tools">
+      </label>
+    </div>
+    <p class="muted" style="font-size:0.85rem; margin-bottom:18px;"><span id="tool-count">{{ site.data.tools | size }} tools</span></p>
+
+    <div class="card-grid" id="tool-grid">
+      {% for tool in site.data.tools %}
+        {% include tool-card.html tool=tool %}
+      {% endfor %}
+    </div>
+    <p class="empty" id="tool-empty" style="display:none;">No tools match that filter. Try clearing the search or picking another domain.</p>
+
+    <div class="callout" style="margin-top:40px;">
+      <p style="margin:0;"><strong>Looking for large datasets?</strong> Big result sets live in the <a href="{{ site.zenodo }}">BHPToolkit Zenodo community</a>. Smaller datasets and their loaders are listed above under <a href="#" data-filter-link="data">Data repositories</a>.</p>
+    </div>
+  </div>
+</section>
+
+<script src="{{ '/assets/js/catalog.js' | relative_url }}"></script>
+<script>
+  document.querySelectorAll('[data-filter-link]').forEach(function (a) {
+    a.addEventListener('click', function (e) {
+      e.preventDefault();
+      var t = a.getAttribute('data-filter-link');
+      var pill = document.querySelector('[data-filter="' + t + '"]');
+      if (pill) { pill.click(); pill.scrollIntoView({ behavior: 'smooth', block: 'center' }); }
+    });
+  });
+</script>
