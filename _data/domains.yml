@@ -9,10 +9,14 @@
   name: Spheroidal harmonics
   icon: wave-sine
   blurb: Spin-weighted spheroidal harmonics and eigenvalues.
-- id: teukolsky
-  name: Perturbation equations
+- id: radial
+  name: Radial perturbations
   icon: function
   blurb: Teukolsky, Regge-Wheeler and the Einstein equations.
+- id: second-order
+  name: Second-order perturbations
+  icon: function
+  blurb: Second-order source, equations and solutions.
 - id: qnm
   name: Quasinormal modes
   icon: ripple

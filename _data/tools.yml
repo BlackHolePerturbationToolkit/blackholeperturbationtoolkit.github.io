@@ -27,6 +27,15 @@
   install: pip install fastemriwaveforms
   featured: true
 
+- name: WaSABI
+  blurb: Waveforms from self-force theory and SF-PN hybrids
+  lang: Mathematica
+  domain: waveforms
+  status: stable
+  tags: [EMRI, Kerr, waveforms, LISA, self-force, post-Newtonian, hybrid, waveforms]
+  repo: https://github.com/BlackHolePerturbationToolkit/WaSABI
+  url: https://bhptoolkit.org/WaSABI/
+
 - name: BHPTNRSurrogate
   blurb: Surrogate waveform models trained on perturbation theory, calibrated to NR
   lang: Python
@@ -36,19 +45,11 @@
   repo: https://github.com/BlackHolePerturbationToolkit/BHPTNRSurrogate
   url: https://bhptoolkit.org/BHPTNRSurrogate/
 
-- name: EMRI Kludge Suite
-  blurb: Kludge waveforms for generic extreme mass-ratio inspirals into Kerr
-  lang: C/C++
-  domain: waveforms
-  status: deprecated
-  tags: [EMRI, kludge, Kerr, waveforms]
-  repo: https://github.com/alvincjk/EMRI_Kludge_Suite
-
 # --- Perturbation equations & Teukolsky ------------------------------------
 - name: Teukolsky
   blurb: Solutions to the Teukolsky equation for perturbations of Kerr
   lang: Mathematica
-  domain: teukolsky
+  domain: radial
   status: stable
   tags: [Teukolsky, Kerr, frequency-domain]
   repo: https://github.com/BlackHolePerturbationToolkit/Teukolsky
@@ -56,29 +57,20 @@
   install: 'PacletInstall["Teukolsky"]'
   featured: true
 
-- name: ReggeWheeler
+- name: Regge-Wheeler
   blurb: Solutions to the Regge-Wheeler equation for Schwarzschild perturbations
   lang: Mathematica
-  domain: teukolsky
-  status: stable
+  domain: radial
+  status: beta
   tags: [Regge-Wheeler, Schwarzschild]
   repo: https://github.com/BlackHolePerturbationToolkit/ReggeWheeler
   url: https://bhptoolkit.org/ReggeWheeler/
   install: 'PacletInstall["ReggeWheeler"]'
 
-- name: PerturbationEquations
-  blurb: First- and second-order Einstein and Teukolsky equations in Schwarzschild
-  lang: Mathematica
-  domain: teukolsky
-  status: stable
-  tags: [second-order, Schwarzschild, Einstein equations]
-  repo: https://github.com/BlackHolePerturbationToolkit/PerturbationEquations
-  url: https://bhptoolkit.org/PerturbationEquations/
-
 - name: Gremlin
   blurb: Solve the Teukolsky equation with a point-particle source
   lang: C/C++
-  domain: teukolsky
+  domain: radial
   status: stable
   tags: [Teukolsky, point particle, Kerr]
   repo: https://github.com/BlackHolePerturbationToolkit/GremlinEq
@@ -87,11 +79,19 @@
 - name: pybhpt
   blurb: A python package for solving problems in black hole perturbation theory.
   lang: Python
-  domain: teukolsky
+  domain: radial
   status: stable
   tags: [Teukolsky, point particle, Kerr, frequency-domain]
   repo: https://github.com/znasipak/pybhpt
   install: pip install pybhpt
+
+- name: h1Lorenz
+  blurb: First-order metric perturbation in the Lorenz gauge
+  lang: C/C++
+  domain: radial
+  status: stable
+  tags: [self-force, Lorenz gauge, metric perturbation]
+  repo: https://github.com/BlackHolePerturbationToolkit/h1Lorenz
 
 # --- Quasinormal modes -----------------------------------------------------
 - name: qnm
@@ -108,7 +108,7 @@
   blurb: Quasinormal modes in Schwarzschild and Kerr spacetime
   lang: Mathematica
   domain: qnm
-  status: stable
+  status: beta
   tags: [QNM, ringdown, Schwarzschild, Kerr]
   repo: https://github.com/BlackHolePerturbationToolkit/QNM-Mathematica
   url: https://bhptoolkit.org/QNM-Mathematica
@@ -172,36 +172,38 @@
   repo: https://github.com/BlackHolePerturbationToolkit/SelfForce-1D
   url: https://bhptoolkit.org/Self-Force-1D.html
 
-- name: WaSABI
-  blurb: Waveforms from self-force theory and SF-PN hybrids
-  lang: Mathematica
-  domain: self-force
-  status: beta
-  tags: [self-force, post-Newtonian, hybrid, waveforms]
-  repo: https://github.com/BlackHolePerturbationToolkit/WaSABI
-  url: https://bhptoolkit.org/WaSABI/
-
 - name: Punctures
   blurb: Metric perturbation punctures for first- and second-order self-force
   lang: Mathematica
   domain: self-force
-  status: beta
+  status: stable
   tags: [self-force, puncture, second-order]
   repo: https://github.com/BlackHolePerturbationToolkit/Punctures
 
-- name: h1Lorenz
-  blurb: First-order metric perturbation in the Lorenz gauge
-  lang: C/C++
+- name: RegularizationParameters
+  blurb: Regularization parameters for the regular field at the particle
+  lang: Mathematica
   domain: self-force
   status: beta
-  tags: [self-force, Lorenz gauge, metric perturbation]
-  repo: https://github.com/BlackHolePerturbationToolkit/h1Lorenz
+  tags: [regularization, self-force, data]
+  repo: https://github.com/BlackHolePerturbationToolkit/RegularizationParameters
+
+# --- Second-order ----------------------------------------------------------
+
+- name: PerturbationEquations
+  blurb: First- and second-order Einstein and Teukolsky equations in Schwarzschild
+  lang: Mathematica
+  domain: second-order
+  status: stable
+  tags: [second-order, Schwarzschild, Einstein equations]
+  repo: https://github.com/BlackHolePerturbationToolkit/PerturbationEquations
+  url: https://bhptoolkit.org/PerturbationEquations/
 
 - name: SecondOrderRicci
   blurb: Modes of the second-order Ricci tensor
   lang: C/C++
-  domain: self-force
-  status: beta
+  domain: second-order
+  status: stable
   tags: [second-order, Ricci, self-force]
   repo: https://github.com/BlackHolePerturbationToolkit/SecondOrderRicci
 
@@ -225,14 +227,6 @@
   repo: https://github.com/BlackHolePerturbationToolkit/PostNewtonianSelfForce
   url: https://bhptoolkit.org/PostNewtonianSelfForce/
 
-- name: RegularizationParameters
-  blurb: Regularization parameters for the regular field at the particle
-  lang: Mathematica
-  domain: data
-  status: data
-  tags: [regularization, self-force, data]
-  repo: https://github.com/BlackHolePerturbationToolkit/RegularizationParameters
-
 - name: CircularOrbitSelfForceData
   blurb: Fluxes and self-force quantities for circular orbits
   lang: Mathematica
@@ -240,3 +234,13 @@
   status: data
   tags: [fluxes, circular orbits, data]
   repo: https://github.com/BlackHolePerturbationToolkit/CircularOrbitSelfForceData
+
+# --- Deprecated tools ------------------------------------------------------
+
+- name: EMRI Kludge Suite
+  blurb: Kludge waveforms for generic extreme mass-ratio inspirals into Kerr
+  lang: C/C++
+  domain: waveforms
+  status: deprecated
+  tags: [EMRI, kludge, Kerr, waveforms]
+  repo: https://github.com/alvincjk/EMRI_Kludge_Suite

@@ -2,7 +2,7 @@
 name: "ReggeWheeler"
 summary: "Solutions to the Regge-Wheeler equation for Schwarzschild perturbations"
 lang: "Mathematica"
-domain: "teukolsky"
+domain: "radial"
 status: "stable"
 repo: "https://github.com/BlackHolePerturbationToolkit/ReggeWheeler"
 docs: "https://bhptoolkit.org/ReggeWheeler/"

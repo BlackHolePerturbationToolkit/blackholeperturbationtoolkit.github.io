@@ -2,7 +2,7 @@
 name: "PerturbationEquations"
 summary: "First- and second-order Einstein and Teukolsky equations in Schwarzschild"
 lang: "Mathematica"
-domain: "teukolsky"
+domain: "radial"
 status: "stable"
 repo: "https://github.com/BlackHolePerturbationToolkit/PerturbationEquations"
 docs: "https://bhptoolkit.org/PerturbationEquations/"

@@ -2,7 +2,7 @@
 name: "WaSABI"
 summary: "Waveforms from self-force theory and SF-PN hybrids"
 lang: "Mathematica"
-domain: "self-force"
+domain: "waveforms"
 status: "beta"
 repo: "https://github.com/BlackHolePerturbationToolkit/WaSABI"
 docs: "https://bhptoolkit.org/WaSABI/"

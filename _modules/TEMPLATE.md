@@ -15,7 +15,7 @@ summary: One-line description of what the module computes.
 # Metadata mirrors the catalogue entry (kept here so the doc page is
 # self-contained). Use the same values as in _data/tools.yml.
 lang: Python              # Python | SageMath | Mathematica | C/C++ | Fortran
-domain: teukolsky         # one of the ids in _data/domains.yml
+domain: perturbations     # one of the ids in _data/domains.yml
 status: stable            # stable | beta | data
 requirements: Python 3.9+ # optional — shown as a chip in the header
 

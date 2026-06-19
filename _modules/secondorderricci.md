@@ -2,7 +2,7 @@
 name: "SecondOrderRicci"
 summary: "Modes of the second-order Ricci tensor"
 lang: "C/C++"
-domain: "self-force"
+domain: "second-order"
 status: "beta"
 repo: "https://github.com/BlackHolePerturbationToolkit/SecondOrderRicci"
 ---

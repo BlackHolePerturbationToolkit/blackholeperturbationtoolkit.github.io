@@ -2,7 +2,7 @@
 name: "Gremlin"
 summary: "Solve the Teukolsky equation with a point-particle source"
 lang: "C/C++"
-domain: "teukolsky"
+domain: "radial"
 status: "stable"
 repo: "https://github.com/BlackHolePerturbationToolkit/GremlinEq"
 docs: "https://bhptoolkit.org/GremlinEq"
