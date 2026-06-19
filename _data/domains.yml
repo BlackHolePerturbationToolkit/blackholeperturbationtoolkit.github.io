@@ -14,7 +14,7 @@
   icon: function
   blurb: Teukolsky, Regge-Wheeler and the Einstein equations.
 - id: second-order
-  name: Second order
+  name: Second-order perturbations
   icon: circle-dashed-number-2
   blurb: Second-order source, equations and solutions.
 - id: qnm
