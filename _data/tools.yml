@@ -113,6 +113,7 @@
   tags: [QNM, ringdown, Schwarzschild, Kerr]
   repo: https://github.com/BlackHolePerturbationToolkit/QNM-Mathematica
   url: https://bhptoolkit.org/QNM-Mathematica
+  install: 'PacletInstall["QNM"]'
 
 # --- Spheroidal harmonics --------------------------------------------------
 - name: Spin-Weighted Spheroidal Harmonics
