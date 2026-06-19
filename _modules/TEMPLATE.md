@@ -7,27 +7,26 @@
 # =========================================================================
 published: false
 
-# `name` MUST exactly match the tool's name in _data/tools.yml — that match
-# is what makes the catalogue card link here automatically.
+# `name` MUST exactly match the tool's name in _data/tools.yml. That single
+# match is all this page needs: the catalogue card links here automatically,
+# and the header (language, status, install command, source/docs links,
+# domain, and the summary line) is pulled from that tools.yml entry. You do
+# NOT repeat any of those settings here.
 name: ModuleName
-summary: One-line description of what the module computes.
 
-# Metadata mirrors the catalogue entry (kept here so the doc page is
-# self-contained). Use the same values as in _data/tools.yml.
-lang: Python              # Python | SageMath | Mathematica | C/C++ | Fortran
-domain: perturbations     # one of the ids in _data/domains.yml
-status: stable            # stable | beta | data
-requirements: Python 3.9+ # optional — shown as a chip in the header
-
-repo: https://github.com/BlackHolePerturbationToolkit/ModuleName
-docs: https://bhptoolkit.org/ModuleName/   # optional upstream/full docs
-install: pip install modulename            # optional — gets a copy button
-
+# ---- everything below is OPTIONAL and doc-only ----
+# summary:      override the catalogue blurb for this page's header lede
+# requirements: shown as a chip in the header, e.g. "Mathematica 12.0+"
+# Any of lang / status / install / repo / docs / domain can also be set here
+# to override the tools.yml value for this page only (rarely needed).
+#
+# requirements: Python 3.9+
+#
 # Optional module-specific citations, added to the standard Toolkit
-# acknowledgement in the auto-generated "Citing" section.
-citation:
-  - text: "Author et al., Title, Journal (Year)"
-    url: "https://arxiv.org/abs/0000.00000"
+# acknowledgement in the auto-generated "Citing" section:
+# citation:
+#   - text: "Author et al., Title, Journal (Year)"
+#     url: "https://arxiv.org/abs/0000.00000"
 ---
 
 ## Overview

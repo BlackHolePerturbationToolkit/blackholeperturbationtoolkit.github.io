@@ -1,10 +1,5 @@
 ---
 name: "SecondOrderRicci"
-summary: "Modes of the second-order Ricci tensor"
-lang: "C/C++"
-domain: "second-order"
-status: "stable"
-repo: "https://github.com/BlackHolePerturbationToolkit/SecondOrderRicci"
 ---
 
 <!-- Scaffolded from _data/tools.yml. Replace the TODO sections with real

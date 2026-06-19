@@ -1,11 +1,5 @@
 ---
 name: "BHPTNRSurrogate"
-summary: "Surrogate waveform models trained on perturbation theory, calibrated to NR"
-lang: "Python"
-domain: "waveforms"
-status: "stable"
-repo: "https://github.com/BlackHolePerturbationToolkit/BHPTNRSurrogate"
-docs: "https://bhptoolkit.org/BHPTNRSurrogate/"
 ---
 
 <!-- Scaffolded from _data/tools.yml. Replace the TODO sections with real

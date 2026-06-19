@@ -119,19 +119,9 @@ def usage_section(tool):
 
 def render(tool):
     name = tool["name"]
-    fm = ["---", f"name: {q(name)}"]
-    if tool.get("blurb"):
-        fm.append(f"summary: {q(tool['blurb'])}")
-    for key in ("lang", "domain", "status"):
-        if tool.get(key):
-            fm.append(f"{key}: {q(tool[key])}")
-    if tool.get("repo"):
-        fm.append(f"repo: {q(tool['repo'])}")
-    if tool.get("url") and tool["url"] != tool.get("repo"):
-        fm.append(f"docs: {q(tool['url'])}")
-    if tool.get("install"):
-        fm.append(f"install: {q(tool['install'])}")
-    fm.append("---")
+    # Front matter is just the join key — the module layout pulls lang, status,
+    # install, repo, docs (url), domain and summary from _data/tools.yml by name.
+    fm = ["---", f"name: {q(name)}", "---"]
 
     repo = tool.get("repo", "")
     docs = tool.get("url")

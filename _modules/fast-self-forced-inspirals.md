@@ -1,11 +1,5 @@
 ---
 name: "Fast Self-Forced Inspirals"
-summary: "Self-force inspirals via near-identity transformed equations of motion"
-lang: "C/C++"
-domain: "self-force"
-status: "stable"
-repo: "https://github.com/BlackHolePerturbationToolkit/FastSelfForcedInspirals"
-docs: "https://bhptoolkit.org/Fast_Self-Forced_Inspirals/"
 ---
 
 <!-- Scaffolded from _data/tools.yml. Replace the TODO sections with real

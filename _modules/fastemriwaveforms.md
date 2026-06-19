@@ -1,13 +1,6 @@
 ---
 name: FastEMRIWaveforms
-summary: Fast, fully relativistic extreme mass-ratio inspiral waveforms on CPUs and GPUs.
-lang: Python
-domain: waveforms
-status: stable
 requirements: Python 3.9+
-repo: https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms
-docs: https://bhptoolkit.org/FastEMRIWaveforms_main.html
-install: pip install fastemriwaveforms
 citation:
   - text: "Katz et al., FastEMRIWaveforms: New tools for millihertz gravitational-wave data analysis, arXiv:2104.04582"
     url: "https://arxiv.org/abs/2104.04582"

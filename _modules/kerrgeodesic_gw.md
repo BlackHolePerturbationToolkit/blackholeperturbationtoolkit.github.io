@@ -1,11 +1,5 @@
 ---
 name: "kerrgeodesic_gw"
-summary: "Gravitational waves from a circular orbit about a Kerr black hole"
-lang: "SageMath"
-domain: "geodesics"
-status: "stable"
-repo: "https://github.com/BlackHolePerturbationToolkit/kerrgeodesic_gw"
-install: "sage -pip install kerrgeodesic_gw"
 ---
 
 <!-- Scaffolded from _data/tools.yml. Replace the TODO sections with real

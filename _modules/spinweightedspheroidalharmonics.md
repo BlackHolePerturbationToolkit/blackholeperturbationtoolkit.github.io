@@ -1,12 +1,5 @@
 ---
 name: "Spin-Weighted Spheroidal Harmonics"
-summary: "Spin-weighted spheroidal harmonics and their eigenvalues"
-lang: "Mathematica"
-domain: "harmonics"
-status: "stable"
-repo: "https://github.com/BlackHolePerturbationToolkit/SpinWeightedSpheroidalHarmonics"
-docs: "https://bhptoolkit.org/SpinWeightedSpheroidalHarmonics"
-install: "PacletInstall[\"SpinWeightedSpheroidalHarmonics\"]"
 ---
 
 <!-- Scaffolded from _data/tools.yml. Replace the TODO sections with real

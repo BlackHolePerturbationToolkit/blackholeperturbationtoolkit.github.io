@@ -1,10 +1,5 @@
 ---
 name: "CircularOrbitSelfForceData"
-summary: "Fluxes and self-force quantities for circular orbits"
-lang: "Mathematica"
-domain: "data"
-status: "data"
-repo: "https://github.com/BlackHolePerturbationToolkit/CircularOrbitSelfForceData"
 ---
 
 <!-- Scaffolded from _data/tools.yml. Replace the TODO sections with real

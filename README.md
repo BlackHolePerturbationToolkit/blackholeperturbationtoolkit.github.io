@@ -44,7 +44,7 @@ scripts/               publications generator + legacy migration (maintainer too
 ## Everyday maintenance
 
 **Add a tool:** append an entry to `_data/tools.yml`. Set `domain` to one of the
-ids in `_data/domains.yml`, pick `status` (`stable` / `beta` / `data` / `deprecated`), and add
+ids in `_data/domains.yml`, pick `status` (`stable` / `beta` / `data`), and add
 `featured: true` to surface it on the homepage. No template editing needed.
 
 **Add a physics domain:** add to `_data/domains.yml` (with a
@@ -64,11 +64,22 @@ table of contents, a "Citing" section, and cross-links to related tools in the
 same domain.
 
 To add one, copy `_modules/TEMPLATE.md` to `_modules/<slug>.md` (lowercase — the
-slug becomes the URL, e.g. `_modules/teukolsky.md` → `/modules/teukolsky/`), fill
-in the front matter, and write the body in markdown. The only rule: the
-front-matter `name` must exactly match the tool's name in `_data/tools.yml`.
-That match is what makes the catalogue card's "Docs" link point at the local
-page automatically; tools without a module page fall back to their upstream URL.
+slug becomes the URL, e.g. `_modules/teukolsky.md` → `/modules/teukolsky/`), set
+the front-matter `name` to match the tool, and write the body in markdown. The
+only required field is that `name`, which must exactly match the tool's name in
+`_data/tools.yml`. That match does two things: it makes the catalogue card's
+"Docs" link point at the local page (tools without a module page fall back to
+their upstream URL), and it lets the page **pull all of its settings from that
+one `tools.yml` entry** — language, status, install command, source/docs links,
+domain, and the header summary. You don't repeat any of those in the module
+file, so there's a single source of truth and nothing to keep in sync.
+
+Everything else in the front matter is optional and doc-only: `summary` (to
+override the catalogue blurb for the header lede), `requirements` (a header
+chip), and `citation` (module-specific references for the "Citing" section). Any
+of the catalogue fields (`lang`, `status`, `install`, `repo`, `docs`, `domain`)
+can also be set in the front matter to override the `tools.yml` value for that
+one page, but that's rarely needed.
 
 The body just needs `## Overview`, `## Installation`, `## Usage` (and any other)
 sections — the layout adds the heading anchors, the contents rail, and the
@@ -76,8 +87,8 @@ citing block. Fenced code blocks are syntax-highlighted by Rouge using the theme
 colours. Three worked examples ship as references: `teukolsky.md`,
 `fastemriwaveforms.md` and `qnm.md`.
 
-To scaffold pages for every tool at once (front matter filled from
-`_data/tools.yml`, bodies left as `TODO` stubs), run:
+To scaffold pages for every tool at once (each with just its `name`, body left as
+a `TODO` stub), run:
 
 ```bash
 python scripts/scaffold_modules.py        # creates a stub for any tool missing one

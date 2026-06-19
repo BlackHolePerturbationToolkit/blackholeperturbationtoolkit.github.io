@@ -1,11 +1,5 @@
 ---
 name: "KerrGeoPy"
-summary: "Timelike geodesics in the Kerr spacetime"
-lang: "Python"
-domain: "geodesics"
-status: "stable"
-repo: "https://github.com/BlackHolePerturbationToolkit/KerrGeoPy"
-install: "pip install kerrgeopy"
 ---
 
 <!-- Scaffolded from _data/tools.yml. Replace the TODO sections with real

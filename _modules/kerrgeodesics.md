@@ -1,12 +1,5 @@
 ---
 name: "KerrGeodesics"
-summary: "Bound timelike geodesics about a Kerr black hole"
-lang: "Mathematica"
-domain: "geodesics"
-status: "stable"
-repo: "https://github.com/BlackHolePerturbationToolkit/KerrGeodesics"
-docs: "https://bhptoolkit.org/KerrGeodesics"
-install: "PacletInstall[\"KerrGeodesics\"]"
 ---
 
 <!-- Scaffolded from _data/tools.yml. Replace the TODO sections with real

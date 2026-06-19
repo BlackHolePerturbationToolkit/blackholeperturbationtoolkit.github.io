@@ -1,11 +1,5 @@
 ---
 name: "GeneralRelativityTensors"
-summary: "Coordinate-based tensor calculations with a focus on black holes"
-lang: "Mathematica"
-domain: "tensors"
-status: "stable"
-repo: "https://github.com/BlackHolePerturbationToolkit/GeneralRelativityTensors"
-docs: "https://bhptoolkit.org/GeneralRelativityTensors/"
 ---
 
 <!-- Scaffolded from _data/tools.yml. Replace the TODO sections with real

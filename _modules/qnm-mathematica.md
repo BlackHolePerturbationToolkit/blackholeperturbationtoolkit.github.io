@@ -1,12 +1,5 @@
 ---
 name: "QNM"
-summary: "Quasinormal modes in Schwarzschild and Kerr spacetime"
-lang: "Mathematica"
-domain: "qnm"
-status: "beta"
-repo: "https://github.com/BlackHolePerturbationToolkit/QNM-Mathematica"
-docs: "https://bhptoolkit.org/QNM-Mathematica"
-install: 'PacletInstall["QNM"]'
 ---
 
 <!-- Scaffolded from _data/tools.yml. Replace the TODO sections with real

@@ -1,11 +1,5 @@
 ---
 name: "pybhpt"
-summary: "A python package for solving problems in black hole perturbation theory."
-lang: "Python"
-domain: "radial"
-status: "stable"
-repo: "https://github.com/znasipak/pybhpt"
-install: "pip install pybhpt"
 ---
 
 <!-- Scaffolded from _data/tools.yml. Replace the TODO sections with real

@@ -1,10 +1,5 @@
 ---
 name: "h1Lorenz"
-summary: "First-order metric perturbation in the Lorenz gauge"
-lang: "C/C++"
-domain: "radial"
-status: "stable"
-repo: "https://github.com/BlackHolePerturbationToolkit/h1Lorenz"
 ---
 
 <!-- Scaffolded from _data/tools.yml. Replace the TODO sections with real

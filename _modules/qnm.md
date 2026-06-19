@@ -1,12 +1,6 @@
 ---
 name: qnm
-summary: Kerr quasinormal mode frequencies, separation constants and spherical-spheroidal mixing coefficients.
-lang: Python
-domain: qnm
-status: stable
 requirements: Python 3.7+
-repo: https://github.com/BlackHolePerturbationToolkit/qnm
-install: pip install qnm
 citation:
   - text: "Stein, qnm: A Python package for calculating Kerr quasinormal modes, J. Open Source Softw. 4(42), 1683 (2019)"
     url: "https://arxiv.org/abs/1908.10377"

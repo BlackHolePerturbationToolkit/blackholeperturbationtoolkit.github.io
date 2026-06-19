@@ -2,9 +2,21 @@
 layout: default
 ---
 
-{% assign domain = site.data.domains | where: "id", page.domain | first %}
-{% assign langclass = page.lang | replace: 'C/C++', 'CC' %}
-{% assign related = site.data.tools | where: "domain", page.domain %}
+{% comment %} Single source of truth: pull shared settings from _data/tools.yml
+   by matching the page's `name`. Front matter may still override any field,
+   and supplies doc-only extras (requirements, citation). {% endcomment %}
+{% assign tool = site.data.tools | where: "name", page.name | first %}
+{% assign m_lang    = page.lang    | default: tool.lang %}
+{% assign m_status  = page.status  | default: tool.status %}
+{% assign m_install = page.install | default: tool.install %}
+{% assign m_repo    = page.repo    | default: tool.repo %}
+{% assign m_docs    = page.docs    | default: tool.url %}
+{% assign m_domain  = page.domain  | default: tool.domain %}
+{% assign m_summary = page.summary | default: tool.blurb %}
+
+{% assign domain = site.data.domains | where: "id", m_domain | first %}
+{% assign langclass = m_lang | replace: 'C/C++', 'CC' %}
+{% assign related = site.data.tools | where: "domain", m_domain %}
 
 <section class="section">
   <div class="wrap">
@@ -20,28 +32,27 @@ layout: default
     <header class="module-head">
       {% if domain %}<p class="eyebrow">{{ domain.name }}</p>{% endif %}
       <h1>{{ page.name }}</h1>
-      {% if page.summary %}<p class="lede">{{ page.summary }}</p>{% endif %}
+      {% if m_summary %}<p class="lede">{{ m_summary }}</p>{% endif %}
       <div class="module-badges">
-        {% if page.lang %}<span class="lang lang-{{ langclass }}">{{ page.lang }}</span>{% endif %}
-        {% if page.status == 'stable' %}<span class="badge badge-stable"><span class="dot"></span>Stable</span>{% endif %}
-        {% if page.status == 'beta' %}<span class="badge badge-beta"><span class="dot"></span>Beta</span>{% endif %}
-        {% if page.status == 'data' %}<span class="badge badge-data"><span class="dot"></span>Data</span>{% endif %}
-        {% if page.status == 'deprecated' %}<span class="badge badge-deprecated"><span class="dot"></span>Deprecated</span>{% endif %}
+        {% if m_lang %}<span class="lang lang-{{ langclass }}">{{ m_lang }}</span>{% endif %}
+        {% if m_status == 'stable' %}<span class="badge badge-stable"><span class="dot"></span>Stable</span>{% endif %}
+        {% if m_status == 'beta' %}<span class="badge badge-beta"><span class="dot"></span>Beta</span>{% endif %}
+        {% if m_status == 'data' %}<span class="badge badge-data"><span class="dot"></span>Data</span>{% endif %}
         {% if page.requirements %}<span class="tag-mono">Requires {{ page.requirements }}</span>{% endif %}
       </div>
     </header>
 
-    {% if page.install %}
+    {% if m_install %}
     <div class="install module-install">
-      <code>{{ page.install }}</code>
-      <button class="copy-btn" data-copy="{{ page.install }}" aria-label="Copy install command"><i class="ti ti-copy" aria-hidden="true"></i></button>
+      <code>{{ m_install }}</code>
+      <button class="copy-btn" data-copy="{{ m_install }}" aria-label="Copy install command"><i class="ti ti-copy" aria-hidden="true"></i></button>
     </div>
     {% endif %}
 
     <div class="module-links">
-      {% if page.repo %}<a class="btn" href="{{ page.repo }}"><i class="ti ti-brand-github" aria-hidden="true"></i> Source</a>{% endif %}
-      {% if page.docs %}<a class="btn" href="{{ page.docs }}"><i class="ti ti-external-link" aria-hidden="true"></i> Full docs</a>{% endif %}
-      {% if page.repo %}<a class="btn" href="{{ page.repo }}/issues"><i class="ti ti-bug" aria-hidden="true"></i> Report an issue</a>{% endif %}
+      {% if m_repo %}<a class="btn" href="{{ m_repo }}"><i class="ti ti-brand-github" aria-hidden="true"></i> Source</a>{% endif %}
+      {% if m_docs %}<a class="btn" href="{{ m_docs }}"><i class="ti ti-external-link" aria-hidden="true"></i> Full docs</a>{% endif %}
+      {% if m_repo %}<a class="btn" href="{{ m_repo }}/issues"><i class="ti ti-bug" aria-hidden="true"></i> Report an issue</a>{% endif %}
     </div>
 
     <div class="module-layout">

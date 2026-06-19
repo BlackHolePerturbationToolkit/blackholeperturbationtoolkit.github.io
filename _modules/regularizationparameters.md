@@ -1,10 +1,5 @@
 ---
 name: "RegularizationParameters"
-summary: "Regularization parameters for the regular field at the particle"
-lang: "Mathematica"
-domain: "self-force"
-status: "beta"
-repo: "https://github.com/BlackHolePerturbationToolkit/RegularizationParameters"
 ---
 
 <!-- Scaffolded from _data/tools.yml. Replace the TODO sections with real

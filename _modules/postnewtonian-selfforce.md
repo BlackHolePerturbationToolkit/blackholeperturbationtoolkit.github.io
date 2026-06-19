@@ -1,11 +1,5 @@
 ---
 name: "PostNewtonian-SelfForce"
-summary: "High-order PN series at linear order in the mass ratio, with a loader"
-lang: "Mathematica"
-domain: "data"
-status: "data"
-repo: "https://github.com/BlackHolePerturbationToolkit/PostNewtonianSelfForce"
-docs: "https://bhptoolkit.org/PostNewtonianSelfForce/"
 ---
 
 <!-- Scaffolded from _data/tools.yml. Replace the TODO sections with real

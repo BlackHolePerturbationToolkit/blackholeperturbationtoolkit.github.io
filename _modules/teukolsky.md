@@ -1,13 +1,6 @@
 ---
 name: Teukolsky
-summary: Solutions to the Teukolsky equation for perturbations of a Kerr black hole.
-lang: Mathematica
-domain: radial
-status: stable
 requirements: Mathematica 12.0+
-repo: https://github.com/BlackHolePerturbationToolkit/Teukolsky
-docs: https://bhptoolkit.org/Teukolsky
-install: 'PacletInstall["Teukolsky"]'
 ---
 
 ## Overview

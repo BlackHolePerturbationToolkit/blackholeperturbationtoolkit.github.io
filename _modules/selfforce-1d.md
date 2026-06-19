@@ -1,11 +1,5 @@
 ---
 name: "SelfForce-1D"
-summary: "Effective-source EMRI simulation infrastructure in the time domain"
-lang: "Fortran"
-domain: "self-force"
-status: "beta"
-repo: "https://github.com/BlackHolePerturbationToolkit/SelfForce-1D"
-docs: "https://bhptoolkit.org/Self-Force-1D.html"
 ---
 
 <!-- Scaffolded from _data/tools.yml. Replace the TODO sections with real
