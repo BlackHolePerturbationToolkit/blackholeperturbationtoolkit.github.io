@@ -125,11 +125,13 @@ def png(svg, size):
 
 def main():
     os.makedirs(IMG, exist_ok=True)
-    icon = mark(orbit=TEAL, ring=GOLD, bh=BH_DARK, bg=BG)
+    # favicon / app icon: red orbits (header & lockups stay teal/theme-adaptive)
+    FAVICON_ORBIT = RED
+    icon = mark(orbit=FAVICON_ORBIT, ring=GOLD, bh=BH_DARK, bg=BG)
     open(os.path.join(ROOT, "favicon.svg"), "w").write(icon)
     png(icon, 32).save(os.path.join(ROOT, "favicon-32x32.png"))
     png(icon, 16).save(os.path.join(ROOT, "favicon-16x16.png"))
-    png(mark(orbit=TEAL, ring=GOLD, bh=BH_DARK, bg=BG, rx_bg=0), 180).save(
+    png(mark(orbit=FAVICON_ORBIT, ring=GOLD, bh=BH_DARK, bg=BG, rx_bg=0), 180).save(
         os.path.join(ROOT, "apple-touch-icon.png"))
     png(icon, 256).save(os.path.join(ROOT, "favicon.ico"),
                         sizes=[(16, 16), (24, 24), (32, 32), (48, 48), (64, 64)])
