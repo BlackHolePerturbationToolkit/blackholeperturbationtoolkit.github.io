@@ -85,12 +85,13 @@ PATHS, (FX, FY) = _orbits()
 def mark(orbit, ring, bh, bg=None, rx_bg=22):
     bgrect = (f'<rect width="{VIEW}" height="{VIEW}" rx="{rx_bg}" fill="{bg}"/>' if bg else "")
     orbits = "".join(f'<path d="{d}"/>' for d in PATHS)
+    ringel = (f'<circle cx="{FX:.2f}" cy="{FY:.2f}" r="{RING_R}" fill="none" '
+              f'stroke="{ring}" stroke-width="{RING_W}"/>' if ring else "")
     return (f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {VIEW} {VIEW}">'
             f'{bgrect}'
             f'<g fill="none" stroke="{orbit}" stroke-width="{STROKE}" stroke-linejoin="round">{orbits}</g>'
             f'<circle cx="{FX:.2f}" cy="{FY:.2f}" r="{BH_R}" fill="{bh}"/>'
-            f'<circle cx="{FX:.2f}" cy="{FY:.2f}" r="{RING_R}" fill="none" '
-            f'stroke="{ring}" stroke-width="{RING_W}"/></svg>')
+            f'{ringel}</svg>')
 
 
 def inline(css_class=None):
@@ -125,13 +126,14 @@ def png(svg, size):
 
 def main():
     os.makedirs(IMG, exist_ok=True)
-    # favicon / app icon: red orbits (header & lockups stay teal/theme-adaptive)
-    FAVICON_ORBIT = RED
-    icon = mark(orbit=FAVICON_ORBIT, ring=GOLD, bh=BH_DARK, bg=BG)
+    # favicon / app icon: red orbits on white, solid dark black-hole dot (no ring —
+    # it isn't needed for contrast on white). Header & lockups stay teal/theme-adaptive.
+    FAVICON_ORBIT, FAVICON_BG = RED, "#ffffff"
+    icon = mark(orbit=FAVICON_ORBIT, ring=None, bh=BH_DARK, bg=FAVICON_BG)
     open(os.path.join(ROOT, "favicon.svg"), "w").write(icon)
     png(icon, 32).save(os.path.join(ROOT, "favicon-32x32.png"))
     png(icon, 16).save(os.path.join(ROOT, "favicon-16x16.png"))
-    png(mark(orbit=FAVICON_ORBIT, ring=GOLD, bh=BH_DARK, bg=BG, rx_bg=0), 180).save(
+    png(mark(orbit=FAVICON_ORBIT, ring=None, bh=BH_DARK, bg=FAVICON_BG, rx_bg=0), 180).save(
         os.path.join(ROOT, "apple-touch-icon.png"))
     png(icon, 256).save(os.path.join(ROOT, "favicon.ico"),
                         sizes=[(16, 16), (24, 24), (32, 32), (48, 48), (64, 64)])
