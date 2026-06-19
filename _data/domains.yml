@@ -3,7 +3,7 @@
 # `icon` is a Tabler icon name (https://tabler.io/icons).
 - id: geodesics
   name: Geodesics & orbits
-  icon: orbit
+  icon: planet
   blurb: Bound and plunging trajectories in Kerr and Schwarzschild.
 - id: harmonics
   name: Spheroidal harmonics
