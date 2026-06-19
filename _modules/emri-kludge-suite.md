@@ -3,7 +3,7 @@ name: "EMRI Kludge Suite"
 summary: "Kludge waveforms for generic extreme mass-ratio inspirals into Kerr"
 lang: "C/C++"
 domain: "waveforms"
-status: "stable"
+status: "deprecated"
 repo: "https://github.com/alvincjk/EMRI_Kludge_Suite"
 ---
 

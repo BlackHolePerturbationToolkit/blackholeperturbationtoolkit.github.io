@@ -18,6 +18,7 @@
     {% if tool.status == 'stable' %}<span class="badge badge-stable"><span class="dot"></span>Stable</span>{% endif %}
     {% if tool.status == 'beta' %}<span class="badge badge-beta"><span class="dot"></span>Beta</span>{% endif %}
     {% if tool.status == 'data' %}<span class="badge badge-data"><span class="dot"></span>Data</span>{% endif %}
+    {% if tool.status == 'deprecated' %}<span class="badge badge-deprecated"><span class="dot"></span>Deprecated</span>{% endif %}
     {% assign first_tag = tool.tags | first %}
     <span class="tag-mono">{{ first_tag }}</span>
   </div>

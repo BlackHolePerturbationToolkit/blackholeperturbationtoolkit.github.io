@@ -44,7 +44,7 @@ scripts/               publications generator + legacy migration (maintainer too
 ## Everyday maintenance
 
 **Add a tool:** append an entry to `_data/tools.yml`. Set `domain` to one of the
-ids in `_data/domains.yml`, pick `status` (`stable` / `beta` / `data`), and add
+ids in `_data/domains.yml`, pick `status` (`stable` / `beta` / `data` / `deprecated`), and add
 `featured: true` to surface it on the homepage. No template editing needed.
 
 **Add a physics domain:** add to `_data/domains.yml` (with a

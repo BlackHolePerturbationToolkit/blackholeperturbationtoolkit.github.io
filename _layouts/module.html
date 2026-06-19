@@ -26,6 +26,7 @@ layout: default
         {% if page.status == 'stable' %}<span class="badge badge-stable"><span class="dot"></span>Stable</span>{% endif %}
         {% if page.status == 'beta' %}<span class="badge badge-beta"><span class="dot"></span>Beta</span>{% endif %}
         {% if page.status == 'data' %}<span class="badge badge-data"><span class="dot"></span>Data</span>{% endif %}
+        {% if page.status == 'deprecated' %}<span class="badge badge-deprecated"><span class="dot"></span>Deprecated</span>{% endif %}
         {% if page.requirements %}<span class="tag-mono">Requires {{ page.requirements }}</span>{% endif %}
       </div>
     </header>

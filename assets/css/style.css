@@ -19,6 +19,7 @@
   --text-muted:#9aa6c2;
   --text-faint:#5b6884;
   --ok:        #7fd98a;
+  --not-ok:    #d6384a;
   --shadow:    0 1px 0 rgba(255,255,255,0.03) inset;
   --radius:    10px;
   --radius-lg: 14px;
@@ -44,6 +45,7 @@
   --text-muted:#54627d;
   --text-faint:#8a98b3;
   --ok:        #2f9e57;
+  --not-ok:    #d6384a;
   color-scheme: light;
 }
 
@@ -205,6 +207,8 @@ code, kbd, pre { font-family: var(--font-mono); }
 .badge-beta .dot { background: var(--violet); }
 .badge-data { background: color-mix(in srgb, var(--text-muted) 16%, transparent); color: var(--text-muted); }
 .badge-data .dot { background: var(--text-muted); }
+.badge-deprecated { background: color-mix(in srgb, var(--not-ok) 14%, transparent); color: var(--not-ok); }
+.badge-deprecated .dot { background: var(--not-ok); }
 .tag-mono { font-family: var(--font-mono); font-size: 0.72rem; color: var(--text-faint); }
 .empty { color: var(--text-muted); padding: 32px 0; text-align: center; }
 

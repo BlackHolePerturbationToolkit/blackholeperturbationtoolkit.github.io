@@ -40,7 +40,7 @@
   blurb: Kludge waveforms for generic extreme mass-ratio inspirals into Kerr
   lang: C/C++
   domain: waveforms
-  status: stable
+  status: deprecated
   tags: [EMRI, kludge, Kerr, waveforms]
   repo: https://github.com/alvincjk/EMRI_Kludge_Suite
 
