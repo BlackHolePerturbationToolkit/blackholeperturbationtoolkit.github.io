@@ -2,6 +2,7 @@
 {% assign langclass = tool.lang | replace: 'C/C++', 'CC' %}
 {% assign link = tool.url | default: tool.repo %}
 {% assign mod = site.modules | where: "name", tool.name | first %}
+{% if mod %}{% assign docshref = mod.url | relative_url %}{% else %}{% assign docshref = link %}{% endif %}
 {% assign tagstr = tool.tags | join: ' ' %}
 <article class="card"
          data-domain="{{ tool.domain }}"
@@ -9,7 +10,7 @@
          data-status="{{ tool.status }}"
          data-search="{{ tool.name | downcase }} {{ tool.blurb | downcase }} {{ tagstr | downcase }} {{ tool.lang | downcase }} {{ tool.domain }}">
   <div class="card-top">
-    <h3>{{ tool.name }}</h3>
+    <h3><a class="card-cover" href="{{ docshref }}" aria-label="{{ tool.name }} documentation">{{ tool.name }}</a></h3>
     <span class="lang lang-{{ langclass }}">{{ tool.lang }}</span>
   </div>
   <p class="blurb">{{ tool.blurb }}</p>
@@ -27,8 +28,7 @@
   </div>
   {% endif %}
   <div class="card-links">
-    {% if mod %}<a href="{{ mod.url | relative_url }}"><i class="ti ti-book" aria-hidden="true"></i> Docs</a>
-    {% else %}<a href="{{ link }}"><i class="ti ti-book" aria-hidden="true"></i> Docs</a>{% endif %}
+    <a href="{{ docshref }}"><i class="ti ti-book" aria-hidden="true"></i> Docs</a>
     <a href="{{ tool.repo }}"><i class="ti ti-brand-github" aria-hidden="true"></i> Code</a>
   </div>
 </article>
