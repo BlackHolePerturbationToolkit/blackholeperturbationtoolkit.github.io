@@ -26,7 +26,7 @@
   icon: route
   blurb: Metric perturbations, punctures and inspiral evolution.
 - id: waveforms
-  name: Waveforms & EMRI
+  name: Waveforms
   icon: activity
   blurb: Fast, accurate waveforms for LISA sources.
 - id: tensors
