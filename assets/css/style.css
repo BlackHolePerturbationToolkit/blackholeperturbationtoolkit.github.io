@@ -11,6 +11,7 @@
   --border:    rgba(150, 170, 210, 0.14);
   --border-strong: rgba(150, 170, 210, 0.28);
   --accent:    #38d6c4;   /* evolved teal — the original #157878, brightened */
+  --logo-accent: #ff0000;
   --accent-ink:#04201c;   /* text that sits on the accent */
   --violet:    #a78bfa;
   --gold:      #fbbf24;
@@ -35,6 +36,7 @@
   --border:    rgba(20, 40, 80, 0.12);
   --border-strong: rgba(20, 40, 80, 0.22);
   --accent:    #0c8d7e;
+  --logo-accent: #ff0000;
   --accent-ink:#ffffff;
   --violet:    #6d4fd6;
   --gold:      #a96e08;
@@ -98,7 +100,7 @@ code, kbd, pre { font-family: var(--font-mono); }
 .brand .accent { color: var(--accent); }
 .logo-mark {
   width: 26px; height: 26px; flex: none; display: block;
-  color: var(--accent);
+  color: var(--logo-accent);
 }
 [data-theme="light"] .logo-mark .bh-ring { display: none; }
 .site-footer .logo-mark { width: 24px; height: 24px; }
