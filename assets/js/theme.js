@@ -43,6 +43,39 @@
     });
   });
 
+  /* ---- copy button on every rendered code block ---- */
+  document.querySelectorAll(".prose pre").forEach(function (pre) {
+    // Rouge wraps code as <div class="highlight"><pre class="highlight">…; attach
+    // the button to that non-scrolling wrapper, otherwise wrap the <pre> ourselves
+    var box = pre.parentElement;
+    if (!box || !box.classList.contains("highlight")) {
+      box = document.createElement("div");
+      box.className = "code-block";
+      pre.parentNode.insertBefore(box, pre);
+      box.appendChild(pre);
+    }
+    box.classList.add("has-copy");
+
+    var btn = document.createElement("button");
+    btn.type = "button";
+    btn.className = "code-copy";
+    btn.setAttribute("aria-label", "Copy code");
+    btn.innerHTML = '<i class="ti ti-copy" aria-hidden="true"></i>';
+    btn.addEventListener("click", function () {
+      var code = pre.querySelector("code") || pre;
+      var text = (code.textContent || "").replace(/\n$/, "");
+      navigator.clipboard.writeText(text).then(function () {
+        btn.classList.add("copied");
+        btn.innerHTML = '<i class="ti ti-check" aria-hidden="true"></i>';
+        setTimeout(function () {
+          btn.classList.remove("copied");
+          btn.innerHTML = '<i class="ti ti-copy" aria-hidden="true"></i>';
+        }, 1400);
+      });
+    });
+    box.appendChild(btn);
+  });
+
   /* ---- hero waveform: an eccentric extreme-mass-ratio inspiral ----
      Long, slowly chirping signal that sweeps up toward plunge, with
      periastron bursts from orbital eccentricity. The dominant (m=2) GW

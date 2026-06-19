@@ -301,6 +301,20 @@ code, kbd, pre { font-family: var(--font-mono); }
 .highlight .o, .highlight .ow, .highlight .p { color: var(--text-muted); }
 .highlight .nv, .highlight .vi, .highlight .na, .highlight .nd, .highlight .err { color: var(--text); }
 
+/* copy button on rendered code blocks */
+.has-copy { position: relative; }
+.code-copy {
+  position: absolute; top: 8px; right: 8px;
+  display: inline-flex; align-items: center; justify-content: center;
+  background: var(--panel); border: 1px solid var(--border); color: var(--text-muted);
+  border-radius: 6px; padding: 4px 7px; font-size: 0.8rem; cursor: pointer;
+  opacity: 0; transition: opacity .15s ease, color .15s ease, border-color .15s ease;
+}
+.has-copy:hover .code-copy, .code-copy:focus-visible { opacity: 1; }
+.code-copy:hover { color: var(--accent); border-color: var(--border-strong); }
+.code-copy.copied { color: var(--ok); border-color: var(--ok); }
+@media (hover: none) { .code-copy { opacity: 0.6; } }
+
 @media (max-width: 720px) {
   .nav-links { display: none; }
   .nav-links.open { display: flex; position: absolute; top: 64px; left: 0; right: 0; flex-direction: column; gap: 0; background: var(--bg); border-bottom: 1px solid var(--border); padding: 8px 24px 16px; }
