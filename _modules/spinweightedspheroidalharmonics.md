@@ -1,5 +1,5 @@
 ---
-name: "SpinWeightedSpheroidalHarmonics"
+name: "Spin-Weighted Spheroidal Harmonics"
 summary: "Spin-weighted spheroidal harmonics and their eigenvalues"
 lang: "Mathematica"
 domain: "harmonics"
