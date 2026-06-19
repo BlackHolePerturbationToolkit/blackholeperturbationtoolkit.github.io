@@ -36,4 +36,4 @@
 - id: data
   name: Data repositories
   icon: database
-  blurb: Fluxes, regularisation parameters and PN series.
+  blurb: Numerical data and PN series.
