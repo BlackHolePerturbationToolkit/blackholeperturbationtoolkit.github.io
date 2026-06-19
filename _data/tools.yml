@@ -68,15 +68,6 @@
   url: https://bhptoolkit.org/ReggeWheeler/
   install: 'PacletInstall["ReggeWheeler"]'
 
-- name: Gremlin
-  blurb: Solve the Teukolsky equation with a point-particle source
-  lang: C/C++
-  domain: radial
-  status: stable
-  tags: [Teukolsky, point particle, Kerr]
-  repo: https://github.com/BlackHolePerturbationToolkit/GremlinEq
-  url: https://bhptoolkit.org/GremlinEq
-
 - name: pybhpt
   blurb: A python package for solving problems in black hole perturbation theory.
   lang: Python
@@ -85,6 +76,15 @@
   tags: [Teukolsky, point particle, Kerr, frequency-domain]
   repo: https://github.com/znasipak/pybhpt
   install: pip install pybhpt
+
+- name: Gremlin
+  blurb: Solve the Teukolsky equation with a point-particle source
+  lang: C/C++
+  domain: radial
+  status: stable
+  tags: [Teukolsky, point particle, Kerr]
+  repo: https://github.com/BlackHolePerturbationToolkit/GremlinEq
+  url: https://bhptoolkit.org/GremlinEq
 
 - name: h1Lorenz
   blurb: First-order metric perturbation in the Lorenz gauge
