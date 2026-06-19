@@ -3,7 +3,7 @@ name: "RegularizationParameters"
 summary: "Regularization parameters for the regular field at the particle"
 lang: "Mathematica"
 domain: "self-force"
-status: "data"
+status: "beta"
 repo: "https://github.com/BlackHolePerturbationToolkit/RegularizationParameters"
 ---
 

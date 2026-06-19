@@ -3,7 +3,7 @@ name: "Punctures"
 summary: "Metric perturbation punctures for first- and second-order self-force"
 lang: "Mathematica"
 domain: "self-force"
-status: "beta"
+status: "stable"
 repo: "https://github.com/BlackHolePerturbationToolkit/Punctures"
 ---
 

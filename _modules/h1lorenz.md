@@ -3,7 +3,7 @@ name: "h1Lorenz"
 summary: "First-order metric perturbation in the Lorenz gauge"
 lang: "C/C++"
 domain: "radial"
-status: "beta"
+status: "stable"
 repo: "https://github.com/BlackHolePerturbationToolkit/h1Lorenz"
 ---
 

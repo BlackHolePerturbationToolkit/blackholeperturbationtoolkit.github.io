@@ -3,9 +3,10 @@ name: "WaSABI"
 summary: "Waveforms from self-force theory and SF-PN hybrids"
 lang: "Mathematica"
 domain: "waveforms"
-status: "beta"
+status: "stable"
 repo: "https://github.com/BlackHolePerturbationToolkit/WaSABI"
 docs: "https://bhptoolkit.org/WaSABI/"
+install: 'PacletInstall["WaSABI"]'
 ---
 
 <!-- Scaffolded from _data/tools.yml. Replace the TODO sections with real

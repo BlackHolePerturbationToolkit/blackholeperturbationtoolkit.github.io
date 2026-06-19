@@ -3,7 +3,7 @@ name: "SecondOrderRicci"
 summary: "Modes of the second-order Ricci tensor"
 lang: "C/C++"
 domain: "second-order"
-status: "beta"
+status: "stable"
 repo: "https://github.com/BlackHolePerturbationToolkit/SecondOrderRicci"
 ---
 

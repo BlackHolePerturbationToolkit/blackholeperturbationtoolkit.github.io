@@ -3,7 +3,7 @@ name: "QNM"
 summary: "Quasinormal modes in Schwarzschild and Kerr spacetime"
 lang: "Mathematica"
 domain: "qnm"
-status: "stable"
+status: "beta"
 repo: "https://github.com/BlackHolePerturbationToolkit/QNM-Mathematica"
 docs: "https://bhptoolkit.org/QNM-Mathematica"
 ---
