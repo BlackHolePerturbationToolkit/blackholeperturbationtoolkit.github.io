@@ -182,7 +182,7 @@ code, kbd, pre { font-family: var(--font-mono); }
 /* whole-card link: the title's overlay covers the card; inner links/buttons sit above */
 .card-cover { color: inherit; text-decoration: none; }
 .card-cover::after { content: ""; position: absolute; inset: 0; z-index: 1; border-radius: var(--radius-lg); }
-.card:hover .card-cover { color: var(--accent); }
+.card:hover .card-cover { color: var(--accent); text-decoration: none; }
 .card .card-links, .card .copy-btn { position: relative; z-index: 2; }
 .card .blurb { font-size: 0.88rem; color: var(--text-muted); margin: 8px 0 14px; flex: 1; }
 .card-meta { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
