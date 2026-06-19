@@ -114,7 +114,7 @@
   url: https://bhptoolkit.org/QNM-Mathematica
 
 # --- Spheroidal harmonics --------------------------------------------------
-- name: SpinWeightedSpheroidalHarmonics
+- name: Spin-Weighted Spheroidal Harmonics
   blurb: Spin-weighted spheroidal harmonics and their eigenvalues
   lang: Mathematica
   domain: harmonics
