@@ -10,7 +10,7 @@
   icon: wave-sine
   blurb: Spin-weighted spheroidal harmonics and eigenvalues.
 - id: radial
-  name: Radial perturbations
+  name: Radial equations
   icon: function
   blurb: Teukolsky, Regge-Wheeler and the Einstein equations.
 - id: second-order
