@@ -45,7 +45,10 @@ scripts/               publications generator + legacy migration (maintainer too
 
 **Add a tool:** append an entry to `_data/tools.yml`. Set `domain` to one of the
 ids in `_data/domains.yml`, pick `status` (`stable` / `beta` / `data`), and add
-`featured: true` to surface it on the homepage. No template editing needed.
+`featured: true` to surface it on the homepage. No template editing needed. To
+list a tool under more than one domain, add `also_in: [id, id]` — it stays under
+its primary `domain` (which still drives the module breadcrumb and related-tools
+list) and additionally appears when filtering by any listed domain.
 
 **Add a physics domain:** add to `_data/domains.yml` (with a
 [Tabler icon](https://tabler.io/icons) name); a filter pill and homepage tile

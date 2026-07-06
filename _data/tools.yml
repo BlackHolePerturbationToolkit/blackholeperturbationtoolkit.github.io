@@ -6,7 +6,11 @@
 #   name      display name
 #   blurb     one line, <= ~90 chars, sentence case, no trailing period needed
 #   lang      Mathematica | C/C++ | Python | SageMath | Fortran
-#   domain    one of the ids in _data/domains.yml
+#   domain    PRIMARY domain — one of the ids in _data/domains.yml. Drives the
+#             module-page breadcrumb and "related tools".
+#   also_in   optional list of ADDITIONAL domain ids the tool is listed under in
+#             the catalogue, e.g. `also_in: [self-force]`. The tool then shows
+#             under its primary domain and each of these when filtering.
 #   status    stable | beta | data
 #   tags      free-form keywords for search (Kerr, Schwarzschild, time-domain...)
 #   repo      GitHub URL
@@ -90,6 +94,7 @@
   blurb: First-order metric perturbation in the Lorenz gauge
   lang: C/C++
   domain: radial
+  also_in: [self-force]
   status: stable
   tags: [self-force, Lorenz gauge, metric perturbation]
   repo: https://github.com/BlackHolePerturbationToolkit/h1Lorenz

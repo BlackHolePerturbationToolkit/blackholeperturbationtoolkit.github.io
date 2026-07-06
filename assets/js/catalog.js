@@ -16,14 +16,14 @@
   function apply() {
     var shown = 0;
     cards.forEach(function (card) {
-      var domain = card.getAttribute("data-domain");
+      var domains = (card.getAttribute("data-domain") || "").split(" ");
       var lang = (card.getAttribute("data-lang") || "").toLowerCase();
       var status = (card.getAttribute("data-status") || "").toLowerCase();
       var haystack = (card.getAttribute("data-search") || "").toLowerCase();
 
       var matchFilter =
         activeFilter === "all" ||
-        domain === activeFilter ||
+        domains.indexOf(activeFilter) !== -1 ||
         lang === activeFilter ||
         status === activeFilter;
       var matchQuery = !query || haystack.indexOf(query) !== -1;
