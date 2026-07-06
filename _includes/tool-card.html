@@ -8,6 +8,7 @@
 {% assign domainlist = domainlist | strip %}
 <article class="card"
          data-domain="{{ domainlist }}"
+         data-domain-primary="{{ tool.domain }}"
          data-lang="{{ tool.lang | downcase }}"
          data-status="{{ tool.status }}"
          data-search="{{ tool.name | downcase }} {{ tool.blurb | downcase }} {{ tagstr | downcase }} {{ tool.lang | downcase }} {{ domainlist }}">

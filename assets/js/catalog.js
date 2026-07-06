@@ -17,6 +17,7 @@
     var shown = 0;
     cards.forEach(function (card) {
       var domains = (card.getAttribute("data-domain") || "").split(" ");
+      var primary = card.getAttribute("data-domain-primary") || "";
       var lang = (card.getAttribute("data-lang") || "").toLowerCase();
       var status = (card.getAttribute("data-status") || "").toLowerCase();
       var haystack = (card.getAttribute("data-search") || "").toLowerCase();
@@ -30,6 +31,11 @@
 
       var show = matchFilter && matchQuery;
       card.style.display = show ? "" : "none";
+      // When filtering by domain, list tools whose primary domain matches
+      // before those included via also_in.
+      var secondary =
+        domains.indexOf(activeFilter) !== -1 && primary !== activeFilter;
+      card.style.order = secondary ? 1 : 0;
       if (show) shown++;
     });
     if (emptyEl) emptyEl.style.display = shown ? "none" : "block";

@@ -3,3 +3,5 @@ _site/
 .sass-cache/
 scripts/.cache/
 .DS_Store
+Gemfile.lock
+.claude/
