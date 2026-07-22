@@ -20,8 +20,8 @@ citation:
           pages = "064030",
           year = "2024"
       }
- - text: "PerturbationEquations"
-   doi: 10.5281/zenodo.8107166
+  - text: "PerturbationEquations"
+    doi: 10.5281/zenodo.8107166
 ---
 
 ## Overview
