@@ -20,7 +20,7 @@ citation:
           pages = "064047",
           year = "2021"
       }
-  - text: "Rapid generation of fully relativistic extreme-mass-ratio-inspiral waveform templates for LISA data analysis, arXiv:2008.06071"
+  - text: "Rapid generation of fully relativistic extreme-mass-ratio-inspiral waveform templates for LISA data analysis"
     doi: "10.1103/PhysRevLett.126.051102"
     arxiv: "2008.06071"
     inspire: "1811778"
