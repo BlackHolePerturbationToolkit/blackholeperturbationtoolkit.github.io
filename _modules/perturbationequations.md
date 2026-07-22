@@ -17,7 +17,7 @@ First- and second-order Einstein and Teukolsky equations in Schwarzschild.
 
 ## Installation
 
-Clone the repository, add it to your Mathematica ``$Path``, and load it with ``Needs["xAct`PerturbationEquations`"]``. See the [repository README](https://github.com/BlackHolePerturbationToolkit/PerturbationEquations) for details.
+See the [repository README](https://github.com/BlackHolePerturbationToolkit/PerturbationEquations) for details.
 
 ## Usage
 
