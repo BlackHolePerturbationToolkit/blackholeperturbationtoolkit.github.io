@@ -86,6 +86,7 @@ The [Kerr eccentric equatorial](https://bhptoolkit.org/FastEMRIWaveforms/user/ma
 produces waveforms that faithfully match (slow to generate) reference waveforms
 with a worst case overlap of $∼10^{−5}$ for inspirals with initial eccentricity $e_0 \le 0.85$.
 The figure below shows an example of the waveform produced by the model.
+
 ![Kerr eccentric equatorial waveform](../../assets/img/FEW2_waveform.png)
 
 
