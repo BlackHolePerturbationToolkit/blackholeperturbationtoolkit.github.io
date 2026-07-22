@@ -20,34 +20,43 @@ citation:
           pages = "064030",
           year = "2024"
       }
+ - text: "PerturbationEquations"
+   doi: 10.5281/zenodo.8107166
 ---
-
-<!-- Scaffolded from _data/tools.yml. Replace the TODO sections with real
-     documentation, then delete the stub notice below. -->
-
-<div class="callout" markdown="1">
-**Stub page.** Full documentation for PerturbationEquations is in progress. For now, see the [source repository](https://github.com/BlackHolePerturbationToolkit/PerturbationEquations) and the [package page](https://bhptoolkit.org/PerturbationEquations/).
-</div>
 
 ## Overview
 
 First- and second-order Einstein and Teukolsky equations in Schwarzschild.
 
-<!-- TODO: expand — what it computes, key features, and related packages. -->
+The PerturbationEquations Mathematica package provides a set of tools for working with the spherical-harmonic decompositions of the first- and second-order Einstein equations and Teukolsky equations in Schwarzschild spacetime.
+
+The package’s main functions are:
+- `SchwarzschildLinearOperator`: generates spherical-harmonic modes of the lienarized Ricci or Einstein tensor in terms of modes of the metric perturbation.
+- `SchwarzschildQuadraticOperator`: generates spherical-harmonic modes modes of the quadratic source term in the second-order Einstein equation or second-order Teukolsky equation. This source term can be the quadratic Einstein tensor, the quadratic Ricci tensor, or an associated Teukolsky source term. These quadratic modes are expressed as products of modes of a metric perturbation.
+
+Expressions can be generated in a number of common spherical harmonic bases. They can also be specialized to a number of common gauge choices.
 
 ## Installation
 
-See the [repository README](https://github.com/BlackHolePerturbationToolkit/PerturbationEquations) for details.
+To run this package you will need to first install [xAct](http://www.xact.es/).
+
+PerturbationEquations is distributed as a Mathematica paclet. If you haven’t done so already, add the BHPToolkit paclet server and refresh the list of packages available:
+```Mathematica
+PacletSiteRegister["https://pacletserver.bhptoolkit.org", "Black Hole Perturbation Toolkit Paclet Server"]
+PacletSiteUpdate["https://pacletserver.bhptoolkit.org"]
+```
+Then install the package:
+```Mathematica
+PacletInstall["PerturbationEquations"]
+```
 
 ## Usage
 
-<!-- TODO: add a minimal, runnable example. -->
-
-```mathematica
-(* example coming soon — see the repository for current usage *)
+After installing xAct and PerturbationEquations, load the package using
+```Mathematica
+<< xAct`PerturbationEquations`
 ```
 
 ## Examples
 
-<!-- TODO: link to worked examples or notebooks. -->
-See the [repository](https://github.com/BlackHolePerturbationToolkit/PerturbationEquations) for examples.
+You can find examples in the built-in documentation for the SchwarzschildLinearOperator and SchwarzschildQuadraticOperator functions. Search for those functions in the "Wolfram Documentation Center" within Mathematica.
