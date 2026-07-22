@@ -59,4 +59,4 @@ After installing xAct and PerturbationEquations, load the package using
 
 ## Examples
 
-You can find examples in the built-in documentation for the SchwarzschildLinearOperator and SchwarzschildQuadraticOperator functions. Search for those functions in the "Wolfram Documentation Center" within Mathematica.
+You can find examples in the built-in documentation for the SchwarzschildLinearOperator and SchwarzschildQuadraticOperator functions. Search for those functions in the Wolfram Documentation Center within Mathematica.
