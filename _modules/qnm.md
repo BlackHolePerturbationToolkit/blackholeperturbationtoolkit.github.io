@@ -2,7 +2,7 @@
 name: qnm
 requirements: Python 3.7+
 citation:
-  - text: "Stein, qnm: A Python package for calculating Kerr quasinormal modes, J. Open Source Softw. 4(42), 1683 (2019)"
+  - text: "qnm: A Python package for calculating Kerr quasinormal modes"
     doi: "10.21105/joss.01683"
     arxiv: "1908.10377"
     inspire: "1751578"

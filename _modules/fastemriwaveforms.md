@@ -2,7 +2,7 @@
 name: FastEMRIWaveforms
 requirements: Python 3.9+
 citation:
-  - text: "Katz et al., FastEMRIWaveforms: New tools for millihertz gravitational-wave data analysis, arXiv:2104.04582"
+  - text: "FastEMRIWaveforms: New tools for millihertz gravitational-wave data analysis"
     doi: "10.1103/PhysRevD.104.064047"
     arxiv: "2104.04582"
     inspire: "1857835"
@@ -20,7 +20,7 @@ citation:
           pages = "064047",
           year = "2021"
       }
-  - text: "Chua et al., Rapid generation of fully relativistic extreme-mass-ratio-inspiral waveform templates for LISA data analysis, arXiv:2008.06071"
+  - text: "Rapid generation of fully relativistic extreme-mass-ratio-inspiral waveform templates for LISA data analysis, arXiv:2008.06071"
     doi: "10.1103/PhysRevLett.126.051102"
     arxiv: "2008.06071"
     inspire: "1811778"
