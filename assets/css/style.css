@@ -230,6 +230,15 @@ code, kbd, pre { font-family: var(--font-mono); }
 .callout { border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: 14px 18px; background: var(--panel); margin: 1.4rem 0; }
 .callout strong { color: var(--text); }
 
+/* per-citation extras on module pages */
+.citation-links { font-size: 0.85rem; }
+.citation-links a { margin-left: 8px; }
+.citation-links a::before { content: "\2192\00a0"; color: var(--text-faint); }
+details.bibtex { margin: 0.4rem 0 0.6rem; }
+details.bibtex summary { cursor: pointer; font-size: 0.85rem; color: var(--text-muted); user-select: none; }
+details.bibtex summary:hover { color: var(--text); }
+details.bibtex pre { margin-top: 0.5rem; font-size: 0.8rem; }
+
 .lede { font-size: 1.15rem; color: var(--text-muted); max-width: 60ch; }
 
 /* card panel used by community / get started */

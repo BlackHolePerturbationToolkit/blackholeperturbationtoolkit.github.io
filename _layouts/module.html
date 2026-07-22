@@ -70,9 +70,28 @@ layout: default
         </div>
         {% if page.citation %}
         <p>{{ page.name }} also requests the following citation{% if page.citation.size > 1 %}s{% endif %}:</p>
-        <ul>
+        <ul class="citation-list">
           {% for c in page.citation %}
-          <li>{% if c.url %}<a href="{{ c.url }}">{{ c.text }}</a>{% else %}{{ c.text }}{% endif %}</li>
+          {% comment %} doi / arxiv / inspire accept a bare identifier
+             (10.xxxx/…, 2104.04582, 1857835) or a full URL. {% endcomment %}
+          {% if c.doi %}{% if c.doi contains '://' %}{% assign c_doi = c.doi %}{% else %}{% assign c_doi = 'https://doi.org/' | append: c.doi %}{% endif %}{% endif %}
+          {% if c.arxiv %}{% if c.arxiv contains '://' %}{% assign c_arxiv = c.arxiv %}{% else %}{% assign c_arxiv = 'https://arxiv.org/abs/' | append: c.arxiv %}{% endif %}{% endif %}
+          {% if c.inspire %}{% if c.inspire contains '://' %}{% assign c_inspire = c.inspire %}{% else %}{% assign c_inspire = 'https://inspirehep.net/literature/' | append: c.inspire %}{% endif %}{% endif %}
+          <li>
+            {% if c.doi %}<a href="{{ c_doi }}">{{ c.text }}</a>{% else %}{{ c.text }}{% endif %}
+            {% if c.arxiv or c.inspire %}
+            <span class="citation-links">
+              {% if c.arxiv %}<a href="{{ c_arxiv }}">arXiv</a>{% endif %}
+              {% if c.inspire %}<a href="{{ c_inspire }}">Inspire</a>{% endif %}
+            </span>
+            {% endif %}
+            {% if c.bibtex %}
+            <details class="bibtex">
+              <summary>BibTeX</summary>
+              <pre><code>{{ c.bibtex | strip | xml_escape }}</code></pre>
+            </details>
+            {% endif %}
+          </li>
           {% endfor %}
         </ul>
         {% endif %}

@@ -23,10 +23,23 @@ name: ModuleName
 # requirements: Python 3.9+
 #
 # Optional module-specific citations, added to the standard Toolkit
-# acknowledgement in the auto-generated "Citing" section:
+# acknowledgement in the auto-generated "Citing" section. Only `text` is
+# required. `doi` links the citation text; `arxiv` and `inspire` add extra
+# links after it; `bibtex` (multiline, note the `|`) renders a collapsible
+# copyable BibTeX block. doi/arxiv/inspire take a bare identifier as below
+# (a full URL also works):
 # citation:
 #   - text: "Author et al., Title, Journal (Year)"
-#     url: "https://arxiv.org/abs/0000.00000"
+#     doi: "10.0000/example.doi"
+#     arxiv: "0000.00000"
+#     inspire: "0000000"
+#     bibtex: |
+#       @article{Author:2000abc,
+#           author = "Author, A. N.",
+#           title = "{Title}",
+#           journal = "Journal",
+#           year = "2000"
+#       }
 ---
 
 ## Overview

@@ -3,7 +3,23 @@ name: qnm
 requirements: Python 3.7+
 citation:
   - text: "Stein, qnm: A Python package for calculating Kerr quasinormal modes, J. Open Source Softw. 4(42), 1683 (2019)"
-    url: "https://arxiv.org/abs/1908.10377"
+    doi: "10.21105/joss.01683"
+    arxiv: "1908.10377"
+    inspire: "1751578"
+    bibtex: |
+      @article{Stein:2019mop,
+          author = "Stein, Leo C.",
+          title = "{qnm: A Python package for calculating Kerr quasinormal modes, separation constants, and spherical-spheroidal mixing coefficients}",
+          eprint = "1908.10377",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          doi = "10.21105/joss.01683",
+          journal = "J. Open Source Softw.",
+          volume = "4",
+          number = "42",
+          pages = "1683",
+          year = "2019"
+      }
 ---
 
 ## Overview
