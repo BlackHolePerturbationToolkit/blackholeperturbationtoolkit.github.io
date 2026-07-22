@@ -227,6 +227,7 @@ code, kbd, pre { font-family: var(--font-mono); }
 .prose code { background: var(--panel-2); padding: 2px 6px; border-radius: 5px; font-size: 0.86em; }
 .prose pre { background: var(--panel-2); border: 1px solid var(--border); border-radius: var(--radius); padding: 14px 16px; overflow-x: auto; }
 .prose pre code { background: transparent; padding: 0; }
+.prose img { max-width: 100%; height: auto; }
 .callout { border: 1px solid var(--border); border-left: 3px solid var(--accent); border-radius: 0 8px 8px 0; padding: 14px 18px; background: var(--panel); margin: 1.4rem 0; }
 .callout strong { color: var(--text); }
 
