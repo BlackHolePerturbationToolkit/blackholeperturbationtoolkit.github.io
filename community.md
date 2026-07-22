@@ -32,14 +32,18 @@ belong on it and aren't there yet, [let us know](#citing).
 
 If you use any part of the Toolkit in your research, please acknowledge it:
 
-<div class="callout" markdown="1">This work makes use of the Black Hole Perturbation Toolkit.</div>
+<div class="callout" markdown="0">
+  <p style="margin:0;">This work makes use of the Black Hole Perturbation Toolkit.</p>
+</div>
 
 To cite the Toolkit, use the [BibTeX entry](https://bhptoolkit.org/BHPToolkit.bib).
 Some modules request additional citations — check each module's documentation.
 If you use or extend a specific package, please reference it directly and link
 to it, for example:
 
-<div class="callout" markdown="1">The full PN series data can be found in the [PostNewtonianSelfForce](https://bhptoolkit.org/PostNewtonianSelfForce/) package of the Black Hole Perturbation Toolkit.</div>
+<div class="callout" markdown="0">
+	<p style="margin:0;">The full PN series data can be found in the <a href="https://bhptoolkit.org/PostNewtonianSelfForce/">PostNewtonianSelfForce</a> package of the Black Hole Perturbation Toolkit.</p>
+</div>
 
 ### Why it matters
 
