@@ -204,7 +204,6 @@
   status: stable
   tags: [second-order, Schwarzschild, Einstein equations]
   repo: https://github.com/BlackHolePerturbationToolkit/PerturbationEquations
-  url: https://bhptoolkit.org/PerturbationEquations/
 
 - name: SecondOrderRicci
   blurb: Modes of the second-order Ricci tensor
