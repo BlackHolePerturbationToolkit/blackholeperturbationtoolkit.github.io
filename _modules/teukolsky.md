@@ -106,7 +106,7 @@ mode["Fluxes"]
 mode["Amplitudes"]
 ```
 
-### Further examples
+### Further examples
 
 See the Mathematica Documentation Centre for a tutorial and documentation on individual functions.
 
