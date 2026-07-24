@@ -58,7 +58,6 @@
   status: stable
   tags: [Teukolsky, Kerr, frequency-domain]
   repo: https://github.com/BlackHolePerturbationToolkit/Teukolsky
-  url: https://bhptoolkit.org/Teukolsky
   install: 'PacletInstall["Teukolsky"]'
   featured: true
 
