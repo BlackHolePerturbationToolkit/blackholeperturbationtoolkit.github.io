@@ -7,9 +7,20 @@
 # `contributed: true`. For papers with no arXiv id, give title/authors/year
 # directly (and optionally `doi:`) and the generator will pass them through.
 # ---------------------------------------------------------------------------
+- {arxiv: "2608.17943"}
+- {arxiv: "2608.00934"}
+- {arxiv: "2608.22249"}
+- {arxiv: "2608.07934"}
+- {arxiv: "2607.05909"}
 - {arxiv: "2607.27129"}
+- {arXiv: "2606.27544"}
+- {arxiv: "2606.28239"}
 - {arxiv: "2606.28937"}
+- {arxiv: "2606.27016"}
 - {arxiv: "2606.26339"}
+- {arxiv: "2606.21439"}
+- {arxiv: "2606.17883"}
+- {arxiv: "2606.13786"}
 - {arxiv: "2606.09238"}
 - {arxiv: "2606.09766"}
 - {arxiv: "2605.29305"}
