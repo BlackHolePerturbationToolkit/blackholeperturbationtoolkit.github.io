@@ -6,8 +6,11 @@
 <link rel="icon" type="image/png" sizes="16x16" href="{{ '/favicon-16x16.png' | relative_url }}">
 <link rel="icon" href="{{ '/favicon.ico' | relative_url }}" sizes="any">
 <link rel="apple-touch-icon" href="{{ '/apple-touch-icon.png' | relative_url }}">
-{% assign page_title = page.title | default: site.title %}
-<title>{% if page.title %}{{ page.title }} · {{ site.title }}{% else %}{{ site.title }} | {{ site.tagline }}{% endif %}</title>
+{% comment %} Module pages carry their canonical name (e.g. h1Lorenz) in
+   `name`; Jekyll's auto-title from the filename would mangle its case. {% endcomment %}
+{% if page.collection == 'modules' and page.name %}{% assign page_title = page.name %}{% else %}{% assign page_title = page.title %}{% endif %}
+{% assign page_title = page_title | default: site.title %}
+<title>{% if page_title != site.title %}{{ page_title }} · {{ site.title }}{% else %}{{ site.title }} | {{ site.tagline }}{% endif %}</title>
 <meta name="description" content="{{ page.description | default: site.description | strip_newlines }}">
 <meta property="og:title" content="{{ page_title }}">
 <meta property="og:description" content="{{ page.description | default: site.description | strip_newlines }}">
