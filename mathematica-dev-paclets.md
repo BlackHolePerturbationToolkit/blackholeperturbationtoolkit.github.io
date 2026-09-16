@@ -15,7 +15,7 @@ The Mathematica packages in the toolkit are all distributed to users using the [
    << PacletTools`
    PacletBuild["/Users/barry/Documents/Research/Code/SpinWeightedSpheroidalHarmonics"]
    ```
-5. Test the packet by installing it locally:
+5. Test the paclet by installing it locally:
    ```Mathematica
    PacletInstall["/Users/barry/Documents/Research/Code/SpinWeightedSpheroidalHarmonics/build/SpinWeightedSpheroidalHarmonics-1.1.0.paclet"]
    ```
