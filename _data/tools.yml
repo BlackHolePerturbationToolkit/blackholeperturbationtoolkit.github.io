@@ -120,14 +120,13 @@
   install: 'PacletInstall["QNM"]'
 
 # --- Spheroidal harmonics --------------------------------------------------
-- name: SpinWeightedSpheroidalHarmonics
+- name: Spin-Weighted Spheroidal Harmonics
   blurb: Spin-weighted spheroidal harmonics and their eigenvalues
   lang: Mathematica
   domain: harmonics
   status: stable
   tags: [harmonics, spheroidal, eigenvalues]
   repo: https://github.com/BlackHolePerturbationToolkit/SpinWeightedSpheroidalHarmonics
-  #url: https://bhptoolkit.org/SpinWeightedSpheroidalHarmonics
   install: 'PacletInstall["SpinWeightedSpheroidalHarmonics"]'
 
 # --- Geodesics & orbits ----------------------------------------------------

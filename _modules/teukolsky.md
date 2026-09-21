@@ -20,7 +20,6 @@ The package provides numerical and analytical implementations of the homogeneous
 It builds on two other Toolkit packages: SpinWeightedSpheroidalHarmonics for the
 angular dependence, and KerrGeodesics for the orbital motion of the source.
 
-<!--Further details are available in the [source repository](https://github.com/BlackHolePerturbationToolkit/Teukolsky) and the [package page](https://bhptoolkit.org/Teukolsky). -->
 
 ## Installation
 

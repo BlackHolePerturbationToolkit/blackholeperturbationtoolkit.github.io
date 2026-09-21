@@ -1,17 +1,10 @@
 ---
-name: "SpinWeightedSpheroidalHarmonics"
+name: "Spin-Weighted Spheroidal Harmonics"
 citation:
   - text: SpinWeightedSpheroidalHarmonics
     doi: 10.5281/zenodo.8090680
   - text: "Black Hole Perturbation Toolkit: Low frequency and post-Newtonian expansions"
 ---
-
-<!-- Scaffolded from _data/tools.yml. Replace the TODO sections with real
-     documentation, then delete the stub notice below. -->
-
-<!-- <div class="callout" markdown="1">
-**Stub page.** Full documentation for SpinWeightedSpheroidalHarmonics is in progress. For now, see the [source repository](https://github.com/BlackHolePerturbationToolkit/SpinWeightedSpheroidalHarmonics) and the [package page](https://bhptoolkit.org/SpinWeightedSpheroidalHarmonics). 
-</div>-->
 
 ## Overview
 
