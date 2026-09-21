@@ -24,12 +24,13 @@ angular dependence, and KerrGeodesics for the orbital motion of the source.
 
 ## Installation
 
-Teukolsky is distributed as a paclet. Once the BHPToolkit paclet server is set
-up (see [Get started]({{ '/get-started/' | relative_url }})), install it by name:
+Teukolsky is distributed as a paclet. We need to update the BHPToolkit paclet server (cf. [Get started]({{ '/get-started/' | relative_url }})) and install the package and its dependencies:
 
 ```mathematica
 PacletSiteRegister["https://pacletserver.bhptoolkit.org", "Black Hole Perturbation Toolkit Paclet Server"]
 PacletSiteUpdate["https://pacletserver.bhptoolkit.org"]
+PacletInstall["KerrGeodesics"]
+PacletInstall["SpinWeightedSpheroidalHarmonics"]
 PacletInstall["Teukolsky"]
 ```
 

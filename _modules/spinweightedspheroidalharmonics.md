@@ -33,6 +33,8 @@ where ${}\_s \lambda_{\ell m }$ is the spin weighted spheroidal eigenvalue and $
 Install with the command shown in the header:
 
 ```mathematica
+PacletSiteRegister["https://pacletserver.bhptoolkit.org", "Black Hole Perturbation Toolkit Paclet Server"]
+PacletSiteUpdate["https://pacletserver.bhptoolkit.org"]
 PacletInstall["SpinWeightedSpheroidalHarmonics"]
 ```
 Load the package via,
