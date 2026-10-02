@@ -4,7 +4,37 @@ requirements: SpinWeightedSpheroidalHarmonics, KerrGeodesics
 citation:
   - text: Teukolsky
     doi: 10.5281/zenodo.7037850
-  - text: "Black Hole Perturbation Toolkit: Low frequency and post-Newtonian expansions"
+    bibtex: |
+      @software{BHPToolkit:Teukolsky,
+          author       = {Wardell, Barry and Warburton, Niels and Cunningham, Kevin and Durkan, Leanne and Leather, Benjamin and Nasipak, Zachary and Kavanagh, Chris and Ottewill, Adrian and Casals, Marc and Torres, Theo and Neef, Jakob and Barsanti, Susanna},
+          title        = {Teukolsky},
+          month        = sep,
+          year         = 2026,
+          publisher    = {Zenodo},
+          version      = {1.2.1},
+          doi          = {10.5281/zenodo.22873185},
+          url          = {https://doi.org/10.5281/zenodo.22873185},
+          swhid        = {swh:1:dir:27715775ff72233751790eea6b97c7a06ed018d7;origin=https://doi.org/10.5281/zenodo.7037850;visit=swh:1:snp:7b793883182b18b32d1f0a7c93bea3c87509a7cf;anchor=swh:1:rel:fbd2b37bd49620ef8c3d242dcc1947f5a737aba4;path=BlackHolePerturbationToolkit-Teukolsky-80a554d},
+      }
+  - text: "For use of the analytical capabilities:<br> Black Hole Perturbation Toolkit: Low frequency and post-Newtonian expansions"
+    arxiv: "2609.25281"
+    inspire: "3206100"
+    bibtex: |
+      @article{Neef:2026qoq,
+          author = "Neef, Jakob and Kavanagh, Chris and Ottewill, Adrian",
+          title = "{Black Hole Perturbation Toolkit: Low frequency and post-Newtonian expansions}",
+          eprint = "2609.25281",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          month = "9",
+          year = "2026"
+      }
+  - text: Black Hole Perturbation Toolkit
+    bibtex: |
+      @misc{BHPToolkit,
+        title = {{Black Hole Perturbation Toolkit}},
+        howpublished = {(\href{http://bhptoolkit.org/}{bhptoolkit.org})},
+      }
 ---
 
 ## Overview

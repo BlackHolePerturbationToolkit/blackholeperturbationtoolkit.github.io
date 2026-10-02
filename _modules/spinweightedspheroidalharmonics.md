@@ -3,7 +3,37 @@ name: "Spin-Weighted Spheroidal Harmonics"
 citation:
   - text: SpinWeightedSpheroidalHarmonics
     doi: 10.5281/zenodo.8090680
-  - text: "Black Hole Perturbation Toolkit: Low frequency and post-Newtonian expansions"
+    bibtex: |
+      @software{BHPToolkit:SpinWeightedSpheroidalHarmonics,
+        author       = {Wardell, Barry and Warburton, Niels and Cunningham, Kevin and Ottewill, Adrian and Casals, Marc and Neef, Jakob and Upton, Samuel D. and Fransen, Kwinten},
+        title        = {SpinWeightedSpheroidalHarmonics},
+        month        = sep,
+        year         = 2026,
+        publisher    = {Zenodo},
+        version      = {1.1.1},
+        doi          = {10.5281/zenodo.22809903},
+        url          = {https://doi.org/10.5281/zenodo.22809903},
+        swhid        = {swh:1:dir:f09182c98751055ea8450962b95b6aaa5b67d049;origin=https://doi.org/10.5281/zenodo.8090680;visit=swh:1:snp:e4facb38391d33453c83f50c0e6b1c79d7853e17;anchor=swh:1:rel:1f9649ba435521ce327117247e9177ce29266695;path=BlackHolePerturbationToolkit-SpinWeightedSpheroidalHarmonics-48cd355},
+      }
+  - text: "For use of the analytical capabilities:<br> Black Hole Perturbation Toolkit: Low frequency and post-Newtonian expansions"
+    arxiv: "2609.25281"
+    inspire: "3206100"
+    bibtex: |
+      @article{Neef:2026qoq,
+          author = "Neef, Jakob and Kavanagh, Chris and Ottewill, Adrian",
+          title = "{Black Hole Perturbation Toolkit: Low frequency and post-Newtonian expansions}",
+          eprint = "2609.25281",
+          archivePrefix = "arXiv",
+          primaryClass = "gr-qc",
+          month = "9",
+          year = "2026"
+      }
+  - text: Black Hole Perturbation Toolkit
+    bibtex: |
+      @misc{BHPToolkit,
+        title = {{Black Hole Perturbation Toolkit}},
+        howpublished = {(\href{http://bhptoolkit.org/}{bhptoolkit.org})},
+      }
 ---
 
 ## Overview
@@ -23,21 +53,27 @@ where ${}\_s \lambda_{\ell m }$ is the spin weighted spheroidal eigenvalue and $
 
 ## Installation
 
-Install with the command shown in the header:
+SpinWeightedSpheroidalHarmonics is distributed as a paclet. Once the BHPToolkit paclet server is set
+up (see [Get started]({{ '/get-started/' | relative_url }})), install it by name:
 
 ```mathematica
+PacletSiteRegister["https://pacletserver.bhptoolkit.org", "Black Hole Perturbation Toolkit Paclet Server"]
+PacletSiteUpdate["https://pacletserver.bhptoolkit.org"]
 PacletInstall["SpinWeightedSpheroidalHarmonics"]
-```
-Load the package via,
-
-```mathematica
-<<SpinWeightedSpheroidalHarmonics`
 ```
 
 ## Usage
 
+### Loading the package
+The package can be loaded with:
+```mathematica
+<<SpinWeightedSpheroidalHarmonics`
+```
 
-`SpinWeightedSpheroidalHarmonicS[s,ℓ,m,γ,θ,ϕ]` gives a solution ${}\_s S_{\ell m} (\gamma;\theta,\phi)$:
+### Spin-weighted spheroidal harmonics ${}\_sS_{\ell m }$
+
+
+`SpinWeightedSpheroidalHarmonicS[s,ℓ,m,γ,θ,ϕ]` returns a spin-weighted spheroidal harmonic ${}\_s S_{\ell m} (\gamma;\theta,\phi)$, which is a to the angular Teukolsky equation:
 
 ```Mathematica
 SpinWeightedSpheroidalHarmonicS[s,l,m,γ,θ,ϕ]
@@ -50,36 +86,41 @@ S=SpinWeightedSpheroidalHarmonicS[-2,2,2,.5]
 S[.3,.5]
 ```
 
+### Spin-weighted spherical harmonics ${}\_sY_{\ell m }$
+
 `SpinWeightedSphericalHarmonicY[s,ℓ,m,θ,ϕ]` gives the spin-weighted spherical harmonic function ${}\_s Y_{\ell m}(θ,ϕ) = {}\_s S_{\ell m}(0;θ,ϕ)$:
 
 ```Mathematica
 Y=SpinWeightedSphericalHarmonicY[-2,2,2,θ,ϕ]
 ```
 
-The spin-weighted spheroidal harmonics ${}\_s S_{\ell m} (\gamma;\theta,\phi)$ can be expanded in spin-weighted spherical harmonics ${}\_s Y_{\ell m} (\theta,\phi)$:
+### Spin-weighted spheroidal eigenvalue
 
-```Mathematica
-SpinWeightedSpheroidalHarmonicS[s,l,m,γ,θ,ϕ]//Series[#,{γ,0,2}]&
-```
-
-SpinWeightedSpheroidalEigenValue[s,ℓ,m,γ] gives the spin-weighted spheroidal eigenvalue ${}\_s \lambda_{\ell m}$:
+`SpinWeightedSpheroidalEigenValue[s,ℓ,m,γ]` gives the spin-weighted spheroidal eigenvalue ${}\_s \lambda_{\ell m}$:
 
 ```Mathematica
 λ=SpinWeightedSpheroidalEigenvalue[-2,2,2,.4]
 ```
 
-again it admits a series expansion:
+
+### Series expansions
+
+The spin-weighted spheroidal harmonics ${}\_s S_{\ell m} (\gamma;\theta,\phi)$ can be expanded in spin-weighted spherical harmonics ${}\_s Y_{\ell m} (\theta,\phi)$:
+
+```Mathematica
+SpinWeightedSpheroidalHarmonicS[s,l,m,γ,θ,ϕ]//Series[#,{γ,0,2}]&
+```
+Likewise the eigenvalue admits a series expansion:
 
 ```Mathematica
 SpinWeightedSpheroidalEigenvalue[s,l,m,γ]//Series[#,{γ,0,3}]&
 ```
 
-When making use of series expansions extensively it might be useful to run the following:
+When making extensive use of series expansions it can be useful to run the following:
 
 ```Mathematica
 SetSpinWeightedOptions["OverloadSeries"->True]
 ```
-
 ## Examples
 
 ### Satisfying the spheroidal equation
@@ -108,7 +149,7 @@ SpheroidalEquation[-2, 2, 2, γ, θ, ϕ] //Series[#, {γ, 0, 5}] & // Simplify
 
 ### Implementing spin raising and lowering operators in Schwarzschild
 
-We can use SpinWeightedSimplify to implement the Schwarzschild ð and ð' as spin raising and lowering operators
+We can use `SpinWeightedSimplify` to implement the Schwarzschild ð and ð' as spin raising and lowering operators
 
 ```Mathematica
 ð[SpinWeightedSphericalHarmonicY[s_, ℓ_, m_, ϑ_, ϕ_]] := 1/(Sqrt[2] r) (D[#, ϑ] + I Csc[ϑ] D[#, ϕ] - s Cot[ϑ] #) &@ SpinWeightedSphericalHarmonicY[s, ℓ, m, ϑ, ϕ];
