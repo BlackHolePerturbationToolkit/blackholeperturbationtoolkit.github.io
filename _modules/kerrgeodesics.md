@@ -14,6 +14,12 @@ citation:
         doi          = {10.5281/zenodo.8108265},
         url          = {https://doi.org/10.5281/zenodo.8108265},
       }
+  - text: Black Hole Perturbation Toolkit
+    bibtex: |
+      @misc{BHPToolkit,
+        title = {{Black Hole Perturbation Toolkit}},
+        howpublished = {(\href{http://bhptoolkit.org/}{bhptoolkit.org})},
+      }
 ---
 
 <!-- Scaffolded from _data/tools.yml. Replace the TODO sections with real
