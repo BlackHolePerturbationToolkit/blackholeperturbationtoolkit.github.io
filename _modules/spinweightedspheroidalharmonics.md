@@ -40,16 +40,19 @@ citation:
 
 The SpinWeightedSpheroidalHarmonics package provides functions for computing spin-weighted spheroidal harmonics, spin-weighted spherical harmonics, and their associated eigenvalues. Support is included for both arbitrary-precision numerical evaluation and for series expansions.
 
+![The spin-weighted spheroidal harmonic with s=-2, l=2, gamma=1.9]({{ '/assets/img/modules/spinweightedspheroidalharmonics/swsh.png' | relative_url }})
+
 The SpinWeightedSpheroidalHarmonics package gives solutions to the angular Teukolsky equation:
 $$
-\frac{1}{\sin\theta}\dfrac{d}{d\theta}\bigg(\sin\theta\dfrac{d}{d\theta}\bigg) -\gamma^2 \sin^2\theta -\frac{(m+s \cos\theta)^2}{\sin^2\theta} - 2 s \gamma \cos\theta +s + {}_s \lambda_{\ell m} + 2 m  \gamma \bigg] {}_{s} S_{\ell m}(\gamma;\theta,0) = 0
+\bigg[\frac{1}{\sin\theta}\dfrac{d}{d\theta}\bigg(\sin\theta\dfrac{d}{d\theta}\bigg) -\gamma^2 \sin^2\theta -\frac{(m+s \cos\theta)^2}{\sin^2\theta} - 2 s \gamma \cos\theta +s + {}_s \lambda_{\ell m} + 2 m  \gamma \bigg] {}_{s} S_{\ell m}(\gamma;\theta,0) = 0
 \,,
 $$
 
-where ${}\_s \lambda_{\ell m }$ is the spin weighted spheroidal eigenvalue and $ \gamma = a \omega $ the spheroidicity
+where $s$ is the spin-weight, $\ell, m$ are the multipolar indices, ${}\_s \lambda_{\ell m }$ is the spin-weighted spheroidal eigenvalue and $\gamma = a \omega$ is the spheroidicity.
 
+Output tracks the precision of the input, so high-precision results are obtained simply by giving high-precision arguments. Expansions are available both for small $\gamma$ (in terms of spin-weighted spherical harmonics) and, for the eigenvalue, about $\gamma = \infty$.
 
-<!-- TODO: expand — what it computes, key features, and related packages. -->
+The package provides the angular dependence for the [Teukolsky]({{ '/modules/teukolsky/' | relative_url }}) package and is also a dependency of [ReggeWheeler]({{ '/modules/reggewheeler/' | relative_url }}). Full reference documentation is available [online]({{ '/SpinWeightedSpheroidalHarmonics/doc/html/guide/SpinWeightedSpheroidalHarmonics.html' | relative_url }}) and in the Wolfram Documentation Center.
 
 ## Installation
 
@@ -116,6 +119,18 @@ Likewise the eigenvalue admits a series expansion:
 SpinWeightedSpheroidalEigenvalue[s,l,m,γ]//Series[#,{γ,0,3}]&
 ```
 
+The eigenvalue can also be expanded about $\gamma = \infty$. This currently requires explicit (integer or half-integer) values of $s$, $\ell$ and $m$:
+
+```Mathematica
+Series[SpinWeightedSpheroidalEigenvalue[2, 2, 2, γ], {γ, ∞, 6}]
+```
+
+which returns
+
+$$
+-6 \gamma - 1 + \frac{3}{4 \gamma} - \frac{15}{64 \gamma^3} - \frac{3}{16 \gamma^4} + \frac{3}{512 \gamma^5} + \frac{27}{128 \gamma^6} + O\left(\frac{1}{\gamma}\right)^7 \nonumber
+$$
+
 When making extensive use of series expansions it can be useful to run the following:
 
 ```Mathematica
@@ -160,13 +175,10 @@ We can use `SpinWeightedSimplify` to implement the Schwarzschild ð and ð' as s
 ```
 
 
+### Further examples
 
-
-<!-- TODO: link to worked examples or notebooks. -->
-See the [repository](https://github.com/BlackHolePerturbationToolkit/SpinWeightedSpheroidalHarmonics) for more examples.
+See the [online reference documentation]({{ '/SpinWeightedSpheroidalHarmonics/doc/html/guide/SpinWeightedSpheroidalHarmonics.html' | relative_url }}) (also available in the Mathematica Documentation Centre) for a tutorial and documentation on individual functions. More example notebooks are in the [Mathematica Toolkit Examples](https://github.com/BlackHolePerturbationToolkit/MathematicaToolkitExamples) repository.
 
 ## Authors and contributors 
 
 Barry Wardell, Niels Warburton, Kwinten Fransen, Samuel Upton, Kevin Cunningham, Marc Casals, Sarp Akcay, Adrian Ottewill, Jakob Neef
-
-

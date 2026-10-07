@@ -97,11 +97,31 @@ a `TODO` stub), run:
 python scripts/scaffold_modules.py        # creates a stub for any tool missing one
 ```
 
-It never overwrites an existing page (use `--force` to regenerate). The
-remaining ~20 tools ship as stubs already; replace their `TODO` sections and
-delete the "stub page" notice as you write real docs.
+It never overwrites an existing page (use `--force` to regenerate); new stubs
+carry a "stub page" notice and `TODO` comments to replace.
 
+Module pages live here, not on `gh-pages` branches or `docs/` Pages sites in the
+code repositories. Figures go in `assets/img/modules/<slug>/`. The contributor
+guide is `module-pages.md` (served at `/module-pages.html`).
 
+### Generated reference docs
+
+Static API references that used to be served from code repositories' gh-pages
+branches are kept at their original URL paths so deep links keep working:
+`GremlinEq/doc/` (Doxygen), `SpinWeightedSpheroidalHarmonics/doc/` and
+`TInvar/doc/` (Mathematica documentation exported to HTML). They are plain static
+files; regenerate and replace the directory to update them. Link them from the
+tool's `url` in `_data/tools.yml` (the "Full docs" button).
+
+### Redirects
+
+`_redirects/` is a collection of one-line stubs that keep old URLs alive (former
+per-repository sites such as `/KerrGeodesics/`, and pages from the previous site
+such as `/Self-Force-1D.html`). Each file sets `permalink` (the old URL) and
+`redirect_to` (the new one) and renders with `_layouts/redirect.html`, so no
+plugin is needed. A repository that still has GitHub Pages enabled takes
+precedence over its `/<RepoName>/` path on this site, so a redirect only takes
+effect once Pages is disabled in that repository.
 
 ## Logo & favicon
 

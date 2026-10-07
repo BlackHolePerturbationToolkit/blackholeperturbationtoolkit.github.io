@@ -52,4 +52,4 @@ Information on upcoming and previous workshops is on the
 ## For developers
 
 - [Developing Mathematica tools](https://bhptoolkit.org/mathematica-dev)
-- [Setting up repository webpages with gh-pages](https://bhptoolkit.org/gh-pages)
+- [Writing a module page for the website](module-pages)

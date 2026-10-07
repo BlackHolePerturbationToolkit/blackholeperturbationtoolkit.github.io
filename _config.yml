@@ -23,6 +23,11 @@ collections:
   modules:
     output: true
     permalink: /modules/:path/
+  # Stubs that keep old URLs working (former per-repo gh-pages sites and
+  # pages from the previous site). Each file sets `permalink` (the old URL)
+  # and `redirect_to` (the new one). Plugin-free so it works on GitHub Pages.
+  redirects:
+    output: true
 
 defaults:
   - scope:
@@ -30,6 +35,11 @@ defaults:
       type: modules
     values:
       layout: module
+  - scope:
+      path: ""
+      type: redirects
+    values:
+      layout: redirect
 
 exclude:
   - Gemfile

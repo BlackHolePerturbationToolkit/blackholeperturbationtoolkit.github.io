@@ -8,7 +8,7 @@ title: Summer of Code in Space 2017
 
 We are proposing a project for the [Summer of Code in Space 2017 programme](https://sophia.estec.esa.int/socis/)!
 
-![S(s=-2, l=2, gamma=1.9)](https://bhptoolkit.org/SpinWeightedSpheroidalHarmonics/swsh.png)
+![S(s=-2, l=2, gamma=1.9)]({{ '/assets/img/modules/spinweightedspheroidalharmonics/swsh.png' | relative_url }})
 
 **Fig. 1**: Spin-weighted spheroidal harmonics (s=-2, l=2, gamma=1.9) computed with the current Mathematica code.
 
@@ -38,7 +38,7 @@ spin-weighted spheroidal harmonics are at the heart of what makes black hole per
 As an added bonus, the spin-weighted spheroidal harmonics also have applications in other areas of physics such as
 electromagnetism and fluid mechanics.
 
-![S(s=-2, l=2, gamma=1.9)](swsh-theta.png)
+![S(s=-2, l=2, gamma=1.9)]({{ '/assets/img/modules/spinweightedspheroidalharmonics/swsh-theta.png' | relative_url }})
 
 **Fig. 2**: Spin-weighted spheroidal harmonics (s=-2, l=2, gamma=1.9, phi=0) computed with the current Mathematica code.
 

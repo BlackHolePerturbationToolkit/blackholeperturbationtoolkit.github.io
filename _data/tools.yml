@@ -5,7 +5,8 @@
 # Fields:
 #   name      display name
 #   blurb     one line, <= ~90 chars, sentence case, no trailing period needed
-#   lang      Mathematica | C/C++ | Python | SageMath | Fortran
+#   lang      Mathematica | C/C++ | Python | SageMath | Fortran | Data
+#             (Data = a plain data repository with no code)
 #   domain    PRIMARY domain — one of the ids in _data/domains.yml. Drives the
 #             module-page breadcrumb and "related tools".
 #   also_in   optional list of ADDITIONAL domain ids the tool is listed under in
@@ -27,7 +28,7 @@
   status: stable
   tags: [EMRI, Kerr, waveforms, GPU, LISA]
   repo: https://github.com/BlackHolePerturbationToolkit/FastEMRIWaveforms
-  url: https://bhptoolkit.org/FastEMRIWaveforms_main.html
+  url: https://bhptoolkit.org/FastEMRIWaveforms/
   install: pip install fastemriwaveforms
   featured: true
 
@@ -38,7 +39,6 @@
   status: stable
   tags: [EMRI, Kerr, waveforms, LISA, self-force, post-Newtonian, hybrid, waveforms]
   repo: https://github.com/BlackHolePerturbationToolkit/WaSABI
-  url: https://bhptoolkit.org/WaSABI/
   install: 'PacletInstall["WaSABI"]'
 
 - name: BHPTNRSurrogate
@@ -48,7 +48,6 @@
   status: stable
   tags: [surrogate, numerical relativity, waveforms, mass ratio]
   repo: https://github.com/BlackHolePerturbationToolkit/BHPTNRSurrogate
-  url: https://bhptoolkit.org/BHPTNRSurrogate/
 
 # --- Perturbation equations & Teukolsky ------------------------------------
 - name: Teukolsky
@@ -61,14 +60,13 @@
   install: 'PacletInstall["Teukolsky"]'
   featured: true
 
-- name: Regge-Wheeler
+- name: ReggeWheeler
   blurb: Solutions to the Regge-Wheeler equation for Schwarzschild perturbations
   lang: Mathematica
   domain: radial
   status: beta
   tags: [Regge-Wheeler, Schwarzschild]
   repo: https://github.com/BlackHolePerturbationToolkit/ReggeWheeler
-  url: https://bhptoolkit.org/ReggeWheeler/
   install: 'PacletInstall["ReggeWheeler"]'
 
 - name: pybhpt
@@ -78,6 +76,7 @@
   status: stable
   tags: [Teukolsky, point particle, Kerr, frequency-domain]
   repo: https://github.com/znasipak/pybhpt
+  url: https://pybhpt.readthedocs.io/en/latest/
   install: pip install pybhpt
 
 - name: Gremlin
@@ -87,7 +86,7 @@
   status: stable
   tags: [Teukolsky, point particle, Kerr]
   repo: https://github.com/BlackHolePerturbationToolkit/GremlinEq
-  url: https://bhptoolkit.org/GremlinEq
+  url: https://bhptoolkit.org/GremlinEq/doc/
 
 - name: h1Lorenz
   blurb: First-order metric perturbation in the Lorenz gauge
@@ -116,7 +115,6 @@
   status: beta
   tags: [QNM, ringdown, Schwarzschild, Kerr]
   repo: https://github.com/BlackHolePerturbationToolkit/QNM-Mathematica
-  url: https://bhptoolkit.org/QNM-Mathematica
   install: 'PacletInstall["QNM"]'
 
 # --- Spheroidal harmonics --------------------------------------------------
@@ -127,6 +125,7 @@
   status: stable
   tags: [harmonics, spheroidal, eigenvalues]
   repo: https://github.com/BlackHolePerturbationToolkit/SpinWeightedSpheroidalHarmonics
+  url: https://bhptoolkit.org/SpinWeightedSpheroidalHarmonics/doc/html/guide/SpinWeightedSpheroidalHarmonics.html
   install: 'PacletInstall["SpinWeightedSpheroidalHarmonics"]'
 
 # --- Geodesics & orbits ----------------------------------------------------
@@ -137,7 +136,6 @@
   status: stable
   tags: [geodesics, Kerr, orbits]
   repo: https://github.com/BlackHolePerturbationToolkit/KerrGeodesics
-  url: https://bhptoolkit.org/KerrGeodesics
   install: 'PacletInstall["KerrGeodesics"]'
 
 - name: KerrGeoPy
@@ -147,6 +145,7 @@
   status: stable
   tags: [geodesics, Kerr, orbits]
   repo: https://github.com/BlackHolePerturbationToolkit/KerrGeoPy
+  url: https://kerrgeopy.readthedocs.io/en/latest/
   install: pip install kerrgeopy
 
 - name: kerrgeodesic_gw
@@ -156,6 +155,7 @@
   status: stable
   tags: [geodesics, Kerr, waveforms, harmonics]
   repo: https://github.com/BlackHolePerturbationToolkit/kerrgeodesic_gw
+  url: https://sagemanifolds.obspm.fr/kerrgeodesic_gw/reference/
   install: sage -pip install kerrgeodesic_gw
 
 # --- Self-force & inspirals -------------------------------------------------
@@ -165,8 +165,7 @@
   domain: self-force
   status: stable
   tags: [self-force, inspiral, NIT, EMRI]
-  repo: https://github.com/BlackHolePerturbationToolkit/FastSelfForcedInspirals
-  url: https://bhptoolkit.org/Fast_Self-Forced_Inspirals/
+  repo: https://github.com/BlackHolePerturbationToolkit/Fast_Self-Forced_Inspirals
 
 - name: SelfForce-1D
   blurb: Effective-source EMRI simulation infrastructure in the time domain
@@ -174,8 +173,7 @@
   domain: self-force
   status: beta
   tags: [self-force, effective source, EMRI, time-domain]
-  repo: https://github.com/BlackHolePerturbationToolkit/SelfForce-1D
-  url: https://bhptoolkit.org/Self-Force-1D.html
+  repo: https://bitbucket.org/peterdiener/selfforce-1d
 
 - name: Punctures
   blurb: Metric perturbation punctures for first- and second-order self-force
@@ -219,7 +217,17 @@
   status: stable
   tags: [tensors, general relativity]
   repo: https://github.com/BlackHolePerturbationToolkit/GeneralRelativityTensors
-  url: https://bhptoolkit.org/GeneralRelativityTensors/
+  install: 'PacletInstall["GeneralRelativityTensors"]'
+
+- name: TInvar
+  blurb: Canonicalization of expressions involving the Riemann tensor
+  lang: Mathematica
+  domain: tensors
+  status: stable
+  tags: [tensors, Riemann, invariants, xAct]
+  repo: https://github.com/BlackHolePerturbationToolkit/TInvar
+  url: https://bhptoolkit.org/TInvar/doc/html/guide/TInvar.html
+  install: 'PacletInstall["TInvar"]'
 
 # --- Data repositories -----------------------------------------------------
 - name: PostNewtonian-SelfForce
@@ -229,11 +237,11 @@
   status: data
   tags: [post-Newtonian, self-force, data]
   repo: https://github.com/BlackHolePerturbationToolkit/PostNewtonianSelfForce
-  url: https://bhptoolkit.org/PostNewtonianSelfForce/
+  install: 'PacletInstall["PostNewtonianSelfForce"]'
 
 - name: CircularOrbitSelfForceData
   blurb: Fluxes and self-force quantities for circular orbits
-  lang: Mathematica
+  lang: Data
   domain: data
   status: data
   tags: [fluxes, circular orbits, data]
@@ -248,3 +256,11 @@
   status: deprecated
   tags: [EMRI, kludge, Kerr, waveforms]
   repo: https://github.com/alvincjk/EMRI_Kludge_Suite
+
+- name: EMRISurrogate
+  blurb: Surrogate waveforms for non-spinning EMRIs; superseded by BHPTNRSurrogate
+  lang: Python
+  domain: waveforms
+  status: deprecated
+  tags: [surrogate, EMRI, waveforms, mass ratio]
+  repo: https://github.com/BlackHolePerturbationToolkit/EMRISurrogate

@@ -42,7 +42,7 @@ If you use or extend a specific package, please reference it directly and link
 to it, for example:
 
 <div class="callout" markdown="0">
-	<p style="margin:0;">The full PN series data can be found in the <a href="https://bhptoolkit.org/PostNewtonianSelfForce/">PostNewtonianSelfForce</a> package of the Black Hole Perturbation Toolkit.</p>
+	<p style="margin:0;">The full PN series data can be found in the <a href="https://bhptoolkit.org/modules/postnewtonian-selfforce/">PostNewtonianSelfForce</a> package of the Black Hole Perturbation Toolkit.</p>
 </div>
 
 ### Why it matters

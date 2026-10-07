@@ -198,6 +198,7 @@ code, kbd, pre { font-family: var(--font-mono); }
 .lang-Mathematica { background: color-mix(in srgb, var(--violet) 16%, transparent); color: var(--violet); }
 .lang-CC        { background: color-mix(in srgb, var(--gold) 16%, transparent); color: var(--gold); }
 .lang-Fortran   { background: color-mix(in srgb, var(--gold) 16%, transparent); color: var(--gold); }
+.lang-Data      { background: color-mix(in srgb, var(--text-muted) 16%, transparent); color: var(--text-muted); }
 
 .badge { font-size: 0.72rem; font-weight: 500; padding: 3px 9px; border-radius: 6px; display: inline-flex; align-items: center; gap: 5px; }
 .badge .dot { width: 7px; height: 7px; border-radius: 50%; }
