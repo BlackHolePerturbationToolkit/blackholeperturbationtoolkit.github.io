@@ -1,0 +1,120 @@
+
+		<!DOCTYPE html>
+		<html lang="en">
+
+		<head>
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+	
+
+<title>TInvar&mdash;Wolfram Language Documentation</title>
+<meta name="buildnumber" content="0000000">
+<meta name="historydata" content="{XX, , , }" />
+<meta name="keywords" content="TInvar" />
+
+<meta name="description" content="Canonicalization of expressions Involving the Riemann tensor." />
+<link rel="stylesheet" href="../../common/framework/css/framework.en.css"><link rel="stylesheet" href="../../common/framework/css/gui.en.css"><link rel="stylesheet" href="../../common/js/clipboard/2.0/clipboard.css"><link rel="stylesheet" href="../../fonts/source-code-pro/1.0/all.css"><link rel="stylesheet" href="../../fonts/source-sans-pro/1.0/global.css"><link rel="stylesheet" href="../../language-assets/css/entities.css"><link rel="stylesheet" href="../../language-assets/css/footer.css"><link rel="stylesheet" href="../../language-assets/css/global.css"><link rel="stylesheet" href="../../language-assets/css/guide.css"><link rel="stylesheet" href="../../language-assets/css/header-language.css"><link rel="stylesheet" href="../../language-assets/css/iconography.css"><link rel="stylesheet" href="../../language-assets/css/icons.css"><link rel="stylesheet" href="../../language-assets/css/in-out.css"><link rel="stylesheet" href="../../language-assets/css/language-specific.css"><link rel="stylesheet" href="../../language-assets/css/language.css"><link rel="stylesheet" href="../../language-assets/css/man-page.css"><link rel="stylesheet" href="../../language-assets/css/related-links.css"><link rel="stylesheet" href="../../language-assets/css/root-guide-language.css"><link rel="stylesheet" href="../../language-assets/css/special-styles.css"><link rel="stylesheet" href="../../language-assets/css/tables.css"><link rel="stylesheet" href="../../language-assets/css/technotes.css"><link rel="stylesheet" href="../../language-assets/css/tooltips.css"><link rel="stylesheet" href="../../language-assets/css/workflows.css">
+<script>var baselang = 'TInvar.en';</script>
+</head>
+
+<body id="guide">
+  <main class="main">
+  <nav class="topContentWrap"><span class="badge">T INVAR GUIDE</span><ul class="dropdown">
+   <li>
+    <a href="#" class="menu see-also">Functions</a>
+    <ul class="sub_menu">
+     <li>
+      <a class="sub-ref" href="../ref/InvSimplify.html"><span class="dropdownPad">InvSimplify</span></a>
+     </li>
+     <li>
+      <a class="sub-ref" href="../ref/InvToPerm.html"><span class="dropdownPad">InvToPerm</span></a>
+     </li>
+     <li>
+      <a class="sub-ref" href="../ref/InvToRiemann.html"><span class="dropdownPad">InvToRiemann</span></a>
+     </li>
+     <li>
+      <a class="sub-ref" href="../ref/PermToInv.html"><span class="dropdownPad">PermToInv</span></a>
+     </li>
+     <li>
+      <a class="sub-ref" href="../ref/PermToRiemann.html"><span class="dropdownPad">PermToRiemann</span></a>
+     </li>
+     <li>
+      <a class="sub-ref" href="../ref/RiemannSimplify.html"><span class="dropdownPad">RiemannSimplify</span></a>
+     </li>
+     <li>
+      <a class="sub-ref" href="../ref/RiemannToInv.html"><span class="dropdownPad">RiemannToInv</span></a>
+     </li>
+     <li>
+      <a class="sub-ref" href="../ref/RiemannToPerm.html"><span class="dropdownPad">RiemannToPerm</span></a>
+     </li>
+    </ul>
+   </li>
+   <li>
+    <a href="#" class="menu see-also">Tech Notes</a>
+    <ul class="sub_menu">
+     <li>
+      <a href="../tutorial/TInvar.html"><span class="dropdownPad">TInvar</span></a>
+     </li>
+    </ul>
+   </li>
+  </ul></nav><div class="main-heading"><h1 class="main-title">TInvar</h1><div class="iconography" data-src="f= s= d= m= c= u= l= n= e="></div></div><p class="intro"><a name="1389152325"></a>Canonicalization of expressions Involving the Riemann tensor.</p><section><div class="inner">
+   <h1 class="toggle open">Canonicalization</h1>
+   <span class="open-all">open all</span>
+   <span class="close-all on">close all</span>
+   <div class="hideable">
+    <p class="singleFunction"><a name="481974397"></a><span class="IFSans"><a class="package-symbol" href="../ref/RiemannSimplify.html">RiemannSimplify</a></span> <span class="dash">&mdash;</span> Simplify expressions involving the Riemann tensor</p>
+    <p class="singleFunction"><a name="372242897"></a><span class="IFSans"><a class="package-symbol" href="../ref/InvSimplify.html">InvSimplify</a></span> <span class="dash">&mdash;</span> Simplify expressions involving invariants</p>
+    <p class="singleFunction"><a name="235373895"></a><span class="IFSans"><a class="package-symbol" href="../ref/RiemannToInv.html">RiemannToInv</a></span> <span class="dash">&mdash;</span> Convert Riemann tensors to their invariant form</p>
+    <p class="singleFunction"><a name="202717029"></a><span class="IFSans"><a class="package-symbol" href="../ref/InvToRiemann.html">InvToRiemann</a></span> <span class="dash">&mdash;</span> Convert invariants to their explicit tensor expressions</p>
+    <div class="GuideDelimiter"><!-- --></div>
+    <p class="inlineFunctionList">
+     <a name="1148778888"></a>
+     <span class="IFSans"><a class="package-symbol" href="../ref/RiemannToPerm.html">RiemannToPerm</a></span>
+     <span class="inlineBullet">&nbsp;&#9642;&nbsp;</span>
+     <span class="IFSans"><a class="package-symbol" href="../ref/PermToRiemann.html">PermToRiemann</a></span>
+     <span class="inlineBullet">&nbsp;&#9642;&nbsp;</span>
+     <span class="IFSans"><a class="package-symbol" href="../ref/InvToPerm.html">InvToPerm</a></span>
+     <span class="inlineBullet">&nbsp;&#9642;&nbsp;</span>
+     <span class="IFSans"><a class="package-symbol" href="../ref/PermToInv.html">PermToInv</a></span>
+    </p>
+   </div>
+  </div></section><section id="RelatedTutorials" class="related-links"><div class="inner">
+   <h1>Related Tech Notes</h1>
+   <ul class="functionList">
+    <span class="special-character FilledVerySmallSquare">&#9642;</span>
+    <li>
+     <a href="../tutorial/TInvar.html">TInvar</a>
+    </li>
+   </ul>
+  </div></section><section id="RelatedLinks" class="related-links"><div class="inner">
+   <h1>Related Links</h1>
+   <ul class="functionList">
+    <li ="">
+     <img src="Files/TInvar.en/1.png"
+         height="19"
+         width="17"
+         alt="" />
+     <span class="special-character FilledVerySmallSquare">&#9642;</span>
+     <a href="https://github.com/BlackHolePerturbationToolkit/TInvar"><img src="Files/TInvar.en/4.png" height="17" width="3" alt="" />TInvar</a>
+    </li>
+    <li ="">
+     <img src="Files/TInvar.en/7.png"
+         height="19"
+         width="17"
+         alt="" />
+     <span class="special-character FilledVerySmallSquare">&#9642;</span>
+     <a href="https://xact.es"><img src="Files/TInvar.en/10.png" height="17" width="3" alt="" />xAct</a>
+    </li>
+   </ul>
+  </div></section>
+  
+
+  
+		</main>
+		<div id="_footer-offset"></div>
+		<div id="_footer"></div>
+		<script src="../../common/js/jquery/2.2.4/jquery.min.js"></script><script src="../../common/js/jquery/plugins/hoverintent/1.8.0/hoverintent.min.js"></script><script src="../../common/js/clipboard/2.0/clipboard.js"></script><script type="module" src="../../common/js/clipboard/2.0/code-clipboard.js"></script><script src="../../common/framework/js/body.en.js"></script><script src="../../common/framework/js/head.en.js"></script><script src="../../language-assets/js/dropdowns.js"></script><script src="../../language-assets/js/global.js"></script><script src="../../language-assets/js/language-specific.js.en"></script><script src="../../language-assets/js/language.js"></script><script src="../../language-assets/js/temporary.js"></script><script src="../../language-assets/js/toggles.js"></script><script src="../../language-assets/js/tooltips.js"></script><script src="../../language-assets/js/workflows.js"></script>
+</body>
+
+</html>

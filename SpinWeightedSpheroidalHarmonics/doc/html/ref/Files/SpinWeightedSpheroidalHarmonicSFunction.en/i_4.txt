@@ -1,0 +1,1 @@
+Plot[Slm[\[Theta], 0], {\[Theta], 0, \[Pi]}]

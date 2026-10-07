@@ -1,0 +1,3 @@
+ComplexPlot3D[
+ SpinWeightedSpheroidalEigenvalue[-2, 2, 
+  2, \[Gamma]], {\[Gamma], -1 - I, 1 + I}, PlotLegends -> Automatic]

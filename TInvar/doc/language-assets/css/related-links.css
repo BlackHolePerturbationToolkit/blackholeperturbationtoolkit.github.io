@@ -1,0 +1,86 @@
+/* ==========================================================================
+   RELATED LINKS
+   ========================================================================== */
+.main section.related-links { margin: 2rem 0 0 !important; overflow: hidden; }
+.main section.related-links ~ .related-links { margin: 0 !important; }
+
+#SeeAlso .inlineFunctionList { margin: .2rem 0 0 1.3rem; font-size: 1px; display: block; max-width: 900px; }
+#SeeAlso .inlineFunctionList:before{ display: none; }
+.related-links ul.functionList { margin: .2rem 0 0 1.3rem; font-size: 0; }
+.related-links ul.functionList li { margin: .2rem 1rem 0 0; font-size: 0; }
+.related-links ul.functionList li:last-of-type { margin-bottom: 0; }
+.related-links ul.functionList a, #SeeAlso a { font-size: .88rem; }
+#SeeAlso a.sub-ref, .see-also + .sub_menu a.sub-ref { font-weight: 400; letter-spacing: .2px; }
+#SeeAlso a.sub-ref:hover, .see-also + .sub_menu a.sub-ref:hover { color: #f77700; }
+.sub-ref-heading { color: #8b8b8b; font-weight: 300; font-size: .81rem; margin: 0 5px 0 0; font-style: italic; }
+#SeeAlso .sub-ref-heading { font-size: .88rem; letter-spacing: .2px; }
+#SeeAlso .sub-ref-heading ~ .IF a { font-weight: 400; }
+#SeeAlso .inlineBullet { font-size: 1rem; }
+
+.related-links .inner { background-position: 0 1.14rem; background-repeat: no-repeat; background-size: 3.13rem; margin: 0 auto 1.2rem !important; min-height: 75px; }
+
+/* related-links left side icons */
+.related-links#RelatedTutorials .inner, .related-links#Tutorials .inner { background-image: url('../img/icon_tutorials2x.png'); }
+.related-links#RelatedGuides .inner { background-image: url('../img/icon_guide2x.png'); }
+.related-links#RelatedFunctions .inner, .related-links#SeeAlso .inner { background-image: url('../img/icon_function2x.png'); }
+.related-links#RelatedWorkflows .inner { background-image: url('../img/icon_workflow2x.png'); }
+.related-links#RelatedWorkflowGuides .inner { background-image: url('../img/icon_workflowguide2x.png'); }
+.related-links#RelatedMonographs .inner { background-image: url('../img/icon_monographs2x.png'); }
+.related-links#RelatedTechNotes .inner { background-image: url('../img/icon_technotes2x.png'); }
+.related-links#RelatedInterpreters .inner, .related-links#RelatedInterpreterSection .inner { background-image: url('../img/icon_interpreters2x.png'); }
+.related-links#RelatedFormats .inner { background-image: url('../img/icon_formats2x.png'); }
+.related-links#RelatedEntityTypes .inner { background-image: url('../img/icon_entity2x.png'); }
+.related-links#History .inner { background-image: url('../img/history.png'); }
+
+.related-links .inner .functionList { padding: 0 0 0 3.2rem; }
+.related-links .inner .related-grid { display: grid; grid-template-columns: 50% 50%; max-width: 70%; }
+.related-links .inner .functionList > *:not(li) { display: none; }
+.related-links .inner .inlineFunctionList { padding: .2rem 0 0 3.9rem; margin: 0; }
+.related-links#SeeAlso .inner .inlineFunctionList { padding: 0 0 0 2.69rem; }
+.related-links .inner .functionList .inlineFunctionList { padding: 0; }
+.related-links .inner h1 { font-size: 1rem; padding: .9rem 0 0 3.87rem; }
+
+.related-links .history-text {font-size: 13.2px; }
+.related-links .history-version { color: #8b8b8b; margin: 0 3px 0 0;}
+
+/* RelatedLinks icons */
+#RelatedLinks.related-links .FilledVerySmallSquare { font-size: 16px; color: #adadad; }
+#RelatedLinks.related-links .functionList li[class]:before { content: ''; display: inline-block !important; width: 1.6rem; height: 1.6rem; background-size: contain; position: absolute; left: 0; top: 0; }
+.related-links .demonstrations:before { background: url('../img/icon-demonstrations2x.png') no-repeat; }
+.related-links .elementary-intro:before { background: url('../img/icon-eiwl2x.png') no-repeat; }
+.related-links .fast-intro:before { background: url('../img/icon-fast-intro2x.png') no-repeat; }
+.related-links .nks:before { background: url('../img/icon-nks2x.png') no-repeat; }
+.related-links .community:before { background: url('../img/icon-community2x.png') no-repeat; }
+.related-links .data-repo:before { background: url('../img/icon-data-repo2x.png') no-repeat; }
+.related-links .function-repo:before { background: url('../img/icon-function-repo2x.png') no-repeat; }
+.related-links .functions:before { background: url('../img/icon-functions2x.png') no-repeat; }
+.related-links .mathworld:before { background: url('../img/icon-mathworld2x.png') no-repeat; }
+.related-links .nnet-repo:before { background: url('../img/icon-nnet-repo2x.png') no-repeat; }
+.related-links .tmj:before { background: url('../img/icon-tmj2x.png') no-repeat; }
+.related-links .wolframalpha:before { background: url('../img/icon-wolframalpha2x.png') no-repeat; }
+.related-links .wolframu:before { background: url('../img/icon-wolframu2x.png') no-repeat; }
+
+body:not(.workflow) .related-links#RelatedLinks .functionList li { padding: 0 0 0 2.06rem; display: block; vertical-align: top; background-size: 30px auto; margin: .3rem 33px 20px -33px !important; }
+body:not(.workflow) .related-links#RelatedLinks .functionList li:not(.BulletedText):before { display: none; }
+.related-links .paren-text { color: #8b8b8b; font-size: .7rem; display: table;}
+.related-links .functionList .paren-text * { color: #8b8b8b; font-size: .7rem; }
+.related-links .paren-text *:hover { color: #f77700; }
+#RelatedLinks .BulletedText { padding: 0; margin: 0; }
+#RelatedLinks .BulletedText:before { content: ''; left: 20px; }
+/* ==========================================================================
+   responsive breakpoint styles
+   ========================================================================== */
+@media all and (min-width: 1200px) and (min-height: 601px) {
+    .related-links .inner h1 { font-size: 16px; padding: 1.6rem 0 0 3.87rem; }
+    .related-links .inner { min-height: 92px; margin: 0 auto 1.8rem !important; background-position: 0 1.9rem; }
+}
+@media all and (max-width: 900px) {
+    .related-links .inner { min-height: 75px; margin: 0 auto .9rem !important; }
+}
+@media all and (max-width: 600px) {
+    .related-links .inner { min-height: 70px; }
+    .related-links .inner a { font-size: .93rem !important; }
+    .related-links .inner .related-grid  { display: block; max-width: 100%; }
+    #SeeAlso a { font-size: .96rem !important; line-height: 1.8; }
+    body:not(.workflow) .related-links#RelatedLinks .functionList li { padding: 0px 0 0 2.5rem; margin: .3rem 33px 20px -40px !important; width: 100%; }
+}

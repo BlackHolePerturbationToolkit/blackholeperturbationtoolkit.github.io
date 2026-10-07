@@ -1,0 +1,3 @@
+RiemannSimplify[
+ RiemannCD[a, b, c, d] + RiemannCD[a, c, d, b] + 
+  RiemannCD[a, d, b, c]]

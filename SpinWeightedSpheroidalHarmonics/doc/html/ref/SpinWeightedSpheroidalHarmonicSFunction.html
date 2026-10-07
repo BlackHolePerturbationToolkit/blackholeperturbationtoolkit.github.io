@@ -1,0 +1,436 @@
+
+		<!DOCTYPE html>
+		<html lang="en">
+
+		<head>
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+	
+
+<title>SpinWeightedSpheroidalHarmonicSFunction&mdash;Wolfram Language Documentation</title>
+<meta name="buildnumber" content="0000000">
+<meta name="historydata" content="{XX, , , }" />
+<meta name="keywords" content="SpinWeightedSpheroidalHarmonicSFunction" />
+
+<meta name="description" content="SpinWeightedSpheroidalHarmonicSFunction[...] represents a solution to the spin-weighted spheroidal equation." />
+<link rel="stylesheet" href="../../common/framework/css/framework.en.css"><link rel="stylesheet" href="../../common/framework/css/gui.en.css"><link rel="stylesheet" href="../../common/js/clipboard/2.0/clipboard.css"><link rel="stylesheet" href="../../fonts/source-code-pro/1.0/all.css"><link rel="stylesheet" href="../../fonts/source-sans-pro/1.0/global.css"><link rel="stylesheet" href="../../language-assets/css/entities.css"><link rel="stylesheet" href="../../language-assets/css/footer.css"><link rel="stylesheet" href="../../language-assets/css/global.css"><link rel="stylesheet" href="../../language-assets/css/guide.css"><link rel="stylesheet" href="../../language-assets/css/header-language.css"><link rel="stylesheet" href="../../language-assets/css/iconography.css"><link rel="stylesheet" href="../../language-assets/css/icons.css"><link rel="stylesheet" href="../../language-assets/css/in-out.css"><link rel="stylesheet" href="../../language-assets/css/language-specific.css"><link rel="stylesheet" href="../../language-assets/css/language.css"><link rel="stylesheet" href="../../language-assets/css/man-page.css"><link rel="stylesheet" href="../../language-assets/css/related-links.css"><link rel="stylesheet" href="../../language-assets/css/root-guide-language.css"><link rel="stylesheet" href="../../language-assets/css/special-styles.css"><link rel="stylesheet" href="../../language-assets/css/tables.css"><link rel="stylesheet" href="../../language-assets/css/technotes.css"><link rel="stylesheet" href="../../language-assets/css/tooltips.css"><link rel="stylesheet" href="../../language-assets/css/workflows.css">
+<script>var baselang = 'SpinWeightedSpheroidalHarmonicSFunction.en';</script>
+</head>
+
+<body id="ref" class="package">
+  <main class="main">
+  <nav class="topContentWrap"><span class="badge">SPIN WEIGHTED SPHEROIDAL HARMONICS SYMBOL</span><ul class="dropdown">
+   <li>
+    <a href="#" class="menu see-also">See Also</a>
+    <ul class="sub_menu">
+     <li>
+      <a class="sub-ref" href="../ref/SpinWeightedSpheroidalHarmonicS.html"><span class="dropdownPad">SpinWeightedSpheroidalHarmonicS</span></a>
+     </li>
+    </ul>
+   </li>
+   <li>
+    <a href="#" class="menu related-guides">Related Guides</a>
+    <ul class="sub_menu">
+     <li>
+      <a href="../guide/SpinWeightedSpheroidalHarmonics.html"><span class="dropdownPad">Spin-weighted spheroidal harmonics</span></a>
+     </li>
+    </ul>
+   </li>
+   <li>
+    <a href="#" class="menu see-also">Tech Notes</a>
+    <ul class="sub_menu">
+     <li>
+      <a href="../tutorial/SpinWeightedSpheroidalHarmonics.html"><span class="dropdownPad">SpinWeightedSpheroidalHarmonics</span></a>
+     </li>
+    </ul>
+   </li>
+  </ul></nav><div class="ContextNameCell">SpinWeightedSpheroidalHarmonics`</div><div class="main-heading"><span class="main-title-top">SpinWeightedSpheroidalHarmonics`</span><h1 class="main-title">SpinWeightedSpheroidalHarmonicSFunction</h1><div class="iconography" data-src="s= d= m= c= u= l= n= e="></div></div><div class="functionIntroWrap">
+  <div class="functionIntro">
+   <p class="code">
+    <span class="IF"><a class="package-symbol" href="../ref/SpinWeightedSpheroidalHarmonicSFunction.html">SpinWeightedSpheroidalHarmonicSFunction</a><span class="openbracket">[</span><span class="special-character Ellipsis">&#8230;</span><span class="closebracket">]</span></span>
+   </p>
+   <p class="code-description">represents a solution to the spin-weighted spheroidal equation.</p>
+  </div>
+ </div><section id="DetailsAndOptions"><div class="inner">
+   <h1 class="toggle">Details and Options</h1>
+   <div class="hideable">
+    <ul class="functionList">
+     <li><a name="1168721114"></a>A <span class="IF"><a class="package-symbol" href="../ref/SpinWeightedSpheroidalHarmonicSFunction.html">SpinWeightedSpheroidalHarmonicSFunction</a></span> is created when using <a href="../ref/SpinSpinWeightedSpheroidalHarmonicS.html">SpinSpinWeightedSpheroidalHarmonicS</a> without specifying values for <span class="special-character Theta">&#952;</span> and <span class="special-character Phi">&#981;</span>.</li>
+     <li><a name="1810327536"></a>A <a href="../ref/SpinSpinWeightedSpheroidalHarmonicSFunction.html">SpinSpinWeightedSpheroidalHarmonicSFunction</a> may be treated as a numeric function of two arguments, <span class="special-character Theta">&#952;</span> and <span class="special-character Phi">&#981;</span>.</li>
+     <li><a name="626586856"></a>The parameters <span class="IF">s</span>, <span class="IF">l</span>, <span class="IF">m</span> and <span class="IF"><span class="special-character Gamma">&#947;</span></span>, the method used, and pre-computed expansion coefficients are stored inside the <span class="IF"><a class="package-symbol" href="../ref/SpinWeightedSpheroidalHarmonicSFunction.html">SpinWeightedSpheroidalHarmonicSFunction</a></span>.</li>
+     <li><a name="1932967551"></a>Numerical evaluation for specific <span class="IF"><span class="special-character Theta">&#952;</span></span> and <span class="IF"><span class="special-character Phi">&#981;</span></span> is done by summing the pre-computed expansion coefficients times the basis functions (the particular basis depends on the Method).</li>
+    </ul>
+   </div>
+  </div></section><section id="Examples"><h1 id="1621621807" class="toggle open">Examples</h1><span class="open-all on">open all</span><span class="close-all">close all</span><div class="hideable">
+   <div id="469634286"
+       class="clipboard-input"
+       data-in="In[1]:="
+       data-in-num="1"
+       data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+       data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/I_1.png"
+       data-in-width="312"
+       data-in-height="21"
+       data-link="https://wolfram.com/xid/0uxh1xqxp1ghsox5z07pac3q6249xklflqfzgrslu-h1v6e4"
+       data-code="Files/SpinWeightedSpheroidalHarmonicSFunction.en/i_1.txt"
+       ></div>
+   <div>
+    <h2 id="882746172" class="toggle open">Basic Examples<span class="special-character NonBreakingSpace">&#160;</span><span class="special-character NonBreakingSpace">&#160;</span><span class="total-examples">(5)</span></h2>
+    <div class="hideable">
+     <p><a name="579776628"></a>Generate a <span class="IF"><a class="package-symbol" href="../ref/SpinWeightedSpheroidalHarmonicSFunction.html">SpinWeightedSpheroidalHarmonicSFunction</a></span> for a specific <span class="IF">s</span>, <span class="IF">l</span>, <span class="IF">m</span> and <span class="IF"><span class="special-character Gamma">&#947;</span></span>:</p>
+     <div id="1932131963"
+         class="clipboard-input"
+         data-in="In[1]:="
+         data-in-num="1"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/I_2.png"
+         data-in-width="341"
+         data-in-height="19"
+         data-link="https://wolfram.com/xid/0uxh1xqxp1ghsox5z07pac3q6249xklflqfzgrslu-58mkul"
+         data-code="Files/SpinWeightedSpheroidalHarmonicSFunction.en/i_2.txt"
+         ></div>
+     <div class="clipboard-output"
+         data-out="Out[1]="
+         data-out-num="1"
+         data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/O_1.png"
+         data-out-width="406"
+         data-out-height="39"
+         ></div>
+     <div class="ExLine"><a name="772295528"></a><!-- --></div>
+     <p><a name="1443253402"></a>Evaluate numerically:</p>
+     <div id="1235983"
+         class="clipboard-input"
+         data-in="In[1]:="
+         data-in-num="1"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/I_3.png"
+         data-in-width="79"
+         data-in-height="19"
+         data-link="https://wolfram.com/xid/0uxh1xqxp1ghsox5z07pac3q6249xklflqfzgrslu-0ry5"
+         data-code="Files/SpinWeightedSpheroidalHarmonicSFunction.en/i_3.txt"
+         ></div>
+     <div class="clipboard-output"
+         data-out="Out[1]="
+         data-out-num="1"
+         data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/O_2.png"
+         data-out-width="95"
+         data-out-height="17"
+         ></div>
+     <div class="ExLine"><a name="1987182056"></a><!-- --></div>
+     <p><a name="903137048"></a>Plot over a range of values for <span class="special-character Theta">&#952;</span>:</p>
+     <div id="1847785800"
+         class="clipboard-input"
+         data-in="In[1]:="
+         data-in-num="1"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/I_4.png"
+         data-in-width="150"
+         data-in-height="19"
+         data-link="https://wolfram.com/xid/0uxh1xqxp1ghsox5z07pac3q6249xklflqfzgrslu-4ueqxm"
+         data-code="Files/SpinWeightedSpheroidalHarmonicSFunction.en/i_4.txt"
+         ></div>
+     <div class="clipboard-output"
+         data-out="Out[1]="
+         data-out-num="1"
+         data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/O_3.png"
+         data-out-width="241"
+         data-out-height="150"
+         ></div>
+     <div class="ExLine"><a name="1555748893"></a><!-- --></div>
+     <p><a name="1858242426"></a>Plot over a subset of the complexes:</p>
+     <div id="617394771"
+         class="clipboard-input"
+         data-in="In[1]:="
+         data-in-num="1"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src-swap="Files/SpinWeightedSpheroidalHarmonicSFunction.en/I_5.png"
+         data-big="420 39"
+         data-small="420 39"
+         data-link="https://wolfram.com/xid/0uxh1xqxp1ghsox5z07pac3q6249xklflqfzgrslu-khu641"
+         data-code="Files/SpinWeightedSpheroidalHarmonicSFunction.en/i_5.txt"
+         ></div>
+     <div id="1467127040"
+         class="clipboard-input"
+         data-in="In[2]:="
+         data-in-num="2"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src-swap="Files/SpinWeightedSpheroidalHarmonicSFunction.en/I_6.png"
+         data-big="422 19"
+         data-small="422 19"
+         data-link="https://wolfram.com/xid/0uxh1xqxp1ghsox5z07pac3q6249xklflqfzgrslu-yjrwq6"
+         data-code="Files/SpinWeightedSpheroidalHarmonicSFunction.en/i_6.txt"
+         ></div>
+     <div class="clipboard-output"
+         data-out="Out[2]="
+         data-out-num="2"
+         data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/O_4.png"
+         data-out-width="303"
+         data-out-height="228"
+         ></div>
+     <div class="ExLine"><a name="30931721"></a><!-- --></div>
+     <p><a name="178392273"></a>Extract expansion coefficients:</p>
+     <div id="351761099"
+         class="clipboard-input"
+         data-in="In[1]:="
+         data-in-num="1"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/I_7.png"
+         data-in-width="185"
+         data-in-height="19"
+         data-link="https://wolfram.com/xid/0uxh1xqxp1ghsox5z07pac3q6249xklflqfzgrslu-f3pqvx"
+         data-code="Files/SpinWeightedSpheroidalHarmonicSFunction.en/i_7.txt"
+         ></div>
+     <div class="clipboard-output"
+         data-out="Out[1]="
+         data-out-num="1"
+         data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/O_5.png"
+         data-out-width="446"
+         data-out-height="51"
+         ></div>
+    </div>
+   </div>
+   <div>
+    <h2 id="2119275123" class="toggle">Scope<span class="special-character NonBreakingSpace">&#160;</span><span class="special-character NonBreakingSpace">&#160;</span><span class="total-examples">(6)</span></h2>
+    <div class="hideable">
+     <div>
+      <h3 id="90447048" class="toggle">Numerical Evaluation<span class="special-character NonBreakingSpace">&#160;</span><span class="special-character NonBreakingSpace">&#160;</span><span class="total-examples">(3)</span></h3>
+      <div class="hideable">
+       <p><a name="1229276830"></a>Evaluate numerically:</p>
+       <div id="1139350687"
+           class="clipboard-input"
+           data-in="In[1]:="
+           data-in-num="1"
+           data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/I_8.png"
+           data-in-width="341"
+           data-in-height="39"
+           data-link="https://wolfram.com/xid/0uxh1xqxp1ghsox5z07pac3q6249xklflqfzgrslu-s4miwh"
+           data-code="Files/SpinWeightedSpheroidalHarmonicSFunction.en/i_8.txt"
+           ></div>
+       <div class="clipboard-output"
+           data-out="Out[1]="
+           data-out-num="1"
+           data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/O_6.png"
+           data-out-width="144"
+           data-out-height="17"
+           ></div>
+       <div class="ExLine"><a name="1059936352"></a><!-- --></div>
+       <p><a name="973416199"></a>The precision of the output tracks the precision of the spheroidicity used when creating the <span class="IF"><a class="package-symbol" href="../ref/SpinWeightedSpheroidalHarmonicSFunction.html">SpinWeightedSpheroidalHarmonicSFunction</a></span>:</p>
+       <div id="1067740573"
+           class="clipboard-input"
+           data-in="In[1]:="
+           data-in-num="1"
+           data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/I_9.png"
+           data-in-width="341"
+           data-in-height="39"
+           data-link="https://wolfram.com/xid/0uxh1xqxp1ghsox5z07pac3q6249xklflqfzgrslu-rxzn6n"
+           data-code="Files/SpinWeightedSpheroidalHarmonicSFunction.en/i_9.txt"
+           ></div>
+       <div class="clipboard-output"
+           data-out="Out[1]="
+           data-out-num="1"
+           data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/O_7.png"
+           data-out-width="114"
+           data-out-height="17"
+           ></div>
+       <div class="ExLine"><a name="276924534"></a><!-- --></div>
+       <p><a name="673579889"></a>When evaluating for multiple values of <span class="IF"><span class="special-character Theta">&#952;</span></span> and <span class="IF"><span class="special-character Phi">&#981;</span></span> it is significantly more efficient to generate a <span class="IF"><a class="package-symbol" href="../ref/SpinWeightedSpheroidalHarmonicSFunction.html">SpinWeightedSpheroidalHarmonicSFunction</a></span> once, and then evaluate that for the desired values of <span class="IF"><span class="special-character Theta">&#952;</span></span> and <span class="IF"><span class="special-character Phi">&#981;</span></span>:</p>
+       <div id="1927582462"
+           class="clipboard-input"
+           data-in="In[1]:="
+           data-in-num="1"
+           data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/I_10.png"
+           data-in-width="381"
+           data-in-height="78"
+           data-link="https://wolfram.com/xid/0uxh1xqxp1ghsox5z07pac3q6249xklflqfzgrslu-55w2fk"
+           data-code="Files/SpinWeightedSpheroidalHarmonicSFunction.en/i_10.txt"
+           ></div>
+       <div class="clipboard-output"
+           data-out="Out[1]="
+           data-out-num="1"
+           data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/O_8.png"
+           data-out-width="80"
+           data-out-height="17"
+           ></div>
+       <div id="1136727417"
+           class="clipboard-input"
+           data-in="In[2]:="
+           data-in-num="2"
+           data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/I_11.png"
+           data-in-width="356"
+           data-in-height="78"
+           data-link="https://wolfram.com/xid/0uxh1xqxp1ghsox5z07pac3q6249xklflqfzgrslu-s22arv"
+           data-code="Files/SpinWeightedSpheroidalHarmonicSFunction.en/i_11.txt"
+           ></div>
+       <div class="clipboard-output"
+           data-out="Out[2]="
+           data-out-num="2"
+           data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/O_9.png"
+           data-out-width="80"
+           data-out-height="17"
+           ></div>
+      </div>
+     </div>
+     <div>
+      <h3 id="1374254501" class="toggle">Differentiation<span class="special-character NonBreakingSpace">&#160;</span><span class="special-character NonBreakingSpace">&#160;</span><span class="total-examples">(2)</span></h3>
+      <div class="hideable">
+       <p><a name="1636318060"></a>First derivative with respect to <span class="IF"><span class="TR"><span class="special-character Theta">&#952;</span></span></span>:</p>
+       <div id="1957491360"
+           class="clipboard-input"
+           data-in="In[1]:="
+           data-in-num="1"
+           data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/I_12.png"
+           data-in-width="336"
+           data-in-height="39"
+           data-link="https://wolfram.com/xid/0uxh1xqxp1ghsox5z07pac3q6249xklflqfzgrslu-6np4aa"
+           data-code="Files/SpinWeightedSpheroidalHarmonicSFunction.en/i_12.txt"
+           ></div>
+       <div class="clipboard-output"
+           data-out="Out[1]="
+           data-out-num="1"
+           data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/O_10.png"
+           data-out-width="108"
+           data-out-height="17"
+           ></div>
+       <p><a name="1754251809"></a>First derivative with respect to <span class="IF"><span class="TR"><span class="special-character Phi">&#981;</span></span></span>:</p>
+       <div id="271750133"
+           class="clipboard-input"
+           data-in="In[2]:="
+           data-in-num="2"
+           data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/I_13.png"
+           data-in-width="336"
+           data-in-height="39"
+           data-link="https://wolfram.com/xid/0uxh1xqxp1ghsox5z07pac3q6249xklflqfzgrslu-er2t03"
+           data-code="Files/SpinWeightedSpheroidalHarmonicSFunction.en/i_13.txt"
+           ></div>
+       <div class="clipboard-output"
+           data-out="Out[2]="
+           data-out-num="2"
+           data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/O_11.png"
+           data-out-width="113"
+           data-out-height="17"
+           ></div>
+       <div class="ExLine"><a name="1998761276"></a><!-- --></div>
+       <p><a name="1456738859"></a>Higher derivatives:</p>
+       <div id="2096427413"
+           class="clipboard-input"
+           data-in="In[1]:="
+           data-in-num="1"
+           data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/I_14.png"
+           data-in-width="336"
+           data-in-height="39"
+           data-link="https://wolfram.com/xid/0uxh1xqxp1ghsox5z07pac3q6249xklflqfzgrslu-8yfz03"
+           data-code="Files/SpinWeightedSpheroidalHarmonicSFunction.en/i_14.txt"
+           ></div>
+       <div class="clipboard-output"
+           data-out="Out[1]="
+           data-out-num="1"
+           data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/O_12.png"
+           data-out-width="102"
+           data-out-height="17"
+           ></div>
+      </div>
+     </div>
+     <div>
+      <h3 id="785323663" class="toggle">Expansion Coefficients<span class="special-character NonBreakingSpace">&#160;</span><span class="special-character NonBreakingSpace">&#160;</span><span class="total-examples">(1)</span></h3>
+      <div class="hideable">
+       <p><a name="40619300"></a>Extract expansion coefficients for expansion in spin-weighed spherical harmonics</p>
+       <div id="1936259001"
+           class="clipboard-input"
+           data-in="In[1]:="
+           data-in-num="1"
+           data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src-swap="Files/SpinWeightedSpheroidalHarmonicSFunction.en/I_15.png"
+           data-big="420 58"
+           data-small="420 58"
+           data-link="https://wolfram.com/xid/0uxh1xqxp1ghsox5z07pac3q6249xklflqfzgrslu-6a21aj"
+           data-code="Files/SpinWeightedSpheroidalHarmonicSFunction.en/i_15.txt"
+           ></div>
+       <div class="clipboard-output"
+           data-out="Out[1]="
+           data-out-num="1"
+           data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/O_13.png"
+           data-out-width="511"
+           data-out-height="35"
+           ></div>
+       <p><a name="566585027"></a>Extract expansion coefficients for Leaver's expansion in powers of  <span class="IF">cos<sup>2</sup><img src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/1OverscriptBox.png" height="25" width="12" style="vertical-align:middle;" alt="" title="" /></span>:</p>
+       <div id="652057991"
+           class="clipboard-input"
+           data-in="In[2]:="
+           data-in-num="2"
+           data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/I_16.png"
+           data-in-width="377"
+           data-in-height="58"
+           data-link="https://wolfram.com/xid/0uxh1xqxp1ghsox5z07pac3q6249xklflqfzgrslu-k2h5f9"
+           data-code="Files/SpinWeightedSpheroidalHarmonicSFunction.en/i_16.txt"
+           ></div>
+       <div class="clipboard-output"
+           data-out="Out[2]="
+           data-out-num="2"
+           data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/O_14.png"
+           data-out-width="425"
+           data-out-height="35"
+           ></div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="clear"><!-- --></div>
+  </div></section><section id="SeeAlso" class="related-links"><div class="inner">
+   <h1>See Also</h1>
+   <p class="inlineFunctionList">
+    <span class="IF"><a class="package-symbol" href="../ref/SpinWeightedSpheroidalHarmonicS.html">SpinWeightedSpheroidalHarmonicS</a></span>
+   </p>
+  </div></section><div class="TechNotesSection">Tech Notes</div><span class="special-character FilledVerySmallSquare">&#9642;</span><li>
+  <a href="../tutorial/SpinWeightedSpheroidalHarmonics.html">SpinWeightedSpheroidalHarmonics</a>
+ </li><section id="RelatedGuides" class="related-links"><div class="inner">
+   <h1>Related Guides</h1>
+   <ul class="functionList">
+    <span class="special-character FilledVerySmallSquare">&#9642;</span>
+    <li>
+     <a href="../guide/SpinWeightedSpheroidalHarmonics.html">Spin-weighted spheroidal harmonics</a>
+    </li>
+   </ul>
+  </div></section><section id="RelatedLinks" class="related-links"><div class="inner">
+   <h1>Related Links</h1>
+   <ul class="functionList">
+    <li>
+     <img src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/2.png"
+         height="19"
+         width="17"
+         alt="" />
+     <span class="special-character FilledVerySmallSquare">&#9642;</span>
+     <a href="https://bhptoolkit.org"><img src="Files/SpinWeightedSpheroidalHarmonicSFunction.en/5.png" height="17" width="3" alt="" />Black Hole Perturbation Toolkit</a>
+    </li>
+   </ul>
+  </div></section>
+  
+
+  
+		</main>
+		<div id="_footer-offset"></div>
+		<div id="_footer"></div>
+		<script src="../../common/js/jquery/2.2.4/jquery.min.js"></script><script src="../../common/js/jquery/plugins/hoverintent/1.8.0/hoverintent.min.js"></script><script src="../../common/js/clipboard/2.0/clipboard.js"></script><script type="module" src="../../common/js/clipboard/2.0/code-clipboard.js"></script><script src="../../common/framework/js/body.en.js"></script><script src="../../common/framework/js/head.en.js"></script><script src="../../language-assets/js/dropdowns.js"></script><script src="../../language-assets/js/global.js"></script><script src="../../language-assets/js/language-specific.js.en"></script><script src="../../language-assets/js/language.js"></script><script src="../../language-assets/js/temporary.js"></script><script src="../../language-assets/js/toggles.js"></script><script src="../../language-assets/js/tooltips.js"></script><script src="../../language-assets/js/workflows.js"></script>
+</body>
+</html>

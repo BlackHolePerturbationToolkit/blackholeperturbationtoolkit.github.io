@@ -1,0 +1,4 @@
+Plot3D[Evaluate[(Abs[
+     SpinWeightedSpheroidalHarmonicS[0, 1, 1, 0.5][
+      x + I y, \[Pi]]])^2], {x, -4, 4}, {y, -2, 2}, 
+ ColorFunction -> "BlueGreenYellow"]

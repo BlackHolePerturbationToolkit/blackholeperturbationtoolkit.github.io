@@ -1,0 +1,3 @@
+Plot[Evaluate[
+  Table[SpinWeightedSphericalHarmonicY[0, l, 0, \[Theta], 0], {l, 2, 
+    5}]], {\[Theta], 0, \[Pi]}]

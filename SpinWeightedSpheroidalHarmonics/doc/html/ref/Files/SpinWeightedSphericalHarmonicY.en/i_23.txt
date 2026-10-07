@@ -1,0 +1,8 @@
+With[{s = -2, l = 2}, 
+ Plot[Evaluate[
+   Table[SpinWeightedSphericalHarmonicY[s, l, m, \[Theta], 0], {m, -l,
+      l}]], {\[Theta], 0, \[Pi]}, Frame -> True, 
+  FrameLabel -> {"\[Theta]", "Spin-weighted spherical harmonic"}, 
+  PlotLegends -> 
+   Placed[Table["m = " <> ToString[m], {m, -l, l}], {0.88, 0.61}], 
+  ImageSize -> Medium]]

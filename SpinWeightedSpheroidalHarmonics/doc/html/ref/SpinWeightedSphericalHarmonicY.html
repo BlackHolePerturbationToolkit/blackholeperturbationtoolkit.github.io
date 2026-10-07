@@ -1,0 +1,495 @@
+
+		<!DOCTYPE html>
+		<html lang="en">
+
+		<head>
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+	
+
+<title>SpinWeightedSphericalHarmonicY&mdash;Wolfram Language Documentation</title>
+<meta name="buildnumber" content="0000000">
+<meta name="historydata" content="{XX, , , }" />
+<meta name="keywords" content="SpinWeightedSphericalHarmonicY" />
+
+<meta name="description" content="SpinWeightedSphericalHarmonicY[s, l, m, \[Theta], \[Phi]] gives the spin-weighted spherical harmonic of spin-weight s, degree l and order m." />
+<link rel="stylesheet" href="../../common/framework/css/framework.en.css"><link rel="stylesheet" href="../../common/framework/css/gui.en.css"><link rel="stylesheet" href="../../common/js/clipboard/2.0/clipboard.css"><link rel="stylesheet" href="../../fonts/source-code-pro/1.0/all.css"><link rel="stylesheet" href="../../fonts/source-sans-pro/1.0/global.css"><link rel="stylesheet" href="../../language-assets/css/entities.css"><link rel="stylesheet" href="../../language-assets/css/footer.css"><link rel="stylesheet" href="../../language-assets/css/global.css"><link rel="stylesheet" href="../../language-assets/css/guide.css"><link rel="stylesheet" href="../../language-assets/css/header-language.css"><link rel="stylesheet" href="../../language-assets/css/iconography.css"><link rel="stylesheet" href="../../language-assets/css/icons.css"><link rel="stylesheet" href="../../language-assets/css/in-out.css"><link rel="stylesheet" href="../../language-assets/css/language-specific.css"><link rel="stylesheet" href="../../language-assets/css/language.css"><link rel="stylesheet" href="../../language-assets/css/man-page.css"><link rel="stylesheet" href="../../language-assets/css/related-links.css"><link rel="stylesheet" href="../../language-assets/css/root-guide-language.css"><link rel="stylesheet" href="../../language-assets/css/special-styles.css"><link rel="stylesheet" href="../../language-assets/css/tables.css"><link rel="stylesheet" href="../../language-assets/css/technotes.css"><link rel="stylesheet" href="../../language-assets/css/tooltips.css"><link rel="stylesheet" href="../../language-assets/css/workflows.css">
+<script>var baselang = 'SpinWeightedSphericalHarmonicY.en';</script>
+</head>
+
+<body id="ref" class="package">
+  <main class="main">
+  <nav class="topContentWrap"><span class="badge">SPIN WEIGHTED SPHEROIDAL HARMONICS SYMBOL</span><ul class="dropdown">
+   <li>
+    <a href="#" class="menu see-also">See Also</a>
+    <ul class="sub_menu">
+     <li>
+      <a class="sub-ref" href="http://reference.wolfram.com/language/ref/SphericalHarmonicY.html"><span class="dropdownPad">SphericalHarmonicY</span></a>
+     </li>
+     <li>
+      <hr />
+     </li>
+     <li class="other sub-ref-heading">Functions</li>
+     <li>
+      <a href="../ref/SpinWeightedSpheroidalEigenvalue.html"><span class="dropdownPad">SpinWeightedSpheroidalEigenvalue</span></a>
+     </li>
+     <li>
+      <a href="../ref/SpinWeightedSpheroidalHarmonicS.html"><span class="dropdownPad">SpinWeightedSpheroidalHarmonicS</span></a>
+     </li>
+    </ul>
+   </li>
+   <li>
+    <a href="#" class="menu related-guides">Related Guides</a>
+    <ul class="sub_menu">
+     <li>
+      <a href="../guide/SpinWeightedSpheroidalHarmonics.html"><span class="dropdownPad">Spin-weighted spheroidal harmonics</span></a>
+     </li>
+    </ul>
+   </li>
+   <li>
+    <a href="#" class="menu see-also">Tech Notes</a>
+    <ul class="sub_menu">
+     <li>
+      <a href="../tutorial/SpinWeightedSpheroidalHarmonics.html"><span class="dropdownPad">SpinWeightedSpheroidalHarmonics</span></a>
+     </li>
+    </ul>
+   </li>
+  </ul></nav><div class="ContextNameCell">SpinWeightedSpheroidalHarmonics`</div><div class="main-heading"><span class="main-title-top">SpinWeightedSpheroidalHarmonics`</span><h1 class="main-title">SpinWeightedSphericalHarmonicY</h1><div class="iconography" data-src="s= d= m= c= u= l= n= e="></div></div><div class="functionIntroWrap">
+  <div class="functionIntro"><span class="IF"><a class="package-symbol" href="../ref/SpinWeightedSphericalHarmonicY.html">SpinWeightedSphericalHarmonicY</a><span class="openbracket">[</span><span class="TI">s</span><span class="comma">,</span> <span class="TI">l</span><span class="comma">,</span> <span class="TI">m</span><span class="comma">,</span> <span class="TR"><span class="special-character Theta">&#952;</span></span><span class="comma">,</span> <span class="TR"><span class="special-character Phi">&#981;</span></span><span class="closebracket">]</span></span> gives the spin-weighted spherical harmonic of spin-weight <span class="IF"><em><span class="TI">s</span></em></span>, degree <span class="IF"><em><span class="TI">l</span></em></span> and order <span class="IF"><em><span class="TI">m</span></em></span>.</div>
+ </div><section id="DetailsAndOptions"><div class="inner">
+   <h1 class="toggle">Details and Options</h1>
+   <div class="hideable">
+    <ul class="functionList">
+     <li><a name="601332013"></a><a href="../ref/SpinWeightedSphericalHarmonicY.html">SpinWeightedSphericalHarmonicY</a> satisfies the spin-weighted spherical equation, <img src="Files/SpinWeightedSphericalHarmonicY.en/CellNone_2.png" height="34" width="272" alt="" style="vertical-align:middle;" /></li>
+     <li><a name="529099709"></a>The eigenvalue, <span class="IF"><span class="special-character Lambda">&#955;</span></span> for the spin-weighted spherical equation is given by <span class="IF"><span class="special-character Lambda">&#955;</span> = l<span class="openparenthesis">(</span>l+1<span class="closeparenthesis">)</span> - s<span class="openparenthesis">(</span>s+1<span class="closeparenthesis">)</span></span>.</li>
+     <li><a name="684176084"></a><a href="../ref/SpinWeightedSphericalHarmonicY.html">SpinWeightedSphericalHarmonicY</a> is unit-normalised on the two-sphere, <img src="Files/SpinWeightedSphericalHarmonicY.en/CellNone_4.png" height="28" width="281" alt="" style="vertical-align:middle;" />.</li>
+     <li><a name="1996510583"></a>For <span class="IF">s=0</span>, <a href="../ref/SpinWeightedSphericalHarmonicY.html">SpinWeightedSphericalHarmonicY</a> is equivalent to <a href="http://reference.wolfram.com/language/ref/SphericalHarmonicY.html">SphericalHarmonicY</a>.</li>
+     <li><a name="1090142532"></a>For certain special arguments, <a href="../ref/SpinWeightedSphericalHarmonicY.html">SpinWeightedSphericalHarmonicY</a>  automatically evaluates to exact values.</li>
+     <li><a name="743306294"></a><a href="../ref/SpinWeightedSphericalHarmonicY.html">SpinWeightedSphericalHarmonicY</a> can be evaluated to arbitrary numerical precision.</li>
+     <li><a name="831908044"></a><a href="../ref/SpinWeightedSphericalHarmonicY.html">SpinWeightedSphericalHarmonicY</a> automatically threads over lists.</li>
+    </ul>
+   </div>
+  </div></section><section id="Examples"><h1 id="223236995" class="toggle open">Examples</h1><span class="open-all on">open all</span><span class="close-all">close all</span><div class="hideable">
+   <div id="890241985"
+       class="clipboard-input"
+       data-in="In[1]:="
+       data-in-num="1"
+       data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+       data-src="Files/SpinWeightedSphericalHarmonicY.en/I_1.png"
+       data-in-width="353"
+       data-in-height="19"
+       data-link="https://wolfram.com/xid/0hmt6tk6que0b6gw784phjdhxuehvkb4w5qxfr-o0a9eb"
+       data-code="Files/SpinWeightedSphericalHarmonicY.en/i_1.txt"
+       ></div>
+   <div>
+    <h2 id="290243656" class="toggle open">Basic Examples<span class="special-character NonBreakingSpace">&#160;</span><span class="special-character NonBreakingSpace">&#160;</span><span class="total-examples">(6)</span></h2>
+    <div class="hideable">
+     <p><a name="136527557"></a>Evaluate symbolically:</p>
+     <div id="1106115503"
+         class="clipboard-input"
+         data-in="In[1]:="
+         data-in-num="1"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src-swap="Files/SpinWeightedSphericalHarmonicY.en/I_2.png"
+         data-big="431 19"
+         data-small="431 19"
+         data-link="https://wolfram.com/xid/0hmt6tk6que0b6gw784phjdhxuehvkb4w5qxfr-skt6gx"
+         data-code="Files/SpinWeightedSphericalHarmonicY.en/i_2.txt"
+         ></div>
+     <div class="clipboard-output"
+         data-out="Out[1]="
+         data-out-num="1"
+         data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSphericalHarmonicY.en/O_1.png"
+         data-out-width="524"
+         data-out-height="34"
+         ></div>
+     <div class="ExLine"><a name="1493544305"></a><!-- --></div>
+     <p><a name="1443253402"></a>Evaluate numerically</p>
+     <div id="1235983"
+         class="clipboard-input"
+         data-in="In[1]:="
+         data-in-num="1"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src-swap="Files/SpinWeightedSphericalHarmonicY.en/I_3.png"
+         data-big="418 19"
+         data-small="418 19"
+         data-link="https://wolfram.com/xid/0hmt6tk6que0b6gw784phjdhxuehvkb4w5qxfr-0ry5"
+         data-code="Files/SpinWeightedSphericalHarmonicY.en/i_3.txt"
+         ></div>
+     <div class="clipboard-output"
+         data-out="Out[1]="
+         data-out-num="1"
+         data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSphericalHarmonicY.en/O_2.png"
+         data-out-width="152"
+         data-out-height="18"
+         ></div>
+     <div class="ExLine"><a name="1987182056"></a><!-- --></div>
+     <p><a name="903137048"></a>Plot over a range of values for <span class="special-character Theta">&#952;</span></p>
+     <div id="1847785800"
+         class="clipboard-input"
+         data-in="In[1]:="
+         data-in-num="1"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src-swap="Files/SpinWeightedSphericalHarmonicY.en/I_4.png"
+         data-big="519 19"
+         data-small="519 19"
+         data-link="https://wolfram.com/xid/0hmt6tk6que0b6gw784phjdhxuehvkb4w5qxfr-4ueqxm"
+         data-code="Files/SpinWeightedSphericalHarmonicY.en/i_4.txt"
+         ></div>
+     <div class="clipboard-output"
+         data-out="Out[1]="
+         data-out-num="1"
+         data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSphericalHarmonicY.en/O_3.png"
+         data-out-width="361"
+         data-out-height="222"
+         ></div>
+     <div class="ExLine"><a name="1555748893"></a><!-- --></div>
+     <p><a name="1858242426"></a>Plot over a subset of the complexes:</p>
+     <div id="1467127040"
+         class="clipboard-input"
+         data-in="In[1]:="
+         data-in-num="1"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src-swap="Files/SpinWeightedSphericalHarmonicY.en/I_5.png"
+         data-big="512 42"
+         data-small="512 42"
+         data-link="https://wolfram.com/xid/0hmt6tk6que0b6gw784phjdhxuehvkb4w5qxfr-yjrwq6"
+         data-code="Files/SpinWeightedSphericalHarmonicY.en/i_5.txt"
+         ></div>
+     <div class="clipboard-output"
+         data-out="Out[1]="
+         data-out-num="1"
+         data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSphericalHarmonicY.en/O_4.png"
+         data-out-width="423"
+         data-out-height="353"
+         ></div>
+     <div class="ExLine"><a name="193217683"></a><!-- --></div>
+     <p><a name="38547989"></a>Series expansion at the origin:</p>
+     <div id="55263732"
+         class="clipboard-input"
+         data-in="In[1]:="
+         data-in-num="1"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src-swap="Files/SpinWeightedSphericalHarmonicY.en/I_6.png"
+         data-big="527 19"
+         data-small="527 19"
+         data-link="https://wolfram.com/xid/0hmt6tk6que0b6gw784phjdhxuehvkb4w5qxfr-66r1y"
+         data-code="Files/SpinWeightedSphericalHarmonicY.en/i_6.txt"
+         ></div>
+     <div class="clipboard-output"
+         data-out="Out[1]="
+         data-out-num="1"
+         data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSphericalHarmonicY.en/O_5.png"
+         data-out-width="125"
+         data-out-height="34"
+         ></div>
+     <div class="ExLine"><a name="865036136"></a><!-- --></div>
+     <p><a name="236918008"></a>Series expansion at <span class="IF"><a href="http://reference.wolfram.com/language/ref/Infinity.html">Infinity</a></span>:</p>
+     <div id="154817048"
+         class="clipboard-input"
+         data-in="In[1]:="
+         data-in-num="1"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src-swap="Files/SpinWeightedSphericalHarmonicY.en/I_7.png"
+         data-big="443 42"
+         data-small="443 42"
+         data-link="https://wolfram.com/xid/0hmt6tk6que0b6gw784phjdhxuehvkb4w5qxfr-cugjvu"
+         data-code="Files/SpinWeightedSphericalHarmonicY.en/i_7.txt"
+         ></div>
+     <div class="clipboard-output"
+         data-out="Out[1]="
+         data-out-num="1"
+         data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSphericalHarmonicY.en/O_6.png"
+         data-out-width="329"
+         data-out-height="34"
+         ></div>
+    </div>
+   </div>
+   <div>
+    <h2 id="1948778998" class="toggle">Scope<span class="special-character NonBreakingSpace">&#160;</span><span class="special-character NonBreakingSpace">&#160;</span><span class="total-examples">(21)</span></h2>
+    <div class="hideable">
+     <div>
+      <h3 id="90447048" class="toggle">Numerical Evaluation<span class="special-character NonBreakingSpace">&#160;</span><span class="special-character NonBreakingSpace">&#160;</span><span class="total-examples">(4)</span></h3>
+      <div class="hideable">
+       <p><a name="1229276830"></a>Evaluate numerically:</p>
+       <div id="1139350687"
+           class="clipboard-input"
+           data-in="In[1]:="
+           data-in-num="1"
+           data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src-swap="Files/SpinWeightedSphericalHarmonicY.en/I_8.png"
+           data-big="408 19"
+           data-small="408 19"
+           data-link="https://wolfram.com/xid/0hmt6tk6que0b6gw784phjdhxuehvkb4w5qxfr-s4miwh"
+           data-code="Files/SpinWeightedSphericalHarmonicY.en/i_8.txt"
+           ></div>
+       <div class="clipboard-output"
+           data-out="Out[1]="
+           data-out-num="1"
+           data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSphericalHarmonicY.en/O_7.png"
+           data-out-width="207"
+           data-out-height="18"
+           ></div>
+       <div class="ExLine"><a name="1059936352"></a><!-- --></div>
+       <p><a name="68363783"></a>Evaluate to high precision:</p>
+       <div id="2921903"
+           class="clipboard-input"
+           data-in="In[1]:="
+           data-in-num="1"
+           data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src-swap="Files/SpinWeightedSphericalHarmonicY.en/I_9.png"
+           data-big="470 19"
+           data-small="470 19"
+           data-link="https://wolfram.com/xid/0hmt6tk6que0b6gw784phjdhxuehvkb4w5qxfr-b0wt9"
+           data-code="Files/SpinWeightedSphericalHarmonicY.en/i_9.txt"
+           ></div>
+       <div class="clipboard-output"
+           data-out="Out[1]="
+           data-out-num="1"
+           data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSphericalHarmonicY.en/O_8.png"
+           data-out-width="415"
+           data-out-height="18"
+           ></div>
+       <div id="42632527"
+           class="clipboard-input"
+           data-in="In[2]:="
+           data-in-num="2"
+           data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src-swap="Files/SpinWeightedSphericalHarmonicY.en/I_10.png"
+           data-big="470 19"
+           data-small="470 19"
+           data-link="https://wolfram.com/xid/0hmt6tk6que0b6gw784phjdhxuehvkb4w5qxfr-zn1q5"
+           data-code="Files/SpinWeightedSphericalHarmonicY.en/i_10.txt"
+           ></div>
+       <div class="clipboard-output"
+           data-out="Out[2]="
+           data-out-num="2"
+           data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSphericalHarmonicY.en/O_9.png"
+           data-out-width="173"
+           data-out-height="18"
+           ></div>
+       <p><a name="973416199"></a>The precision of the output tracks the precision of the input:</p>
+       <div id="1067740573"
+           class="clipboard-input"
+           data-in="In[3]:="
+           data-in-num="3"
+           data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src-swap="Files/SpinWeightedSphericalHarmonicY.en/I_11.png"
+           data-big="449 19"
+           data-small="449 19"
+           data-link="https://wolfram.com/xid/0hmt6tk6que0b6gw784phjdhxuehvkb4w5qxfr-rxzn6n"
+           data-code="Files/SpinWeightedSphericalHarmonicY.en/i_11.txt"
+           ></div>
+       <div class="clipboard-output"
+           data-out="Out[3]="
+           data-out-num="3"
+           data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSphericalHarmonicY.en/O_10.png"
+           data-out-width="168"
+           data-out-height="18"
+           ></div>
+       <div class="ExLine"><a name="181796263"></a><!-- --></div>
+       <p><a name="21859910"></a>Complex number inputs:</p>
+       <div id="432236411"
+           class="clipboard-input"
+           data-in="In[1]:="
+           data-in-num="1"
+           data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src-swap="Files/SpinWeightedSphericalHarmonicY.en/I_12.png"
+           data-big="496 19"
+           data-small="496 19"
+           data-link="https://wolfram.com/xid/0hmt6tk6que0b6gw784phjdhxuehvkb4w5qxfr-hfml09"
+           data-code="Files/SpinWeightedSphericalHarmonicY.en/i_12.txt"
+           ></div>
+       <div class="clipboard-output"
+           data-out="Out[1]="
+           data-out-num="1"
+           data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSphericalHarmonicY.en/O_11.png"
+           data-out-width="213"
+           data-out-height="18"
+           ></div>
+       <div class="ExLine"><a name="123583474"></a><!-- --></div>
+       <p><a name="46203928"></a>Evaluate efficiently at high precision:</p>
+       <div id="196289657"
+           class="clipboard-input"
+           data-in="In[1]:="
+           data-in-num="1"
+           data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src-swap="Files/SpinWeightedSphericalHarmonicY.en/I_13.png"
+           data-big="525 19"
+           data-small="525 19"
+           data-link="https://wolfram.com/xid/0hmt6tk6que0b6gw784phjdhxuehvkb4w5qxfr-di5gcr"
+           data-code="Files/SpinWeightedSphericalHarmonicY.en/i_13.txt"
+           ></div>
+       <div class="clipboard-output"
+           data-out="Out[1]="
+           data-out-num="1"
+           data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSphericalHarmonicY.en/O_12.png"
+           data-out-width="540"
+           data-out-height="100"
+           ></div>
+       <div id="88650161"
+           class="clipboard-input"
+           data-in="In[2]:="
+           data-in-num="2"
+           data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src-swap="Files/SpinWeightedSphericalHarmonicY.en/I_14.png"
+           data-big="495 42"
+           data-small="495 42"
+           data-link="https://wolfram.com/xid/0hmt6tk6que0b6gw784phjdhxuehvkb4w5qxfr-bq2c6r"
+           data-code="Files/SpinWeightedSphericalHarmonicY.en/i_14.txt"
+           ></div>
+       <div class="clipboard-output"
+           data-out="Out[2]="
+           data-out-num="2"
+           data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSphericalHarmonicY.en/O_13.png"
+           data-out-width="123"
+           data-out-height="18"
+           ></div>
+      </div>
+     </div>
+     <div>
+      <h3 id="1637644417" class="toggle">Specific Values<span class="special-character NonBreakingSpace">&#160;</span><span class="special-character NonBreakingSpace">&#160;</span><span class="total-examples">(2)</span></h3>
+      <div class="hideable">
+       <p><a name="642418843"></a>Evaluate <span class="IF"><a class="package-symbol" href="../ref/SpinWeightedSphericalHarmonicY.html">SpinWeightedSphericalHarmonicY</a></span> symbolically for and specific <span class="IF">s</span>, <span class="IF">l</span> and <span class="IF">m</span>:</p>
+       <div id="1076517599"
+           class="clipboard-input"
+           data-in="In[1]:="
+           data-in-num="1"
+           data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSphericalHarmonicY.en/I_15.png"
+           data-in-width="374"
+           data-in-height="19"
+           data-link="https://wolfram.com/xid/0hmt6tk6que0b6gw784phjdhxuehvkb4w5qxfr-r27skx"
+           data-code="Files/SpinWeightedSphericalHarmonicY.en/i_15.txt"
+           ></div>
+       <div class="clipboard-output"
+           data-out="Out[1]="
+           data-out-num="1"
+           data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSphericalHarmonicY.en/O_14.png"
+           data-out-width="528"
+           data-out-height="34"
+           ></div>
+       <div id="1439282065"
+           class="clipboard-input"
+           data-in="In[2]:="
+           data-in-num="2"
+           data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src-swap="Files/SpinWeightedSphericalHarmonicY.en/I_16.png"
+           data-big="441 19"
+           data-small="441 19"
+           data-link="https://wolfram.com/xid/0hmt6tk6que0b6gw784phjdhxuehvkb4w5qxfr-x263fn"
+           data-code="Files/SpinWeightedSphericalHarmonicY.en/i_16.txt"
+           ></div>
+       <div class="clipboard-output"
+           data-out="Out[2]="
+           data-out-num="2"
+           data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSphericalHarmonicY.en/O_15.png"
+           data-out-width="372"
+           data-out-height="34"
+           ></div>
+       <div class="ExLine"><a name="366623052"></a><!-- --></div>
+       <p><a name="703051721"></a>Evaluate <span class="IF"><a class="package-symbol" href="../ref/SpinWeightedSphericalHarmonicY.html">SpinWeightedSphericalHarmonicY</a></span> symbolically for symbolic <span class="IF">s</span>, <span class="IF">l</span> and <span class="IF">m</span>:</p>
+       <div id="952826333"
+           class="clipboard-input"
+           data-in="In[1]:="
+           data-in-num="1"
+           data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src-swap="Files/SpinWeightedSphericalHarmonicY.en/I_17.png"
+           data-big="520 19"
+           data-small="520 19"
+           data-link="https://wolfram.com/xid/0hmt6tk6que0b6gw784phjdhxuehvkb4w5qxfr-p1knsf"
+           data-code="Files/SpinWeightedSphericalHarmonicY.en/i_17.txt"
+           ></div>
+       <div class="clipboard-output"
+           data-out="Out[1]="
+           data-out-num="1"
+           data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSphericalHarmonicY.en/O_16.png"
+           data-out-width="878"
+           data-out-height="94"
+           ></div>
+      </div>
+     </div>
+     <div>
+      <h3 id="1826768744" class="toggle">Visualisation<span class="special-character NonBreakingSpace">&#160;</span><span class="special-character NonBreakingSpace">&#160;</span><span class="total-examples">(4)</span></h3>
+      <div class="hideable">
+       <p><a name="1074236649"></a>Plot  <span class="special-character InvisiblePrefixScriptBase"> </span><sub>s</sub>Y<sub>lm</sub>(<span class="special-character Theta">&#952;</span>,<span class="special-character Phi">&#981;</span>) as a function of <span class="IF"><span class="special-character Theta">&#952;</span></span> for various values of <span class="IF">s</span>, <span class="IF">l</span> and <span class="IF">m</span></p>
+       <div id="476707535"
+           class="clipboard-input"
+           data-in="In[1]:="
+           data-in-num="1"
+           data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src-swap="Files/SpinWeightedSphericalHarmonicY.en/I_18.png"
+           data-big="529 64"
+           data-small="529 64"
+           data-link="https://wolfram.com/xid/0hmt6tk6que0b6gw784phjdhxuehvkb4w5qxfr-h53r59"
+           data-code="Files/SpinWeightedSphericalHarmonicY.en/i_18.txt"
+           ></div>
+       <div class="clipboard-output"
+           data-out="Out[1]="
+           data-out-num="1"
+           data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSphericalHarmonicY.en/O_17.png"
+           data-out-width="361"
+           data-out-height="218"
+           ></div>
+       <div id="256806566"
+           class="clipboard-input"
+           data-in="In[2]:="
+           data-in-num="2"
+           data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src-swap="Files/SpinWeightedSphericalHarmonicY.en/I_19.png"
+           data-big="520 64"
+           data-small="520 64"
+           data-link="https://wolfram.com/xid/0hmt6tk6que0b6gw784phjdhxuehvkb4w5qxfr-ei6jh0"
+           data-code="Files/SpinWeightedSphericalHarmonicY.en/i_19.txt"
+           ></div>
+       <div class="clipboard-output"
+           data-out="Out[2]="
+           data-out-num="2"
+           data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src="Files/SpinWeightedSphericalHarmonicY.en/O_18.png"
+           data-out-width="361"
+           data-out-height="217"
+           ></div>
+       <p><a name="692459091"></a>Plot the real part of <span class="special-character InvisiblePrefixScriptBase"> </span><sub>-2</sub>Y<sub>22</sub>(x+<span class="special-character ImaginaryI">&#63310;</span> y,<span class="special-character Pi">&#960;</span>;0.5):</p>
+       <div id="57390786"
+           class="clipboard-input"
+           data-in="In[3]:="
+           data-in-num="3"
+           data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+           data-src-swap="Files/SpinWeightedSphericalHarmonicY.en/I_20.png"
+           data-big="489 87"
+           data-small="489 87"
+           data-link="https://wolfram.com/xid/0hmt6tk6que0b6gw784phjdhxuehvkb4w5qxfr-8gdas"
+           data-code="Files/SpinWeightedSphericalHarmonicY.en/i_20.txt"
+           ></div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <div class="clear"><!-- --></div>
+  </div></section><div class="clipboard-output" data-out="Out[3]=" data-out-num="3" data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="Files/SpinWeightedSphericalHarmonicY.en/O_19.png" data-out-width="241" data-out-height="231" ></div><p><a name="209314538"></a>Plot the imaginary part of <span class="special-character InvisiblePrefixScriptBase"> </span><sub>-2</sub>Y<sub>22</sub>(x+<span class="special-character ImaginaryI">&#63310;</span> y,<span class="special-character Pi">&#960;</span>;0.5):</p><div id="399161293" class="clipboard-input" data-in="In[4]:=" data-in-num="4" data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src-swap="Files/SpinWeightedSphericalHarmonicY.en/I_21.png" data-big="489 87" data-small="489 87" data-link="https://wolfram.com/xid/0hmt6tk6que0b6gw784phjdhxuehvkb4w5qxfr-gvxo3z" data-code="Files/SpinWeightedSphericalHarmonicY.en/i_21.txt" ></div><div class="clipboard-output" data-out="Out[4]=" data-out-num="4" data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="Files/SpinWeightedSphericalHarmonicY.en/O_20.png" data-out-width="241" data-out-height="231" ></div><div class="ExLine"><a name="97444976"></a><!-- --></div><p><a name="191192706"></a>Plot the absolute value of the <span class="IF"><a class="package-symbol" href="../ref/SpinWeightedSphericalHarmonicY.html">SpinWeightedSphericalHarmonicY</a></span> function in three dimensions:</p><div id="540635789" class="clipboard-input" data-in="In[1]:=" data-in-num="1" data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src-swap="Files/SpinWeightedSphericalHarmonicY.en/I_22.png" data-big="526 87" data-small="526 87" data-link="https://wolfram.com/xid/0hmt6tk6que0b6gw784phjdhxuehvkb4w5qxfr-i75zi3" data-code="Files/SpinWeightedSphericalHarmonicY.en/i_22.txt" ></div><div class="clipboard-output" data-out="Out[1]=" data-out-num="1" data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="Files/SpinWeightedSphericalHarmonicY.en/O_21.png" data-out-width="361" data-out-height="293" ></div><div class="ExLine"><a name="372251519"></a><!-- --></div><p><a name="811416122"></a>Plot <span class="special-character InvisiblePrefixScriptBase"> </span><sub>-2</sub>Y<sub>2m</sub>(<span class="special-character Theta">&#952;</span>,0) as a function of <span class="IF"><span class="special-character Theta">&#952;</span></span> for various values of <span class="IF">m</span>:</p><div id="467675130" class="clipboard-input" data-in="In[1]:=" data-in-num="1" data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src-swap="Files/SpinWeightedSphericalHarmonicY.en/I_23.png" data-big="529 154" data-small="529 154" data-link="https://wolfram.com/xid/0hmt6tk6que0b6gw784phjdhxuehvkb4w5qxfr-h0p6p4" data-code="Files/SpinWeightedSphericalHarmonicY.en/i_23.txt" ></div><div class="clipboard-output" data-out="Out[1]=" data-out-num="1" data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="Files/SpinWeightedSphericalHarmonicY.en/O_22.png" data-out-width="361" data-out-height="234" ></div><div class="ExLine"><a name="949604004"></a><!-- --></div><p><a name="2043514371"></a>Plot  <span class="special-character InvisiblePrefixScriptBase"> </span><sub>-2</sub>Y<sub>2m</sub>(<span class="special-character Theta">&#952;</span>,<span class="special-character Phi">&#981;</span>) as a function of <span class="special-character Theta">&#952;</span> and <span class="special-character Phi">&#981;</span> for all allowed values of <span class="IF">m</span>:</p><div id="1135913679" class="clipboard-input" data-in="In[1]:=" data-in-num="1" data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src-swap="Files/SpinWeightedSphericalHarmonicY.en/I_24.png" data-big="500 360" data-small="500 360" data-link="https://wolfram.com/xid/0hmt6tk6que0b6gw784phjdhxuehvkb4w5qxfr-s2kuv1" data-code="Files/SpinWeightedSphericalHarmonicY.en/i_24.txt" ></div><div class="Spacer"> </div><div class="clipboard-output" data-out="Out[1]=" data-out-num="1" data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="Files/SpinWeightedSphericalHarmonicY.en/O_23.png" data-out-width="239" data-out-height="241" ></div>
+  
+		</main>
+		<div id="_footer-offset"></div>
+		<div id="_footer"></div>
+		<script src="../../common/js/jquery/2.2.4/jquery.min.js"></script><script src="../../common/js/jquery/plugins/hoverintent/1.8.0/hoverintent.min.js"></script><script src="../../common/js/clipboard/2.0/clipboard.js"></script><script type="module" src="../../common/js/clipboard/2.0/code-clipboard.js"></script><script src="../../common/framework/js/body.en.js"></script><script src="../../common/framework/js/head.en.js"></script><script src="../../language-assets/js/dropdowns.js"></script><script src="../../language-assets/js/global.js"></script><script src="../../language-assets/js/language-specific.js.en"></script><script src="../../language-assets/js/language.js"></script><script src="../../language-assets/js/temporary.js"></script><script src="../../language-assets/js/toggles.js"></script><script src="../../language-assets/js/tooltips.js"></script><script src="../../language-assets/js/workflows.js"></script>
+</body>
+</html>

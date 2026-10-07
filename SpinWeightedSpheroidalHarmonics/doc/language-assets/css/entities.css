@@ -1,0 +1,9 @@
+.entity .badge { background: #fee3b8; color: #653510; }
+.entity .functionIntroWrap { background: #fffdf8; border-color: #fce7c7; padding: .3rem; }
+.entity .functionIntro { border-color: #fce7c7; font-size: .875; margin: 0 .6rem; padding: .5rem 0; }
+.entity .functionIntro *, .entity .functionIntro .code a { font-size: .875rem; }
+.entity .function-wrapper + section .toggle { border-top: 0; }
+.entity .function-wrapper { margin: 1.5rem 0; }
+.entity .hideable ul.functionList { margin: 0; }
+.entity .functionList li:before { display: none; }
+.entity .related-links .functionList li::before { display: inline-block; }

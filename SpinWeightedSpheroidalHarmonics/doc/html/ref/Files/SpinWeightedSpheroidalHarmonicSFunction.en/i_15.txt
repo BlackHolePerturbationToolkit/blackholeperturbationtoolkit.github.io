@@ -1,0 +1,3 @@
+Slm = SpinWeightedSpheroidalHarmonicS[-2, 5, 2, 0.1, 
+   Method -> {"SphericalExpansion", "NumTerms" -> 6}];
+Slm["ExpansionCoefficients"]

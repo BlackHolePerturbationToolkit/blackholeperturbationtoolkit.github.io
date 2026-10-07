@@ -1,0 +1,410 @@
+
+		<!DOCTYPE html>
+		<html lang="en">
+
+		<head>
+		<meta http-equiv="x-ua-compatible" content="ie=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+	
+
+<title>SpinWeightedSpheroidalEigenvalue&mdash;Wolfram Language Documentation</title>
+<meta name="buildnumber" content="0000000">
+<meta name="historydata" content="{XX, , , }" />
+<meta name="keywords" content="SpinWeightedSpheroidalEigenvalue" />
+
+<meta name="description" content="SpinWeightedSpheroidalEigenvalue[s, l, m, \[Gamma]] gives the spin-weighted spheroidal eigenvalue with spheroidicity \[Gamma], spin-weight s, degree l and order m." />
+<link rel="stylesheet" href="../../common/framework/css/framework.en.css"><link rel="stylesheet" href="../../common/framework/css/gui.en.css"><link rel="stylesheet" href="../../common/js/clipboard/2.0/clipboard.css"><link rel="stylesheet" href="../../fonts/source-code-pro/1.0/all.css"><link rel="stylesheet" href="../../fonts/source-sans-pro/1.0/global.css"><link rel="stylesheet" href="../../language-assets/css/entities.css"><link rel="stylesheet" href="../../language-assets/css/footer.css"><link rel="stylesheet" href="../../language-assets/css/global.css"><link rel="stylesheet" href="../../language-assets/css/guide.css"><link rel="stylesheet" href="../../language-assets/css/header-language.css"><link rel="stylesheet" href="../../language-assets/css/iconography.css"><link rel="stylesheet" href="../../language-assets/css/icons.css"><link rel="stylesheet" href="../../language-assets/css/in-out.css"><link rel="stylesheet" href="../../language-assets/css/language-specific.css"><link rel="stylesheet" href="../../language-assets/css/language.css"><link rel="stylesheet" href="../../language-assets/css/man-page.css"><link rel="stylesheet" href="../../language-assets/css/related-links.css"><link rel="stylesheet" href="../../language-assets/css/root-guide-language.css"><link rel="stylesheet" href="../../language-assets/css/special-styles.css"><link rel="stylesheet" href="../../language-assets/css/tables.css"><link rel="stylesheet" href="../../language-assets/css/technotes.css"><link rel="stylesheet" href="../../language-assets/css/tooltips.css"><link rel="stylesheet" href="../../language-assets/css/workflows.css">
+<script>var baselang = 'SpinWeightedSpheroidalEigenvalue.en';</script>
+</head>
+
+<body id="ref" class="package">
+  <main class="main">
+  <nav class="topContentWrap"><span class="badge">SPIN WEIGHTED SPHEROIDAL HARMONICS SYMBOL</span><ul class="dropdown">
+   <li>
+    <a href="#" class="menu see-also">See Also</a>
+    <ul class="sub_menu">
+     <li>
+      <a class="sub-ref" href="http://reference.wolfram.com/language/ref/SpheroidalEigenvalue.html"><span class="dropdownPad">SpheroidalEigenvalue</span></a>
+     </li>
+     <li>
+      <hr />
+     </li>
+     <li class="other sub-ref-heading">Functions</li>
+     <li>
+      <a href="../ref/SpinWeightedSpheroidalHarmonicS.html"><span class="dropdownPad">SpinWeightedSpheroidalHarmonicS</span></a>
+     </li>
+     <li>
+      <a href="../ref/SpinWeightedSphericalHarmonicY.html"><span class="dropdownPad">SpinWeightedSphericalHarmonicY</span></a>
+     </li>
+    </ul>
+   </li>
+   <li>
+    <a href="#" class="menu related-guides">Related Guides</a>
+    <ul class="sub_menu">
+     <li>
+      <a href="../guide/SpinWeightedSpheroidalHarmonics.html"><span class="dropdownPad">Spin-weighted spheroidal harmonics</span></a>
+     </li>
+    </ul>
+   </li>
+   <li>
+    <a href="#" class="menu see-also">Tech Notes</a>
+    <ul class="sub_menu">
+     <li>
+      <a href="../tutorial/SpinWeightedSpheroidalHarmonics.html"><span class="dropdownPad">SpinWeightedSpheroidalHarmonics</span></a>
+     </li>
+    </ul>
+   </li>
+  </ul></nav><div class="ContextNameCell">SpinWeightedSpheroidalHarmonics`</div><div class="main-heading"><span class="main-title-top">SpinWeightedSpheroidalHarmonics`</span><h1 class="main-title">SpinWeightedSpheroidalEigenvalue</h1><div class="iconography" data-src="s= d= m= c= u= l= n= e="></div></div><div class="functionIntroWrap">
+  <div class="functionIntro">
+   <p class="code">
+    <span class="IF"><a class="package-symbol" href="../ref/SpinWeightedSpheroidalEigenvalue.html">SpinWeightedSpheroidalEigenvalue</a><span class="openbracket">[</span><span class="TI">s</span><span class="comma">,</span><span class="TI">l</span><span class="comma">,</span><span class="TI">m</span><span class="comma">,</span><span class="TR"><span class="special-character Gamma">&#947;</span></span><span class="closebracket">]</span></span>
+   </p>
+   <p class="code-description">gives the spin-weighted spheroidal eigenvalue with spheroidicity <span class="IF"><span class="TI"><span class="special-character Gamma">&#947;</span></span></span>, spin-weight <span class="IF"><span class="TI">s</span></span>, degree <span class="IF"><span class="TI">l</span></span> and order <span class="IF"><span class="TI">m</span></span>.</p>
+  </div>
+ </div><section id="DetailsAndOptions"><div class="inner">
+   <h1 class="toggle">Details and Options</h1>
+   <div class="hideable">
+    <ul class="functionList">
+     <li><a name="807563746"></a>Mathematical function, suitable for both symbolic and numerical manipulation.</li>
+     <li><a name="1207676429"></a>For real <span class="IF"><span class="special-character Gamma">&#947;</span></span>, <span class="IF"><a class="package-symbol" href="../ref/SpinWeightedSpheroidalEigenvalue.html">SpinWeightedSpheroidalEigenvalue</a></span> computes the eigenvalue, <span class="IF"><span class="special-character InvisiblePrefixScriptBase"> </span><sub>s</sub><span class="special-character Lambda">&#955;</span><sub>lm</sub></span>, for the oblate spin-weighted spheroidal equation with oblateness <span class="IF"><span class="special-character Gamma">&#947;</span></span>: <img src="Files/SpinWeightedSpheroidalEigenvalue.en/CellNone_2.png" height="34" width="445" alt="" style="vertical-align:middle;" />.</li>
+     <li><a name="1427934096"></a>For imaginary <span class="IF"><span class="special-character Gamma">&#947;</span></span>, <span class="IF"><a class="package-symbol" href="../ref/SpinWeightedSpheroidalEigenvalue.html">SpinWeightedSpheroidalEigenvalue</a></span> computes the eigenvalue for the prolate spin-weighted spheroidal equation.</li>
+     <li><a name="2072931994"></a><span class="IF"><a class="package-symbol" href="../ref/SpinWeightedSpheroidalEigenvalue.html">SpinWeightedSpheroidalEigenvalue</a></span> can be evaluated for arbitrary complex spheroidicity.</li>
+     <li><a name="565427179"></a>The definition for <span class="IF"><span class="special-character InvisiblePrefixScriptBase"> </span><sub>s</sub><span class="special-character Lambda">&#955;</span><sub>lm</sub></span> is consistent with that of [<a href="https://dx.doi.org/10.1086/152444">Teukolsky, S. A., Astrophys. J. 185, 635<span class="special-character Dash">&#8211;</span>647 (1973)</a>] and of [<a href="http://dx.doi.org/10.12942/lrr-2003-6">Sasaki, M. &amp; Tagoshi, H. Living Rev. Relativ. (2003) 6: 6</a>].</li>
+     <li><a name="519459478"></a>For <span class="IF"><span class="special-character Gamma">&#947;</span>=0</span>, <span class="IF"><a class="package-symbol" href="../ref/SpinWeightedSpheroidalEigenvalue.html">SpinWeightedSpheroidalEigenvalue</a></span> reduces to <span class="IF"><span class="specialcharacters"><span class="openparenthesis">(</span>l<span class="openparenthesis">(</span>l+1<span class="closeparenthesis">)</span> - s<span class="openparenthesis">(</span>s+1<span class="closeparenthesis">)</span><span class="closeparenthesis">)</span></span></span>.</li>
+     <li><a name="1034421691"></a>For <span class="IF">s=0</span>, <span class="IF"><a class="package-symbol" href="../ref/SpinWeightedSpheroidalEigenvalue.html">SpinWeightedSpheroidalEigenvalue</a><span class="openbracket">[</span>0<span class="comma">,</span> <span class="TI">l</span><span class="comma">,</span> <span class="TI">m</span><span class="comma">,</span> <span class="TR"><span class="special-character Gamma">&#947;</span></span><span class="closebracket">]</span></span> is equivalent to <span class="IF"><a href="http://reference.wolfram.com/language/ref/SpheroidalEigenvalue.html">SpheroidalEigenvalue</a><span class="openbracket">[</span><span class="TI">l</span><span class="comma">,</span> <span class="TI">m</span><span class="comma">,</span> <a href="http://reference.wolfram.com/language/ref/I.html">I</a> <span class="TR"><span class="special-character Gamma">&#947;</span></span><span class="closebracket">]</span> - 2 <span class="TI">m</span> <span class="TR"><span class="special-character Gamma">&#947;</span></span></span>.</li>
+     <li><a name="1645238172"></a>For numerical values of <span class="IF"><span class="special-character Gamma">&#947;</span></span>, <span class="IF"><a class="package-symbol" href="../ref/SpinWeightedSpheroidalEigenvalue.html">SpinWeightedSpheroidalEigenvalue</a></span> aims to produce a numerical value with the maximum possible precision given the precision of <span class="IF"><span class="special-character Gamma">&#947;</span></span>.</li>
+     <li><a name="243924298"></a>In most cases, the precision of the result will be approximately equal to the precision of <span class="IF"><span class="special-character Gamma">&#947;</span></span>.</li>
+     <li><a name="518518032"></a>By default, numerical values are computed using an expansion based on spin-weighted spherical harmonics for an initial guess followed by Leaver's method to obtain an accurate answer.</li>
+     <li><a name="89394363"></a>Series expansions about <span class="IF"><span class="special-character Gamma">&#947;</span>=0</span> can be computed to arbitrary order for generic <span class="IF">s</span>, <span class="IF">l</span> and <span class="IF">m</span>.</li>
+     <li><a name="1359989688"></a>Series expansions about <span class="IF"><span class="special-character Gamma">&#947;</span> = <span class="special-character Infinity">&#8734;</span></span> can be computed to arbitrary order for specific <span class="IF">s</span>, <span class="IF">l</span> and <span class="IF">m</span>.</li>
+     <li><a name="1678231195"></a>For Methods that support suboptions, they may be passed as a list. For example <a href="http://reference.wolfram.com/language/ref/Method.html">Method</a> <span class="special-character Rule">&#62754;</span> {&quot;Leaver&quot;, &quot;InitialGuess&quot; <span class="special-character Rule">&#62754;</span> 0.1} sets the &quot;InitialGuess&quot; suboption to have value 0.1.</li>
+     <li><a name="981474667"></a>The possible suboptions that the &quot;Lever&quot; method accepts are: &quot;InitialGuess&quot; <span class="special-character Rule">&#62754;</span> <span class="special-character Lambda">&#955;</span> and &quot;NumInversions&quot; <span class="special-character Rule">&#62754;</span> n.</li>
+     <li><a name="822835662"></a>The possible suboptions that the &quot;SphericalExpansion&quot; method accepts are: &quot;NumTerms&quot; <span class="special-character Rule">&#62754;</span> n.</li>
+     <li><a name="339913432"></a>The following options can be given: </li>
+     <li class="NotesTable">
+      <a name="618550604"></a>
+      <table>
+       <col width="1%" />
+       <col width="28%" />
+       <col width="28%" />
+       <col width="43%" />
+       <tr class="lineAbove" style=""><td /><td><a href="http://reference.wolfram.com/language/ref/Method.html">Method</a> <a href="SpinWeightedSpheroidalEigenvalue?view=all#2055539182" class="example-jump-link"></a></td><td><a href="http://reference.wolfram.com/language/ref/Automatic.html">Automatic</a></td><td><span class="TT">Possible choices include &quot;Leaver&quot; and &quot;SphericalExpansion&quot;.</span></td></tr>
+      </table>
+     </li>
+    </ul>
+   </div>
+  </div></section><section id="Examples"><h1 id="870180417" class="toggle open">Examples</h1><span class="open-all on">open all</span><span class="close-all">close all</span><div class="hideable">
+   <div id="727370051"
+       class="clipboard-input"
+       data-in="In[1]:="
+       data-in-num="1"
+       data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+       data-src="Files/SpinWeightedSpheroidalEigenvalue.en/I_1.png"
+       data-in-width="353"
+       data-in-height="19"
+       data-link="https://wolfram.com/xid/0ee3hb451llxxum0ov4wb35ccacnjz6s7hspg-mbcclx"
+       data-code="Files/SpinWeightedSpheroidalEigenvalue.en/i_1.txt"
+       ></div>
+   <div>
+    <h2 id="758632449" class="toggle open">Basic Examples<span class="special-character NonBreakingSpace">&#160;</span><span class="special-character NonBreakingSpace">&#160;</span><span class="total-examples">(5)</span></h2>
+    <div class="hideable">
+     <p><a name="44976446"></a>Evaluate numerically:</p>
+     <div id="1819133160"
+         class="clipboard-input"
+         data-in="In[1]:="
+         data-in-num="1"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSpheroidalEigenvalue.en/I_2.png"
+         data-in-width="395"
+         data-in-height="19"
+         data-link="https://wolfram.com/xid/0ee3hb451llxxum0ov4wb35ccacnjz6s7hspg-4dcmey"
+         data-code="Files/SpinWeightedSpheroidalEigenvalue.en/i_2.txt"
+         ></div>
+     <div class="clipboard-output"
+         data-out="Out[1]="
+         data-out-num="1"
+         data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSpheroidalEigenvalue.en/O_1.png"
+         data-out-width="56"
+         data-out-height="18"
+         ></div>
+     <div class="ExLine"><a name="983433147"></a><!-- --></div>
+     <p><a name="903137048"></a>Plot over a range of real values for <span class="special-character Gamma">&#947;</span>:</p>
+     <div id="1405677857"
+         class="clipboard-input"
+         data-in="In[1]:="
+         data-in-num="1"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src-swap="Files/SpinWeightedSpheroidalEigenvalue.en/I_3.png"
+         data-big="523 19"
+         data-small="523 19"
+         data-link="https://wolfram.com/xid/0ee3hb451llxxum0ov4wb35ccacnjz6s7hspg-xi6t9f"
+         data-code="Files/SpinWeightedSpheroidalEigenvalue.en/i_3.txt"
+         ></div>
+     <div class="clipboard-output"
+         data-out="Out[1]="
+         data-out-num="1"
+         data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSpheroidalEigenvalue.en/O_2.png"
+         data-out-width="361"
+         data-out-height="225"
+         ></div>
+     <div class="ExLine"><a name="1555748893"></a><!-- --></div>
+     <p><a name="1858242426"></a>Plot over a subset of the complexes:</p>
+     <div id="1467127040"
+         class="clipboard-input"
+         data-in="In[1]:="
+         data-in-num="1"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src-swap="Files/SpinWeightedSpheroidalEigenvalue.en/I_4.png"
+         data-big="507 42"
+         data-small="507 42"
+         data-link="https://wolfram.com/xid/0ee3hb451llxxum0ov4wb35ccacnjz6s7hspg-yjrwq6"
+         data-code="Files/SpinWeightedSpheroidalEigenvalue.en/i_4.txt"
+         ></div>
+     <div class="Spacer"> </div>
+    </div>
+   </div>
+   <div class="clear"><!-- --></div>
+  </div></section><div class="clipboard-output" data-out="Out[1]=" data-out-num="1" data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="Files/SpinWeightedSpheroidalEigenvalue.en/O_3.png" data-out-width="303" data-out-height="232" ></div><div class="ExLine"><a name="690284281"></a><!-- --></div><p><a name="901249673"></a>Series expansion in the spherical limit as <span class="IF"><span class="TR"><span class="special-character Gamma">&#947;</span></span></span> approaches <span class="IF">0</span>:</p><div id="1101091820" class="clipboard-input" data-in="In[1]:=" data-in-num="1" data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src-swap="Files/SpinWeightedSpheroidalEigenvalue.en/I_5.png" data-big="522 19" data-small="522 19" data-link="https://wolfram.com/xid/0ee3hb451llxxum0ov4wb35ccacnjz6s7hspg-shuh56" data-code="Files/SpinWeightedSpheroidalEigenvalue.en/i_5.txt" ></div><div class="clipboard-output" data-out="Out[1]=" data-out-num="1" data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="Files/SpinWeightedSpheroidalEigenvalue.en/O_4.png" data-out-width="318" data-out-height="32" ></div><div class="ExLine"><a name="257964649"></a><!-- --></div><p><a name="1989856097"></a>Series expansion at <a href="http://reference.wolfram.com/language/ref/Infinity.html">Infinity</a>:</p><div id="748587548" class="clipboard-input" data-in="In[1]:=" data-in-num="1" data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src-swap="Files/SpinWeightedSpheroidalEigenvalue.en/I_6.png" data-big="533 19" data-small="533 19" data-link="https://wolfram.com/xid/0ee3hb451llxxum0ov4wb35ccacnjz6s7hspg-mny34u" data-code="Files/SpinWeightedSpheroidalEigenvalue.en/i_6.txt" ></div><div class="clipboard-output" data-out="Out[1]=" data-out-num="1" data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="Files/SpinWeightedSpheroidalEigenvalue.en/O_5.png" data-out-width="145" data-out-height="28" ></div><div>
+  <h2 id="1591012116" class="toggle">Scope<span class="special-character NonBreakingSpace">&#160;</span><span class="special-character NonBreakingSpace">&#160;</span><span class="total-examples">(9)</span></h2>
+  <div class="hideable">
+   <div>
+    <h3 id="1015951685" class="toggle">Numerical Evaluation<span class="special-character NonBreakingSpace">&#160;</span><span class="special-character NonBreakingSpace">&#160;</span><span class="total-examples">(4)</span></h3>
+    <div class="hideable">
+     <p><a name="24280909"></a>Evaluate numerically:</p>
+     <div id="713736056"
+         class="clipboard-input"
+         data-in="In[1]:="
+         data-in-num="1"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSpheroidalEigenvalue.en/I_7.png"
+         data-in-width="378"
+         data-in-height="19"
+         data-link="https://wolfram.com/xid/0ee3hb451llxxum0ov4wb35ccacnjz6s7hspg-l274ju"
+         data-code="Files/SpinWeightedSpheroidalEigenvalue.en/i_7.txt"
+         ></div>
+     <div class="clipboard-output"
+         data-out="Out[1]="
+         data-out-num="1"
+         data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSpheroidalEigenvalue.en/O_6.png"
+         data-out-width="17"
+         data-out-height="18"
+         ></div>
+     <div id="138570042"
+         class="clipboard-input"
+         data-in="In[2]:="
+         data-in-num="2"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSpheroidalEigenvalue.en/I_8.png"
+         data-in-width="395"
+         data-in-height="19"
+         data-link="https://wolfram.com/xid/0ee3hb451llxxum0ov4wb35ccacnjz6s7hspg-cksbl4"
+         data-code="Files/SpinWeightedSpheroidalEigenvalue.en/i_8.txt"
+         ></div>
+     <div class="clipboard-output"
+         data-out="Out[2]="
+         data-out-num="2"
+         data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSpheroidalEigenvalue.en/O_7.png"
+         data-out-width="57"
+         data-out-height="18"
+         ></div>
+     <div class="ExLine"><a name="12642417"></a><!-- --></div>
+     <p><a name="68363783"></a>Evaluate to high precision:</p>
+     <div id="2921903"
+         class="clipboard-input"
+         data-in="In[1]:="
+         data-in-num="1"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src-swap="Files/SpinWeightedSpheroidalEigenvalue.en/I_9.png"
+         data-big="452 19"
+         data-small="452 19"
+         data-link="https://wolfram.com/xid/0ee3hb451llxxum0ov4wb35ccacnjz6s7hspg-b0wt9"
+         data-code="Files/SpinWeightedSpheroidalEigenvalue.en/i_9.txt"
+         ></div>
+     <div class="clipboard-output"
+         data-out="Out[1]="
+         data-out-num="1"
+         data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSpheroidalEigenvalue.en/O_8.png"
+         data-out-width="402"
+         data-out-height="18"
+         ></div>
+     <div id="42632527"
+         class="clipboard-input"
+         data-in="In[2]:="
+         data-in-num="2"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src-swap="Files/SpinWeightedSpheroidalEigenvalue.en/I_10.png"
+         data-big="452 19"
+         data-small="452 19"
+         data-link="https://wolfram.com/xid/0ee3hb451llxxum0ov4wb35ccacnjz6s7hspg-zn1q5"
+         data-code="Files/SpinWeightedSpheroidalEigenvalue.en/i_10.txt"
+         ></div>
+     <div class="clipboard-output"
+         data-out="Out[2]="
+         data-out-num="2"
+         data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSpheroidalEigenvalue.en/O_9.png"
+         data-out-width="399"
+         data-out-height="18"
+         ></div>
+     <p><a name="236291454"></a>The precision of the output tracks the precision of the input:</p>
+     <div id="41864472"
+         class="clipboard-input"
+         data-in="In[3]:="
+         data-in-num="3"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src-swap="Files/SpinWeightedSpheroidalEigenvalue.en/I_11.png"
+         data-big="541 19"
+         data-small="541 19"
+         data-link="https://wolfram.com/xid/0ee3hb451llxxum0ov4wb35ccacnjz6s7hspg-y7k4a"
+         data-code="Files/SpinWeightedSpheroidalEigenvalue.en/i_11.txt"
+         ></div>
+     <div class="clipboard-output"
+         data-out="Out[3]="
+         data-out-num="3"
+         data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSpheroidalEigenvalue.en/O_10.png"
+         data-out-width="142"
+         data-out-height="18"
+         ></div>
+     <div class="ExLine"><a name="181796263"></a><!-- --></div>
+     <p><a name="21859910"></a>Complex spheroidicity:</p>
+     <div id="432236411"
+         class="clipboard-input"
+         data-in="In[1]:="
+         data-in-num="1"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src-swap="Files/SpinWeightedSpheroidalEigenvalue.en/I_12.png"
+         data-big="437 19"
+         data-small="437 19"
+         data-link="https://wolfram.com/xid/0ee3hb451llxxum0ov4wb35ccacnjz6s7hspg-hfml09"
+         data-code="Files/SpinWeightedSpheroidalEigenvalue.en/i_12.txt"
+         ></div>
+     <div class="clipboard-output"
+         data-out="Out[1]="
+         data-out-num="1"
+         data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSpheroidalEigenvalue.en/O_11.png"
+         data-out-width="137"
+         data-out-height="18"
+         ></div>
+     <div class="ExLine"><a name="123583474"></a><!-- --></div>
+     <p><a name="46203928"></a>Evaluate efficiently at high precision:</p>
+     <div id="196289657"
+         class="clipboard-input"
+         data-in="In[1]:="
+         data-in-num="1"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src-swap="Files/SpinWeightedSpheroidalEigenvalue.en/I_13.png"
+         data-big="498 19"
+         data-small="498 19"
+         data-link="https://wolfram.com/xid/0ee3hb451llxxum0ov4wb35ccacnjz6s7hspg-di5gcr"
+         data-code="Files/SpinWeightedSpheroidalEigenvalue.en/i_13.txt"
+         ></div>
+     <div class="clipboard-output"
+         data-out="Out[1]="
+         data-out-num="1"
+         data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSpheroidalEigenvalue.en/O_12.png"
+         data-out-width="540"
+         data-out-height="59"
+         ></div>
+     <div id="88650161"
+         class="clipboard-input"
+         data-in="In[2]:="
+         data-in-num="2"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src-swap="Files/SpinWeightedSpheroidalEigenvalue.en/I_14.png"
+         data-big="524 19"
+         data-small="524 19"
+         data-link="https://wolfram.com/xid/0ee3hb451llxxum0ov4wb35ccacnjz6s7hspg-bq2c6r"
+         data-code="Files/SpinWeightedSpheroidalEigenvalue.en/i_14.txt"
+         ></div>
+     <div class="clipboard-output"
+         data-out="Out[2]="
+         data-out-num="2"
+         data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSpheroidalEigenvalue.en/O_13.png"
+         data-out-width="115"
+         data-out-height="18"
+         ></div>
+    </div>
+   </div>
+   <div>
+    <h3 id="995701292" class="toggle">Specific Values<span class="special-character NonBreakingSpace">&#160;</span><span class="special-character NonBreakingSpace">&#160;</span><span class="total-examples">(1)</span></h3>
+    <div class="hideable">
+     <p><a name="15516824"></a>SpinWeightedSpheroidalEigenvalue evaluates exactly if <span class="IF"><span class="special-character Gamma">&#947;</span>=0</span>:</p>
+     <div id="2078518426"
+         class="clipboard-input"
+         data-in="In[1]:="
+         data-in-num="1"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSpheroidalEigenvalue.en/I_15.png"
+         data-in-width="369"
+         data-in-height="19"
+         data-link="https://wolfram.com/xid/0ee3hb451llxxum0ov4wb35ccacnjz6s7hspg-8nr5c8"
+         data-code="Files/SpinWeightedSpheroidalEigenvalue.en/i_15.txt"
+         ></div>
+     <div class="clipboard-output"
+         data-out="Out[1]="
+         data-out-num="1"
+         data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSpheroidalEigenvalue.en/O_14.png"
+         data-out-width="128"
+         data-out-height="18"
+         ></div>
+    </div>
+   </div>
+   <div>
+    <h3 id="1882207474" class="toggle">Visualisation<span class="special-character NonBreakingSpace">&#160;</span><span class="special-character NonBreakingSpace">&#160;</span><span class="total-examples">(2)</span></h3>
+    <div class="hideable">
+     <p><a name="501626925"></a>Plot the <span class="IF"><a class="package-symbol" href="../ref/SpinWeightedSpheroidalEigenvalue.html">SpinWeightedSpheroidalEigenvalue</a></span> function for integer orders:</p>
+     <div id="245688369"
+         class="clipboard-input"
+         data-in="In[1]:="
+         data-in-num="1"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src-swap="Files/SpinWeightedSpheroidalEigenvalue.en/I_16.png"
+         data-big="514 64"
+         data-small="514 64"
+         data-link="https://wolfram.com/xid/0ee3hb451llxxum0ov4wb35ccacnjz6s7hspg-ecj8m7"
+         data-code="Files/SpinWeightedSpheroidalEigenvalue.en/i_16.txt"
+         ></div>
+     <div class="clipboard-output"
+         data-out="Out[1]="
+         data-out-num="1"
+         data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src="Files/SpinWeightedSpheroidalEigenvalue.en/O_15.png"
+         data-out-width="361"
+         data-out-height="224"
+         ></div>
+     <div class="ExLine"><a name="84282726"></a><!-- --></div>
+     <p><a name="692459091"></a>Plot the real part of <span class="IM"><img src="Files/SpinWeightedSpheroidalEigenvalue.en/3.png" height="13" width="60" alt="" /></span>:</p>
+     <div id="57390786"
+         class="clipboard-input"
+         data-in="In[1]:="
+         data-in-num="1"
+         data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw=="
+         data-src-swap="Files/SpinWeightedSpheroidalEigenvalue.en/I_17.png"
+         data-big="457 64"
+         data-small="457 64"
+         data-link="https://wolfram.com/xid/0ee3hb451llxxum0ov4wb35ccacnjz6s7hspg-8gdas"
+         data-code="Files/SpinWeightedSpheroidalEigenvalue.en/i_17.txt"
+         ></div>
+     <div class="Spacer"> </div>
+    </div>
+   </div>
+  </div>
+ </div><div class="clipboard-output" data-out="Out[1]=" data-out-num="1" data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="Files/SpinWeightedSpheroidalEigenvalue.en/O_16.png" data-out-width="241" data-out-height="233" ></div><p><a name="1538270898"></a>Plot the imaginary part of <span class="IM"><img src="Files/SpinWeightedSpheroidalEigenvalue.en/4.png" height="13" width="60" alt="" /></span>:</p><div id="1558057" class="clipboard-input" data-in="In[2]:=" data-in-num="2" data-in-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src-swap="Files/SpinWeightedSpheroidalEigenvalue.en/I_18.png" data-big="457 64" data-small="457 64" data-link="https://wolfram.com/xid/0ee3hb451llxxum0ov4wb35ccacnjz6s7hspg-7ohn" data-code="Files/SpinWeightedSpheroidalEigenvalue.en/i_18.txt" ></div><div class="clipboard-output" data-out="Out[2]=" data-out-num="2" data-out-src="data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==" data-src="Files/SpinWeightedSpheroidalEigenvalue.en/O_17.png" data-out-width="241" data-out-height="233" ></div>
+  
+		</main>
+		<div id="_footer-offset"></div>
+		<div id="_footer"></div>
+		<script src="../../common/js/jquery/2.2.4/jquery.min.js"></script><script src="../../common/js/jquery/plugins/hoverintent/1.8.0/hoverintent.min.js"></script><script src="../../common/js/clipboard/2.0/clipboard.js"></script><script type="module" src="../../common/js/clipboard/2.0/code-clipboard.js"></script><script src="../../common/framework/js/body.en.js"></script><script src="../../common/framework/js/head.en.js"></script><script src="../../language-assets/js/dropdowns.js"></script><script src="../../language-assets/js/global.js"></script><script src="../../language-assets/js/language-specific.js.en"></script><script src="../../language-assets/js/language.js"></script><script src="../../language-assets/js/temporary.js"></script><script src="../../language-assets/js/toggles.js"></script><script src="../../language-assets/js/tooltips.js"></script><script src="../../language-assets/js/workflows.js"></script>
+</body>
+</html>

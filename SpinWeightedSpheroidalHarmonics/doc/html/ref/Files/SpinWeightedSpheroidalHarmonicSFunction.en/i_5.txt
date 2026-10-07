@@ -1,0 +1,2 @@
+S21 = SpinWeightedSpheroidalHarmonicS[-2, 2, 1, 0.1, 
+   Method -> {"SphericalExpansion", "NumTerms" -> 3}];

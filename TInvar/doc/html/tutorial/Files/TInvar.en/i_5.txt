@@ -1,0 +1,3 @@
+PrintAs[RiemannCD] ^= "R";
+PrintAs[RicciCD] ^= "R";
+PrintAs[RicciScalarCD] ^= "R";

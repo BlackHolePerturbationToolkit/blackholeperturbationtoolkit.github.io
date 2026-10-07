@@ -1,0 +1,2 @@
+Series[SpinWeightedSphericalHarmonicY[2, 3, 1, 
+   x, \[Pi]], {x, \[Infinity], 3}] // Normal

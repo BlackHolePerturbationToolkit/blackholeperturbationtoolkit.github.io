@@ -1,0 +1,2 @@
+SpinWeightedSphericalHarmonicY[s, l, 
+  m, \[Theta], \[Phi]] // FunctionExpand

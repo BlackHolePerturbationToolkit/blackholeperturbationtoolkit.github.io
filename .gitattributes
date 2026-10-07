@@ -1,1 +1,4 @@
 notebooks/* linguist-vendored
+GremlinEq/doc/** linguist-generated
+SpinWeightedSpheroidalHarmonics/doc/** linguist-generated
+TInvar/doc/** linguist-generated

@@ -1,0 +1,3 @@
+PermToRiemann[
+ RPerm[g][{{0}, 0}, {4}, xAct`xTensor`IndexList[a, b, c, d], 
+  xAct`xPerm`Cycles[]]]

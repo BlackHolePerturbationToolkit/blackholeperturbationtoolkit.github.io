@@ -1,0 +1,53 @@
+.wrap-down .iconography .new { text-align: right; width: 100%; position: relative; }
+.workflow .special:first-of-type { margin: 0 0 .8rem; }
+.iconography-wrapper.wrap-down { padding: 0 5px 0 0; }
+@media all and (max-width: 600px) {
+    .iconography { height: auto; position: relative; text-align: left; top: 0; vertical-align: middle; display: table-cell; padding: 0 5px 0 12px; top: 2px; vertical-align: middle; }
+    .iconography-wrapper { text-align: left; display: table-cell; vertical-align: middle; }
+    .iconography-wrapper:not(.empty) { height: 22px; }
+    .iconography span { margin: 0; text-align: left; display: inline-block; vertical-align: baseline; }
+    .iconography-wrapper + a.related-interpreter, .iconography + a.related-interpreter { display: table-cell; position: relative; text-align: left; top: 3px; border-top: 0; border-left: 1px solid #ddd; padding: 0 0 0 5px; margin: 0 0 0 5px; vertical-align: middle; }
+    .iconography-wrapper.empty + a.related-interpreter { padding: 0 0 0 22px; margin: -13px 0 0 0; display: inline-block; }
+    .FullListing { margin: 0 0 0 12px; }
+}
+@media all and (min-width: 601px) and (max-height: 400px) {
+    .main .header .right { top: -2px; }
+    .iconography-wrapper + a.related-interpreter { margin: -4px 0 0; padding: 1px 0 0; }
+    .FullListing { margin: 1.3rem 0 0 .6rem !important; }
+}
+@media all and (max-width: 600px), (max-height: 400px) {
+    html { font-size: 13px; }
+    .main .header span.heading1, .main .header span.heading2 { font-size: 1rem; }
+    .main .header span.heading1 { text-transform: uppercase; }
+    .main .header .inner { padding: .5rem 0 .5rem; }
+    .main .header .right { display: inline-block; }
+    .main .header .search { display: none; }
+    .main .header .right a.language-home { font-size: 0; display: inline-block; position: relative; margin: 0; }
+
+    .topContentWrap + .main-title { margin: 1rem 0; }
+    .main-title { font-size: 2.3rem; }
+    .blockchain .main-heading-type { font-size: 2rem; }
+    .sticky .topContentWrap + .main-title { margin: 0; }
+
+    .dropdown a.menu { font-size: 13px; }
+    .dropdown .sub_menu { width: 100%; }
+
+    .FullListing { margin: 0 0 0 12px; }
+
+    .workflow .grid > div:nth-of-type(2) .special, .workflow .special ~ .special { margin: 2rem 0 .8rem; }
+    .main-heading-type { font-size: 1.3rem; }
+}
+@media all and (max-width: 500px), (max-height: 300px) {
+    .main-heading-wrapper h1 { font-size: 1.9rem; line-height: 1.1; }
+    .main-heading { padding: 0; }
+    .workflow-tabs li { margin: .55rem -4px 0 0; }
+
+    .iconography .new { font-size: 14px; }
+    a.related-interpreter { font-size: 11px; }
+
+    .sticky .dropdown .sub_menu, .sticky .dropdown .right-edge .sub_menu { left: 0; right: 0; margin: 0 auto; }
+    .dropdown .right-edge { position: static; }
+}
+@media all and (max-height: 300px) {
+    .FullListing { margin: .9rem 0 0 12px !important; }
+}

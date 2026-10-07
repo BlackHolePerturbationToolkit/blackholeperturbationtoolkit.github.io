@@ -1,0 +1,3 @@
+With[{s = -2, l = 2, m = 2, \[Gamma] = 1/10},
+ Precision[
+  N[SpinWeightedSpheroidalEigenvalue[s, l, m, \[Gamma]], 32]]]

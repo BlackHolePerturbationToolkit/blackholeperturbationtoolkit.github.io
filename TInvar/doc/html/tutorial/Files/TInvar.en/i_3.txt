@@ -1,0 +1,1 @@
+DefManifold[M, 4, Complement[IndexRange[a, z], {g}]]

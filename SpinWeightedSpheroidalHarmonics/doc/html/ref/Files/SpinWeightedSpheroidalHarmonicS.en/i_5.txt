@@ -1,0 +1,5 @@
+ComplexPlot3D[
+ Evaluate[
+  SpinWeightedSpheroidalHarmonicS[-2, 2, 1, 0.1, 
+    Method -> {"SphericalExpansion", "NumTerms" -> 3}][
+   z, \[Pi]]], {z, -1 - I, 1 + I}, PlotLegends -> Automatic]

@@ -1,0 +1,49 @@
+/* ICON STYLES FOR REFERENCE DOCS
+
+   developer:   suef
+   requires:    /common/framework/css/framework.en.css
+                ../css/global.css
+   ========================================================================== */
+
+/* ==========================================================================
+   ICONS
+   ========================================================================== */
+.desktop:before { content: ''; background-position: center center; background-image: url('../img/desktop-available2x.png'); background-size: 18px 16px; top: 4px; width: 20px; height: 20px; display: inline-block; }
+.mobile:before { content: ''; background-position: center center; background-image: url('../img/mobile-available2x.png'); background-size: 14px 19px; top: 3px; top: 3px; width: 20px; height: 20px; display: inline-block; }
+.cloud:before { content: ''; background-position: center center; background-image: url('../img/cloud-available2x.png'); background-size: 22px 16px; top: 3px; width: 20px; height: 20px; display: inline-block; }
+.desktop.unknown:before { background-image: url('../img/desktop-unknown2x.png'); }
+.mobile.unknown:before { background-image: url('../img/mobile-unknown2x.png'); }
+.cloud.unknown:before { background-image: url('../img/cloud-unknown2x.png'); }
+.desktop.unavailable:before { background-image: url('../img/desktop-unavailable2x.png'); }
+.mobile.unavailable:before { background-image: url('../img/mobile-unavailable2x.png'); }
+.cloud.unavailable:before { background-image: url('../img/cloud-unavailable2x.png'); }
+#search-button { background-image: url('../img/search2x.png'); background-size: 14px 14px; width: 14px; height: 14px; display: inline-block; }
+.toplink:before { content: ''; background-image: url('../img/back-to-top2x.png'); background-size: 11px 15px; width: 11px; height: 15px; display: inline-block; }
+.get-started:before { content: ''; background-image: url('../img/open-cloud2x.png'); background-size: 30px 30px; width: 30px; height: 30px; display: inline-block; }
+.new-in:before { content: ''; background-image: url('../img/v112x.png'); background-size: 30px 30px; width: 30px; height: 30px; display: inline-block; }
+.products:before { content: ''; background-image: url('../img/wolfram-language2x.png'); background-size: 30px 30px; width: 30px; height: 30px; display: inline-block; }
+.feedback:before { content: ''; background: url('../img/feedback2x.png') no-repeat center 0; background-size: 20px 32px; width: 22px; height: 16px; display: inline-block; margin: 0 3px 0 0; top: .15rem; position: relative; right: .2rem; }
+.feedback:hover:before { background-position: center -16px; }
+.NotesThumbnails:before { content: ''; background: url('../img/details-magnify2x.png'); background-size: 25px 50px; width: 25px; height: 25px; display: inline-block; bottom: 0; left: 3rem; top: 0; margin: auto; position: absolute; z-index: 11; }
+#DetailsAndOptions:hover .NotesThumbnails:before { background-position: left bottom; }
+.animation:hover .playAnimation + span:before { content: ''; background: url('../img/animation2x.png') 0 -50px; background-size: 100px; width: 50px; height: 50px; display: inline-block; position: absolute; left: 0; right: 0; top: 0; bottom: 0; margin: auto; }
+.service-credit:before { content: ''; background-image: url('../img/service-credit2x.png'); background-size: 20px 20px; width: 20px; height: 20px; display: inline-block; }
+.AwaitingReviewNote .inner:before, .ObsolescenceNote .inner:before { content: ''; width: 24px; height: 21px; background: url('../img/warning2x.png') no-repeat center center; background-size: 24px 21px; position: absolute;  top: 0; bottom: 0; margin: auto; left: 0; }
+.PlatformAvailabilityNote .inner:before, .DataPageEntityNote .inner:before { content: ''; display: inline-block; vertical-align: middle; position: absolute;  top: 0; bottom: 0; margin: auto; left: 0; }
+.PlatformAvailabilityNote .inner:before { content: ''; background: url('../img/wolfram-finance-platform2x.png') no-repeat; background-size: 26px 26px; width: 26px; height: 26px; }
+.DataPageEntityNote .inner:before { content: ''; background: url('../img/blue-arrow2x.png') no-repeat; background-size: 16px 14px; width: 16px; height: 14px; }
+.AwaitingReviewNote .inner, .ObsolescenceNote .inner { padding: 0 0 0 28px; }
+.PlatformAvailabilityNote .inner { padding: 0 0 0 30px; }
+.DataPageEntityNote .inner { padding: 0 0 0 20px; }
+.footer-links .icon:before { content: ''; height: 20px; display: inline-block; vertical-align: middle; right: 5px; position: relative; background-repeat: no-repeat; background-position: right center; }
+.fast-intro:before { width: 22px; background-size: 22px 20px; background-image: url('../img/fast-intro2x.png'); }
+.elementary-intro:before { width: 22px; background-size: 17px 20px; background-image: url('../img/elementary-intro2x.png'); }
+.quick-reference:before { width: 22px; background-size: 22px 20px; background-image: url('../img/cloud-quick-reference2x.png'); }
+.new-features:before { width: 23px; height: 20px !important; background-size: 20px 20px; background-position: left top !important; background-image: url('../img/new-features-grey2x.png'); top: -2px; right: 3px !important; }
+.language-products:before { width: 22px; background-size: 20px 20px; background-image: url('../img/language-products2x.png'); }
+
+.workflow-tabs a:before { content: ''; display: inline-block; margin: 0 3px 2px 0; position: relative; top: .2rem; right: .2rem; filter: brightness(.1) invert(.5); vertical-align: bottom; z-index: 10; }
+.workflow-tabs a.selected:before { filter: none; }
+a.desktop-tab:before { background: url('../img/green-desktop2x.png') no-repeat center 1px; background-size: 20px 18px; width: 20px; height: 22px; top: .3rem; }
+a.cloud-tab:before { background: url('../img/green-cloud2x.png') no-repeat center center; background-size: 24px 16px; width: 24px; height: 22px; top: 3px; }
+a.mobile-tab:before { background: url('../img/green-mobile2x.png') no-repeat center center; background-size: 14px 20px; width: 14px; height: 20px; }

@@ -1,0 +1,6 @@
+SetAttributes[SpinWeightedSpheroidalHarmonicSValue, {NHoldFirst}];
+SpinWeightedSpheroidalHarmonicSValue[{s_, l_, m_}, \[Gamma]_?
+    InexactNumberQ, \[Theta]_?InexactNumberQ, \[Phi]_?
+    InexactNumberQ] := 
+  SpinWeightedSpheroidalHarmonicS[s, l, 
+    m, \[Gamma]][\[Theta], \[Phi]];

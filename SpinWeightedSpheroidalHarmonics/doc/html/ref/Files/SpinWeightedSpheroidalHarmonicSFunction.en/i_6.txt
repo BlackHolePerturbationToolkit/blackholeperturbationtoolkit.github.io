@@ -1,0 +1,2 @@
+ComplexPlot3D[S21[z, \[Pi]], {z, -1 - I, 1 + I}, 
+ PlotLegends -> Automatic]

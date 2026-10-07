@@ -1,0 +1,58 @@
+/* ==========================================================================
+   Guide
+   ========================================================================== */
+#guide .GuideDelimiter, #guide .GuideDelimiterSubsection, #guide .GuideDelimiterTop, .HowToDelimiter, .GuideDelimiterSubsection { border-top: 1px solid #dfdfdf; margin: 1.2rem auto; height: 0; max-width: 1150px; }
+#guide.summary-of-new-features .GuideDelimiterSubsection { border-top: 1px solid transparent; }
+#guide .GuideDelimiterTop { margin: 1.5rem 0; }
+#guide .GuideDelimiterSubsection + section { margin: -1.3rem 0 0 0; position: relative; border: 0; }
+#guide p.intro { margin: 0; }
+#guide section { margin: 0; padding: 0; }
+#guide h1.toggle { color: #333; padding: .35rem 0 .4rem; display: inline-block; border-top: 0; }
+#guide .open-all, #guide .close-all { position: relative; left: 0; top: -3px; }
+#package h2 { color: #333; font-size: 1.08rem; }
+#guide h3, #package h3 { margin: 1.2rem 0 .4rem; }
+#guide h3, #guide h3 a, #package h3, #package h3 a { color: #d96500; font-size: 1.17rem; font-weight: 400; }
+#guide h3 a:hover, #package h3 a:hover { color: #f77700; }
+#guide .hideable h3, #package .hideable h3 { border-top: 0; margin: 1.2rem 0 0; }
+#guide img { vertical-align: middle; }
+#guide h4 { font-weight: 600; margin: 1.5rem 0 5px; color: #222; }
+
+#guide .GuideSymbolIcon { display: inline-block; width: 3rem; margin: 0 .5rem 0 0; }
+#guide .icon-text-container { white-space: nowrap; }
+
+#guide.summary-of-new-features h1.toggle { font-size: 1.35rem; }
+#guide.summary-of-new-features h1.toggle:before { top: -.5rem; }
+#guide.summary-of-new-features h1.toggle.open:before { top: -.67rem; }
+
+#guide p.inlineFunctionList { line-height: 1.6; font-size: .96rem; margin: .5rem 0; font-weight: 600; }
+#guide p.inlineFunctionList:before { display: none; }
+#guide p.inlineFunctionList:last-of-type { margin: .6rem 0 0; }
+#guide p.singleFunction { line-height: 1.4; font-size: .96rem; margin: .6rem auto; }
+#guide p.singleFunction:last-of-type { margin: .4rem auto .2rem; }
+#guide span.singleFunctionText { line-height: 1.4; font-size: .96rem; margin: .6rem auto; font-weight: 400}
+#guide #SeeAlso .inlineFunctionList { margin: .3rem 0 0 1.33rem; font-size: .91rem; }
+#guide section:not('.related-links') ul.functionList li { margin: .3rem 0 0 1.33rem; font-size: .91rem; }
+#guide #Reference h3 { display: inline-block; vertical-align: middle; margin: 0 1rem 0 0; font-size: 1rem; line-height: 1.8; }
+#guide #Reference h3 a { font-weight: 600; }
+#guide #Reference h3:hover { color: #f77700; }
+#guide #Reference h3:last-of-type { margin: 0 .2rem 0 0; }
+#guide #Reference h3 + .singleFunction { display: inline-block; margin: 0 0 0 .2rem; vertical-align: middle; }
+#guide #Reference .toggle:before { display: none; }
+#guide #Reference .toggle { font-size: 1.8rem; font-weight: 600; margin: 0; }
+#guide #Reference .hideable { padding: 0 0 1rem; margin: 0; }
+#guide #Reference .date { font-size: 1rem; color: #7b7b7b; font-weight: 400; }
+#guide #Reference .updates { display: inline-block; color: #333; }
+#guide #Reference .updates .singleFunction { display: inline-block; }
+#guide #Reference .updates .singleFunction a { color: #777; }
+#guide #Reference .updates .singleFunction a:hover { color: #f77700; }
+#guide #Reference h3 img { top: -1px; margin: 0 5px 0 0; position: relative; }
+#guide #Reference p.singleFunction { margin: .2rem auto; }
+#guide #Reference .tooltip-wrap { display: inline; }
+
+#guide .inline h3, #guide .inline p { display: inline-block; }
+
+#overviewGuide h2 a { font-size: 1rem; display: inline-block; margin: .5rem 0; font-weight: 600; }
+#overviewGuide h2 a:hover { color: #f77700; }
+  
+#guide .GuideDelimiter, #guide .GuideDelimiterSubsection, #guide .GuideDelimiterTop, #guide .HowToDelimiter, #guide .GuideDelimiterSubsection { border-top: 1px solid #dfdfdf; margin: 1.2rem auto .8rem; }
+#guide p.inlineFunctionList { margin: .4rem 0 .2rem; }

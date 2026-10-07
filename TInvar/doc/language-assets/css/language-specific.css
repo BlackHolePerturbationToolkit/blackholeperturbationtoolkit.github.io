@@ -1,0 +1,11 @@
+html[lang="ja"] .iconography .new, html[lang="zh"] .iconography .new { font-style: normal; }
+html[lang="ja"] .top { font-size: .9rem; position: relative; }
+html[lang="zh"] .top { font-size: .9rem; position: relative; }
+html[lang="ja"] .feedback { margin: .5rem 5.2rem 0; }
+html[lang="ja"] .tooltip  { width: 180px; }
+html[lang="ja"] .on.close-all, html[lang="ja"] .on.open-all, html[lang="zh"] .on.close-all, html[lang="zh"] .on.open-all { left: 3.5rem; }
+html[lang="ja"] a.related-interpreter, html[lang="zh"] a.related-interpreter, html[lang="ja"] .formatIntro, html[lang="zh"] .formatIntro, html[lang="ja"] .sub-ref-heading, html[lang="zh"] .sub-ref-heading { font-style: normal; }
+html[lang="ja"] .toggle .description, html[lang="zh"] .toggle .description { font-style: normal; }
+
+/* temporary until built with global clipboard */
+html:not([lang="en"]) .function .functionIntro .code:hover, html:not([lang="en"]) .function .functionIntro .code:focus { background: transparent; box-shadow: none; }

@@ -1,0 +1,2 @@
+Plot[SpinWeightedSphericalHarmonicY[-2, 2, 2, \[Theta], 0], {\[Theta],
+   0, \[Pi]}]

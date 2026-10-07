@@ -1,0 +1,3 @@
+With[{s = -2, l = 2, m = 2, \[Gamma] = 0.1},
+ SpinWeightedSpheroidalEigenvalue[s, l, m, \[Gamma], 
+  Method -> {"SphericalExpansion", "NumTerms" -> 6}]]

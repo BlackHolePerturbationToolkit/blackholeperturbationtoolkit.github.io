@@ -1,0 +1,23 @@
+<link rel="stylesheet" href="//www.wolframcdn.com/fonts/source-code-pro/1.0/all.css">
+<link rel="stylesheet" href="/language-assets/css/global.css">
+<link rel="stylesheet" href="/language-assets/css/iconography.css">
+<link rel="stylesheet" href="/language-assets/css/in-out.css">
+<link rel="stylesheet" href="/language-assets/css/header-language.css">
+<link rel="stylesheet" href="/language-assets/css/icons.css">
+<link rel="stylesheet" href="/language-assets/css/entities.css">
+<link rel="stylesheet" href="/language-assets/css/language.css">
+<link rel="stylesheet" href="/language-assets/css/root-guide-language.css">
+<link rel="stylesheet" href="/language-assets/css/special-styles.css">
+<link rel="stylesheet" href="/language-assets/css/language-specific.css">
+<link rel="stylesheet" href="/language-assets/css/man-page.css">
+<link rel="stylesheet" href="/language-assets/css/tables.css">
+<link rel="stylesheet" href="/language-assets/css/related-links.css">
+<link rel="stylesheet" href="/language-assets/css/footer.css">
+<link rel="stylesheet" href="/language-assets/css/guide.css">
+<link rel="stylesheet" href="/language-assets/css/technotes.css">
+<link rel="stylesheet" href="/language-assets/css/workflows.css">
+<link rel="stylesheet" href="/language-assets/css/tooltips.css">
+<link rel="stylesheet" href="/common/js/clipboard/2.0/clipboard.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto">
+<!-- remove /language-assets/js/temporary.js when WLDOCS-1728 is complete -->
+<script async="true" src="/language-assets/js/temporary.js"></script>

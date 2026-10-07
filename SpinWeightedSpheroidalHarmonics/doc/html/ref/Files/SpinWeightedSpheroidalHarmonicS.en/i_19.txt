@@ -1,0 +1,8 @@
+With[{s = -2, l = 2, \[Gamma] = 1.9}, 
+ Plot[Evaluate[
+   Table[SpinWeightedSpheroidalHarmonicS[s, l, m, \[Gamma]][\[Theta], 
+     0], {m, -l, l}]], {\[Theta], 0, \[Pi]}, Frame -> True, 
+  FrameLabel -> {"\[Theta]", "Spin-weighted spheroidal harmonic"}, 
+  PlotLegends -> 
+   Placed[Table["m = " <> ToString[m], {m, -l, l}], {0.7, 0.71}], 
+  ImageSize -> Medium]]

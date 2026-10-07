@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="zh" class="_footer-thin _header-thin-only">
+
+<head>
+
+<!-- begin framework head zh -->
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8">
+    <meta name="msapplication-config" content="/browserconfig.xml">
+    <link rel="stylesheet" href="//www.wolframcdn.com/fonts/source-sans-pro/1.0/global.css">
+    <link rel="stylesheet" href="/common/framework/css/framework.zh.css">
+    <link rel="stylesheet" href="/common/framework/css/gui.zh.css">
+    <script src="//www.wolframcdn.com/consent/cookie-consent.js"></script>
+    <script src="/common/javascript/wal/latest/walLoad.js"></script>
+    <script src="/common/framework/js/head.zh.js"></script>
+    <script src="/common/js/jquery/2.2.4/jquery.min.js"></script>
+    <script src="/common/js/jquery/plugins/hoverintent/1.8.0/hoverintent.min.js"></script>
+    <script src="/common/javascript/analytics.js"></script>
+
+<!-- end framework head zh -->
+

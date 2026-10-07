@@ -1,0 +1,1 @@
+RiemannToInv[RiemannCD[a, b, c, d]]

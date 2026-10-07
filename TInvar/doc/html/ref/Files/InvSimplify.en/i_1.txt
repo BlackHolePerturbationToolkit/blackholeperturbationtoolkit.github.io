@@ -1,0 +1,4 @@
+InvSimplify[
+ RInv[g, IndexList[a, b, c, d]][4, {0}, 1] - 
+  RInv[g, IndexList[a, b, c, d]][4, {0}, 2] + 
+  RInv[g, IndexList[a, b, c, d]][4, {0}, 3]]

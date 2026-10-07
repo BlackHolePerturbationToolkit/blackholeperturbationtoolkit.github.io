@@ -1,0 +1,3 @@
+Plot[Evaluate[
+  SpinWeightedSpheroidalHarmonicS[-2, 2, 2, 0.1][\[Theta], 
+   0]], {\[Theta], 0, \[Pi]}]

@@ -1,0 +1,3 @@
+Simplify[
+ Series[SpinWeightedSpheroidalHarmonicS[-2, 2, 
+    2, \[Gamma]][\[Theta], \[Phi]], {\[Gamma], 0, 4}]]

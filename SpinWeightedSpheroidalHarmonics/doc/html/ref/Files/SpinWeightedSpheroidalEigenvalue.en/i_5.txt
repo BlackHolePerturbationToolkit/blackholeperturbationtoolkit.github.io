@@ -1,0 +1,2 @@
+Series[SpinWeightedSpheroidalEigenvalue[s, l, m, \[Gamma]], {\[Gamma],
+   0, 1}]

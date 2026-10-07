@@ -1,0 +1,28 @@
+/* ==========================================================================
+   MANPAGE
+   ========================================================================== */
+.man-page .main-title { color: #42821f; font-weight: 600; }
+.man-page h2 { color: #42821f; border-top: 1px solid #d5d5d5; text-transform: uppercase; margin: 1.66rem 0 .67rem; padding: .33rem 0 0 0; }
+.man-page h3 { color: #42821f; margin: 1.33rem 0 1rem 1.33rem; font-weight: 600; }
+.man-page p + h3 { margin: 1.33rem 0 1rem 1.33rem; }
+.man-page p { margin: 0 0 .33rem 1.33rem; color: #808080; font-size: .93rem; line-height: 1.5; font-weight: 400; }
+.man-page p.code { text-indent: -1.33rem; padding: .33rem 0 .33rem 1.33rem; margin: .33rem 0 0 1.33rem; }
+.man-page h2 + p.code, .man-page h3 + p.code {  border-top: 0; margin: 0 0 0 1.33rem; padding: 0 0 .33rem 1.33rem; }
+.man-page code { font-family: 'Source Code Pro', 'Consolas', 'Menlo' !important; font-size: .87rem; color: #1d1d1d; white-space: pre-line; line-height: 1.2; }
+.man-page em { font-family: 'Source Code Pro'; font-weight: 400; color: #8c8c8c; font-size: 1rem; }
+.man-page pre { margin: 0 0 1.33rem 1.33rem; background: #f2f2f2; border: 1px solid #d5d5d5; padding: .67rem; }
+.man-page .with-file { border: 1px solid #d5d5d5; position: relative; margin: .67rem 0 1.33rem 1.33rem; }
+.man-page .with-file pre { background: #fff; border: 0; margin: 0; padding: .67rem; }
+.man-page .file-name { margin: 0 3.33rem 0 .67rem; padding: 0 0 0 1rem; top: -.6rem; display: inline-block; position: absolute; color: #5893cf; background: #fff url('/2013/images/file-folder-icon-small.png') no-repeat left center; }
+.man-page strong code { font-weight: 600 !important; color: #1d1d1d; }
+.man-page .modified { margin: 0 0 1rem 1.33rem; padding-top: .8rem; border-top: 1px solid #d5d5d5; color: #999999; font-style: italic; font-size: .73rem; }
+.man-page .mainOuter .mainContent { border-top: .33rem solid #b7b7b7; }
+.man-page .NotesTable { margin: 0 0 2.67rem 1.33rem; padding: 0; }
+.man-page .NotesTable table { border-collapse: collapse; }
+.man-page .lineAboveSpanColumn td, .man-page .topBorder td { border-top: 1px solid #ddd; }
+.man-page .TI { letter-spacing: default; color: #8c8c8c; font-size: 1rem; font-weight: 400; }
+.man-page .InlineCode { font-size: .87rem; }
+.man-page .NotesTable table td { padding: 0 0 .67rem 0; }
+.man-page .NotesTable table col:nth-child(1) { width: 0; }
+.man-page .NotesTable table col:nth-child(2) { width: 80%; }
+.man-page .NotesTable table td:nth-child(3) { text-align: right !important; }

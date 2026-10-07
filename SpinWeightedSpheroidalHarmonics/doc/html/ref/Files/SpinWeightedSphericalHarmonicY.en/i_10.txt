@@ -1,0 +1,1 @@
+N[SpinWeightedSphericalHarmonicY[2, 2, 1, Pi/3, Pi], 20]

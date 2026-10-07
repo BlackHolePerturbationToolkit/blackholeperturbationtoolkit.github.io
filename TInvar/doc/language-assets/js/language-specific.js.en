@@ -1,0 +1,122 @@
+/* REFERENCE SITE LANGUAGE SPECIFIC JAVASCRIPT
+
+   developer:   suef
+   requires:    jQuery
+   ========================================================================== */
+$(document).ready(function(){
+/* ==========================================================================
+   Iconography
+   ========================================================================== */
+   if($('.iconography').length) {
+       var iconography = '';
+       var media = '';
+       var other = '';
+       var types = $('.iconography').attr('data-src').split(' ');
+       var types_length = types.length;
+       var mediaType = '';
+       for(i=0; i<types_length; i++) {
+            var GET = types[i].split('=');
+            var type = GET[0];
+            var value = GET[1];
+            if(type == 's') {
+                if(value == 't') {
+                    media += '<span class="media service-credit"><span class="triangle"></span></span><span class="tooltip">This feature accesses external services<br>that require <a href="http://www.wolfram.com/service-credits">Wolfram Service Credits</a>.</span><span class="pipe"></span>';
+                }
+            }
+            if(type == 'd') {
+                if(value =='available') {
+                    mediaType = 'Available on desktop systems';
+                } else if(value == 'unavailable') {
+                    mediaType = 'Unavailable on desktop systems';
+                } else if(value == 'unknown') {
+                    mediaType = 'Unknown on desktop systems';
+                }
+                if(mediaType !== '') {
+                    media += '<span class="media desktop '+value+'"><span class="triangle"></span></span><span class="tooltip">'+mediaType+'</span>';
+                }
+            }
+            if(type == 'm') {
+                if(value =='available') {
+                    mediaType = 'Available on Wolfram mobile app';
+                } else if(value == 'unavailable') {
+                    mediaType = 'Unavailable on Wolfram mobile app';
+                } else if(value == 'unknown') {
+                    mediaType = 'Unknown on Wolfram mobile app';
+                }
+                if(mediaType !== '') {
+                    media += '<span class="media mobile '+value+'"><span class="triangle"></span></span><span class="tooltip">'+mediaType+'</span>';
+                }
+            }
+            if(type == 'c') {
+                if(value =='available') {
+                    mediaType = 'Available on the cloud';
+                } else if(value == 'unavailable') {
+                    mediaType = 'Unavailable on the cloud';
+                } else if(value == 'unknown') {
+                    mediaType = 'Unknown on the cloud';
+                }
+                if(mediaType !== '') {
+                    media += '<span class="media cloud '+value+'"><span class="triangle"></span></span><span class="tooltip">'+mediaType+'</span>';
+                }
+            }
+            if(type == 'e') {
+                if(value == 't') {
+                    other += '<span class="experimental">[<span class="text">Experimental</span>]</span>';
+                }
+            }
+            if(type == 'u') {
+                if(value == 't') {
+                    other += '<span class="updated highlight-link">Updated<span class="changes">show changes</span><span class="hide-changes">hide changes</span></span>';
+                }
+                if(value !== '' && value !== 't') {
+                    other += '<span class="updated">Updated in '+value+'</span>';
+                }
+            }
+            if(type == 'l') {
+                if(value == 't') {
+                    other += '<div class="ObjectNameTranslation"></div>';
+                }
+            }
+            if(type == 'n') {
+                if(value == 't') {
+                    other += '<span class="new">New</span>';
+                } else if ($.isNumeric(value)) {
+                    other += '<span class="new">New in '+value+'</span>';
+                }
+            }
+        }
+        if(media !== '') {
+            iconography += '<span class="media-icons">'+media+'</span>';
+        }
+        iconography += other;
+        $('.iconography').html(iconography);
+    }
+    $('#DetailsAndOptions').on('load change click', function(){
+    /* ==========================================================================
+       Details and Options close button
+       ========================================================================== */
+        $('#DetailsAndOptions .toggle').each(function(){
+            var hideableHeight = $(this).siblings('.hideable').height();
+            var sectionID = $(this).parents('section').prop('id');
+            if(hideableHeight > 600 && $('.toggle').hasClass('open')) {
+                if(!$(this).siblings('.hideable').find('.hideable-close-button').length) {
+                    $(this).siblings('.hideable').append('<a href="#'+sectionID+'" class="hideable-close-button">close</a>');
+                }
+            }
+        });
+    });
+    $('#DetailsAndOptions').on('click', '.hideable-close-button', function(){
+        $('#DetailsAndOptions').removeClass('open');
+    });
+});
+const descriptions = [
+    {"name":"Basic Examples", "text":"Summary of the most common use cases"},
+    {"name":"Scope", "text":"Survey of the scope of standard use cases"},
+    {"name":"Generalizations & Extensions", "text":"Generalized and extended use cases"},
+    {"name":"Options", "text":"Common values & functionality for each option"},
+    {"name":"Applications", "text":"Sample problems that can be solved with this function"},
+    {"name":"Properties & Relations", "text":"Properties of the function, and connections to other functions"},
+    {"name":"Possible Issues", "text":"Common pitfalls and unexpected behavior"},
+    {"name":"Neat Examples", "text":"Surprising or curious use cases"},
+    {"name":"Interactive Examples", "text":"Examples with interactive outputs"}
+];

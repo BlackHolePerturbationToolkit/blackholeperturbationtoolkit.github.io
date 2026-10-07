@@ -1,0 +1,1 @@
+N[SpinWeightedSpheroidalEigenvalue[-2, 10, 2, 5 - I]]

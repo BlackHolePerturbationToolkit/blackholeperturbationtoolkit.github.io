@@ -1,0 +1,85 @@
+/* ==========================================================================
+   TABLES
+   ========================================================================== */
+table { position: relative; width: 80%; margin: 0 0 1rem; border-collapse: collapse; font-size: .92rem; vertical-align: top; }
+ul.functionList li.NotesTable:before { display: none; }
+#DetailsAndOptions ul.functionList li.NotesTable { margin: 0; text-indent: 0; }
+.NotesTable a:empty { font-size: 0; }
+.NotesTable td { border-top: 1px solid #e7e7e7; border-bottom: 1px solid #e7e7e7; padding: .33rem .2rem; line-height: 145%; vertical-align: top; text-indent: 0; word-break: break-word; }
+.NotesTable td:first-child { padding: 0; }
+.NotesTable td:empty { width: 2px; }
+.NotesTable td:nth-child(2n) { width: 20%; }
+.NotesTable:last-child table { margin: 0 0 0; }
+#Elements .NotesTable .TT li.NotesTable { margin: 0; font-size: .92rem; }
+.format .NotesTable { margin: 0 0 0 1.07rem; }
+.format .NotesTable td:first-child { padding: 0; }
+
+.MathTable { background: #fafafa; border: 1px solid #e2e2e2; width: 100%; padding: .5rem 1.3rem .5rem 1.3rem; margin: 2.07rem 0 0; }
+.MathTable.first td { font-size: 1.07rem; }
+.MathTable table { width: 100%; table-layout: auto; margin: 0; }
+.MathTable td { border: 0; padding: .37rem .27rem; vertical-align: top; }
+.MathTable .TableHeader { font-weight: 600; }
+.MathTable .topBorder { border-top: 1px solid #e2e2e2; }
+.MathTable .topBorder td { padding: .57rem .27rem; }
+.MathTable a { font-weight: 600; }
+.MathTable .specialcharacters { font-weight: 400; }
+p.Text + .MathTable { margin: 1.6rem 0 0; }
+
+table:not([class]) .topBorder td { border: 1px solid #333; padding: .5rem 1rem; }
+.MathTable table:not([class]) .topBorder td, .NotesTable  table:not([class]) .topBorder td, .FunctionTable table:not([class]) .topBorder td { border: 0; border-top: 1px solid #e2e2e2; padding: .37rem .27rem; }
+
+.FunctionTable { max-width:620px; margin:-14px 10px 20px 6px; padding:2px; font-weight: 600; }
+.FunctionTable td span.MR {padding: 2px; font-size: .9rem;}
+.FunctionTable tr.lineAboveSpanColumn td.IconColumn { vertical-align:top; border-bottom:0px; border-top:0px; }
+.FunctionTable tr.lineAboveSpanColumn td { vertical-align:top; border-bottom:0px; border-top:1px solid #ddd; }
+.FunctionTable tr.SpanColumn td { border-bottom:0px; }
+.FunctionTable td.IconColumn { vertical-align:top; border-bottom:0px; border-top:0px; }
+.FunctionTable tr td { vertical-align:top; border-bottom:1px solid #ddd; }
+.FunctionTable tr.lineAbove td.IconColumn { vertical-align:top; border-bottom:0px; border-top:0px; }
+.FunctionTable tr.lineAbove td { vertical-align:top; border-bottom:1px solid #ddd; border-top:1px solid #ddd; }
+
+.functionTable .col-1, .functionTable .col-2 { display: table-cell; width: 50%; }
+.functionTable .col-1 { padding: 0 2rem 0 0; }
+.functionTable ul li:first-of-type { margin: 0 0 .67rem; }
+ul.functionList li.functionTable:before { display: none; }
+ul.functionList li.functionTable { margin: 0; }
+.functionTable { table-layout: fixed; display: table; width: 100%; }
+
+.nogridboxdividers { width: 100%; }
+.nogridboxdividers td { vertical-align: top; }
+
+/* temporary */
+.formatIntro .nogridboxdividers td:empty { display: none; }
+
+/* styles for medium screens (900px)
+   ========================================================================== */
+
+@media all and (max-width: 900px) {
+    table { width: 100%; }
+}
+/* styles for small screens (600px)
+   ========================================================================== */
+
+@media all and (max-width: 600px) {
+    .NotesTable table { text-indent: 0; }
+    .NotesTable td { border-top: 0; border-bottom: 0; }
+    .NotesTable td:first-child { padding: 0; }
+    .NotesTable colgroup { display: none; }
+    .NotesTable.three-col td:nth-child(2) { display: inline-block; padding-bottom: 0; }
+    .NotesTable.three-col td:nth-child(3) { font-weight: normal; display: inline-block; padding-bottom: 0; padding-right: 0; float: right; color: #333; }
+    .NotesTable.three-col td:nth-child(3) a { color: #333; font-weight: normal; }
+    .NotesTable.three-col td:nth-child(4) { border-bottom: 1px solid #ddd; display: block; width: 100%; padding-left: 1.33rem; padding-top: 0; }
+    .NotesTable.two-col td:nth-child(2) { display: block; width: 100%; padding-bottom: 0; }
+    .NotesTable.two-col td:nth-child(3) { display: block; padding-left: 1.33rem; padding-top: 0; border-bottom: 1px solid #ddd; width: 100%; }
+    .NotesTable.two-col tr:last-child td, .NotesTable.three-col tr:last-child td { border-bottom: 0; }
+
+    .MathTable { width: 100%; padding: .5rem .6rem; }
+    .MathTable table { table-layout: fixed; }
+    .MathTable colgroup { display: none; }
+    .MathTable .lineAbove td { padding: 0 0 5px; }
+    .MathTable td:nth-child(2) { float: right; }
+    .MathTable td:nth-child(3) { display: block; width: 100%; padding: 0 0 .5rem 1rem; }
+    .MathTable td { display: inline-block; padding: .5rem 0; }
+    .MathTable tr { border-top: 1px solid #cacaca; }
+    .MathTable tr:first-child { border-top: 0; }
+}

@@ -1,0 +1,15 @@
+With[{s = -2, l = 2},
+ Show[Table[
+   SphericalPlot3D[
+    Abs[Re[SpinWeightedSphericalHarmonicY[s, l, 
+       m, \[Theta], \[Phi]]]], {\[Theta], 
+     0, \[Pi]}, {\[Phi], -\[Pi], \[Pi]}, Mesh -> False, Axes -> False,
+     Boxed -> False, PlotRange -> All, PlotPoints -> 30, 
+    BoxRatios -> {1, 1, 1}, 
+    ColorFunction -> 
+     Function[{x, y, z, \[Theta], \[Phi], r}, 
+      Module[{p}, p = (Arg[Exp[I m \[Phi]]] + \[Pi])/(2 \[Pi]); 
+       If[p < 1/2, ColorData["DarkRainbow"][1 - 2 p], 
+        ColorData["DarkRainbow"][1 - 2 (1 - p)]]]], 
+    ColorFunctionScaling -> False, PlotStyle -> Opacity[0.9]], {m, -l,
+     l}]]]

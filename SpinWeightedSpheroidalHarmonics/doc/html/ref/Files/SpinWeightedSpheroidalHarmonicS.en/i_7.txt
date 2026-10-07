@@ -1,0 +1,2 @@
+Series[SpinWeightedSpheroidalHarmonicS[s, l, 
+   m, \[Gamma]][\[Theta], \[Phi]], {\[Gamma], 0, 1}]

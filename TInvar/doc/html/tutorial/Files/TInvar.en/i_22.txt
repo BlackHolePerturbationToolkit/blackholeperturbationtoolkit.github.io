@@ -1,0 +1,137 @@
+R1a = RiemannCD[-a, a, -c, -d];
+R1b = RiemannCD[-a, -b, -c, c];
+R2 = RiemannCD[-a, -b, a, -d] - RicciCD[-b, -d];
+R3 = RiemannCD[-a, -b, -c, a] + RicciCD[-b, -c];
+R4 = RiemannCD[-a, -b, b, -d] + RicciCD[-a, -d];
+R5 = RiemannCD[-a, -b, -c, b] - RicciCD[-a, -c];
+R6a = RiemannCD[-a, -b, -c, -d] RicciCD[a, b];
+R6b = RiemannCD[-a, -b, -c, -d] RicciCD[c, d];
+R7 = RiemannCD[-a, -b, -c, -d] RiemannCD[-e, a, b, c] + 
+   1/2 RiemannCD[-p, -d, -q, -r] RiemannCD[-e, p, q, r];
+R8 = RiemannCD[-a, -b, -c, -d] RiemannCD[a, c, b, h] - 
+   1/2 RiemannCD[-p, -d, -q, -r] RiemannCD[p, h, q, r];
+R9a = RiemannCD[-a, -b, -c, -d] RiemannCD[-e, a, -i, b] - 
+   1/2 RiemannCD[-p, -q, -c, -d] RiemannCD[-e, -i, p, q];
+R9b = RiemannCD[-a, -b, -c, -d] RiemannCD[e, a, b, h] + 
+   1/2 RiemannCD[-p, -q, -c, -d] RiemannCD[e, h, p, q];
+R9c = RiemannCD[-a, -b, -c, -d] RiemannCD[a, f, b, h] - 
+   1/2 RiemannCD[-p, -q, -c, -d] RiemannCD[p, q, f, h];
+R9d = RiemannCD[-a, -b, -c, -d] RiemannCD[a, f, i, b] + 
+   1/2 RiemannCD[-p, -q, -c, -d] RiemannCD[p, q, f, i];
+R10 = RicciCD[-a, -b] RiemannCD[-c, -d, -e, a] RiemannCD[b, c, d, 
+     e] + 1/2 RicciCD[-p, -q] RiemannCD[-r, -s, -t, p] RiemannCD[q, t,
+      r, s];
+R11 = RiemannCD[-a, -b, -c, -d] RiemannCD[-e, -f, a, b] RiemannCD[c, 
+     e, d, f] - 
+   1/2 RiemannCD[-p, -q, -r, -s] RiemannCD[-t, -u, p, q] RiemannCD[r, 
+     s, t, u];
+R12 = RiemannCD[-a, -b, -c, -d] RiemannCD[-e, a, -f, b] RiemannCD[c, 
+     e, d, f] - 
+   1/4 RiemannCD[-p, -q, -r, -s] RiemannCD[-t, -u , r , s] RiemannCD[
+     p, q, t, u];
+R13 = RiemannCD[-a, -b, -c, -d] RiemannCD[-e, a, -i, b] RiemannCD[c, 
+     d, e, i] - 
+   1/2 RiemannCD[-p, -q, -r, -s] RiemannCD[-t, -u, p, q] RiemannCD[r, 
+     s, t, u];
+R14 = RiemannCD[-a, -b, -c, -d] RiemannCD[-e, a, -i, c] RiemannCD[b, 
+     d, e, i] - 
+   1/4 RiemannCD[-p, -q, -r, -s] RiemannCD[r, s, t, 
+     u] RiemannCD[-t, -u, p, q];
+R15 = RiemannCD[-a, -b, -c, -d] RiemannCD[-e, a, -i, c] RiemannCD[b, 
+     i, d, e] - 
+   RiemannCD[-p, -q, -r, -s] RiemannCD[-t, p, -u, r] RiemannCD[q, t, 
+     s, u] + 
+   1/4 RiemannCD[-p, -q, -r, -s] RiemannCD[-t, -u, p, q] RiemannCD[r, 
+     s, t, u];
+R16 = CD[b][RicciCD[-a, -b]] - 1/2 CD[-a][RicciScalarCD[]];
+R17 = CD[a][RicciCD[-a, -b]] - 1/2 CD[-b][RicciScalarCD[]];
+R18 = CD[b][CD[-c][RicciCD[-a, -b]]] - 
+   1/2 CD[-c][CD[-a][RicciScalarCD[]]] - 
+   RicciCD[-p, -a] RicciCD[-c, p] + 
+   RicciCD[-p, -q] RiemannCD[-a, q, -c, p];
+R19 = CD[a][CD[-c][RicciCD[-a, -b]]] - 
+   1/2 CD[-c][CD[-b][RicciScalarCD[]]] - 
+   RicciCD[-p, -b] RicciCD[-c, p] + 
+   RicciCD[-p, -q] RiemannCD[-b, q, -c, p];
+R20 = CD[a][RiemannCD[-a, -b, -c, -d]] + CD[-d][RicciCD[-b, -c]] - 
+   CD[-c][RicciCD[-b, -d]];
+R21 = CD[b][RiemannCD[-a, -b, -c, -d]] - CD[-d][RicciCD[-a, -c]] + 
+   CD[-c][RicciCD[-a, -d]];
+R22 = CD[c][RiemannCD[-a, -b, -c, -d]] + CD[-b][RicciCD[-a, -d]] - 
+   CD[-a][RicciCD[-b, -d]];
+R23 = CD[d][RiemannCD[-a, -b, -c, -d]] - CD[-b][RicciCD[-a, -c]] + 
+   CD[-a][RicciCD[-b, -c]];
+R24 = CD[b][CD[a][CD[-b][CD[-a][RicciScalarCD[]]]]] - 
+   1/2 CD[-p][RicciScalarCD[]] CD[p][RicciScalarCD[]] - 
+   CD[q][CD[-q][CD[p][CD[-p][RicciScalarCD[]]]]] - 
+   CD[-q][CD[-p][RicciScalarCD[]]] RicciCD[p, q];
+R25 = CD[b][CD[a][CD[c][CD[-c][RicciCD[-a, -b]]]]] - 
+   1/2 CD[-p][RicciScalarCD[]] CD[p][RicciScalarCD[]] + 
+   3 CD[-r][RicciCD[-p, -q]] CD[r][RicciCD[p, q]] - 
+   4 CD[-r][RicciCD[-p, -q]] CD[q][RicciCD[p, r]] - 
+   1/2 CD[q][CD[-q][CD[p][CD[-p][RicciScalarCD[]]]]] - 
+   2 CD[-q][CD[-p][RicciScalarCD[]]] RicciCD[p, q] + 
+   CD[r][CD[-r][RicciCD[-p, -q]]] RicciCD[p, q] - 
+   2 RicciCD[-p, -q] RicciCD[-r, p] RicciCD[q, r] + 
+   CD[-s][CD[-r][2 RicciCD[-p, -q]]] RiemannCD[p, r, q, s] + 
+   2 RicciCD[-p, -q] RicciCD[-r, -s] RiemannCD[p, r, q, s];
+R26 = CD[e][CD[-e][RiemannCD[-a, -b, -c, -d]]] - 
+   CD[-b][CD[-d][RicciCD[-a, -c]]] + CD[-b][CD[-c][RicciCD[-a, -d]]] +
+    CD[-a][CD[-d][RicciCD[-b, -c]]] - 
+   CD[-a][CD[-c][RicciCD[-b, -d]]] + 
+   RiemannCD[-p, -q, -c, -d] RiemannCD[-a, p, -b, q] - 
+   RicciCD[-p, -b] RiemannCD[-a, p, -c, -d] + 
+   RiemannCD[-p, -b, -q, -d] RiemannCD[-a, p, -c, q] - 
+   RiemannCD[-p, -b, -q, -c] RiemannCD[-a, p, -d, q] + 
+   RicciCD[-p, -a] RiemannCD[-b, p, -c, -d] - 
+   RiemannCD[-p, -a, -q, -d] RiemannCD[-b, p, -c, q] + 
+   RiemannCD[-p, -a, -q, -c] RiemannCD[-b, p, -d, q] + 
+   RiemannCD[-p, -a, -q, -b] RiemannCD[-c, -d, p, q];
+R27 = CD[a][CD[-e][RiemannCD[-a, -b, -c, -d]]] + 
+   CD[-e][CD[-d][RicciCD[-b, -c]]] - CD[-e][CD[-c][RicciCD[-b, -d]]] +
+    RicciCD[-p, -e] RiemannCD[-b, p, -c, -d] - 
+   RiemannCD[-p, -q, -c, -d] RiemannCD[-b, p, -e, q] + 
+   RiemannCD[-p, -b, -q, -d] RiemannCD[-c, q, -e, p] - 
+   RiemannCD[-p, -b, -q, -c] RiemannCD[-d, q, -e, p];
+R28 = CD[b][CD[-e][RiemannCD[-a, -b, -c, -d]]] - 
+   CD[-e][CD[-d][RicciCD[-a, -c]]] + CD[-e][CD[-c][RicciCD[-a, -d]]] -
+    RicciCD[-p, -e] RiemannCD[-a, p, -c, -d] + 
+   RiemannCD[-p, -q, -c, -d] RiemannCD[-a, p, -e, q] - 
+   RiemannCD[-p, -a, -q, -d] RiemannCD[-c, q, -e, p] + 
+   RiemannCD[-p, -a, -q, -c] RiemannCD[-d, q, -e, p];
+R29 = CD[c][CD[-e][RiemannCD[-a, -b, -c, -d]]] + 
+   CD[-e][CD[-b][RicciCD[-a, -d]]] - CD[-e][CD[-a][RicciCD[-b, -d]]] +
+    RicciCD[-p, -e] RiemannCD[-a, -b, -d, p] + 
+   RiemannCD[-p, -b, -q, -d] RiemannCD[-a, p, -e, q] - 
+   RiemannCD[-p, -a, -q, -d] RiemannCD[-b, p, -e, q] - 
+   RiemannCD[-p, -q, -a, -b] RiemannCD[-d, p, -e, q];
+R30 = CD[d][CD[-e][RiemannCD[-a, -b, -c, -d]]] - 
+   CD[-e][CD[-b][RicciCD[-a, -c]]] + CD[-e][CD[-a][RicciCD[-b, -c]]] -
+    RicciCD[-p, -e] RiemannCD[-a, -b, -c, p] - 
+   RiemannCD[-p, -b, -q, -c] RiemannCD[-a, p, -e, q] + 
+   RiemannCD[-p, -a, -q, -c] RiemannCD[-b, p, -e, q] + 
+   RiemannCD[-p, -q, -a, -b] RiemannCD[-c, p, -e, q];
+R31a = CD[-e][RiemannCD[-a, -b, -c, -d]] RicciCD[a, b];
+R31b = CD[-e][RiemannCD[-a, -b, -c, -d]] RicciCD[c, d];
+R32a = CD[-e][RiemannCD[-a, -b, -c, -d]] CD[-f][RicciCD[a, b]];
+R32b = CD[-e][RiemannCD[-a, -b, -c, -d]] CD[-f][RicciCD[c, d]];
+R33a = CD[-c][RicciCD[-a, -b]] RiemannCD[a, b, d, e];
+R33b = CD[-c][RicciCD[-a, -b]] RiemannCD[d, e, a, b];
+R34 = CD[-e][RiemannCD[a, f, b, c]] RiemannCD[-a, -b, -c, -d] + 
+   1/2 CD[-e][RiemannCD[p, f, q, r]] RiemannCD[-p, -d, -q, -r];
+R35 = CD[-e][RiemannCD[-a, -b, -c, -d]] CD[-j][
+     RiemannCD[a, i, b, c]] + 
+   1/2 CD[-e][RiemannCD[-p, -d, -q, -r]] CD[-j][RiemannCD[p, i, q, r]];
+R36 = CD[-i][RiemannCD[a, c, b, h]] RiemannCD[-a, -b, -c, -d] - 
+   1/2 CD[-i][RiemannCD[p, h, q, r]] RiemannCD[-p, -d, -q, -r];
+R37 = CD[-j][RiemannCD[-a, -b, -c, -d]] CD[-i][
+     RiemannCD[a, c, b, h]] - 
+   1/2 CD[-j][RiemannCD[-p, -d, -q, -r]] CD[-i][RiemannCD[p, h, q, r]];
+R38 = CD[-i][RiemannCD[-a, -b, -c, -d]] CD[i][
+     RiemannCD[c, e, d, f]] - 
+   1/2 CD[-r][RiemannCD[-p, -q, -a, -b]] CD[r][
+     RiemannCD[p, q, e, f]];
+R39 = CD[-j][RiemannCD[a, d, b, c]] CD[-d][CD[-c][RicciCD[-a, -b]]] - 
+   CD[-j][RiemannCD[p, q, r, s]] CD[-s][CD[-q][RicciCD[-p, -r]]];
+R40 = CD[-d][CD[-c][RicciCD[-a, -b]]] RiemannCD[a, d, b, c] - 
+   CD[-s][CD[-r][RicciCD[-p, -q]]] RiemannCD[p, r, q, s];

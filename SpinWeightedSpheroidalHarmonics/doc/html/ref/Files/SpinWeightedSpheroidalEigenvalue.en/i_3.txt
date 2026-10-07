@@ -1,0 +1,2 @@
+Plot[SpinWeightedSpheroidalEigenvalue[-2, 2, 
+  1, \[Gamma]], {\[Gamma], -6, 6}]

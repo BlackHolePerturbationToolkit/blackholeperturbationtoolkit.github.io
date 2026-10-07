@@ -1,0 +1,4 @@
+Timing[Table[
+   SpinWeightedSpheroidalHarmonicS[2, 5, 3, 0.1][\[Theta], 
+    3 \[Pi]/4], {\[Theta], 0, \[Pi], \[Pi]/100}];
+ ]

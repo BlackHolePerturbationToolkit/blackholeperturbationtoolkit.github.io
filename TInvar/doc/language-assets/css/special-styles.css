@@ -1,0 +1,790 @@
+/* STYLES FOR REFERENCE DOCS SPECIAL STYLES
+
+   developer:   suef
+   requires:    /common/framework/css/framework.en.css
+                ../css/global.css
+   ========================================================================== */
+.special-character.AliasDelimiter,
+.special-character.AliasIndicator,
+.special-character.Alpha,
+.special-character.AltKey,
+.special-character.And,
+.special-character.Application,
+.special-character.AquariusSign,
+.special-character.AriesSign,
+.special-character.AutoPlaceholder,
+.special-character.Backslash,
+.special-character.BeamedEighthNote,
+.special-character.BeamedSixteenthNote,
+.special-character.Beta,
+.special-character.BlackBishop,
+.special-character.BlackKing,
+.special-character.BlackKnight,
+.special-character.BlackPawn,
+.special-character.BlackQueen,
+.special-character.BlackRook,
+.special-character.CancerSign,
+.special-character.Cap,
+.special-character.CapitalDifferentialD,
+.special-character.CapitalDigamma,
+.special-character.CapitalKoppa,
+.special-character.CapitalSampi,
+.special-character.CapitalStigma,
+.special-character.CapricornSign,
+.special-character.Cent,
+.special-character.CenterDot,
+.special-character.CenterEllipsis,
+.special-character.Checkmark,
+.special-character.Chi,
+.special-character.CircleDot,
+.special-character.CircleMinus,
+.special-character.CirclePlus,
+.special-character.CircleTimes,
+.special-character.ClockwiseContourIntegral,
+.special-character.CommandKey,
+.special-character.Conditioned,
+.special-character.Conjugate,
+.special-character.ConjugateTranspose,
+.special-character.ConstantC,
+.special-character.Continuation,
+.special-character.ContourIntegral,
+.special-character.ControlKey,
+.special-character.CounterClockwiseContourIntegral,
+.special-character.Cross,
+.special-character.Cup,
+.special-character.CurlyCapitalUpsilon,
+.special-character.CurlyEpsilon,
+.special-character.CurlyKappa,
+.special-character.CurlyPhi,
+.special-character.CurlyPi,
+.special-character.CurlyRho,
+.special-character.CurlyTheta,
+.special-character.DeleteKey,
+.special-character.DifferenceDelta,
+.special-character.DifferentialD,
+.special-character.Digamma,
+.special-character.DirectedEdge,
+.special-character.DiscreteRatio,
+.special-character.DiscreteShift,
+.special-character.DiscretionaryPageBreakAbove,
+.special-character.DiscretionaryPageBreakBelow,
+.special-character.Distributed,
+.special-character.Divide,
+.special-character.DotEqual,
+.special-character.DotlessJ,
+.special-character.DottedSquare,
+.special-character.DoubleDagger,
+.special-character.DoubledGamma,
+.special-character.DoubledPi,
+.special-character.DoubleDownArrow,
+.special-character.DoubledPi,
+.special-character.DoubleLeftArrow,
+.special-character.DoubleLeftRightArrow,
+.special-character.DoubleLeftTee,
+.special-character.DoubleLongLeftArrow,
+.special-character.DoubleLongLeftRightArrow,
+.special-character.DoubleLongRightArrow,
+.special-character.DoubleRightArrow,
+.special-character.DoubleStruckA,
+.special-character.DoubleStruckB,
+.special-character.DoubleStruckC,
+.special-character.DoubleStruckA,
+.special-character.DoubleStruckB,
+.special-character.DoubleStruckC,
+.special-character.DoubleStruckCapitalA,
+.special-character.DoubleStruckCapitalB,
+.special-character.DoubleStruckCapitalC,
+.special-character.DoubleStruckCapitalD,
+.special-character.DoubleStruckCapitalE,
+.special-character.DoubleStruckCapitalF,
+.special-character.DoubleStruckCapitalG,
+.special-character.DoubleStruckCapitalH,
+.special-character.DoubleStruckCapitalI,
+.special-character.DoubleStruckCapitalJ,
+.special-character.DoubleStruckCapitalK,
+.special-character.DoubleStruckCapitalL,
+.special-character.DoubleStruckCapitalM,
+.special-character.DoubleStruckCapitalN,
+.special-character.DoubleStruckCapitalO,
+.special-character.DoubleStruckCapitalP,
+.special-character.DoubleStruckCapitalQ,
+.special-character.DoubleStruckCapitalR,
+.special-character.DoubleStruckCapitalS,
+.special-character.DoubleStruckCapitalT,
+.special-character.DoubleStruckCapitalU,
+.special-character.DoubleStruckCapitalV,
+.special-character.DoubleStruckCapitalW,
+.special-character.DoubleStruckCapitalX,
+.special-character.DoubleStruckCapitalY,
+.special-character.DoubleStruckCapitalZ,
+.special-character.DoubleStruckD,
+.special-character.DoubleStruckE,
+.special-character.DoubleStruckEight,
+.special-character.DoubleStruckF,
+.special-character.DoubleStruckFive,
+.special-character.DoubleStruckFour,
+.special-character.DoubleStruckG,
+.special-character.DoubleStruckH,
+.special-character.DoubleStruckI,
+.special-character.DoubleStruckJ,
+.special-character.DoubleStruckK,
+.special-character.DoubleStruckL,
+.special-character.DoubleStruckM,
+.special-character.DoubleStruckN,
+.special-character.DoubleStruckNine,
+.special-character.DoubleStruckO,
+.special-character.DoubleStruckOne,
+.special-character.DoubleStruckP,
+.special-character.DoubleStruckQ,
+.special-character.DoubleStruckR,
+.special-character.DoubleStruckS,
+.special-character.DoubleStruckSeven,
+.special-character.DoubleStruckSix,
+.special-character.DoubleStruckT,
+.special-character.DoubleStruckThree,
+.special-character.DoubleStruckTwo,
+.special-character.DoubleStruckU,
+.special-character.DoubleStruckV,
+.special-character.DoubleStruckW,
+.special-character.DoubleStruckX,
+.special-character.DoubleStruckY,
+.special-character.DoubleStruckZ,
+.special-character.DoubleStruckZero,
+.special-character.DoubleUpArrow,
+.special-character.DoubleUpDownArrow,
+.special-character.DownArrowBar,
+.special-character.DownArrow,
+.special-character.DownBreve,
+.special-character.DownLeftRightVector,
+.special-character.DownLeftTeeVector,
+.special-character.DownLeftVector,
+.special-character.DownLeftVectorBar,
+.special-character.DownPointer,
+.special-character.DownRightTeeVector,
+.special-character.DownRightVector,
+.special-character.DownRightVectorBar,
+.special-character.DownTeeArrow,
+.special-character.Earth,
+.special-character.EighthNote,
+.special-character.Element,
+.special-character.Ellipsis,
+.special-character.EmptyRectangle,
+.special-character.EmptySet,
+.special-character.EnterKey,
+.special-character.EntityEnd,
+.special-character.EntityStart,
+.special-character.Epsilon,
+.special-character.Equal,
+.special-character.Equilibrium,
+.special-character.Equivalent,
+.special-character.ErrorIndicator,
+.special-character.EscapeKey,
+.special-character.Eta,
+.special-character.Euro,
+.special-character.ExponentialE,
+.special-character.FilledSmallCircle,
+.special-character.FinalSigma,
+.special-character.FirstPage,
+.special-character.FormalA,
+.special-character.FormalAlpha,
+.special-character.FormalB,
+.special-character.FormalBeta,
+.special-character.FormalC,
+.special-character.FormalCapitalA,
+.special-character.FormalCapitalAlpha,
+.special-character.FormalCapitalB,
+.special-character.FormalCapitalBeta,
+.special-character.FormalCapitalC,
+.special-character.FormalCapitalChi,
+.special-character.FormalCapitalD,
+.special-character.FormalCapitalDelta,
+.special-character.FormalCapitalDigamma,
+.special-character.FormalCapitalE,
+.special-character.FormalCapitalEpsilon,
+.special-character.FormalCapitalEta,
+.special-character.FormalCapitalF,
+.special-character.FormalCapitalG,
+.special-character.FormalCapitalGamma,
+.special-character.FormalCapitalH,
+.special-character.FormalCapitalI,
+.special-character.FormalCapitalIota,
+.special-character.FormalCapitalJ,
+.special-character.FormalCapitalK,
+.special-character.FormalCapitalKappa,
+.special-character.FormalCapitalKoppa,
+.special-character.FormalCapitalL,
+.special-character.FormalCapitalLambda,
+.special-character.FormalCapitalM,
+.special-character.FormalCapitalMu,
+.special-character.FormalCapitalN,
+.special-character.FormalCapitalNu,
+.special-character.FormalCapitalO,
+.special-character.FormalCapitalOmega,
+.special-character.FormalCapitalOmicron,
+.special-character.FormalCapitalP,
+.special-character.FormalCapitalPhi,
+.special-character.FormalCapitalPi,
+.special-character.FormalCapitalPsi,
+.special-character.FormalCapitalQ,
+.special-character.FormalCapitalR,
+.special-character.FormalCapitalRho,
+.special-character.FormalCapitalS,
+.special-character.FormalCapitalSampi,
+.special-character.FormalCapitalSigma,
+.special-character.FormalCapitalStigma,
+.special-character.FormalCapitalT,
+.special-character.FormalCapitalTau,
+.special-character.FormalCapitalTheta,
+.special-character.FormalCapitalU,
+.special-character.FormalCapitalUpsilon,
+.special-character.FormalCapitalV,
+.special-character.FormalCapitalW,
+.special-character.FormalCapitalX,
+.special-character.FormalCapitalXi,
+.special-character.FormalCapitalY,
+.special-character.FormalCapitalZ,
+.special-character.FormalCapitalZeta,
+.special-character.FormalChi,
+.special-character.FormalCurlyCapitalUpsilon,
+.special-character.FormalCurlyEpsilon,
+.special-character.FormalCurlyKappa,
+.special-character.FormalCurlyPhi,
+.special-character.FormalCurlyPi,
+.special-character.FormalCurlyRho,
+.special-character.FormalCurlyTheta,
+.special-character.FormalD,
+.special-character.FormalDelta,
+.special-character.FormalDigamma,
+.special-character.FormalE,
+.special-character.FormalEpsilon,
+.special-character.FormalEta,
+.special-character.FormalF,
+.special-character.FormalFinalSigma,
+.special-character.FormalG,
+.special-character.FormalGamma,
+.special-character.FormalH,
+.special-character.FormalI,
+.special-character.FormalIota,
+.special-character.FormalJ,
+.special-character.FormalK,
+.special-character.FormalKappa,
+.special-character.FormalKoppa,
+.special-character.FormalL,
+.special-character.FormalLambda,
+.special-character.FormalM,
+.special-character.FormalMu,
+.special-character.FormalN,
+.special-character.FormalNu,
+.special-character.FormalO,
+.special-character.FormalOmega,
+.special-character.FormalOmicron,
+.special-character.FormalP,
+.special-character.FormalPhi,
+.special-character.FormalPi,
+.special-character.FormalPsi,
+.special-character.FormalQ,
+.special-character.FormalR,
+.special-character.FormalRho,
+.special-character.FormalS,
+.special-character.FormalSampi,
+.special-character.FormalSigma,
+.special-character.FormalStigma,
+.special-character.FormalT,
+.special-character.FormalTau,
+.special-character.FormalTheta,
+.special-character.FormalU,
+.special-character.FormalUpsilon,
+.special-character.FormalV,
+.special-character.FormalW,
+.special-character.FormalX,
+.special-character.FormalXi,
+.special-character.FormalY,
+.special-character.FormalZ,
+.special-character.FormalZeta,
+.special-character.FreakedSmiley,
+.special-character.Function,
+.special-character.GeminiSign,
+.special-character.GothicA,
+.special-character.GothicB,
+.special-character.GothicC,
+.special-character.GothicCapitalA,
+.special-character.GothicCapitalB,
+.special-character.GothicCapitalC,
+.special-character.GothicCapitalD,
+.special-character.GothicCapitalE,
+.special-character.GothicCapitalF,
+.special-character.GothicCapitalG,
+.special-character.GothicCapitalH,
+.special-character.GothicCapitalI,
+.special-character.GothicCapitalJ,
+.special-character.GothicCapitalK,
+.special-character.GothicCapitalL,
+.special-character.GothicCapitalM,
+.special-character.GothicCapitalN,
+.special-character.GothicCapitalO,
+.special-character.GothicCapitalP,
+.special-character.GothicCapitalQ,
+.special-character.GothicCapitalR,
+.special-character.GothicCapitalS,
+.special-character.GothicCapitalT,
+.special-character.GothicCapitalU,
+.special-character.GothicCapitalV,
+.special-character.GothicCapitalW,
+.special-character.GothicCapitalX,
+.special-character.GothicCapitalY,
+.special-character.GothicCapitalZ,
+.special-character.GothicD,
+.special-character.GothicE,
+.special-character.GothicEight,
+.special-character.GothicF,
+.special-character.GothicFive,
+.special-character.GothicFour,
+.special-character.GothicG,
+.special-character.GothicH,
+.special-character.GothicI,
+.special-character.GothicJ,
+.special-character.GothicK,
+.special-character.GothicL,
+.special-character.GothicM,
+.special-character.GothicN,
+.special-character.GothicNine,
+.special-character.GothicO,
+.special-character.GothicOne,
+.special-character.GothicP,
+.special-character.GothicQ,
+.special-character.GothicR,
+.special-character.GothicS,
+.special-character.GothicSeven,
+.special-character.GothicSix,
+.special-character.GothicT,
+.special-character.GothicThree,
+.special-character.GothicTwo,
+.special-character.GothicU,
+.special-character.GothicV,
+.special-character.GothicW,
+.special-character.GothicX,
+.special-character.GothicY,
+.special-character.GothicZ,
+.special-character.GothicZero,
+.special-character.GrayCircle,
+.special-character.GraySquare,
+.special-character.Hacek,
+.special-character.HermitianConjugate,
+.special-character.ImaginaryI,
+.special-character.ImaginaryJ,
+.special-character.Implies,
+.special-character.IndentingNewLine,
+.special-character.Iota,
+.special-character.Kappa,
+.special-character.KernelIcon,
+.special-character.Koppa,
+.special-character.Lambda,
+.special-character.LastPage,
+.special-character.LeftArrow,
+.special-character.LeftArrowRightArrow,
+.special-character.LeftAssociation,
+.special-character.LeftBracketingBar,
+.special-character.LeftDoubleBracket,
+.special-character.LeftDoubleBracketingBar,
+.special-character.LeftDownTeeVector,
+.special-character.LeftDownVectorBar,
+.special-character.LeftModified,
+.special-character.LeftRightArrow,
+.special-character.LeftRightVector,
+.special-character.LeftSkeleton,
+.special-character.LeftTeeArrow,
+.special-character.LeftTeeVector,
+.special-character.LeftTriangleBar,
+.special-character.LeftTriangleEqual,
+.special-character.LeftUpDownVector,
+.special-character.LeftUpTeeVector,
+.special-character.LeftUpVectorBar,
+.special-character.LeftVector,
+.special-character.LeftVectorBar,
+.special-character.LeoSign,
+.special-character.LightBulb,
+.special-character.Limit,
+.special-character.LineSeparator,
+.special-character.LibraSign,
+.special-character.LongDash,
+.special-character.LongEqual,
+.special-character.LongLeftArrow,
+.special-character.LongLeftRightArrow,
+.special-character.LongRightArrow,
+.special-character.LowerLeftArrow,
+.special-character.LowerRightArrow,
+.special-character.Mars,
+.special-character.MathematicaIcon,
+.special-character.MaxLimit,
+.special-character.MinLimit,
+.special-character.Mu,
+.special-character.Natural,
+.special-character.Neptune,
+.special-character.NestedGreaterGreater,
+.special-character.NestedLessLess,
+.special-character.NeutralSmiley,
+.special-character.NewLine,
+.special-character.NotElement,
+.special-character.NotEqual,
+.special-character.NotEqualTilde,
+.special-character.NotGreaterGreater,
+.special-character.NotGreaterSlantEqual,
+.special-character.NotHumpDownHump,
+.special-character.NotHumpEqual,
+.special-character.NotLeftTriangleBar,
+.special-character.NotLessEqual,
+.special-character.NotLessLess,
+.special-character.NotLessSlantEqual,
+.special-character.NotNestedGreaterGreater,
+.special-character.NotNestedLessLess,
+.special-character.NotPrecedesEqual,
+.special-character.NotPrecedesTilde,
+.special-character.NotRightTriangleBar,
+.special-character.NotSquareSubset,
+.special-character.NotSquareSuperset,
+.special-character.NotSucceedsEqual,
+.special-character.NotSucceedsTilde,
+.special-character.NotVerticalBar,
+.special-character.NumberSign,
+.special-character.Omega,
+.special-character.Omicron,
+.special-character.OptionKey,
+.special-character.OverBracket,
+.special-character.ParagraphSeparator,
+.special-character.PermutationProduct,
+.special-character.Phi,
+.special-character.Pi,
+.special-character.Piecewise,
+.special-character.PiscesSign,
+.special-character.Placeholder,
+.special-character.Proportional,
+.special-character.Psi,
+.special-character.RawEscape,
+.special-character.RawReturn,
+.special-character.ReturnKey,
+.special-character.ReverseElement,
+.special-character.ReverseEquilibrium,
+.special-character.ReverseUpEquilibrium,
+.special-character.Rho,
+.special-character.RightAngle,
+.special-character.RightArrow,
+.special-character.RightArrowBar,
+.special-character.RightArrowLeftArrow,
+.special-character.RightAssociation,
+.special-character.RightBracketingBar,
+.special-character.RightCeiling,
+.special-character.RightDoubleBracket,
+.special-character.RightDoubleBracketingBar,
+.special-character.RightDownTeeVector,
+.special-character.RightDownVector,
+.special-character.RightDownVectorBar,
+.special-character.RightModified,
+.special-character.RightSkeleton,
+.special-character.RightTeeArrow,
+.special-character.RightTeeVector,
+.special-character.RightTriangleBar,
+.special-character.RightUpDownVector,
+.special-character.RightUpTeeVector,
+.special-character.RightUpVector,
+.special-character.RightUpVectorBar,
+.special-character.RightVector,
+.special-character.RightVectorBar,
+.special-character.RoundImplies,
+.special-character.RoundSpaceIndicator,
+.special-character.Rule,
+.special-character.RuleDelayed,
+.special-character.SagittariusSign,
+.special-character.Sampi,
+.special-character.ScorpioSign,
+.special-character.ScriptA,
+.special-character.ScriptB,
+.special-character.ScriptC,
+.special-character.ScriptCapitalA,
+.special-character.ScriptCapitalB,
+.special-character.ScriptCapitalC,
+.special-character.ScriptCapitalD,
+.special-character.ScriptCapitalE,
+.special-character.ScriptCapitalF,
+.special-character.ScriptCapitalG,
+.special-character.ScriptCapitalH,
+.special-character.ScriptCapitalI,
+.special-character.ScriptCapitalJ,
+.special-character.ScriptCapitalK,
+.special-character.ScriptCapitalL,
+.special-character.ScriptCapitalM,
+.special-character.ScriptCapitalN,
+.special-character.ScriptCapitalO,
+.special-character.ScriptCapitalP,
+.special-character.ScriptCapitalQ,
+.special-character.ScriptCapitalR,
+.special-character.ScriptCapitalS,
+.special-character.ScriptCapitalT,
+.special-character.ScriptCapitalU,
+.special-character.ScriptCapitalV,
+.special-character.ScriptCapitalW,
+.special-character.ScriptCapitalX,
+.special-character.ScriptCapitalY,
+.special-character.ScriptCapitalZ,
+.special-character.ScriptD,
+.special-character.ScriptDotlessI,
+.special-character.ScriptDotlessJ,
+.special-character.ScriptE,
+.special-character.ScriptEight,
+.special-character.ScriptF,
+.special-character.ScriptFive,
+.special-character.ScriptFour,
+.special-character.ScriptG,
+.special-character.ScriptH,
+.special-character.ScriptI,
+.special-character.ScriptJ,
+.special-character.ScriptK,
+.special-character.ScriptL,
+.special-character.ScriptM,
+.special-character.ScriptN,
+.special-character.ScriptNine,
+.special-character.ScriptO,
+.special-character.ScriptOne,
+.special-character.ScriptP,
+.special-character.ScriptQ,
+.special-character.ScriptR,
+.special-character.ScriptS,
+.special-character.ScriptSeven,
+.special-character.ScriptSix,
+.special-character.ScriptT,
+.special-character.ScriptThree,
+.special-character.ScriptTwo,
+.special-character.ScriptU,
+.special-character.ScriptV,
+.special-character.ScriptW,
+.special-character.ScriptX,
+.special-character.ScriptY,
+.special-character.ScriptZ,
+.special-character.ScriptZero,
+.special-character.SelectionPlaceholder,
+.special-character.ShiftKey,
+.special-character.ShortLeftArrow,
+.special-character.ShortRightArrow,
+.special-character.Sigma,
+.special-character.SpaceKey,
+.special-character.SpanFromAbove,
+.special-character.SpanFromBoth,
+.special-character.SpanFromLeft,
+.special-character.SphericalAngle,
+.special-character.Sqrt,
+.special-character.Square,
+.special-character.Sterling,
+.special-character.Stigma,
+.special-character.SuchThat,
+.special-character.Sum,
+.special-character.SystemEnterKey,
+.special-character.SystemsModelDelay,
+.special-character.SZ,
+.special-character.TabKey,
+.special-character.Tau,
+.special-character.TaurusSign,
+.special-character.TensorProduct,
+.special-character.TensorWedge,
+.special-character.Theta,
+.special-character.Thorn,
+.special-character.Transpose,
+.special-character.TripleDot,
+.special-character.TwoWayRule,
+.special-character.UnderBracket,
+.special-character.UndirectedEdge,
+.special-character.UnionPlus,
+.special-character.UpArrowBar,
+.special-character.UpArrowDownArrow,
+.special-character.UpEquilibrium,
+.special-character.UpperLeftArrow,
+.special-character.UpperRightArrow,
+.special-character.UpPointer,
+.special-character.Upsilon,
+.special-character.UpTeeArrow,
+.special-character.Uranus,
+.special-character.VectorGreater,
+.special-character.VectorGreaterEqual,
+.special-character.VectorLess,
+.special-character.VectorLessEqual,
+.special-character.VerticalBar,
+.special-character.VerticalSeparator,
+.special-character.VirgoSign,
+.special-character.WarningSign,
+.special-character.WatchIcon,
+.special-character.WhiteBishop,
+.special-character.WhiteKing,
+.special-character.WhiteKnight,
+.special-character.WhitePawn,
+.special-character.WhiteQueen,
+.special-character.WhiteRook,
+.special-character.Wolf,
+.special-character.WolframLanguageLogo,
+.special-character.WolframLanguageLogoCircle,
+.special-character.Xi,
+.special-character.Xnor,
+.special-character.Yen,
+.special-character.Zeta
+{ font-family:"Mathematica"; }
+
+/* ==========================================================================
+   SPECIAL
+   ========================================================================== */
+.IF .Rule, .MathTable .Rule { margin: 0 2px 0 2px; }
+.NotesTable .Rule { margin: 0 2px 0 2px; }
+.TT .Rule { margin: 0; }
+.TT { position: relative; }
+
+.IF, .ICN { font-family: "Source Sans Pro", "Courier New", monospace; }
+.TR { font-weight: 400; white-space: nowrap; }
+.IF .comma, .MathTable .comma { margin: 0 4px 0 1px; display: inline-block; }
+.NotesTable .comma { margin: 0 3px 0 1px; display: inline-block; }
+.TT .comma { margin: 0; }
+
+.IF a { margin: 0; }
+.openbracket { margin: 0 2px 0 1px; }
+.closebracket { margin: 0 1px 0 1px; }
+.verticalbar { margin: 0 3px; }
+.openparenthesis, .closeparenthesis { margin: 0 2px; }
+
+.IF .openbrace, .MathTable .openbrace { margin: 0 3px 0 0; }
+.NotesTable .openbrace { margin: 0 1px 0 2px; }
+.TT .openbrace { margin: 0; }
+
+.IF .closebrace, .MathTable .closebrace { margin: 0 0 0 1px; }
+.NotesTable .closebrace { margin: 0 2px 0 1px; }
+.TT .closebrace { margin: 0; }
+
+.MathTable .IF, .MathTable .TI, .MathTable .TT, .MathTable a { vertical-align: top; }
+.IF .comma, .MathTable .comma { margin: 0 4px 0 1px; }
+.IF .closebrace, .MathTable .closebrace { margin: 0 2px 0 1px; }
+.MathTable sub { top: -2px; display: inline-block; line-height: 0; vertical-align: bottom; }
+.MathTable sub .TI { line-height: 0; }
+
+.IFSans .TI2, .TI2 { font-family: "Times New Roman", Times, serif; font-style: italic; }
+
+.ThinSpace { display: inline-block; margin: 0 .1rem; }
+.NonBreakingSpace { white-space: nowrap; font-size: 0 }
+.functionList .NonBreakingSpace, .inlineFunctionList .NonBreakingSpace { display: none; }
+
+.IF a { margin: 0 2px 0 0; }
+#guide .IF { font-weight: 600; }
+.ICN { font-weight: 600; }
+.IFSans, span.IFSansUnlinked { font-weight: 400; color: #636363; font-size: .88rem; }
+.IFSans a { font-size: .96rem; font-weight: 600; }
+.TI { font-family: "Times New Roman", Times, serif; font-style: italic; font-weight: 400; font-size: 1rem; line-height: 1.1; }
+.IF .comma, .MathTable .comma { margin: 0 4px 0 1px; }
+.IF .openbrace, .MathTable .openbrace { margin: 0 2px 0 2px; }
+
+.inlineBullet { color: #adadad; margin: 0 3px; }
+.inlineSeparator { position: relative; padding: 0 10px; line-height: 0; font-size: 1.3rem; }
+.inlineSeparator:before { left: 0; right: 0; top: 6px; bottom: 0; margin: auto; position: absolute; }
+
+.br { display: block; font-size: .4rem; }
+
+.special-character.FilledRightTriangle { color: #a7a7a7; font-family: 'Mathematica'; }
+h1 .special-character.FilledRightTriangle { font-size: 2.3rem; vertical-align: middle; position: relative; }
+
+.KeyEvent { background: #fff; border-width: 1px; border-radius: 3px; border-style: solid; border-color: #d5d5d5; display: inline; padding: 0 .27rem; margin: 0 .11rem; vertical-align: middle; }
+.KeyEvent.first { background: #eee; border-radius: .19417rem 0 0 .19417rem; border: 1px solid #d5d5d5; margin: 0 0 0 .11rem; }
+.KeyEvent.first ~ .KeyEvent { background: #eee; border-width: 1px 1px 1px 0; border-radius: 0; margin: 0; padding-right: .4rem; }
+.KeyEvent.last { border-radius: 0 .19rem .19rem 0 !important; background: #fff !important; margin: 0 .11rem 0 0 !important; }
+.PointerEvent { font-weight: 600; }
+
+.special-character.formalcharacter {display: inline-block; position: relative; text-align: center;}
+.special-character.formalcharacter:after {content: '.'; bottom: -5px; display: inline-block; position: absolute; left: 0; right: 0; margin: 0 auto;}
+
+.special-character.DiscretionaryLineSeparator {display:none;}
+
+pre { margin: .67rem 0 1.33rem; background: #f2f2f2; border: 1px solid #d5d5d5; padding: .66rem; font-family: 'Source Code Pro', 'Consolas', 'Menlo'; font-size: .87rem; color: #1d1d1d; white-space: pre-line; line-height: 1.2; }
+.InlineCode { font-family: 'Source Code Pro', 'Consolas', 'Menlo'; display: inline-block; word-break: break-all; }
+
+.main pre a, .main pre a:hover { color: #1d1d1d; cursor: default; }
+
+.Code pre { margin: 0; }
+
+.Program pre { white-space: pre; margin: 0; }
+
+.Message { vertical-align: middle; }
+section ul.functionList li.MessageNote { line-height: 1; }
+
+.ExternalLanguage { background: #faf8f3; padding: .5rem 1rem; border: 1px solid #dad4ba; position: relative; margin: .5rem 0 .5rem 35px; font-family: 'Source Code Pro', monospace; font-size: .8rem; white-space: pre-wrap; word-wrap: break-word; word-break: break-all; }
+.ExternalLanguage:before { content: ''; background-image: url('../img/python-icon.png'); background-repeat: no-repeat; background-position: left center; background-size: 32px auto; width: 64px; height: 54px; position: absolute; left: -35px; top: 0; bottom: 0; margin: auto; }
+
+
+.special-character.NotSquareSuperset {
+    display: inline-block;
+    -ms-transform: rotate(180deg); /* IE 9 */
+    -webkit-transform: rotate(180deg); /* Chrome, Safari, Opera */
+    transform: rotate(180deg);
+}
+.DialogElementName, .MenuName, .TextEmphasisNote { font-weight: 600; }
+.TextEmphasisNote { padding: 1rem 1.2rem; background: #f3fbff; margin: 0 0 1.07rem; border: 2px solid #d9e5f3; }
+.MenuName { color: #545454; }
+a .MenuName:hover { color: #f77700; }
+
+.FullListing a { font-size: 1.13rem; color: #d96500; font-weight: 400; }
+.MediumSpace { width: .2rem; display: inline-block; }
+.main-heading .MediumSpace { display: none; }
+
+a.package-symbol { color: #608bab; }
+.non-wl a.package-symbol { color: #566f50; }
+.non-wl-link, a.non-wl-link { color: #566f50; }
+a.non-wl-link-grey { color: #777; }
+
+.monospace { white-space: pre; font-family: 'Source Code Pro', monospace; font-size: .9rem; overflow: auto; display: inline-block;vertical-align: middle; }
+
+.sub-ref > a { color: #535353; border: 1px solid #d6d6d6; background: #fbfbfb; padding: 1px 10px; font-size: .81rem; font-weight: 400; margin: 0 3px 0 0; border-radius: 3px; }
+.sub-ref > a:hover { color: #f77700; border: 1px solid #f9c37e; background: #fffdf8; }
+.SeeAlsoRelated { font-weight: 400; }
+
+.BulletedText { position: relative; margin: 0 0 .5rem .6rem; }
+
+.TutorialAbstract { margin: 0 0 1rem; }
+
+.special-character.FilledSmallSquare { font-size: 0; position: relative; }
+.GuideCharacterImage .special-character.FilledSmallSquare { font-size: .8rem; }
+.GuideCharacterImage .special-character.FilledSmallSquare:before { display: none; }
+
+table .special-character.FilledSmallSquare { font-size: 7px; top: -2px; position: relative; }
+table .special-character.EmptySquare { font-size: 15px; }
+table .special-character.FilledSmallSquare:before { display: none; }
+table .special-character.GraySquare, table .special-character.GrayCircle { color: #807f80; }
+
+.IS.Reference { font-size: .9rem; }
+
+.Notes li { position: relative; margin: .3rem 0 0 .7rem; }
+
+.ServiceAbstract { color: #888; }
+
+@font-face {
+    font-family: 'Mathematica';
+    src: url('../fonts/mathematica/Mathematica.eot');
+    src: url('../fonts/mathematica/Mathematica.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/mathematica/Mathematica.woff') format('woff'),
+         url('../fonts/mathematica/Mathematica.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'Mathematica';
+    src: url('../fonts/mathematica/Mathematica-Bold.eot');
+    src: url('../fonts/mathematica/Mathematica-Bold.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/mathematica/Mathematica-Bold.woff') format('woff'),
+         url('../fonts/mathematica/Mathematica-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'MathematicaMono';
+    src: url('../fonts/mathematica/MathematicaMono.eot');
+    src: url('../fonts/mathematica/MathematicaMono.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/mathematica/MathematicaMono.woff') format('woff'),
+         url('../fonts/mathematica/MathematicaMono.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'MathematicaMono';
+    src: url('../fonts/mathematica/MathematicaMono-Bold.eot');
+    src: url('../fonts/mathematica/MathematicaMono-Bold.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/mathematica/MathematicaMono-Bold.woff') format('woff'),
+         url('../fonts/mathematica/MathematicaMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+}

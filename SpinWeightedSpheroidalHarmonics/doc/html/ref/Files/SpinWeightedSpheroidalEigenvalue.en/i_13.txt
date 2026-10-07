@@ -1,0 +1,1 @@
+SpinWeightedSpheroidalEigenvalue[-2, 21, 5, 1`100] // Timing

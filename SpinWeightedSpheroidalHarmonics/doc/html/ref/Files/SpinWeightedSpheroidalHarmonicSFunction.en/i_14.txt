@@ -1,0 +1,2 @@
+Slm = SpinWeightedSpheroidalHarmonicS[2, 5, 3, 0.1];
+Derivative[2, 3][Slm][\[Pi]/4, \[Pi]/7]

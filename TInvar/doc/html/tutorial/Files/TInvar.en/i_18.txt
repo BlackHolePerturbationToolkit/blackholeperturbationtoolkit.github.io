@@ -1,0 +1,1 @@
+perm = RiemannToPerm[RiemannCD[a, b, c, d]]

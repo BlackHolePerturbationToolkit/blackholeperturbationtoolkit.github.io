@@ -1,0 +1,1 @@
+SpinWeightedSphericalHarmonicY[-2, 2, 2, 0.3, 0.4]

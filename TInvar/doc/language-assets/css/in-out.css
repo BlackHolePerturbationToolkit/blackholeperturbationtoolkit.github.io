@@ -1,0 +1,49 @@
+/* ==========================================================================
+   INPUTS AND OUTPUTS
+   ========================================================================== */
+.lab { width: 35px; font-size: 9px; line-height: 1; font-family: Arial, sans-serif; color: #999; text-align: right; vertical-align: top; padding: 8px 0 0 0; white-space: nowrap; }
+.Input { padding: 2px 4px 2px; }
+.Output { padding: 1px 4px 2px; }
+.IO { position: relative; margin: 0 0 1rem; }
+.IO table, .InCell, .OCell { width: auto; max-width: 100%; margin: 0; }
+.IO .Output img { max-width: 100%; height: auto; }
+.IO .Message { margin: 0 0 1rem 45px; }
+.InCell { min-width: 210px; }
+.OCell { display: block; }
+.animation { display: inline-block; }
+.number { display: none; }
+.celllabelTableForm { font-size: 9px; line-height: 1; font-family: Arial, sans-serif; color: #999; margin: .3rem 0; }
+.IO .Print { margin: 0 73px 5px; }
+.IO .Print:last-of-type { margin: 0 73px 1.4rem; }
+.output-image { overflow: auto; width: 75vw; max-width: 900px; }
+.output-image img { max-width: none !important; }
+
+/* ==========================================================================
+   responsive breakpoint styles
+   ========================================================================== */
+
+/* styles for small screens (600px)
+   ========================================================================== */
+
+@media all and (max-width: 600px) {
+    /* inputs and outputs */
+    .lab { display: none; }
+    .InCell .number:after, .OCell .number:after { font-family: Arial, sans-serif; content: ''; display: inline-block; line-height: 1; color: #bbb; font-size: 1rem;
+    position: relative; width: 4px; height: 7px; left: 1px; top: 0; }
+    .InCell .number:after { content: '\00bb'; margin: 0 3px 0 0; }
+    .OCell .number:after { content: '\203a'; margin: 0 3px 0 0; }
+    .InCell .number, .OCell .number { font-size: .7rem; font-family: Arial, sans-serif; position: relative; display: table-cell; color:#999; vertical-align: text-top; top: 5px; right: 3px; white-space: nowrap; text-align: left; left: 1px; }
+    .OCell img { max-width: 100%; }
+    .IO .Print { margin: 0 0 5px; }
+
+    #techNote .IO, .howto .IO { margin: 1rem 0 0 1.2rem; }
+
+    .tooltip { left: 0; }
+    .InCell, .OCell { left: -18px; position: relative; }
+}
+@media all and (max-width: 900px), (max-height: 600px) {
+    .lab { padding: 6px 0 0 0 !important; }
+    .Input { padding: 0 4px; }
+    .InCell { padding: .325rem !important; }
+    .IO { margin: 0 0 .5rem !important; }
+}

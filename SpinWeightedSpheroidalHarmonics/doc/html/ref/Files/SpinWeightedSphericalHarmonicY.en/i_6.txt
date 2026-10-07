@@ -1,0 +1,1 @@
+Series[SpinWeightedSphericalHarmonicY[2, 3, 1, x, \[Pi]], {x, 0, 3}]

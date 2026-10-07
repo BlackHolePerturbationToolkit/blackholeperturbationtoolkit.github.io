@@ -1,0 +1,3 @@
+Grid[Join[{{"Expression", "ToCanonical", "RiemannSimplify"}}, 
+  Table[{rie, SameQ[ToCanonical[rie], 0], 
+    RiemannSimplify[rie] == 0}, {rie, AllDF}]], Frame -> All]

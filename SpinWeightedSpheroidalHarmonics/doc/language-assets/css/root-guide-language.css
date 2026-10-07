@@ -1,0 +1,320 @@
+/* STYLES FOR REFERENCE DOCS ROOT GUIDE PAGE
+
+   developer:   suef
+   requires:    /common/framework/css/framework.en.css
+                /language-assets/css/global.css
+   Different from cloud version
+   ========================================================================== */
+/*
+Color variables so it's easier to manage
+*/
+:root {
+  --orange: #ed6600;
+  --yellow: #e79e01;
+  --green: #8ab52d;
+  --blue: #3198cc;
+  --dark-blue: #1986b5;
+}
+
+body#languageRootGuide { background: #4b4b4b; }
+#languageRootGuide .header { background: #4b4b4b; }
+#languageRootGuide .header .inner { padding: 3rem 1rem 2rem; max-width: 1180px; }
+#languageRootGuide .main { margin: 0; background: #4b4b4b; padding: 0; overflow: hidden; }
+#languageRootGuide .main .inner { overflow: visible; }
+#languageRootGuide .main-content.inner { max-width: 1155px !important; padding: 0 !important; }
+#languageRootGuide .container { text-align: center; font-size: 0; position: relative; clear: both; padding: 0; border: 0; }
+#languageRootGuide .container .inner { padding: 0; position: relative; max-width: 1155px; }
+#languageRootGuide .container:after { content: ''; display: block; clear: both; }
+#languageRootGuide .container.left { text-align: left; }
+#languageRootGuide .container.resources { margin: 0 0 2rem; }
+#languageRootGuide section { margin: 0; }
+#languageRootGuide .header .right { margin-top: 1.5%; }
+#languageRootGuide .header .heading1 { color: #fff; font-size: 2.5rem; }
+#languageRootGuide .header .heading2 { color: #888; font-size: 2.5rem; }
+#languageRootGuide .header .right a.language-home { color: #bbb; opacity: .7; font-weight: 400; }
+#languageRootGuide .header .right a.language-home:before { background-position: left bottom; }
+#languageRootGuide .header .right a.language-home:hover { color: #bbb; opacity: 1; }
+
+#languageRootGuide h2 { font-size: .875rem; color: #898989; margin: 2rem auto .625rem; font-weight: 300; text-transform: uppercase; max-width: 1180px; padding: 0 1rem; }
+#languageRootGuide h2 .inner { max-width: 100%; }
+#languageRootGuide .thumb { text-align: left; display: inline-block; border-left: 1px solid #4b4b4b; border-top: 1px solid #4b4b4b; width: 33.3333%; cursor: pointer; vertical-align: top; position: relative; }
+
+#languageRootGuide .podheader { position: relative; overflow: hidden; }
+#languageRootGuide .podheader-inner { display: table; table-layout: fixed; width: 100%; height: 93px; vertical-align: middle; }
+#languageRootGuide .podheader:before { width: auto; display: table-cell; }
+#languageRootGuide .podheader .svg { width: 72px; display: table-cell; vertical-align: middle; opacity: .35; }
+#languageRootGuide .w1bg .podheader .svg { width: 40px; }
+#languageRootGuide .selected .podheader .svg { opacity: 1; }
+#languageRootGuide .w1bg .podheader .svg { color: #fff; font-size: 1.875rem; text-align: center; }
+#languageRootGuide .resources .w1bg .podheader .svg { font-size: 1.5rem; }
+#languageRootGuide .podheader svg { width: 65px; height: 65px; fill: #fff; padding: 0 5px; }
+#languageRootGuide .resources .w1bg .svg { color: #898989; width: 40px; }
+#languageRootGuide .resources .svg svg { width: 40px; height: 40px; fill: #fff; opacity: .5; vertical-align: middle; }
+#languageRootGuide  .podheader .title { display: table-cell; vertical-align: middle; color: #fff; line-height: 1.3; padding: 0 0 0 7%; width: 100%; font-size: 1.12rem; }
+#languageRootGuide .podheader.icon23 .title { padding: 0 0 0 7%; }
+#languageRootGuide  .selected .podheader .title, #languageRootGuide  .thumb:hover .podheader .title  { color: #fff; }
+#languageRootGuide .container.left .thumb,
+#languageRootGuide .container.left .thumb:active { box-shadow: inset 0px 2px 0px 0px #37a8ac; }
+#languageRootGuide .container.resources .thumb,
+#languageRootGuide .container.resources .thumb:active { box-shadow: inset 0px 2px 0px 0px rgba(255, 255, 255, .2); }
+#languageRootGuide .w1bg.thumb:hover { box-shadow: inset 0px 2px 0px 0px rgba(255, 255, 255, .2); }
+#languageRootGuide .w1bg.thumb .podheader-inner { height: 50px; }
+#languageRootGuide .w1bg .podheader .title { font-weight: 300; font-size: 1rem; }
+
+#languageRootGuide .links-list { background: #fff; z-index: 9999; cursor: default; text-align: center; display: none; position: absolute; left: 0; right: 0; width: 99.9999%; margin: auto; padding: 0 0 .5rem; border: 0; }
+#languageRootGuide   .links-list ul { list-style-type: none; margin: 0; padding: 0; text-align: left; }
+#languageRootGuide     .links-list ul li { padding: .5rem 1rem .5rem 0; position: relative; display: block; margin: 0; }
+#languageRootGuide     .links-list ul li:first-of-type { margin: 0; }
+#languageRootGuide   .links-list li > a { color: #333; text-transform: none; font-size: .93rem; font-weight: 600; position: relative; display: inline; line-height: 1; vertical-align: top; }
+#languageRootGuide .links-list li > a:after { content: '\00bb'; display: inline; margin: 0; font-size: 1.5rem; top: .4rem; font-weight: 300; right: -.2rem; position: relative; line-height: 0; vertical-align: top; }
+
+
+#languageRootGuide .selected .links-list ul { border-top: 1px solid #dedede; margin: .5rem 5%; padding: .5rem 0 0; }
+#languageRootGuide .links-list ul:first-child { border-top: 0; padding: 0; }
+
+#languageRootGuide .selected .podheader, #languageRootGuide .selected .links-list { z-index: 10; }
+#languageRootGuide .container:not(.left) .selected .podheader *, 
+#languageRootGuide  .container:not(.left) .thumb:hover .podheader * { opacity: 1; }
+#languageRootGuide .thumb:hover .podheader { z-index: 9; }
+#languageRootGuide.tile-selected .thumb:not(.selected):after { content: ''; position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,.3); z-index: 8; }
+
+/* Tiles
+   ========================================================================== */
+#languageRootGuide .redbg .podheader { background: var(--orange); }
+#languageRootGuide .redbg:hover .podheader { background: #ff6e00; }
+#languageRootGuide   .redbg .links-list li > a:after { color: var(--orange); }
+#languageRootGuide   .redbg .links-list li > a:hover, #languageRootGuide .redbg .resources a:hover { color: var(--orange); }
+#languageRootGuide .redbg .link:after { color: var(--orange); }
+
+#languageRootGuide .orangebg .podheader { background: var(--yellow); }
+#languageRootGuide .orangebg:hover .podheader { background: #ffae00; }
+#languageRootGuide   .orangebg .links-list li > a:after { color: var(--yellow); }
+#languageRootGuide   .orangebg .links-list li > a:hover, #languageRootGuide .orangebg .resources a:hover { color: var(--yellow); }
+#languageRootGuide .orangebg .link:after { color: var(--yellow); }
+
+#languageRootGuide .bluebg .podheader { background: var(--blue); }
+#languageRootGuide .bluebg:hover .podheader { background: #4eb4e8; }
+#languageRootGuide   .bluebg .links-list li > a:after { color: var(--blue); }
+#languageRootGuide   .bluebg .links-list li > a:hover, #languageRootGuide .bluebg .resources a:hover { color: var(--blue); }
+#languageRootGuide .bluebg .link:after { color: var(--blue); }
+
+#languageRootGuide .greenbg .podheader { background: var(--green); }
+#languageRootGuide .greenbg:hover .podheader { background: #9dcf34; }
+#languageRootGuide   .greenbg .links-list li > a:after { color: var(--green); }
+#languageRootGuide   .greenbg .links-list li > a:hover, #languageRootGuide .greenbg .resources a:hover { color: var(--green); }
+#languageRootGuide .greenbg .link:after { color: var(--green); }
+
+#languageRootGuide .maingreybg .podheader { background: #1986b5; }
+#languageRootGuide .maingreybg:hover .podheader { background: #22a4dc; }
+
+#languageRootGuide .root-guide-footer-links { text-align: center; padding: 0 0 6rem !important; }
+
+#languageRootGuide .w1bg { background: #666; }
+#languageRootGuide .w1bg:hover { background: #41c0c4; }
+#languageRootGuide .w1bg:active .podheader .title,
+#languageRootGuide .w1bg:active .podheader .svg { color: #41c0c4; opacity: 1; }
+#languageRootGuide .w1bg .svg { font-weight: 300; }
+#languageRootGuide .resources .w1bg:hover { background: #5691a3; }
+#languageRootGuide .resources .w1bg svg { opacity: .8; }
+#languageRootGuide .resources .w1bg:active svg { fill: #5691a3; }
+#languageRootGuide .resources .w1bg:active .podheader .title,
+#languageRootGuide .resources .w1bg:active .podheader .svg { color: #5691a3; opacity: 1; }
+#languageRootGuide .w1bg.selected .podheader .title { color: #5691a3; }
+#languageRootGuide .w1bg.selected .podheader svg { fill: #5691a3; }
+#languageRootGuide   .w1bg .links-list li > a:after { color: #5691a3; }
+#languageRootGuide   .w1bg .links-list li > a:hover { color: #5691a3; }
+#languageRootGuide .w1bg.has-links:hover { box-shadow: inset 0px 2px 0px 0px rgba(255, 255, 255, .2); }
+#languageRootGuide .dropdown .hover .menu { background: #fff; }
+#languageRootGuide .dropdown { float: none; height: inherit; width: 33.33333% !important; overflow: visible; }
+#languageRootGuide .dropdown .sub_menu { padding: 0; width: 157px; }
+#languageRootGuide .dropdown .sub_menu a { color: #898989 !important; margin: 5px; padding: .37rem 1.35rem; font-size: .8rem; display: block; }
+#languageRootGuide .dropdown .sub_menu a:hover { background-color: #e5e5e5; border-radius: 3px; color: #898989; }
+
+/* Dropdown
+   ========================================================================== */
+#languageRootGuide .footer-dropdown .hover .menu { background: #fff; }
+#languageRootGuide .footer-dropdown { float: none; height: inherit; /* width: 33.33333% !important; */ }
+#languageRootGuide .footer-dropdown .sub_menu { padding: 0; width: 157px; }
+#languageRootGuide .footer-dropdown .sub_menu a { color: #898989 !important; margin: 5px; padding: .37rem 1.35rem; font-size: .8rem; }
+#languageRootGuide .footer-dropdown .sub_menu a:hover { background-color: #e5e5e5; border-radius: 3px; color: #898989; }
+
+#languageRootGuide .w1bg:active,
+#languageRootGuide .resources .w1bg:active { background: #fff; }
+
+#languageRootGuide .divider { color: #6f6f6f; margin: -10px 20px -5px 20px; margin: 1rem 0; width: 80%; }
+
+#languageRootGuide .toplink { display: none !important; }
+
+/* Resources
+   ========================================================================== */
+#languageRootGuide .list-table~.resources { text-align: left; padding: 0 5% .5rem; }
+#languageRootGuide .list-table~.resources:before { border-top: 1px solid #dedede; padding: 5px 0 .5rem; color: #a6a6a6; content: 'Related items in:'; display: block; font-size: 10px; }
+html[lang="ja"] #languageRootGuide .list-table~.resources:before { content: '関連する項目：';}
+html[lang="zh"] #languageRootGuide .list-table~.resources:before { content: '更多相关函数：';}
+#languageRootGuide .related-in { background-size: 14px auto !important; background-position: left top; color: #828282; display: block !important; font-size: 12px !important; padding: 0 0 10px 18px !important; margin: 0; line-height: .7; }
+#languageRootGuide .related-in .chevron-after:after { font-size: 16px; line-height: .7; position: relative; top: 1px; }
+#languageRootGuide a.function { background-image: url('/language-assets/img/wolfram-function-repository.png'); background-repeat: no-repeat; }
+#languageRootGuide a.data { background-image: url('/language-assets/img/wolfram-data-repository.png'); background-repeat: no-repeat; }
+
+/* Tooltips
+   ========================================================================== */
+#languageRootGuide #guide { max-height: 500px; width: 320px; position: absolute; top: -14px; right: -300px; }
+#languageRootGuide .tooltip-inner:before { content: ''; display: block; background-image: linear-gradient(rgba(0,0,0,0), #fff); height: 4rem; border-radius: 0 0 5px 5px; position: absolute; bottom: 0; left: 0; right: 0; z-index: 100; }
+#languageRootGuide #guide .GuideSymbolIcon { display: inline; margin: 2px 5px 0 0; }
+#languageRootGuide .tooltip-inner { overflow: hidden; padding: .5rem 1rem .7rem; max-height: 500px; width: 300px; position: absolute; background: #fff; border: 1px solid #c7c7c7; border-radius: 5px; box-shadow: 0 0 5px #999; z-index: 10; }
+#languageRootGuide .function-intro-tooltip { position: absolute; right: 0; top: 0; background: transparent; border: 0; box-shadow: none; border-radius: 0; }
+#languageRootGuide .function-intro-tooltip:before { top: 20px; z-index: 11; left: -9px; }
+#languageRootGuide .function-intro-tooltip:after { top: 22px; left: -7px; border-right: 8px solid #fff; z-index: 13; }
+#languageRootGuide .function-intro-tooltip h2 { margin: 0 0 .5rem; padding: 0 0 .2rem; border-bottom: 1px solid #ddd; }
+#languageRootGuide .function-intro-tooltip h2 a { color: #333; text-transform: none; font-size: .93rem; font-weight: 600; position: relative; display: inline; line-height: 1; }
+#languageRootGuide .function-intro-tooltip h2 a:after { content: '\00bb'; display: inline-block; margin: 0; font-size: 1.5rem; top: .1rem; font-weight: 300; right: -.2rem; position: relative; }
+#languageRootGuide .function-intro-tooltip h3, #languageRootGuide .function-intro-tooltip h3 a { font-size: .8rem !important; margin: 0 0 3px; }
+#languageRootGuide .function-intro-tooltip h3 ~ h3 { margin: .5rem 0 3px; }
+#languageRootGuide .function-intro-tooltip p.singleFunction { font-size: .7rem; padding: 0 0 .2rem .5rem; line-height: 1.2; text-indent: -.5rem; display: block; color: #777; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; margin: 0; }
+#languageRootGuide .function-intro-tooltip p.inlineFunctionList { font-size: .7rem; margin: 0 0 .2rem; line-height: 1.2; display: block; }
+#languageRootGuide .function-intro-tooltip p.inlineFunctionList:last-of-type { margin: .6rem 0 .2rem; }
+#languageRootGuide .function-intro-tooltip p.singleFunction:last-of-type { margin: .6rem 0 .2rem 0; }
+#languageRootGuide .function-intro-tooltip .IFSans a, 
+#languageRootGuide .function-intro-tooltip .IFSans, 
+#languageRootGuide .function-intro-tooltip span.IFSansUnlinked, 
+#languageRootGuide .function-intro-tooltip span.IFSansUnlinked a, 
+#languageRootGuide .function-intro-tooltip .TI { font-size: .7rem !important; }
+#languageRootGuide .function-intro-tooltip img { height: 1.2vh; width: auto; min-height: 11px; }
+#languageRootGuide .function-intro-tooltip .GuideDelimiterSubsection, #languageRootGuide .function-intro-tooltip .GuideDelimiter { margin: .5rem auto !important; }
+#languageRootGuide .function-intro-tooltip h2 + .GuideDelimiterSubsection { display: none; }
+#languageRootGuide .redbg .function-intro-tooltip h2 a:after { color: var(--orange); }
+#languageRootGuide .redbg .function-intro-tooltip h2 a:hover { color: var(--orange); }
+#languageRootGuide .orangebg .function-intro-tooltip h2 a:after { color: var(--yellow); }
+#languageRootGuide .orangebg .function-intro-tooltip h2 a:hover { color: var(--yellow); }
+#languageRootGuide .bluebg .function-intro-tooltip h2 a:after { color: var(--blue); }
+#languageRootGuide .bluebg .function-intro-tooltip h2 a:hover { color: var(--blue); }
+#languageRootGuide .greenbg .function-intro-tooltip h2 a:after { color: var(--green); }
+#languageRootGuide .greenbg .function-intro-tooltip h2 a:hover { color: var(--green); }
+
+#languageRootGuide .function-intro-tooltip .sub-ref a { padding: 0 3px; line-height: 1.5; }
+#languageRootGuide .function-intro-tooltip .dash, #languageRootGuide .function-intro-tooltip .LongDash { display: block; font-size: 0; line-height: 0; }
+#languageRootGuide .function-intro-tooltip .dash ~ .dash, #languageRootGuide .function-intro-tooltip .LongDash ~ .LongDash { display: inline; font-size: inherit; }
+
+/* Subfooter
+   ========================================================================== */
+#languageRootGuide .root-guide-footer-links .pipe { color: #7d7d7d; display: inline-block; margin: 0 1rem; }
+#languageRootGuide .root-guide-footer-links .dropdown { position: relative; vertical-align: middle; }
+#languageRootGuide .root-guide-footer-links .menu { margin: 0 1rem; line-height: 2; background: transparent; border: 0; color: #bfbfbf; }
+#languageRootGuide .root-guide-footer-links .dropdown .hover .menu { background: transparent; }
+#languageRootGuide .root-guide-footer-links .menu:hover { color: #fff; }
+#languageRootGuide .root-guide-footer-links .sub_menu { width: auto; left: 1rem; }
+
+/* ==========================================================================
+   FOOTER
+   ========================================================================== */
+#languageRootGuide .footer-links { display: none; }
+#languageRootGuide .root-guide-footer-links { text-align: center; padding: 0 0 2rem !important; }
+#languageRootGuide .root-guide-footer-links a { color: #bfbfbf; margin: 0 1rem; display: inline-block; vertical-align: middle; line-height: 2; }
+#languageRootGuide .root-guide-footer-links a:hover { color: #fff; }
+
+/* ==========================================================================
+   responsive breakpoint styles
+   ========================================================================== */
+@media (min-width: 601px) {
+    #languageRootGuide .bluebg .links-list { bottom: 90px; }
+    #languageRootGuide .bluebg:nth-of-type(5) .links-list { bottom: 90px; }
+    #languageRootGuide .thumb:nth-of-type(3n) #guide { left: -323px; right: auto; }
+    #languageRootGuide .thumb:nth-of-type(3n) #guide:before { right: 10px; left: 10px; }
+    #languageRootGuide .thumb:nth-of-type(3n) .function-intro-tooltip { right: 10px; }
+    #languageRootGuide .thumb:nth-of-type(3n) .function-intro-tooltip:before { transform: scaleX(-1); right: -9px; left: auto; }
+    #languageRootGuide .thumb:nth-of-type(3n) .function-intro-tooltip:after { transform: scaleX(-1); right: -7px; left: auto; }
+}
+@media (max-width: 900px) {
+    #languageRootGuide .inner { padding: 0; }
+    #languageRootGuide .header .inner { padding: 2rem 2% 1.5rem; }
+    #languageRootGuide .header .heading1, #languageRootGuide .header .heading2 { font-size: 2.08rem; }
+    #languageRootGuide .half { width: 43%; margin: 0 4% 0 0; }
+    #languageRootGuide .podheader-inner { height: 90px; }
+    #languageRootGuide .podheader .title { font-size: 1.07rem; }
+    #languageRootGuide .links-list { box-shadow: none; }
+    #languageRootGuide .combine-together { width: 66%; }
+    #languageRootGuide .podheader svg { width: 58px; }
+    #languageRootGuide .podheader .svg { width: 65px; }
+    #languageRootGuide .w1bg .podheader .svg { width: 40px; }
+}
+@media (max-width: 600px) {
+    #languageRootGuide .main .header span.heading1 { text-transform: none; }
+    #languageRootGuide .header .right { display: none; }
+    #languageRootGuide .thumb { width: 50% !important; }
+    #languageRootGuide .third { width: 43%; margin: 0; }
+    #languageRootGuide .selected { margin-bottom: -1px; }
+    #languageRootGuide .podheader-inner { height: 84px; }
+    #languageRootGuide .podheader .title { font-size: 1.1rem; }
+    #languageRootGuide .podheader .svg { width: 60px; }
+    #languageRootGuide .podheader svg { width: 53px; }
+    #languageRootGuide .fast-intro:before { width: 17px; background-size: 17px 16px; }
+    #languageRootGuide .elementary-intro:before { width: 17px; background-size: 13px 16px; }
+    #languageRootGuide .quick-reference:before { width: 17px; background-size: 17px 16px; }
+    #languageRootGuide .new-features:before { width: 17px; background-size: 12px 12px; }
+    #languageRootGuide .language-products:before { width: 17px; background-size: 16px 16px; }
+    #languageRootGuide .links-list { padding: .5rem 0; }
+    #languageRootGuide .sub_menu { left: 0; right: auto; }
+}
+@media (max-width: 500px) {
+    #languageRootGuide .podheader .svg { width: 50px; }
+    #languageRootGuide .podheader svg { width: 43px; }
+    #languageRootGuide .root-guide-footer-links a { margin: 0 .5rem; }
+}
+@media (max-width: 320px) {
+    #languageRootGuide .thumb { display: block; width: 100% !important; }
+    #languageRootGuide .podheader-inner, #languageRootGuide .podheader { height: 30px !important; }
+    #languageRootGuide .w1bg.thumb .podheader-inner { height: 30px; }
+    #languageRootGuide .container.left .thumb .podheader { height: 30px; }
+    #languageRootGuide .container.left .thumb:not(:first-of-type) { box-shadow: none; }
+    #languageRootGuide .podheader .title { font-size: 13px !important; padding: 0 0 0 12px; }
+    #languageRootGuide .podheader .svg { width: 40px; }
+    #languageRootGuide .podheader svg { width: 35px; height: 30px; }
+    #languageRootGuide .w1bg .podheader .svg { height: 30px; }
+    #languageRootGuide .resources .svg svg { width: 32px; height: 30px; }
+    #languageRootGuide .podheader.icon23 .title { padding: 0; }
+    #languageRootGuide .redbg.selected .podheader *,
+    #languageRootGuide .redbg.selected:hover .podheader * { background: var(--orange); color: #fff; fill: #fff; }
+    #languageRootGuide .orangebg.selected .podheader *,
+    #languageRootGuide .orangebg.selected:hover .podheader * { background: #e79e01; color: #fff; fill: #fff; }
+    #languageRootGuide .bluebg.selected .podheader *,
+    #languageRootGuide .bluebg.selected:hover .podheader * { background: #3198cc; color: #fff; fill: #fff; }
+    #languageRootGuide .greenbg.selected .podheader *,
+    #languageRootGuide .greenbg.selected:hover .podheader * { background: #8ab52d; color: #fff; fill: #fff; }
+    #languageRootGuide .maingreybg.selected .podheader *,
+    #languageRootGuide .maingreybg.selected:hover .podheader * { background: #1f8fbf; color: #fff; fill: #fff; }
+    #languageRootGuide .selected .links-list ul { margin: 10px 12px; }
+}
+
+/* styles for height and width changes
+   ========================================================================== */
+@media (max-width: 900px), (max-height: 600px) {
+    #languageRootGuide .inner { padding: 0; }
+    #languageRootGuide .header .inner { padding: 2rem 2% 1.5rem; }
+    #languageRootGuide .header .heading1, #languageRootGuide .header .heading2 { font-size: 2.08rem; }
+    #languageRootGuide .podheader-inner { height: 90px; }
+    #languageRootGuide .podheader .title { font-size: 1.07rem; }
+    #languageRootGuide .podheader svg { width: 58px; }
+    #languageRootGuide .podheader .svg { width: 65px; }
+    #languageRootGuide .w1bg .podheader .svg { width: 40px; }
+}
+@media (max-width: 600px), (max-height: 400px) {
+    #languageRootGuide .main .header span.heading1 { text-transform: none; }
+    #languageRootGuide .header .right { display: none; }
+    #languageRootGuide .selected { margin-bottom: -1px; }
+    #languageRootGuide .podheader-inner { height: 84px; }
+    #languageRootGuide .podheader .title { font-size: 1.1rem; }
+    #languageRootGuide .podheader .svg { width: 60px; }
+    #languageRootGuide .podheader svg { width: 53px; }
+    #languageRootGuide .fast-intro:before { width: 17px; background-size: 17px 16px; }
+    #languageRootGuide .elementary-intro:before { width: 17px; background-size: 13px 16px; }
+    #languageRootGuide .quick-reference:before { width: 17px; background-size: 17px 16px; }
+    #languageRootGuide .new-features:before { width: 17px; background-size: 12px 12px; }
+    #languageRootGuide .language-products:before { width: 17px; background-size: 16px 16px; }
+    #languageRootGuide .links-list { padding: .5rem 0; }
+    #languageRootGuide .sub_menu { left: 0; right: auto; }
+}
+@media (max-width: 500px), (max-height: 300px) {
+    #languageRootGuide .podheader .svg { width: 50px; }
+    #languageRootGuide .podheader svg { width: 43px; }
+    #languageRootGuide .root-guide-footer-links a { margin: 0 .5rem; }
+}

@@ -1,0 +1,44 @@
+/* ==========================================================================
+   TOOLTIPS
+   ========================================================================== */
+.function-intro-tooltip { width: 300px; background: #f7f9fa; border: 1px solid #c7c7c7; border-radius: 5px; box-shadow: 0 0 5px #999; position: absolute; z-index: 10; top: -9px; right: -320px; padding: .2rem 0 .3rem; }
+.function-intro-tooltip:after { content: ''; display: inline-block; border-top: 8px solid transparent; border-bottom: 8px solid transparent; border-right: 8px solid #f7f9fa; position: absolute; left: -8px; top: 12px; }
+.function-intro-tooltip:before { content: ''; display: inline-block; border-top: 10px solid transparent; border-bottom: 10px solid transparent; border-right: 10px solid #c7c7c7; position: absolute; left: -10px; top: 10px; }
+.function-intro-tooltip .IF .comma, #guide .function-intro-tooltip .MathTable .comma { margin: 0 3px 0 0px; } 
+.function-intro-tooltip .openbracket {}
+.function-intro-tooltip .copyText { display: none; }
+.function-intro-tooltip .functionIntro { margin: 0; padding: .3rem .8rem !important; font-weight: 400; line-height: 1.2; border-bottom: 1px solid #e5e5e5; }
+.function-intro-tooltip .functionIntro .code-description { margin: 0 0 0 1.07rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.function-intro-tooltip .functionIntro .code-description a { position: relative; z-index: 100; }
+.function-intro-tooltip .functionIntro:last-of-type { border-bottom: 0; padding: .3rem .8rem .5rem .8rem; }
+.function-intro-tooltip .code, .function-intro-tooltip .code * { font-size: .84rem !important; font-weight: 400; line-height: 1.2; white-space: normal; }
+.function-intro-tooltip .code * { display: inline-block; }
+.function-intro-tooltip .code.clipboard-inline:hover, .function-intro-tooltip .code.clipboard-inline:focus { background: transparent; border: 0; }
+/*.function-intro-tooltip .code .clipboard-close { display: none; }*/
+.function-intro-tooltip .code-description, .function-intro-tooltip .code-description * { font-size: .84rem !important; font-weight: 400; line-height: 1.2; }
+.function-intro-tooltip .functionIntro p sub, .function-intro-tooltip .functionIntro p sub *, .function-intro-tooltip .functionIntro p sup, .function-intro-tooltip .functionIntro p sup * { font-size: .7rem !important; }
+
+@media all and (max-width: 600px) {
+    body#guide .function-intro-tooltip:after { border-right: 8px solid transparent; border-left: 8px solid transparent; border-bottom: 8px solid #f7f9fa; position: absolute; left: 12px; top: -16px; }
+    body#guide .function-intro-tooltip:before { border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 10px solid #ddd; position: absolute; left: 10px; top: -20px; }
+    body#guide .function-intro-tooltip { left: 0; top: 32px; }
+}
+
+/* guide */
+#guide .tooltip-wrap .singleFunction { position: relative; display: inline-block; }
+#guide .inlineFunctionList .IFSans, #guide .multiple .IFSans { position: relative; }
+#guide .AlphabeticalListing .IFSans { position: relative; }
+#guide .inlineFunctionList .function-intro-tooltip, #guide .multiple .function-intro-tooltip { right: auto; top: 32px; left: 0; }
+#guide .inlineFunctionList .function-intro-tooltip:after, #guide .multiple .function-intro-tooltip:after { content: ''; display: inline-block; border-right: 8px solid transparent; border-left: 8px solid transparent; border-bottom: 8px solid #f7f9fa; position: absolute; left: 12px; top: -16px; right: auto; }
+#guide .inlineFunctionList .function-intro-tooltip:before, #guide .multiple .function-intro-tooltip:before { content: ''; display: inline-block; border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 10px solid #c7c7c7; position: absolute; left: 10px; top: -20px; right: auto; }
+#guide .expand { display: block; width: 100%; background: #f7f9fa; color: #0549a6; border: 0; border-radius: 0 0 5px 5px; position: relative; padding: .3rem .8rem; text-align: left; font-weight: 400; border-top: 1px solid #e5e5e5; font-size: .84rem; }
+#guide .expand:after { content: ''; width: 5px; height: 5px; border-right: 1px solid #555; border-bottom: 1px solid #555; transform: rotate(45deg); display: inline-block; margin: 0 0 2px 5px; }
+body#guide .function-intro-tooltip img { height: 1.8vh !important; width: auto; min-height: 12px; }
+#guide .expand:hover { color: #0549a6; }
+#guide .expand:hover:after { border-color: #0549a6; }
+body#guide .align-right:after, body#guide .inlineFunctionList .align-right:after { border-right: 8px solid transparent; border-left: 8px solid transparent; border-bottom: 8px solid #f7f9fa; position: absolute; left: auto; right: 12px; top: -16px; }
+body#guide .align-right:before, body#guide .inlineFunctionList .align-right:before { border-left: 10px solid transparent; border-right: 10px solid transparent; border-bottom: 10px solid #ddd; position: absolute; left: auto; right: 10px; top: -20px; }
+body#guide .align-right, body#guide .inlineFunctionList .align-right { right: 0; top: 32px; left: auto; }
+#guide .expanded:after { transform: rotate(-135deg); top: 6px; }
+#guide .more-container { display: none; }
+#guide .intro .IFSans { position: relative; }

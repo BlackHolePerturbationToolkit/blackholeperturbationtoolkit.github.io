@@ -1,0 +1,9 @@
+ <script src="/language-assets/js/global.js"></script>
+<script src="/language-assets/js/language-specific.js.en"></script>
+<script src="/language-assets/js/toggles.js"></script>
+<script src="/language-assets/js/workflows.js"></script>
+<script src="/language-assets/js/language.js"></script>
+<script src="/language-assets/js/dropdowns.js"></script>
+<script src="/language-assets/js/tooltips.js"></script>
+<script src="/common/js/clipboard/2.0/clipboard.js"></script>
+<script type="module" src="/common/js/clipboard/2.0/code-clipboard.js"></script>

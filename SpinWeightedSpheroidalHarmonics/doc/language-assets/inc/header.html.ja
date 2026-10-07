@@ -1,0 +1,429 @@
+
+<!-- begin framework header ja -->
+
+<header id="_header">
+    <div id="_header-t" class="_page-width hide__600">
+        <ul class="font-size-3-4 padding-t-1-2 heirs-bar-between heirs-display-ib">
+            <li><a href="http://ja.wolframalpha.com/?source=nav" data-walid="GUIHeader">ja.WolframAlpha.com</a>
+            <li><a href="https://www.wolframcloud.com/?source=nav" data-walid="GUIHeader">WolframCloud.com</a>
+            <li><a href="http://www.wolfram.com/resources/?source=nav" data-walid="GUIHeader">すべてのサイト&amp;公開リソース...</a>
+        </ul>
+    </div>
+    <div id="_header-b" class="_page-width cf">
+        <h1 id="_logo">
+            <a href="http://www.wolfram.com/?source=nav" data-walid="GUIHeader" class="cf display-b">
+                <img src="/common/framework/img/spikey.ja.png" alt="" width="48" height="50" id="_logo-spikey">
+                <img src="/common/framework/img/wolfram.ja.png" alt="Wolfram" width="160" height="22" id="_logo-wolfram">
+                <img src="/common/framework/img/slogan.ja.png" alt="Computation Meets Knowledge" width="160" height="7" id="_logo-slogan">
+            </a>
+        </h1>
+        <nav id="_nav" class="hide heirs-float-l">
+
+            <div id="_nav-products" class="_nav-tab">
+                <a href="http://www.wolfram.com/products/?source=nav" data-walid="GUIHeader" class="_nav-l1">製品<span class="hide__1200 display-i__600">とサービス</span><i class="_icon-r1-c1 hide__900"></i></a>
+                <div class="_nav-tab-content">
+                    <div class="_page-width padding-bt-1">
+                        <div class="table width-full">
+                            <div class="heirs-width-1-4 heirs-width-1-3__900">
+                                <ul class="_nav-c1 _nav-hover">
+                                    <li><a href="http://www.wolfram.com/wolfram-one/?source=nav" data-walid="GUIHeader" class="mini _nav-l2"><span><i class="_icon-r1-c12"></i></span><span>Wolfram|One</span></a>
+                                    <li><a href="http://www.wolfram.com/mathematica/?source=nav" data-walid="GUIHeader" class="mini _nav-l2"><span><i class="_icon-r2-c1"></i></span><span>Mathematica</span></a>
+                                    <li><a href="http://www.wolfram.com/wolfram-alpha-notebook-edition/?source=nav" data-walid="GUIHeader" class="mini _nav-l2"><span><i class="_icon-r1-c13"></i></span><span>Wolfram|Alpha Notebook&nbsp;Edition</span></a>
+                                    <li><a href="http://www.wolfram.com/programming-lab/?source=nav" data-walid="GUIHeader" class="mini _nav-l2"><span><i class="_icon-r2-c3"></i></span><span>Programming Lab</span></a>
+                                    <li><a href="http://www.wolfram.com/finance-platform/?source=nav" data-walid="GUIHeader" class="mini _nav-l2"><span><i class="_icon-r2-c6"></i></span><span>Finance Platform</span></a>
+                                    <li><a href="http://www.wolfram.com/system-modeler/?source=nav" data-walid="GUIHeader" class="mini _nav-l2"><span><i class="_icon-r2-c7"></i></span><span>SystemModeler</span></a>
+				    <li><a href="http://www.wolfram.com/player/?source=nav" data-walid="GUIHeader" class="mini _nav-l2"><span><i class="_icon-r2-c5"></i></span><span>Wolfram Player</span></a>
+                                    <li><a href="http://www.wolfram.com/engine/?source=nav" data-walid="GUIHeader" class="mini _nav-l2"><span><i class="_icon-r3-c5"></i></span><span>Wolfram Engine</span></a>
+<li><a href="http://www.wolfram.com/wolframscript/?source=nav" data-walid="GUIHeader" class="mini _nav-l2"><span><i class="_icon-r2-c2"></i></span><span>WolframScript</span></a>
+
+                                </ul>
+                                <ul class="_nav-c2">
+                                    <li class="_nav-c1 _nav-hover">
+                                        <ul>
+                                            <li><a href="http://www.wolfram.com/enterprise-private-cloud/?source=nav" data-walid="GUIHeader" class="mini _nav-l2 _nav-has-line"><span><i class="_icon-r1-c8"></i></span><span>Enterprise Private Cloud</span></a>
+                                            <li><a href="http://www.wolfram.com/application-server/?source=nav" data-walid="GUIHeader" class="mini _nav-l2 _nav-has-line"><span><i class="_icon-r3-c11"></i></span><span>Application Server</span></a>
+                                            <li><a href="http://www.wolfram.com/mathematica-enterprise-edition/?source=nav" data-walid="GUIHeader" class="mini _nav-l2"><span><i class="_icon-r1-c9"></i></span><span>Enterprise Mathematica</span></a>
+                                            <li><a href="http://products.wolframalpha.com/appliance/?source=nav" data-walid="GUIHeader" class="mini _nav-l2"><span><i class="_icon-r1-c10"></i></span><span>Wolfram|Alpha Appliance</span></a>
+                                        </ul>
+                                    <!--</li>-->
+                                    <li class="_nav-hover"><span class="mini _nav-l2"><span><i class="_icon-r1-c11"></i></span><span>企業ソリューション</span></span>
+                                        <ul>
+                                            <li><a href="http://www.wolframsolutions.com/?source=nav" data-walid="GUIHeader" class="_nav-l3">企業コンサルティング</a></li>
+                                            <li><a href="http://www.wolfram.com/technical-consulting/?source=nav" data-walid="GUIHeader" class="_nav-l3">テクニカルコンサルティング</a></li>
+                                            <li><a href="http://products.wolframalpha.com/business/?source=nav" data-walid="GUIHeader" class="_nav-l3">Wolfram|Alphaビジネスソリューション</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="_nav-hover hide show__900"><a href="https://datadrop.wolframcloud.com/?source=nav" data-walid="GUIHeader" class="mini _nav-l2 _exclude-from-burger"><span><i class="_icon-r2-c9"></i></span><span>Data Drop</span></a>
+                                </ul>
+                                <ul class="_nav-c3 border-r-n__900">
+                                    <li class="_nav-hover"><a href="https://resources.wolframcloud.com/?source=nav" data-walid="GUIHeader" class="mini _nav-l2 _nav-has-line"><span><i class="_icon-r3-c10"></i></span><span>Resource System</span></a>
+				<ul>
+				    <li><a href="https://datarepository.wolframcloud.com/?source=nav" data-walid="GUIHeader" class="_nav-l3">Data Repository</a>
+                                            <li><a href="https://resources.wolframcloud.com/NeuralNetRepository/?source=nav" data-walid="GUIHeader" class="_nav-l3">Neural Net Repository</a>
+                                            <li><a href="https://resources.wolframcloud.com/FunctionRepository/?source=nav" data-walid="GUIHeader" class="_nav-l3">Function Repository</a>
+                                        </ul>
+                                    <!--</li>-->
+                                    <li class="_nav-hover"><a href="http://ja.wolframalpha.com/?source=nav" data-walid="GUIHeader" class="mini _nav-l2"><span><i class="_icon-r2-c8"></i></span><span>Wolfram|Alpha日本語版</span></a>
+                                    <li class="_nav-hover"><a href="http://www.wolframalpha.com/?source=nav" data-walid="GUIHeader" class="mini _nav-l2"><span><i class="_icon-r2-c8"></i></span><span>Wolfram|Alpha</span></a>
+                                        <ul>
+                                            <li><a href="http://www.wolframalpha.com/pro/?source=nav" data-walid="GUIHeader" class="_nav-l3">Wolfram|Alpha Pro</a>
+                                            <li><a href="http://www.wolframalpha.com/pro/problem-generator/?source=nav" data-walid="GUIHeader" class="_nav-l3">Problem Generator</a>
+                                            <li><a href="http://products.wolframalpha.com/api/?source=nav" data-walid="GUIHeader" class="_nav-l3">API</a>
+                                        </ul>
+                                    <!--</li>-->
+                                    <li class="_nav-hover hide__900"><a href="https://datadrop.wolframcloud.com/?source=nav" data-walid="GUIHeader" class="mini _nav-l2"><span><i class="_icon-r2-c9"></i></span><span>Data Drop</span></a>
+                                    <li class="_nav-hover hide show__900"><a href="http://www.wolfram.com/education/?source=nav" data-walid="GUIHeader" class="mini _nav-l2"><span><i class="_icon-r2-c10"></i></span><span>教育向けの製品</span></a>
+                                    <li class="_nav-hover hide show__900"><span class="mini _nav-l2 _exclude-from-burger"><span><i class="_icon-r2-c11"></i></span><span>モバイルアプリ</span></span>
+                                        <ul>
+                                            <li><a href="http://www.wolfram.com/player-app/?source=nav" data-walid="GUIHeader" class="_nav-l3">Wolfram Player</a>
+                                            <li><a href="http://www.wolfram.com/cloud-app/?source=nav" target="_blank" data-walid="GUIHeader" class="_nav-l3">Wolfram Cloudアプリ</a>
+                                            <li><a href="http://products.wolframalpha.com/mobile/?source=nav" data-walid="GUIHeader" class="_nav-l3">Wolfram|Alphaモバイルアプリ</a>
+                                            <li><a href="http://products.wolframalpha.com/mobile/?source=nav#wapowered" data-walid="GUIHeader" class="_nav-l3">Wolfram|Alphaを動力としたアプリ</a>
+                                        </ul>
+                                    <!--</li>-->
+                                    <li class="_nav-hover hide show__900"><span class="mini _nav-l2 _exclude-from-burger"><span><i class="_icon-r2-c12"></i></span><span>サービス</span></span>
+                                        <ul>
+                                            <li><a href="http://www.wolfram.com/technical-consulting/?source=nav" data-walid="GUIHeader" class="_nav-l3">プロジェクトサポート（有料）</a>
+                                            <li><a href="http://www.wolfram.com/wolfram-u/?source=nav" data-walid="GUIHeader" class="_nav-l3">Wolfram U</a>
+                                            <li><a href="https://education.wolfram.com/programs/?source=nav" data-walid="GUIHeader" class="_nav-l3">サマープログラム</a>
+                                        </ul>
+                                    <!--</li>-->
+                                </ul>
+                                <ul class="_nav-c4 hide__900">
+                                    <li class="_nav-hover"><a href="http://www.wolfram.com/education/?source=nav" data-walid="GUIHeader" class="mini _nav-l2 _exclude-from-burger"><span><i class="_icon-r2-c10"></i></span><span>教育向けの製品</span></a>
+                                    <li class="_nav-hover"><span class="mini _nav-l2"><span><i class="_icon-r2-c11"></i></span><span>モバイルアプリ</span></span>
+                                        <ul>
+                                            <li><a href="http://www.wolfram.com/player-app/?source=nav" data-walid="GUIHeader" class="_nav-l3">Wolfram Player</a>
+                                            <li><a href="http://www.wolfram.com/cloud-app/?source=nav" target="_blank" data-walid="GUIHeader" class="_nav-l3">Wolfram Cloudアプリ</a>
+                                            <li><a href="http://products.wolframalpha.com/mobile/?source=nav" data-walid="GUIHeader" class="_nav-l3">Wolfram|Alphaモバイルアプリ</a>
+                                            <li><a href="http://products.wolframalpha.com/mobile/?source=nav#wapowered" data-walid="GUIHeader" class="_nav-l3">Wolfram|Alphaを動力としたアプリ</a>
+                                        </ul>
+                                    <!--</li>-->
+                                    <li class="_nav-hover"><span class="mini _nav-l2"><span><i class="_icon-r2-c12"></i></span><span>サービス</span></span>
+                                        <ul>
+                                            <li><a href="http://www.wolfram.com/technical-consulting/?source=nav" data-walid="GUIHeader" class="_nav-l3">プロジェクトサポート（有料）</a>
+                                            <li><a href="http://www.wolfram.com/wolfram-u/?source=nav" data-walid="GUIHeader" class="_nav-l3">Wolfram U</a>
+                                            <li><a href="https://education.wolfram.com/programs/?source=nav" data-walid="GUIHeader" class="_nav-l3">サマープログラム</a>
+                                        </ul>
+                                    <!--</li>-->
+                                </ul>
+                            </div>
+                        </div><!--/.table-->
+                    </div>
+                    <div class="_nav-footer font-size-3-4">
+                        <a href="http://www.wolfram.com/products/?source=nav" data-walid="GUIHeader" class="_nav-l2 _nav-has-line"><span><i class="_icon-r1-c6 hide show__600"></i></span><span class="chevron-after nothing-after__600 font-style-i__600">すべての製品とサービス</span></a>
+                    </div>
+                </div><!--/._nav-tab-content-->
+            </div><!--/#_nav-products-->
+
+            <div id="_nav-technologies" class="_nav-tab">
+                <a href="http://www.wolfram.com/technologies/?source=nav" data-walid="GUIHeader" class="_nav-l1">テクノロジー<i class="_icon-r1-c1 hide__900"></i></a>
+                <div class="_nav-tab-content">
+                    <div class="_page-width padding-bt-1">
+                        <div class="table width-full">
+                            <div class="heirs-width-1-3">
+                                <a href="http://www.wolfram.com/language/?source=nav" data-walid="GUIHeader" class="_nav-l2 _nav-hover">
+                                    <span class="mini"><span><i class="_icon-r3-c1"></i></span><span>Wolfram言語</span></span>
+                                    <p>革命的な知識ベースのプログラミング言語</p>
+                                </a>
+                                <a href="http://www.wolfram.com/notebooks/?source=nav" data-walid="GUIHeader" class="_nav-l2 _nav-hover">
+                                    <span class="mini"><span><i class="_icon-r3-c2"></i></span><span>Wolframノートブック</span></span>
+                                    <p>テクニカルワークフローのための卓越した環境</p>
+                                </a>
+                                <a href="http://www.wolfram.com/data-framework/?source=nav" data-walid="GUIHeader" class="_nav-l2 _nav-hover">
+                                    <span class="mini"><span><i class="_icon-r3-c3"></i></span><span>Wolfram Data Framework</span></span>
+                                    <p>現実世界のデータに対するセマンティックフレームワーク</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="http://www.wolfram.com/cloud/?source=nav" data-walid="GUIHeader" class="_nav-l2 _nav-hover">
+                                    <span class="mini"><span><i class="_icon-r3-c4"></i></span><span>Wolfram Cloud</span></span>
+                                    <p>Wolframクラウド製品およびサービスの中核インフラストラクチャ</p>
+                                </a>
+                                <a href="http://www.wolfram.com/engine/?source=nav" data-walid="GUIHeader" class="_nav-l2 _nav-hover">
+                                    <span class="mini"><span><i class="_icon-r3-c5"></i></span><span>Wolfram Engine</span></span>
+                                    <p>Wolfram言語を実装するソフトウェアエンジン</p>
+                                </a>
+                                <a href="http://www.wolfram.com/universal-deployment-system/?source=nav" data-walid="GUIHeader" class="_nav-l2 _nav-hover">
+                                    <span class="mini"><span><i class="_icon-r3-c6"></i></span><span>Wolfram Universal Deployment System</span></span>
+                                    <p>クラウド，デスクトップ，モバイル等すべてに即座に配備</p>
+                                </a>
+                            </div>
+                            <div>
+                                <a href="http://www.wolfram.com/wolfram-science/?source=nav" data-walid="GUIHeader" class="_nav-l2 _nav-hover">
+                                    <span class="mini"><span><i class="_icon-r3-c7"></i></span><span>Wolfram Science</span></span>
+                                    <p>計算宇宙においてテクノロジーの実用を可能にする科学</p>
+                                </a>
+                                <a href="http://www.wolfram.com/natural-language-understanding/?source=nav" data-walid="GUIHeader" class="_nav-l2 _nav-hover">
+                                    <span class="mini"><span><i class="_icon-r3-c8"></i></span><span>Wolfram Natural Language Understanding System</span></span>
+                                    <p>幅広く配備された知識ベースの自然言語</p>
+                                </a>
+                                <a href="http://www.wolfram.com/knowledgebase/?source=nav" data-walid="GUIHeader" class="_nav-l2 _nav-hover">
+                                    <span class="mini"><span><i class="_icon-r3-c9"></i></span><span>Wolfram Knowledgebase</span></span>
+                                    <p>Wolfram|Alphaを動かす精選された計算可能知識</p>
+                                </a>
+                            </div>
+                        </div><!--/.table-->
+                    </div>
+                    <div class="_nav-footer font-size-3-4">
+                        <a href="http://www.wolfram.com/technologies/?source=nav" data-walid="GUIHeader" class="_nav-l2 _nav-has-line"><span><i class="_icon-r1-c6 hide show__600"></i></span><span class="chevron-after nothing-after__600 font-style-i__600">すべてのテクノロジー</span></a>
+                    </div>
+                </div><!--/._nav-tab-content-->
+            </div><!--/#_nav-technologies-->
+
+            <div id="_nav-solutions" class="_nav-tab">
+                <a href="http://www.wolfram.com/solutions/?source=nav" data-walid="GUIHeader" class="_nav-l1">ソリューション<i class="_icon-r1-c1 hide__900"></i></a>
+                <div class="_nav-tab-content">
+                    <div class="_page-width padding-bt-1">
+                        <div class="table width-full">
+                            <div class="heirs-width-1-4">
+                                <ul class="_nav-c1">
+                                    <li class="_nav-hover"><span class="_nav-l2 mini"><span><i class="_icon-r4-c1"></i></span><span>工学と研究開発</span></span>
+                                        <ul>
+                                            <li><a href="http://www.wolfram.com/solutions/industry/aerospace-engineering/?source=nav" data-walid="GUIHeader" class="_nav-l3">宇宙工学と防衛</a>
+                                            <li><a href="http://www.wolfram.com/solutions/industry/chemical-engineering/?source=nav" data-walid="GUIHeader" class="_nav-l3">化学工学</a>
+                                            <li><a href="http://www.wolfram.com/solutions/industry/control-systems/?source=nav" data-walid="GUIHeader" class="_nav-l3">制御系</a>
+                                            <li><a href="http://www.wolfram.com/solutions/industry/electrical-engineering/?source=nav" data-walid="GUIHeader" class="_nav-l3">電気工学</a>
+                                            <li><a href="http://www.wolfram.com/solutions/industry/image-processing/?source=nav" data-walid="GUIHeader" class="_nav-l3">画像処理</a>
+                                            <li><a href="http://www.wolfram.com/solutions/industry/industrial-engineering/?source=nav" data-walid="GUIHeader" class="_nav-l3">生産工学</a>
+                                            <li><a href="http://www.wolfram.com/solutions/industry/mechanical-engineering/?source=nav" data-walid="GUIHeader" class="_nav-l3">機械工学</a>
+                                            <li><a href="http://www.wolfram.com/solutions/industry/operations-research/?source=nav" data-walid="GUIHeader" class="_nav-l3">オペレーションズリサーチ</a>
+                                            <li><a href="http://www.wolfram.com/solutions/?source=nav" data-walid="GUIHeader" class="_nav-l3">その他...</a>
+                                        </ul>
+                                    <!--</li>-->
+                                    <li class="_nav-hover hide show__900"><span class="mini _nav-l2 _exclude-from-burger"><span><i class="_icon-r2-c10"></i></span><span>教育</span></span>
+                                        <ul>
+                                            <li><a href="http://www.wolfram.com/education/?source=nav" data-walid="GUIHeader" class="_nav-l3">教育用ソリューション</a>
+                                        </ul>
+                                    <!--</li>-->
+                                </ul>
+                                <ul class="_nav-c2">
+                                    <li class="_nav-hover"><span class="mini _nav-l2"><span><i class="_icon-r4-c3"></i></span><span>金融，統計，ビジネスの分析</span></span>
+                                        <ul>
+                                            <li><a href="http://www.wolfram.com/solutions/industry/actuarial-sciences/?source=nav" data-walid="GUIHeader" class="_nav-l3">保険数理</a>
+                                            <li><a href="http://www.wolfram.com/solutions/industry/bioinformatics/?source=nav" data-walid="GUIHeader" class="_nav-l3">バイオインフォマティクス</a>
+                                            <li><a href="https://www.wolfram.com/featureset/data-science/?source=nav" data-walid="GUIHeader" class="_nav-l3">データサイエンス</a>
+                                            <li><a href="http://www.wolfram.com/solutions/industry/econometrics/?source=nav" data-walid="GUIHeader" class="_nav-l3">計量経済学</a>
+                                            <li><a href="http://www.wolfram.com/solutions/industry/financial-risk-management/?source=nav" data-walid="GUIHeader" class="_nav-l3">財務リスク管理</a>
+                                            <li><a href="http://www.wolfram.com/solutions/industry/statistics/?source=nav" data-walid="GUIHeader" class="_nav-l3">統計</a>
+                                            <li><a href="http://www.wolfram.com/solutions/?source=nav" data-walid="GUIHeader" class="_nav-l3 ">その他...</a>
+                                        </ul>
+                                    <!--</li>-->
+                                    <li class="_nav-hover hide show__900"><span class="mini _nav-l2 _exclude-from-burger"><span><i class="_icon-r4-c2"></i></span><span>ソフトウェアとWeb</span></span>
+                                        <ul>
+                                            <li><a href="http://www.wolfram.com/developer/?source=nav" data-walid="GUIHeader" class="_nav-l3">ソフトウェア開発</a>
+                                            <li><a href="http://www.wolfram.com/solutions/industry/electronic-publishing/?source=nav" data-walid="GUIHeader" class="_nav-l3">オーサリングと出版</a>
+                                            <li><a href="http://www.wolfram.com/solutions/industry/interface-development/?source=nav" data-walid="GUIHeader" class="_nav-l3">インターフェース開発</a>
+                                            <li><a href="http://www.wolfram.com/solutions/industry/web-development/?source=nav" data-walid="GUIHeader" class="_nav-l3">Web開発</a>
+                                        </ul>
+                                    <!--</li>-->
+                                </ul>
+                                <ul class="_nav-c3 border-r-n__900">
+                                    <li class="_nav-hover hide__900"><span class="mini _nav-l2"><span><i class="_icon-r2-c10"></i></span><span>教育</span></span>
+                                        <ul>
+                                            <li><a href="http://www.wolfram.com/education/?source=nav" data-walid="GUIHeader" class="_nav-l3">すべての教育用<br>ソリューション</a>
+                                        </ul>
+                                    <!--</li>-->
+                                    <li class="_nav-hover"><span class="mini _nav-l2"><span><i class="_icon-r4-c5"></i></span><span>トレンド</span></span>
+                                        <ul>
+                                            <li><a href="http://www.wolfram.com/featureset/machine-learning/?source=nav" data-walid="GUIHeader" class="_nav-l3">機械学習</a>
+                                            <li><a href="http://www.mpdatascience.com/?source=nav" data-walid="GUIHeader" class="_nav-l3">マルチパラダイムデータ<br>サイエンス</a>
+                                            <li><a href="http://www.wolfram.com/internet-of-things/?source=nav" data-walid="GUIHeader" class="_nav-l3">モノのインターネット</a>
+                                            <li><a href="http://www.wolfram.com/solutions/hpc/?source=nav" data-walid="GUIHeader" class="_nav-l3">高性能計算(HPC)</a>
+                                            <li><a href="http://www.wolfram.com/hackathons/?source=nav" data-walid="GUIHeader" class="_nav-l3">ハッカソン</a>
+                                        </ul>
+                                    <!--</li>-->
+                                    <li class="_nav-hover hide show__900"><span class="_nav-l2 mini _exclude-from-burger"><span><i class="_icon-r4-c4"></i></span><span>科学</span></span>
+                                        <ul>
+                                            <li><a href="http://www.wolfram.com/solutions/industry/astronomy/?source=nav" data-walid="GUIHeader" class="_nav-l3">天文学</a>
+                                            <li><a href="http://www.wolfram.com/solutions/industry/biological-sciences/?source=nav" data-walid="GUIHeader" class="_nav-l3">生物学</a>
+                                            <li><a href="http://www.wolfram.com/solutions/industry/chemistry/?source=nav" data-walid="GUIHeader" class="_nav-l3">化学</a>
+                                            <li><a href="http://www.wolfram.com/solutions/?source=nav" data-walid="GUIHeader" class="_nav-l3">その他...</a>
+                                        </ul>
+                                    <!--</li>-->
+                                </ul>
+                                <ul class="_nav-c4 hide__900">
+                                    <li class="_nav-hover"><span class="mini _nav-l2"><span><i class="_icon-r4-c2"></i></span><span>ソフトウェアとWeb</span></span>
+                                        <ul>
+                                            <li><a href="http://www.wolfram.com/developer/?source=nav" data-walid="GUIHeader" class="_nav-l3">ソフトウェア開発</a>
+                                            <li><a href="http://www.wolfram.com/solutions/industry/electronic-publishing/?source=nav" data-walid="GUIHeader" class="_nav-l3">オーサリングと出版</a>
+                                            <li><a href="http://www.wolfram.com/solutions/industry/interface-development/?source=nav" data-walid="GUIHeader" class="_nav-l3">インターフェース開発</a>
+                                            <li><a href="http://www.wolfram.com/solutions/industry/web-development/?source=nav" data-walid="GUIHeader" class="_nav-l3">Web開発</a>
+                                        </ul>
+                                    <!--</li>-->
+                                    <li class="_nav-hover"><span class="_nav-l2 mini"><span><i class="_icon-r4-c4"></i></span><span>科学</span></span>
+                                        <ul>
+                                            <li><a href="http://www.wolfram.com/solutions/industry/astronomy/?source=nav" data-walid="GUIHeader" class="_nav-l3">天文学</a>
+                                            <li><a href="http://www.wolfram.com/solutions/industry/biological-sciences/?source=nav" data-walid="GUIHeader" class="_nav-l3">生物学</a>
+                                            <li><a href="http://www.wolfram.com/solutions/industry/chemistry/?source=nav" data-walid="GUIHeader" class="_nav-l3">化学</a>
+                                            <li><a href="http://www.wolfram.com/solutions/?source=nav" data-walid="GUIHeader" class="_nav-l3">その他...</a>
+                                        </ul>
+                                    <!--</li>-->
+                                </ul>
+                            </div>
+                        </div><!--/.table-->
+                    </div>
+                    <div class="_nav-footer font-size-3-4">
+                        <a href="http://www.wolfram.com/solutions/?source=nav" data-walid="GUIHeader" class="_nav-l2 _nav-has-line"><span><i class="_icon-r1-c6 hide show__600"></i></span><span class="chevron-after nothing-after__600 font-style-i__600">すべてのソリューション</span></a>
+                    </div>
+                </div><!--/._nav-tab-content-->
+            </div><!--/#_nav-solutions-->
+
+            <div id="_nav-support" class="_nav-tab">
+                <a href="http://www.wolfram.com/support/?source=nav" data-walid="GUIHeader" class="_nav-l1">ラーニング<span class="hide__1200 display-i__600">とサポート</span><i class="_icon-r1-c1 hide__900"></i></a>
+                <div class="_nav-tab-content">
+                    <div class="_page-width padding-bt-1">
+                        <div class="table width-full">
+                            <div class="heirs-width-1-3__900">
+                                <ul class="_nav-c1 _nav-hover width-1-2">
+                                    <li class="grid heirs-width-1-2 heirs-width-full__900">
+                                        <ul>
+                                            <li><span class="mini _nav-l2"><span><i class="_icon-r5-c1"></i></span><span>ラーニング</span></span>
+                                                <ul>
+                                                    <li><a href="http://reference.wolfram.com/language/?source=nav" data-walid="GUIHeader" class="_nav-l3">Wolfram言語のドキュメント</a>
+                                                    <li><a href="http://www.wolfram.com/language/fast-introduction-for-programmers/?source=nav" data-walid="GUIHeader" class="_nav-l3">プログラミングの基本</a>
+                                                    <li><a href="http://www.wolfram.com/wolfram-u/?source=nav" data-walid="GUIHeader" class="_nav-l3">Wolfram U</a>
+                                                    <li><a href="http://www.wolfram.com/broadcast/?source=nav" data-walid="GUIHeader" class="_nav-l3">ビデオ &amp; スクリーンキャスト</a>
+                                                </ul>
+                                            <!--</li>-->
+                                        </ul>
+                                        <ul class="display-tr__900">
+                                            <li><span class="hide__900">&nbsp;</span>
+                                                <ul>
+                                                    <li><a href="http://www.wolfram.com/language/elementary-introduction/?source=nav" data-walid="GUIHeader" class="_nav-l3">Wolfram言語入門書</a>
+                                                    <li><a href="http://www.wolfram.com/wolfram-u/calendar/?source=nav" data-walid="GUIHeader" class="_nav-l3">ウェビナーとトレーニング</a>
+                                                    <li><a href="https://education.wolfram.com/programs/?source=nav" data-walid="GUIHeader" class="_nav-l3">サマープログラム</a>
+                                                    <li><a href="http://www.wolfram.com/books/?source=nav" data-walid="GUIHeader" class="_nav-l3">書籍</a>
+                                                </ul>
+                                            <!--</li>-->
+                                        </ul>
+                                    <!--</li>-->
+                                </ul>
+                                <ul class="_nav-c2 _nav-hover width-1-4">
+                                    <li><span class="mini _nav-l2"><span><i class="_icon-r5-c2"></i></span><span>ヘルプ</span></span>
+                                        <ul>
+                                            <li><a href="https://support.wolfram.com/ja/?source=nav" data-walid="GUIHeader" class="_nav-l3">よくある質問</a>
+                                            <li><a href="http://community.wolfram.com/?source=nav" data-walid="GUIHeader" class="_nav-l3">Wolframコミュニティ</a>
+                                            <li><a href="http://www.wolfram.com/support/contact/?source=nav" data-walid="GUIHeader" class="_nav-l3">サポートへのお問合せ</a>
+                                        </ul>
+                                    <!--</li>-->
+                                </ul>
+                                <ul class="_nav-c3 _nav-hover width-1-4">
+                                    <li><span class="mini _nav-l2"><span><i class="_icon-r5-c3"></i></span><span>プレミアムサポート</span></span>
+                                        <ul>
+                                            <li><a href="https://www.wolfram.com/technical-consulting/?source=nav" data-walid="GUIHeader" class="_nav-l3">プロジェクトサポート（有料）</a>
+                                            <li><a href="http://www.wolfram.com/technical-consulting/?source=nav" data-walid="GUIHeader" class="_nav-l3">テクニカルコンサルティング</a>
+                                        </ul>
+                                    <!--</li>-->
+                                </ul>
+                            </div>
+                        </div><!--/.table-->
+                    </div>
+                    <div class="_nav-footer font-size-3-4">
+                        <a href="http://www.wolfram.com/support/?source=nav" data-walid="GUIHeader" class="_nav-l2 _nav-has-line"><span><i class="_icon-r1-c6 hide show__600"></i></span><span class="chevron-after nothing-after__600 font-style-i__600">すべてのラーニングとサポート</span></a>
+                    </div>
+                </div><!--/._nav-tab-content-->
+            </div><!--/#_nav-support-->
+
+            <div id="_nav-company" class="_nav-tab">
+                <a href="http://www.wolfram.com/company/?source=nav" data-walid="GUIHeader" class="_nav-l1">会社概要<i class="_icon-r1-c1 hide__900"></i></a>
+                <div class="_nav-tab-content">
+                    <div class="_page-width padding-bt-1">
+                        <div class="table width-full">
+                            <div class="heirs-width-1-3__900">
+                                <ul class="_nav-c1 _nav-hover width-1-4">
+                                    <li><span class="mini _nav-l2"><span><i class="_icon-r6-c1"></i></span><span>会社案内</span></span>
+                                        <ul>
+                                            <li><a href="http://www.wolfram.com/company/background.html?source=nav" data-walid="GUIHeader" class="_nav-l3">Wolframについて</a>
+                                            <li><a href="http://blog.wolfram.com/?source=nav" data-walid="GUIHeader" class="_nav-l3">Wolframブログ</a>
+                                            <li><a href="http://company.wolfram.com/events/?source=nav" data-walid="GUIHeader" class="_nav-l3">イベント</a>
+                                            <li><a href="http://www.wolfram.com/company/contact/?source=nav" data-walid="GUIHeader" class="_nav-l3">お問合せ</a>
+                                        </ul>
+                                    <!--</li>-->
+                                </ul>
+                                <ul class="_nav-c2 _nav-hover width-1-4">
+                                    <li><span class="mini _nav-l2"><span><i class="_icon-r6-c2"></i></span><span>Wolframでのキャリア</span></span>
+                                        <ul>
+                                            <li><a href="http://www.wolfram.com/company/careers/?source=nav" data-walid="GUIHeader" class="_nav-l3">Wolfram採用情報</a>
+                                            <li><a href="http://www.wolfram.com/company/careers/?source=nav" data-walid="GUIHeader" class="_nav-l3">インターンシップ</a>
+                                            <li><a href="http://community.wolfram.com/content?curTag=jobs&amp;source=nav" data-walid="GUIHeader" class="_nav-l3">その他のWolfram言語関連の求人</a>
+                                        </ul>
+                                    <!--</li>-->
+                                </ul>
+                                <ul class="_nav-c3 _nav-hover width-1-2">
+                                    <li class="grid heirs-width-1-2 heirs-width-full__900">
+                                        <ul>
+                                            <li><span class="mini _nav-l2"><span><i class="_icon-r6-c3"></i></span><span>イニシアチブ</span></span>
+                                                <ul>
+                                                    <li><a href="http://www.wolframfoundation.org/?source=nav" data-walid="GUIHeader" class="_nav-l3">Wolfram Foundation</a>
+                                                    <li><a href="http://mathworld.wolfram.com/?source=nav" data-walid="GUIHeader" target="_blank" class="_nav-l3">MathWorld</a>
+                                                    <li><a href="http://www.computerbasedmath.org/?source=nav" data-walid="GUIHeader" class="_nav-l3">Computer-Based Math</a>
+                                                    <li><a href="http://www.wolframscience.com/?source=nav" data-walid="GUIHeader" class="_nav-l3 font-style-i">A New Kind of Science</a>
+                                                    <li><a href="http://www.wolfram.com/hackathons/?source=nav" data-walid="GUIHeader" class="_nav-l3">Hackathon用のWolframテクノロジー</a>
+                                                    <li><a href="http://www.wolfram.com/company/careers/ambassador/?source=nav" data-walid="GUIHeader" class="_nav-l3">Student Ambassador Program</a>
+                                                </ul>
+                                            <!--</li>-->
+                                        </ul>
+                                        <ul class="display-tr__900">
+                                            <li><span class="hide__900">&nbsp;</span>
+                                                <ul>
+                                                    <li><a href="http://www.wolfram.com/startups/?source=nav" data-walid="GUIHeader" class="_nav-l3">Wolframスタートアップサポート</a>
+                                                    <li><a href="http://demonstrations.wolfram.com/?source=nav" data-walid="GUIHeader" class="_nav-l3">デモンストレーションプロジェクト</a>
+                                                    <li><a href="http://www.wolfram.com/events/technology-conference/innovator-award/?source=nav" data-walid="GUIHeader" class="_nav-l3">Wolfram Innovator Awards</a>
+                                                    <li><a href="http://www.wolfram.com/raspberry-pi/?source=nav" data-walid="GUIHeader" class="_nav-l3">Wolfram + Raspberry Pi</a>
+                                                    <li><a href="https://education.wolfram.com/programs/?source=nav" data-walid="GUIHeader" class="_nav-l3">サマープログラム</a>
+                                                    <li><a href="http://www.wolfram.com/resources/?source=nav" data-walid="GUIHeader" class="_nav-l3">その他...</a>
+                                                </ul>
+                                            <!--</li>-->
+                                        </ul>
+                                    <!--</li>-->
+                                </ul>
+                            </div>
+                        </div><!--/.table-->
+                    </div>
+                    <div class="_nav-footer font-size-3-4">
+                        <a href="http://www.wolfram.com/company/?source=nav" data-walid="GUIHeader" class="_nav-l2 _nav-has-line"><span><i class="_icon-r1-c6 hide show__600"></i></span><span class="chevron-after nothing-after__600 font-style-i__600">すべての会社概要</span></a>
+                    </div>
+                </div><!--/._nav-tab-content-->
+            </div><!--/#_nav-company-->
+
+            <div id="_nav-search" class="_nav-tab">
+                <a href="//search.wolfram.com/?source=nav" data-walid="GUIHeader" class="_nav-l1"><i class="_icon-r1-c4 hide show__600"></i><i class="_icon-r1-c3 hide__600"></i><span class="hide__1200">検索</span></a>
+                <ul class="_nav-tab-content">
+                    <li id="_search-wrapper" class="cf">
+                        <form action="//search.wolfram.com/" method="get" accept-charset="utf-8" class="no-bfc">
+                            <div><input type="text" name="query" placeholder="What are you looking for?" autocomplete="off" id="_search-input"></div>
+                            <input type="hidden" name="source" value="GUIHeader">
+                        </form>
+                    <!--</li>-->
+                </ul><!--/._nav-tab-content-->
+            </div><!--/#_nav-search-->
+
+            <div id="_nav-burger" class="_nav-tab hide show__600">
+                <a href="http://www.wolfram.com/site-map/?source=nav" data-walid="GUIHeader" class="_nav-l1"><i class="_icon-r1-c5"></i></a>
+                <div class="_nav-tab-content font-size-1-1-8">
+                </div><!--/._nav-tab-content-->
+            </div><!--/#_nav-burger-->
+
+        </nav><!--/#_nav-->
+    </div><!--/#_header-b-->
+</header><!--/#_header-->
+
+<!-- end framework header ja -->
+
+
+<main class="main">
+<header class="header">
+    <div class="inner">
+        <a href="/language" class="header-link">
+            <span class="heading1">Wolfram言語 ＆ システム</span>
+            <span class="heading2">ドキュメントセンター</span>
+        </a>
+        <div class="right">
+            <form class="search" method="get" name="searchpageform" action="/search/" id="ref-search-form">
+                <input type="submit" value="q" id="search-button"><input id="query" name="query" type="text" value="" placeholder="Search"><button class="clearfield"></button>
+            </form>
+            <a class="language-home" href="http://www.wolfram.com/language">Wolfram言語ホームページ&nbsp;&raquo;</a>
+        </div>
+    </div>
+</header>

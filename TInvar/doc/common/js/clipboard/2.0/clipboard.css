@@ -1,0 +1,534 @@
+/* copy to clipboard
+   ========================================================================== */
+
+.clipboard-input,
+.clipboard-output {
+    font-size: 0;
+}
+
+.clipboard-container {
+    display: inline-block;
+    position: relative;
+}
+
+.clipboard-table {
+    display: table;
+    min-height: 32px;
+}
+
+.clipboard-table>div {
+    display: table-row;
+}
+
+.clipboard-cell,
+.clipboard-img {
+    color: #999;
+    display: table-cell;
+    font-family: Arial;
+    font-size: .7rem;
+    line-height: 0;
+    padding: .5rem;
+    position: relative;
+    vertical-align: top;
+}
+
+.clipboard-cell {
+    min-width: 3rem;
+    padding-right: 0;
+    padding-top: 1rem;
+    text-align: right;
+}
+
+.clipboard-img a:hover {
+    background: #e8f3ff;
+    display: inline-block;
+}
+
+.clipboard-table.separate .clipboard-cell,
+.clipboard-table.separate .clipboard-img {
+    display: block;
+}
+
+.clipboard-table.separate .clipboard-cell {
+    padding-left: 1rem;
+    text-align: left;
+}
+
+.clipboard-table.separate .clipboard-img {
+    padding-left: 4rem;
+}
+
+.clipboard-table .chevron-after,
+.clipboard-table .arrow-after {
+    display: none;
+}
+
+.clipboard-hover,
+.clipboard-hover-normal {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+.clipboard-inline.clipboard-hover,
+.clipboard-block.clipboard-hover {
+    position: static !important;
+}
+
+.clipboard-hover-normal {
+    cursor: auto;
+}
+
+.clipboard-hover:not(.clipboard-link),
+.clipboard-container:hover .clipboard-hover .link-button
+ {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    position: relative;
+}
+
+.clipboard-hover.with-link {
+    display: table-cell;
+}
+
+.clipboard-container:hover .clipboard-hover:not(.clipboard-link),
+.clipboard-container:hover .clipboard-hover .link-button {
+    background-color: #fafafa;
+    border: 1px solid #ececec;
+}
+
+.clipboard-link {
+    display: table-cell;
+    position: relative;
+    vertical-align: middle;
+}
+.clipboard-link.hide {
+    display: none;
+}
+.clipboard-link .link-button {
+    display: none;
+    margin: 0 .5rem;
+    padding: .5rem;
+}
+.clipboard-link code {
+    left: -999999px;
+    position: absolute;
+    top: 0;
+}
+.clipboard-container:hover .link-button {
+    display: inline-block;
+}
+.clipboard-link .link-button:before {
+    background: url('img/direct-link.png');
+    background-size: 13px auto;
+    content: '';
+    display: inline-block;
+    height: 13px;
+    width: 13px;
+}
+.clipboard-link:hover .link-button:before {
+    background: url('img/direct-link.png') 0 -13px;
+    background-size: 13px auto;
+}
+
+.clipboard-container:hover .clipboard-hover:not(.clipboard-link):focus,
+.clipboard-container:hover .clipboard-hover:not(.clipboard-link):hover,
+.clipboard-container:hover .clipboard-link:focus .link-button,
+.clipboard-container:hover .clipboard-link:hover .link-button,
+.clipboard-inline:hover,
+.clipboard-block:hover {
+    background: #e8f3ff;
+    border: 1px solid #e8f3ff;
+}
+
+.clipboard-inlineblock:hover {
+    background: #e8f3ff;
+    border: 1px solid #e8f3ff;
+}
+
+.clipboard-container:hover .clipboard-hover:not(.clipboard-link):active,
+.clipboard-container:hover .clipboard-hover:active .link-button {
+    background: #c3e1fa;
+    border: 1px solid #9bc8ee;
+}
+
+.code.clipboard-hover {
+    margin: 0;
+}
+
+.clipboard-hover:focus img,
+.clipboard-hover:hover img {
+    mix-blend-mode: multiply;
+}
+
+/* code
+   ================================== */
+
+.clipboard-copy {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5;
+    color: #494949;
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 13px;
+    height: 50px;
+    left: -999999px;
+    line-height: 1.3;
+    overflow: auto;
+    padding: 20px;
+    position: absolute;
+    top: 0;
+    white-space: pre-wrap;
+    width: 100%;
+    word-break: break-all;
+    z-index: 999999;
+}
+
+.clipboard-copy.show-code {
+    height: 50px;
+    left: 0;
+    overflow: auto;
+    top: 0;
+}
+
+.clipboard-copy.clipboard-hover:active,
+.clipboard-copy.clipboard-hover:not(.clipboard-link):active .link-button {
+    background: #f5f5f5;
+    border: 1px solid #e5e5e5;
+}
+
+/* icons
+   ================================== */
+
+.clipboard-close {
+    cursor: pointer;
+    display: none;
+    height: 30px;
+    margin-top: 5px;
+    position: absolute;
+    right: 5px;
+    text-align: center;
+    top: 2px;
+    width: 30px;
+    z-index: 999998;
+}
+
+.clipboard-close.visible {
+    display: block;
+}
+
+/* tooltips
+   ================================== */
+
+.clipboard-tooltip-wrapper {
+    display: inline;
+    float: left;
+    height: 0;
+    left: 0;
+    position: relative;
+    top: 0;
+    width: 0;
+}
+
+.clipboard-tooltip {
+    background: #f5f5f5;
+    border-radius: 3px;
+    border: 1px solid #e5e5e5;
+    bottom: auto;
+    color: #898989;
+    visibility: hidden;
+    font-size: 0px;
+    font-style: normal;
+    font-weight: 400;
+    top: -20px;
+    left: 0;
+    line-height: 1.3;
+    margin: auto;
+    opacity: 0;
+    padding: 7.5px 8px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    white-space: nowrap;
+    width: 0;
+    z-index: 999999;
+    transition: all .7s ease;
+}
+
+.clipboard-hover:hover .clipboard-tooltip.show {
+    top: -53px;
+    opacity: 1;
+    visibility: visible;
+    width: 165px;
+    font-size: 12px;
+    transition: all .2s ease;
+}
+.clipboard-link:hover .clipboard-tooltip {
+    left: -60px;
+}
+
+.clipboard-inline .clipboard-tooltip,
+.clipboard-inline:hover .clipboard-tooltip,
+.clipboard-block .clipboard-tooltip,
+.clipboard-block:hover .clipboard-tooltip {
+    bottom: auto;
+    left: auto;
+    right: auto;
+    top: auto;
+}
+
+.clipboard-inline.image,
+.clipboard-block.image {
+    font-size: 0;
+}
+
+.clipboard-inlineblock.image {
+    font-size: 0;
+}
+
+[class^="clipboard-"]:hover .clipboard-tooltip.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.clipboard-tooltip:before {
+    border-bottom: 2px solid transparent;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 2px solid #f5f5f5;
+    content: '';
+    display: block;
+    height: 0;
+    left: 0;
+    margin: auto;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    transition: all .5s ease;
+    width: 0;
+    z-index: 999999;
+}
+
+.clipboard-tooltip:after {
+    border-bottom: 3px solid transparent;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 3px solid #e5e5e5;
+    content: '';
+    display: block;
+    height: 0;
+    left: 0;
+    margin: auto;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: 20px;
+    transition: all .5s ease;
+    width: 0;
+    z-index: 999998;
+}
+
+.clipboard-tooltip.bottom:before {
+    border-bottom: 2px solid #f5f5f5;
+    border-left: 3px solid transparent;
+    border-right: 3px solid transparent;
+    border-top: 2px solid transparent;
+    content: '';
+    display: block;
+    height: 0;
+    left: 0;
+    margin: auto;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: -10px;
+    transition: all .5s ease;
+    width: 0;
+    z-index: 999999;
+}
+
+.clipboard-tooltip.bottom:after {
+    border-bottom: 3px solid #e5e5e5;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 3px solid transparent;
+    content: '';
+    display: block;
+    height: 0;
+    left: 0;
+    margin: auto;
+    opacity: 0;
+    position: absolute;
+    right: 0;
+    top: -10px;
+    transition: all .5s ease;
+    width: 0;
+    z-index: 999998;
+}
+
+.clipboard-hover:hover .clipboard-tooltip:before {
+    border-bottom: 9px solid transparent;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 9px solid #f5f5f5;
+    opacity: 1;
+    top: 31px;
+    transition: all .2s ease;
+}
+
+.clipboard-hover:hover .clipboard-tooltip:after {
+    border-bottom: 10px solid transparent;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-top: 10px solid #e5e5e5;
+    opacity: 1;
+    top: 31px;
+    transition: all .2s ease;
+}
+
+.clipboard-tooltip.bottom {
+    bottom: -53px;
+    bottom: 0;
+    opacity: 1;
+    top: auto;
+}
+
+.clipboard-hover:hover .clipboard-tooltip.bottom:before {
+    border-bottom: 9px solid #f5f5f5;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 9px solid transparent;
+    opacity: 1;
+    top: -17px;
+    transition: all .2s ease;
+}
+
+.clipboard-hover:hover .clipboard-tooltip.bottom:after {
+    border-bottom: 10px solid #e5e5e5;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-top: 10px solid transparent;
+    opacity: 1;
+    top: -19px;
+    transition: all .2s ease;
+}
+
+.clipboard-tooltip i {
+    background: url('img/icon-clipboard.png') no-repeat center left;
+    background-size: contain;
+    display: inline-block;
+    height: 0;
+    margin: -3px .25rem 0 0;
+    transition: all .5s ease;
+    vertical-align: middle;
+    width: 0;
+}
+
+.clipboard-tooltip.copied i {
+    background: url('img/icon-checkmark.png') no-repeat center left;
+    background-size: contain;
+    display: inline-block;
+    height: 0;
+    margin: -3px .25rem 0 0;
+    transition: all .5s ease;
+    vertical-align: middle;
+    width: 0;
+}
+
+.clipboard-hover:hover .clipboard-tooltip i {
+    height: 18px;
+    width: 14px;
+    transition: all .1s ease;
+}
+
+/* visible code examples
+   ================================== */
+
+.clipboard .code-plain {
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    border: 1px solid #e5e5e5;
+    color: #494949;
+    display: block;
+    font-family: monospace, monospace;
+    font-size: 13px;
+    line-height: 1.3;
+    margin-top: 5px;
+    padding: 20px;
+    white-space: pre-wrap;
+    width: 100%;
+    word-break: break-all;
+}
+
+/* with media
+   ================================== */
+
+.clipboard-img video,
+.clipboard-img img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
+.clipboard-img img:not([src^="data"]),
+.clipboard-img video {
+    height: auto;
+}
+
+.clipboard-output .media:hover i {
+    background: url('img/animation2x.png') 0 -50px;
+    background-size: 100px;
+    bottom: 0;
+    display: inline-block;
+    height: 50px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 50px;
+}
+
+.clipboard-output .media.pause:hover i {
+    background-position: 0 0;
+}
+
+.clipboard-output .media.pause:active i {
+    background-position: -50px 0;
+}
+
+.clipboard-output .media:active i {
+    background-position: -50px -50px;
+}
+
+.clipboard-output .media .hide,
+.clipboard-output .media audio {
+    display: block !important;
+    height: 0;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+}
+
+@media all and (max-width: 600px) {
+    .clipboard-cell {
+        min-width: 1rem;
+        width: auto;
+    }
+
+    .clipboard-table.separate .clipboard-cell,
+    .clipboard-table.separate .clipboard-img {
+        display: table-cell;
+        padding-left: .5rem;
+    }
+
+    .clipboard-num {
+        display: none;
+    }
+
+    .clipboard-table .chevron-after,
+    .clipboard-table .arrow-after {
+        display: inline;
+    }
+}

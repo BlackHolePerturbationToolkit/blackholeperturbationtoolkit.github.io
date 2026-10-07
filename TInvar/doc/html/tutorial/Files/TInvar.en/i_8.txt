@@ -1,0 +1,2 @@
+expr2 = RiemannCD[a, b, c, d] + RiemannCD[c, a, d, b] + 
+  RiemannCD[d, a, b, c]
