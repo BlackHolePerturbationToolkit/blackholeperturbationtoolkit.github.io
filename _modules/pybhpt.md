@@ -70,10 +70,10 @@ It is written in C++ with a Cython/Python interface and is organized into subpac
 | `pybhpt.metric` | coefficients for reconstructing the metric perturbation from the Hertz potentials |
 | `pybhpt.redshift` | the generalized Detweiler redshift invariant in a range of gauges |
 
-Related Toolkit packages include [Teukolsky]({{ '/modules/teukolsky/' | relative_url }}),
-[SpinWeightedSpheroidalHarmonics]({{ '/modules/spinweightedspheroidalharmonics/' | relative_url }})
-and [KerrGeodesics]({{ '/modules/kerrgeodesics/' | relative_url }}) in Mathematica, and
-[KerrGeoPy]({{ '/modules/kerrgeopy/' | relative_url }}) in Python.
+Related Toolkit packages include [Teukolsky]({{ '/modules/Teukolsky/' | relative_url }}),
+[SpinWeightedSpheroidalHarmonics]({{ '/modules/SpinWeightedSpheroidalHarmonics/' | relative_url }})
+and [KerrGeodesics]({{ '/modules/KerrGeodesics/' | relative_url }}) in Mathematica, and
+[KerrGeoPy]({{ '/modules/KerrGeoPy/' | relative_url }}) in Python.
 
 ## Installation
 

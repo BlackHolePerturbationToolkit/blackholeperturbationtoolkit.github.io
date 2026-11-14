@@ -25,7 +25,7 @@ citation:
 ## Overview
 
 KerrGeoPy is a Python implementation of the Toolkit's
-[KerrGeodesics]({{ '/modules/kerrgeodesics/' | relative_url }}) Mathematica package.
+[KerrGeodesics]({{ '/modules/KerrGeodesics/' | relative_url }}) Mathematica package.
 It computes bound timelike geodesics in Kerr spacetime and is intended for computing
 orbital trajectories for extreme mass-ratio inspirals (EMRIs).
 
@@ -36,7 +36,7 @@ for constants of motion (energy, angular momentum, Carter constant), orbital fre
 in Mino time and Boyer–Lindquist time, the separatrix, and conversions to physical units,
 and it can plot and animate orbits.
 
-![A stable bound orbit about a Kerr black hole plotted with KerrGeoPy]({{ '/assets/img/modules/kerrgeopy/orbit.png' | relative_url }}){: width="360"}
+![A stable bound orbit about a Kerr black hole plotted with KerrGeoPy]({{ '/assets/img/modules/KerrGeoPy/orbit.png' | relative_url }}){: width="360"}
 
 ### Orbit parametrization
 

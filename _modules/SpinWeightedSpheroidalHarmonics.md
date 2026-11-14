@@ -40,7 +40,7 @@ citation:
 
 The SpinWeightedSpheroidalHarmonics package provides functions for computing spin-weighted spheroidal harmonics, spin-weighted spherical harmonics, and their associated eigenvalues. Support is included for both arbitrary-precision numerical evaluation and for series expansions.
 
-![The spin-weighted spheroidal harmonic with s=-2, l=2, gamma=1.9]({{ '/assets/img/modules/spinweightedspheroidalharmonics/swsh.png' | relative_url }})
+![The spin-weighted spheroidal harmonic with s=-2, l=2, gamma=1.9]({{ '/assets/img/modules/SpinWeightedSpheroidalHarmonics/swsh.png' | relative_url }})
 
 The SpinWeightedSpheroidalHarmonics package gives solutions to the angular Teukolsky equation:
 $$
@@ -52,7 +52,7 @@ where $s$ is the spin-weight, $\ell, m$ are the multipolar indices, ${}\_s \lamb
 
 Output tracks the precision of the input, so high-precision results are obtained simply by giving high-precision arguments. Expansions are available both for small $\gamma$ (in terms of spin-weighted spherical harmonics) and, for the eigenvalue, about $\gamma = \infty$.
 
-The package provides the angular dependence for the [Teukolsky]({{ '/modules/teukolsky/' | relative_url }}) package and is also a dependency of [ReggeWheeler]({{ '/modules/reggewheeler/' | relative_url }}). Full reference documentation is available [online]({{ '/SpinWeightedSpheroidalHarmonics/doc/html/guide/SpinWeightedSpheroidalHarmonics.html' | relative_url }}) and in the Wolfram Documentation Center.
+The package provides the angular dependence for the [Teukolsky]({{ '/modules/Teukolsky/' | relative_url }}) package and is also a dependency of [ReggeWheeler]({{ '/modules/ReggeWheeler/' | relative_url }}). Full reference documentation is available [online]({{ '/SpinWeightedSpheroidalHarmonics/doc/html/guide/SpinWeightedSpheroidalHarmonics.html' | relative_url }}) and in the Wolfram Documentation Center.
 
 ## Installation
 

@@ -178,7 +178,7 @@ plt.show()
 ```
 
 For computing fluxes and self-force quantities yourself, see the
-[Teukolsky]({{ '/modules/teukolsky/' | relative_url }}) package and the other self-force modules in
+[Teukolsky]({{ '/modules/Teukolsky/' | relative_url }}) package and the other self-force modules in
 the Toolkit.
 
 ## Authors and contributors

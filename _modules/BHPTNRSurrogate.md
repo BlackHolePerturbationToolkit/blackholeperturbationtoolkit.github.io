@@ -67,10 +67,10 @@ relativity (NR) in the comparable-mass regime, so they cover mass ratios from
 comparable to large (intermediate and extreme). Each waveform takes a fraction of a
 second to evaluate and includes many harmonic modes.
 
-![BHPTNR surrogate]({{ '/assets/img/modules/bhptnrsurrogate/BHPTK-EMRI.png' | relative_url }})
+![BHPTNR surrogate]({{ '/assets/img/modules/BHPTNRSurrogate/BHPTK-EMRI.png' | relative_url }})
 
 The package builds on the earlier
-[EMRISurrogate]({{ '/modules/emrisurrogate/' | relative_url }}) package, which is no
+[EMRISurrogate]({{ '/modules/EMRISurrogate/' | relative_url }}) package, which is no
 longer actively maintained.
 
 ## Model details
@@ -113,7 +113,7 @@ The $m>0$ modes of BHPTNRSur1dq1e4 are (2,2), (2,1), (3,1), (3,2), (3,3), (4,2),
 Details of BHPTNRSur1dq1e4 are in [Islam et al. (2022)](https://arxiv.org/abs/2204.01972)
 and of BHPTNRSur2dq1e3 in [Rink et al. (2024)](https://arxiv.org/abs/2407.18319).
 The predecessor model EMRISur1dq1e4 is not included in this package; it is still
-available, but deprecated, in [EMRISurrogate]({{ '/modules/emrisurrogate/' | relative_url }}).
+available, but deprecated, in [EMRISurrogate]({{ '/modules/EMRISurrogate/' | relative_url }}).
 
 ### Mass convention
 

@@ -8,7 +8,7 @@ title: Installing Mathematica Packages
 
 If you are a regular user we recommend that you install the Toolkit Mathematica packages via the Paclet server. The instructions for doing this are given immediately below. If you are a developer see the [Mathematica developer instructions](mathematica-dev-install).
 
-Currently the following packages can be installed from the Paclet server and have no dependencies: [SpinWeightedSpheroidalHarmonics]({{ '/modules/spinweightedspheroidalharmonics/' | relative_url }}), [KerrGeodesics]({{ '/modules/kerrgeodesics/' | relative_url }}), [PostNewtonianSelfForce]({{ '/modules/postnewtonian-selfforce/' | relative_url }}), [GeneralRelativityTensors]({{ '/modules/generalrelativitytensors/' | relative_url }}). The following packages depend on SpinWeightedSpheroidalHarmonics and KerrGeodesics so you must install these for them to work: [ReggeWheeler]({{ '/modules/reggewheeler/' | relative_url }}) and [Teukolsky]({{ '/modules/teukolsky/' | relative_url }}).
+Currently the following packages can be installed from the Paclet server and have no dependencies: [SpinWeightedSpheroidalHarmonics]({{ '/modules/SpinWeightedSpheroidalHarmonics/' | relative_url }}), [KerrGeodesics]({{ '/modules/KerrGeodesics/' | relative_url }}), [PostNewtonianSelfForce]({{ '/modules/PostNewtonianSelfForce/' | relative_url }}), [GeneralRelativityTensors]({{ '/modules/GeneralRelativityTensors/' | relative_url }}). The following packages depend on SpinWeightedSpheroidalHarmonics and KerrGeodesics so you must install these for them to work: [ReggeWheeler]({{ '/modules/ReggeWheeler/' | relative_url }}) and [Teukolsky]({{ '/modules/Teukolsky/' | relative_url }}).
 
 ## Add the Black Hole Perturbation Toolkit Paclet Server
 

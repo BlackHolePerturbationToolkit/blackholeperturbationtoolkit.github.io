@@ -43,7 +43,7 @@ Self-force/post-Newtonian hybrids:
 
 Each model evolves a set of coupled first-order ODEs through phase space and combines the resulting trajectory
 with mode amplitudes to produce the waveform. For fast EMRI waveforms in Python see
-[FastEMRIWaveforms]({{ '/modules/fastemriwaveforms/' | relative_url }}).
+[FastEMRIWaveforms]({{ '/modules/FastEMRIWaveforms/' | relative_url }}).
 
 ## Installation
 
@@ -160,7 +160,7 @@ tmax = inspiral["Duration"];
 Plot[Evaluate[ReIm[inspiral["Waveform"][2, 2][t]]], {t, 0, tmax}]
 ```
 
-![Real and imaginary parts of the (2,2) waveform mode]({{ '/assets/img/modules/wasabi/waveform.png' | relative_url }}){: width="50%"}
+![Real and imaginary parts of the (2,2) waveform mode]({{ '/assets/img/modules/WaSABI/waveform.png' | relative_url }}){: width="50%"}
 
 Plot the orbital trajectory:
 
@@ -170,7 +170,7 @@ r0 = inspiral["Trajectory"]["r0"];
 ParametricPlot[{r0[t] Cos[\[Phi][t]], r0[t] Sin[\[Phi][t]]}, {t, 0, tmax}]
 ```
 
-![Orbital trajectory of the inspiral]({{ '/assets/img/modules/wasabi/orbit.png' | relative_url }}){: width="50%"}
+![Orbital trajectory of the inspiral]({{ '/assets/img/modules/WaSABI/orbit.png' | relative_url }}){: width="50%"}
 
 ### Comparing forcing functions
 
@@ -187,7 +187,7 @@ Plot[{
   }, {r, 20, 6.4}, PlotRange -> All, GridLines -> Automatic, Frame -> True]
 ```
 
-![Forcing term dΩ/dt for 1PAT1 and WaSABI-C]({{ '/assets/img/modules/wasabi/forcingterm.png' | relative_url }}){: width="50%"}
+![Forcing term dΩ/dt for 1PAT1 and WaSABI-C]({{ '/assets/img/modules/WaSABI/forcingterm.png' | relative_url }}){: width="50%"}
 
 ## Model references
 

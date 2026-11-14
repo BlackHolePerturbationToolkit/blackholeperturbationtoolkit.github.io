@@ -75,7 +75,7 @@ citation:
 <div class="callout" markdown="1">
 **No longer maintained.** EMRI Kludge Suite was discontinued in January 2021 and is kept
 here for reference. Active development moved to
-[FastEMRIWaveforms]({{ '/modules/fastemriwaveforms/' | relative_url }}), which includes an
+[FastEMRIWaveforms]({{ '/modules/FastEMRIWaveforms/' | relative_url }}), which includes an
 improved AAK waveform for generic Kerr inspirals with a 5PN trajectory
 (`Pn5AAKWaveform`). New projects should use FastEMRIWaveforms.
 </div>

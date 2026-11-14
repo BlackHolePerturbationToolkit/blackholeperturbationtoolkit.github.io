@@ -38,8 +38,8 @@ loop over output modes is parallelized with OpenMP.
 
 The code is part of the Toolkit's second-order self-force chain:
 
-- [h1Lorenz]({{ '/modules/h1lorenz/' | relative_url }}) computes the first-order Lorenz-gauge field;
-- [Punctures]({{ '/modules/punctures/' | relative_url }}) gives the singular and regular parts of that
+- [h1Lorenz]({{ '/modules/h1Lorenz/' | relative_url }}) computes the first-order Lorenz-gauge field;
+- [Punctures]({{ '/modules/Punctures/' | relative_url }}) gives the singular and regular parts of that
   field and the second-order puncture;
 - SecondOrderRicci builds the quadratic source from the first-order field.
 
@@ -90,10 +90,10 @@ $\\{9,10,8\\}$ for odd $\ell+m$ with $\ell \ge 2$. The low multipoles use $\\{1,
 ($\ell = 0$), $\\{1,3,5,6,2,4\\}$ ($\ell = 1$, $m = 1$) and $\\{9,8\\}$ ($\ell = 1$, $m = 0$). Negative-$m$
 modes are reconstructed by symmetry.
 
-[h1Lorenz]({{ '/modules/h1lorenz/' | relative_url }}) writes files with the same names and datasets,
+[h1Lorenz]({{ '/modules/h1Lorenz/' | relative_url }}) writes files with the same names and datasets,
 but with only the field and its first derivative (four columns per component). The second
 derivatives must be added before running SecondOrderRicci. The
-[Punctures]({{ '/modules/punctures/' | relative_url }}) repository has notebooks that generate the
+[Punctures]({{ '/modules/Punctures/' | relative_url }}) repository has notebooks that generate the
 retarded, singular and regular first-order fields, including second derivatives, in this format.
 
 ### Running

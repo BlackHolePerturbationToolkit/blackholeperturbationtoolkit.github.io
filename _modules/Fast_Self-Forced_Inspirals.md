@@ -36,7 +36,7 @@ milliseconds, whereas integrating the full self-forced equations of motion takes
 to hours depending on the mass ratio. The method is described in
 [van de Meent & Warburton (2018)](https://arxiv.org/abs/1802.05281).
 
-![NIT phase space inspiral]({{ '/assets/img/modules/fast-self-forced-inspirals/phase_space_inspiral.png' | relative_url }})
+![NIT phase space inspiral]({{ '/assets/img/modules/Fast_Self-Forced_Inspirals/phase_space_inspiral.png' | relative_url }})
 
 ## Status
 

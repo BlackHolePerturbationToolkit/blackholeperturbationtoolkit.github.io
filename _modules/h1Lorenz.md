@@ -40,8 +40,8 @@ is distributed with MPI.
 The code is a modified version of the one developed for
 [Akcay, Warburton and Barack (2013)](https://arxiv.org/abs/1308.5223). Its output is the starting
 point of the second-order chain in the Toolkit. The
-[Punctures]({{ '/modules/punctures/' | relative_url }}) repository regularizes it to get the first-order
-regular field, and [SecondOrderRicci]({{ '/modules/secondorderricci/' | relative_url }}) uses it to build
+[Punctures]({{ '/modules/Punctures/' | relative_url }}) repository regularizes it to get the first-order
+regular field, and [SecondOrderRicci]({{ '/modules/SecondOrderRicci/' | relative_url }}) uses it to build
 the second-order source.
 
 ## Installation
@@ -134,7 +134,7 @@ Loadh1Data[6, 2, 1]
 ListLogLinearPlot[ReIm[Shifted[Slab[h1[6][7, 2, 2], 2 ;; 200], -2]], Joined -> True, PlotRange -> All]
 ```
 
-It then checks the result against the [Teukolsky]({{ '/modules/teukolsky/' | relative_url }}) package.
+It then checks the result against the [Teukolsky]({{ '/modules/Teukolsky/' | relative_url }}) package.
 It computes the $\ell = 2$ energy flux at infinity from the asymptotic amplitudes, using Eq. (75) of
 [arXiv:1012.5860](https://arxiv.org/abs/1012.5860), and compares it with `TeukolskyPointParticleMode`.
 

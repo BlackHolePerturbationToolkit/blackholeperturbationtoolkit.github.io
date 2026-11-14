@@ -41,9 +41,9 @@ COMMENT = {
 
 
 def slugify(text):
-    s = text.lower().strip()
+    s = text.strip()
     s = re.sub(r"\s+", "-", s)
-    s = re.sub(r"[^a-z0-9_-]", "", s)
+    s = re.sub(r"[^A-Za-z0-9_-]", "", s)
     s = re.sub(r"-+", "-", s).strip("-")
     return s or "module"
 
@@ -71,14 +71,18 @@ def existing_pages():
 
 
 def choose_slug(tool, used):
-    base = slugify(tool["name"])
-    if base not in used:
-        return base
+    # Slugs keep the package's capitalisation (the repository name, falling
+    # back to the display name). Compare case-insensitively: macOS filesystems
+    # can't hold e.g. qnm.md and QNM.md side by side.
+    taken = {u.lower() for u in used}
     repo_base = slugify(tool.get("repo", "").rstrip("/").split("/")[-1])
-    if repo_base and repo_base not in used:
-        return repo_base
+    name_base = slugify(tool["name"])
+    for base in (repo_base, name_base):
+        if base and base.lower() not in taken:
+            return base
+    base = repo_base or name_base
     i = 2
-    while f"{base}-{i}" in used:
+    while f"{base}-{i}".lower() in taken:
         i += 1
     return f"{base}-{i}"
 

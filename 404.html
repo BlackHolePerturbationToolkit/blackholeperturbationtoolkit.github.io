@@ -1,0 +1,28 @@
+---
+layout: page
+title: Page not found
+permalink: /404.html
+---
+{% comment %} GitHub Pages serves this for any missing path, and URLs there are
+   case-sensitive. If the requested path matches a real page apart from
+   capitalisation (e.g. /modules/h1lorenz/ for /modules/h1Lorenz/), send the
+   visitor to the canonical URL. {% endcomment %}
+{% assign known = site.modules | concat: site.redirects %}
+<script>
+(function () {
+  var urls = [{% for d in known %}{{ d.url | relative_url | jsonify }},{% endfor %}{% for p in site.pages %}{% if p.url contains '.html' or p.url contains '/' %}{{ p.url | relative_url | jsonify }},{% endif %}{% endfor %}];
+  var path = location.pathname.replace(/index\.html$/, "");
+  var want = [path.toLowerCase()];
+  if (!/(\/|\.html)$/.test(path)) want.push((path + "/").toLowerCase(), (path + ".html").toLowerCase());
+  for (var i = 0; i < urls.length; i++) {
+    if (urls[i] !== location.pathname && want.indexOf(urls[i].toLowerCase()) !== -1) {
+      location.replace(urls[i] + location.search + location.hash);
+      return;
+    }
+  }
+})();
+</script>
+
+<p>Sorry, there's no page at this address. It may have moved when the site was reorganised.</p>
+
+<p>Try the <a href="{{ '/tools/' | relative_url }}">list of tools</a>, which links to every package's documentation, or go to the <a href="{{ '/' | relative_url }}">home page</a>.</p>

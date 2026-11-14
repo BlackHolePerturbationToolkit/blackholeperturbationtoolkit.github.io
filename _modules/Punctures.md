@@ -71,8 +71,8 @@ The repository has three parts:
 
 Punctures is not a loadable package. It is a collection of Mathematica notebooks, scripts and
 precomputed expressions, intended to be used alongside the first-order Lorenz-gauge solver
-[h1Lorenz]({{ '/modules/h1lorenz/' | relative_url }}) and the second-order source code
-[SecondOrderRicci]({{ '/modules/secondorderricci/' | relative_url }}).
+[h1Lorenz]({{ '/modules/h1Lorenz/' | relative_url }}) and the second-order source code
+[SecondOrderRicci]({{ '/modules/SecondOrderRicci/' | relative_url }}).
 
 ## Installation
 

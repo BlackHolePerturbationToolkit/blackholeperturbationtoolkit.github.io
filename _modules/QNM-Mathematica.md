@@ -54,8 +54,8 @@ where
 - $a$ is the black hole spin parameter.
 
 Frequencies can be computed with a range of methods and evaluated to arbitrary numerical precision. QNM
-builds on the [SpinWeightedSpheroidalHarmonics]({{ '/modules/spinweightedspheroidalharmonics/' | relative_url }})
-and [Teukolsky]({{ '/modules/teukolsky/' | relative_url }}) packages, and supersedes the older
+builds on the [SpinWeightedSpheroidalHarmonics]({{ '/modules/SpinWeightedSpheroidalHarmonics/' | relative_url }})
+and [Teukolsky]({{ '/modules/Teukolsky/' | relative_url }}) packages, and supersedes the older
 QuasiNormalModes package, which is no longer maintained. For a Python package for Kerr quasinormal modes see
 [qnm]({{ '/modules/qnm/' | relative_url }}).
 

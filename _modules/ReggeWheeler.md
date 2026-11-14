@@ -82,9 +82,9 @@ The package provides:
 - inhomogeneous solutions and energy and angular-momentum fluxes for a point particle on a circular
   geodesic orbit, including (in the development version) a hyperboloidal spectral method.
 
-The package depends on the [SpinWeightedSpheroidalHarmonics]({{ '/modules/spinweightedspheroidalharmonics/' | relative_url }})
-and [KerrGeodesics]({{ '/modules/kerrgeodesics/' | relative_url }}) packages. For perturbations of Kerr
-spacetime see the [Teukolsky]({{ '/modules/teukolsky/' | relative_url }}) package.
+The package depends on the [SpinWeightedSpheroidalHarmonics]({{ '/modules/SpinWeightedSpheroidalHarmonics/' | relative_url }})
+and [KerrGeodesics]({{ '/modules/KerrGeodesics/' | relative_url }}) packages. For perturbations of Kerr
+spacetime see the [Teukolsky]({{ '/modules/Teukolsky/' | relative_url }}) package.
 
 ## Installation
 
@@ -204,7 +204,7 @@ Plot the real and imaginary parts of the numerically integrated "Up" solution co
 Plot[RW[r] // ReIm // Evaluate, {r, 10, 200}, PlotTheme -> "Detailed", PlotLegends -> None, BaseStyle -> 20]
 ```
 
-![Real and imaginary parts of a Regge-Wheeler "Up" solution]({{ '/assets/img/modules/reggewheeler/RW_radial_plot.png' | relative_url }}){: width="50%"}
+![Real and imaginary parts of a Regge-Wheeler "Up" solution]({{ '/assets/img/modules/ReggeWheeler/RW_radial_plot.png' | relative_url }}){: width="50%"}
 
 Further examples using the Toolkit's Mathematica packages can be found in the
 [Mathematica Toolkit Examples](https://github.com/BlackHolePerturbationToolkit/MathematicaToolkitExamples)

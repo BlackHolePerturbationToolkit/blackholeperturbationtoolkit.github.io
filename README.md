@@ -66,8 +66,10 @@ header, install command, source/issue links, an auto-generated "on this page"
 table of contents, a "Citing" section, and cross-links to related tools in the
 same domain.
 
-To add one, copy `_modules/TEMPLATE.md` to `_modules/<slug>.md` (lowercase — the
-slug becomes the URL, e.g. `_modules/teukolsky.md` → `/modules/teukolsky/`), set
+To add one, copy `_modules/TEMPLATE.md` to `_modules/<slug>.md` (the slug is the
+package's repository name with its capitalisation, and becomes the URL, e.g.
+`_modules/Teukolsky.md` → `/modules/Teukolsky/`; slugs must not differ only in
+case, hence `QNM-Mathematica` alongside `qnm`), set
 the front-matter `name` to match the tool, and write the body in markdown. The
 only required field is that `name`, which must exactly match the tool's name in
 `_data/tools.yml`. That match does two things: it makes the catalogue card's

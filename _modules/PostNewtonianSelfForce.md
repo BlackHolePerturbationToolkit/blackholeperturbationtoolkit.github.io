@@ -95,7 +95,7 @@ Note that as more PN series are added a given combination of strings might no lo
 Executing the above command returns a `PostNewtonianData` object, which stores the PN series and information
 about it:
 
-![Output of PostNewtonianExpansion: a PostNewtonianData object]({{ '/assets/img/modules/postnewtonian-selfforce/PNData.png' | relative_url }}){: width="60%"}
+![Output of PostNewtonianExpansion: a PostNewtonianData object]({{ '/assets/img/modules/PostNewtonianSelfForce/PNData.png' | relative_url }}){: width="60%"}
 
 ### Working with the PN series
 

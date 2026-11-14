@@ -37,11 +37,11 @@ properties in Kerr spacetime. It can compute:
 
 Many results are available in closed form, and all functions support arbitrary-precision numerical
 evaluation. KerrGeodesics supplies the orbital motion of the source for other Toolkit packages, such as
-[Teukolsky]({{ '/modules/teukolsky/' | relative_url }}) and
-[ReggeWheeler]({{ '/modules/reggewheeler/' | relative_url }}). A Python implementation of similar
-functionality is available in [KerrGeoPy]({{ '/modules/kerrgeopy/' | relative_url }}).
+[Teukolsky]({{ '/modules/Teukolsky/' | relative_url }}) and
+[ReggeWheeler]({{ '/modules/ReggeWheeler/' | relative_url }}). A Python implementation of similar
+functionality is available in [KerrGeoPy]({{ '/modules/KerrGeoPy/' | relative_url }}).
 
-![A generic bound orbit about a Kerr black hole]({{ '/assets/img/modules/kerrgeodesics/kerr_generic_orbit.png' | relative_url }})
+![A generic bound orbit about a Kerr black hole]({{ '/assets/img/modules/KerrGeodesics/kerr_generic_orbit.png' | relative_url }})
 
 ## Installation
 
