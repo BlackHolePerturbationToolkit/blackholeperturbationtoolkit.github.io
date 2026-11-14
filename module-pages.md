@@ -18,7 +18,7 @@ not in the package's own repository: please don't create a `gh-pages` branch or 
    catalogue card and the page header: name, one-line blurb, language, status, install
    command, repository and (optionally) an external documentation URL.
 3. Copy `_modules/TEMPLATE.md` to `_modules/<slug>.md`. The slug is the package's
-   repository name, keeping its capitalisation, and becomes the URL, e.g.
+   name, usually its repository name, keeping its capitalisation, and becomes the URL, e.g.
    `_modules/Teukolsky.md` becomes `/modules/Teukolsky/`. Addresses typed with
    different capitalisation are redirected automatically. Two slugs must not differ
    only in case (`qnm` and `QNM` would clash on macOS), which is why the Mathematica

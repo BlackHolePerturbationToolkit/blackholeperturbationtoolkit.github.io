@@ -2,7 +2,7 @@
 # =========================================================================
 # MODULE DOCUMENTATION TEMPLATE
 # Copy this file to _modules/<slug>.md, where the slug is the package's
-# repository name with its capitalisation (no spaces). The slug becomes the
+# name (usually its repository name) with its capitalisation (no spaces). The slug becomes the
 # URL, e.g. _modules/Teukolsky.md -> /modules/Teukolsky/.
 # `published: false` keeps this scaffold itself out of the built site.
 # =========================================================================
